@@ -1,0 +1,1362 @@
+name : (systemd)
+ pid : 1
+ ppid : 0
+ cputime : 565
+ cpuusage: 0.000000
+ cmdline : /sbin/init
+name : (systemd)
+ pid : 1
+ ppid : 0
+ cputime : 565
+ cpuusage: 0.000000
+ cmdline : /sbin/init
+name : (kthreadd)
+ pid : 2
+ ppid : 0
+ cputime : 12
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (rcu_gp)
+ pid : 3
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (rcu_par_gp)
+ pid : 4
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (netns)
+ pid : 5
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (kworker/0:0H-events_highpri)
+ pid : 7
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (mm_percpu_wq)
+ pid : 9
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (rcu_tasks_rude_)
+ pid : 10
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (rcu_tasks_trace)
+ pid : 11
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (ksoftirqd/0)
+ pid : 12
+ ppid : 2
+ cputime : 13
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (rcu_sched)
+ pid : 13
+ ppid : 2
+ cputime : 1021
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (migration/0)
+ pid : 14
+ ppid : 2
+ cputime : 30
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (idle_inject/0)
+ pid : 15
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (cpuhp/0)
+ pid : 17
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (cpuhp/1)
+ pid : 18
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (idle_inject/1)
+ pid : 19
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (migration/1)
+ pid : 20
+ ppid : 2
+ cputime : 30
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (ksoftirqd/1)
+ pid : 21
+ ppid : 2
+ cputime : 20
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (kworker/1:0H-events_highpri)
+ pid : 23
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (cpuhp/2)
+ pid : 24
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (idle_inject/2)
+ pid : 25
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (migration/2)
+ pid : 26
+ ppid : 2
+ cputime : 30
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (ksoftirqd/2)
+ pid : 27
+ ppid : 2
+ cputime : 16
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (kworker/2:0H-events_highpri)
+ pid : 29
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (cpuhp/3)
+ pid : 30
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (idle_inject/3)
+ pid : 31
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (migration/3)
+ pid : 32
+ ppid : 2
+ cputime : 30
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (ksoftirqd/3)
+ pid : 33
+ ppid : 2
+ cputime : 11
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (kworker/3:0-events)
+ pid : 34
+ ppid : 2
+ cputime : 225
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (kworker/3:0H-events_highpri)
+ pid : 35
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (kdevtmpfs)
+ pid : 36
+ ppid : 2
+ cputime : 1
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (inet_frag_wq)
+ pid : 37
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (kauditd)
+ pid : 41
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (khungtaskd)
+ pid : 42
+ ppid : 2
+ cputime : 70
+ cpuusage: 11.000000
+ cmdline : (null)
+name : (oom_reaper)
+ pid : 43
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (writeback)
+ pid : 44
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (kcompactd0)
+ pid : 45
+ ppid : 2
+ cputime : 157
+ cpuusage: 26.000000
+ cmdline : (null)
+name : (ksmd)
+ pid : 46
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (khugepaged)
+ pid : 47
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (kintegrityd)
+ pid : 93
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (kblockd)
+ pid : 94
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (blkcg_punt_bio)
+ pid : 95
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (tpm_dev_wq)
+ pid : 96
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (ata_sff)
+ pid : 97
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (md)
+ pid : 98
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (edac-poller)
+ pid : 99
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (devfreq_wq)
+ pid : 100
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (watchdogd)
+ pid : 101
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (kworker/1:1H-kblockd)
+ pid : 103
+ ppid : 2
+ cputime : 6
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (kswapd0)
+ pid : 104
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (ecryptfs-kthrea)
+ pid : 105
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (kthrotld)
+ pid : 107
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (irq/49-ACPI:Ged)
+ pid : 108
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (acpi_thermal_pm)
+ pid : 109
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (mld)
+ pid : 111
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (ipv6_addrconf)
+ pid : 112
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (kstrp)
+ pid : 121
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (zswap-shrink)
+ pid : 124
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (kworker/u9:0)
+ pid : 125
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (cryptd)
+ pid : 129
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (charger_manager)
+ pid : 167
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (kworker/0:1H-kblockd)
+ pid : 189
+ ppid : 2
+ cputime : 8
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (kworker/2:2-events)
+ pid : 216
+ ppid : 2
+ cputime : 209
+ cpuusage: 2.000000
+ cmdline : (null)
+name : (kworker/3:1H-kblockd)
+ pid : 234
+ ppid : 2
+ cputime : 5
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (kworker/2:1H-kblockd)
+ pid : 241
+ ppid : 2
+ cputime : 6
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (kdmflush)
+ pid : 263
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (raid5wq)
+ pid : 289
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (scsi_eh_0)
+ pid : 344
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (scsi_tmf_0)
+ pid : 345
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (usb-storage)
+ pid : 346
+ ppid : 2
+ cputime : 477
+ cpuusage: 1.000000
+ cmdline : (null)
+name : (uas)
+ pid : 347
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (jbd2/dm-0-8)
+ pid : 350
+ ppid : 2
+ cputime : 73
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (ext4-rsv-conver)
+ pid : 351
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (hwrng)
+ pid : 388
+ ppid : 2
+ cputime : 5
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (systemd-journal)
+ pid : 430
+ ppid : 1
+ cputime : 187
+ cpuusage: 0.000000
+ cmdline : /lib/systemd/systemd-journald
+name : (ipmi-msghandler)
+ pid : 458
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (kaluad)
+ pid : 470
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (kmpath_rdacd)
+ pid : 472
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (kmpathd)
+ pid : 474
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (kmpath_handlerd)
+ pid : 475
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (multipathd)
+ pid : 476
+ ppid : 1
+ cputime : 576
+ cpuusage: 1.000000
+ cmdline : /sbin/multipathd
+name : (systemd-udevd)
+ pid : 480
+ ppid : 1
+ cputime : 72
+ cpuusage: 0.000000
+ cmdline : /lib/systemd/systemd-udevd
+name : (jbd2/vda2-8)
+ pid : 662
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (ext4-rsv-conver)
+ pid : 663
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (systemd-oomd)
+ pid : 698
+ ppid : 1
+ cputime : 3189
+ cpuusage: 8.000000
+ cmdline : /lib/systemd/systemd-oomd
+name : (systemd-timesyn)
+ pid : 700
+ ppid : 1
+ cputime : 81
+ cpuusage: 0.000000
+ cmdline : /lib/systemd/systemd-timesyncd
+name : (systemd-network)
+ pid : 761
+ ppid : 1
+ cputime : 174
+ cpuusage: 0.000000
+ cmdline : /lib/systemd/systemd-networkd
+name : (systemd-resolve)
+ pid : 763
+ ppid : 1
+ cputime : 113
+ cpuusage: 0.000000
+ cmdline : /lib/systemd/systemd-resolved
+name : (avahi-daemon)
+ pid : 774
+ ppid : 1
+ cputime : 73
+ cpuusage: 0.000000
+ cmdline : avahi-daemon: running [acho.local]
+name : (dbus-daemon)
+ pid : 775
+ ppid : 1
+ cputime : 158
+ cpuusage: 0.000000
+ cmdline : @dbus-daemon
+name : (NetworkManager)
+ pid : 776
+ ppid : 1
+ cputime : 316
+ cpuusage: 0.000000
+ cmdline : /usr/sbin/NetworkManager
+name : (irqbalance)
+ pid : 780
+ ppid : 1
+ cputime : 344
+ cpuusage: 0.000000
+ cmdline : /usr/sbin/irqbalance
+name : (networkd-dispat)
+ pid : 782
+ ppid : 1
+ cputime : 6
+ cpuusage: 0.000000
+ cmdline : /usr/bin/python3
+name : (polkitd)
+ pid : 783
+ ppid : 1
+ cputime : 178
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/polkitd
+name : (power-profiles-)
+ pid : 784
+ ppid : 1
+ cputime : 1
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/power-profiles-daemon
+name : (rsyslogd)
+ pid : 785
+ ppid : 1
+ cputime : 32
+ cpuusage: 0.000000
+ cmdline : /usr/sbin/rsyslogd
+name : (snapd)
+ pid : 786
+ ppid : 1
+ cputime : 1118
+ cpuusage: 1.000000
+ cmdline : /usr/lib/snapd/snapd
+name : (accounts-daemon)
+ pid : 787
+ ppid : 1
+ cputime : 115
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/accounts-daemon
+name : (switcheroo-cont)
+ pid : 788
+ ppid : 1
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/switcheroo-control
+name : (systemd-logind)
+ pid : 789
+ ppid : 1
+ cputime : 81
+ cpuusage: 0.000000
+ cmdline : /lib/systemd/systemd-logind
+name : (udisksd)
+ pid : 790
+ ppid : 1
+ cputime : 61
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/udisks2/udisksd
+name : (wpa_supplicant)
+ pid : 791
+ ppid : 1
+ cputime : 50
+ cpuusage: 0.000000
+ cmdline : /sbin/wpa_supplicant
+name : (avahi-daemon)
+ pid : 794
+ ppid : 774
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : avahi-daemon: chroot helper
+name : (spice-webdavd)
+ pid : 823
+ ppid : 1
+ cputime : 5
+ cpuusage: 0.000000
+ cmdline : /usr/sbin/spice-webdavd
+name : (ModemManager)
+ pid : 827
+ ppid : 1
+ cputime : 6
+ cpuusage: 0.000000
+ cmdline : /usr/sbin/ModemManager
+name : (cupsd)
+ pid : 832
+ ppid : 1
+ cputime : 23
+ cpuusage: 0.000000
+ cmdline : /usr/sbin/cupsd
+name : (unattended-upgr)
+ pid : 838
+ ppid : 1
+ cputime : 6
+ cpuusage: 0.000000
+ cmdline : /usr/bin/python3
+name : (dbus)
+ pid : 880
+ ppid : 832
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : /usr/lib/cups/notifier/dbus
+name : (cups-browsed)
+ pid : 886
+ ppid : 1
+ cputime : 7
+ cpuusage: 0.000000
+ cmdline : /usr/sbin/cups-browsed
+name : (cron)
+ pid : 902
+ ppid : 1
+ cputime : 66
+ cpuusage: 0.000000
+ cmdline : /usr/sbin/cron
+name : (kerneloops)
+ pid : 924
+ ppid : 1
+ cputime : 32
+ cpuusage: 0.000000
+ cmdline : /usr/sbin/kerneloops
+name : (agetty)
+ pid : 926
+ ppid : 1
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : /sbin/agetty
+name : (kerneloops)
+ pid : 936
+ ppid : 1
+ cputime : 29
+ cpuusage: 0.000000
+ cmdline : /usr/sbin/kerneloops
+name : (sshd)
+ pid : 941
+ ppid : 1
+ cputime : 3
+ cpuusage: 0.000000
+ cmdline : sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+name : (gdm3)
+ pid : 966
+ ppid : 1
+ cputime : 10
+ cpuusage: 0.000000
+ cmdline : /usr/sbin/gdm3
+name : (apache2)
+ pid : 981
+ ppid : 1
+ cputime : 212
+ cpuusage: 0.000000
+ cmdline : /usr/sbin/apache2
+name : (apache2)
+ pid : 984
+ ppid : 981
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : /usr/sbin/apache2
+name : (apache2)
+ pid : 985
+ ppid : 981
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : /usr/sbin/apache2
+name : (rtkit-daemon)
+ pid : 1126
+ ppid : 1
+ cputime : 87
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/rtkit-daemon
+name : (upowerd)
+ pid : 1207
+ ppid : 1
+ cputime : 7
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/upowerd
+name : (packagekitd)
+ pid : 1247
+ ppid : 1
+ cputime : 72
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/packagekitd
+name : (colord)
+ pid : 1385
+ ppid : 1
+ cputime : 12
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/colord
+name : (spice-vdagentd)
+ pid : 1418
+ ppid : 1
+ cputime : 27
+ cpuusage: 0.000000
+ cmdline : /usr/sbin/spice-vdagentd
+name : (gdm-session-wor)
+ pid : 1438
+ ppid : 966
+ cputime : 4
+ cpuusage: 0.000000
+ cmdline : gdm-session-worker [pam/gdm-password]
+name : (systemd)
+ pid : 1446
+ ppid : 1
+ cputime : 29
+ cpuusage: 0.000000
+ cmdline : /lib/systemd/systemd
+name : ((sd-pam))
+ pid : 1447
+ ppid : 1446
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (sd-pam)
+name : (pipewire)
+ pid : 1453
+ ppid : 1446
+ cputime : 2
+ cpuusage: 0.000000
+ cmdline : /usr/bin/pipewire
+name : (pipewire-media-)
+ pid : 1454
+ ppid : 1446
+ cputime : 8
+ cpuusage: 0.000000
+ cmdline : /usr/bin/pipewire-media-session
+name : (pulseaudio)
+ pid : 1455
+ ppid : 1446
+ cputime : 10
+ cpuusage: 0.000000
+ cmdline : /usr/bin/pulseaudio
+name : (gnome-keyring-d)
+ pid : 1459
+ ppid : 1
+ cputime : 9
+ cpuusage: 0.000000
+ cmdline : /usr/bin/gnome-keyring-daemon
+name : (dbus-daemon)
+ pid : 1463
+ ppid : 1446
+ cputime : 48
+ cpuusage: 0.000000
+ cmdline : /usr/bin/dbus-daemon
+name : (gvfsd)
+ pid : 1466
+ ppid : 1446
+ cputime : 2
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/gvfsd
+name : (gdm-wayland-ses)
+ pid : 1468
+ ppid : 1438
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/gdm-wayland-session
+name : (gvfsd-fuse)
+ pid : 1475
+ ppid : 1446
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/gvfsd-fuse
+name : (gnome-session-b)
+ pid : 1476
+ ppid : 1468
+ cputime : 2
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/gnome-session-binary
+name : (tracker-miner-f)
+ pid : 1509
+ ppid : 1446
+ cputime : 94
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/tracker-miner-fs-3
+name : (gnome-session-c)
+ pid : 1531
+ ppid : 1446
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/gnome-session-ctl
+name : (gnome-session-b)
+ pid : 1544
+ ppid : 1446
+ cputime : 21
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/gnome-session-binary
+name : (at-spi-bus-laun)
+ pid : 1561
+ ppid : 1544
+ cputime : 1
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/at-spi-bus-launcher
+name : (gnome-shell)
+ pid : 1563
+ ppid : 1446
+ cputime : 9423
+ cpuusage: 3.000000
+ cmdline : /usr/bin/gnome-shell
+name : (dbus-daemon)
+ pid : 1570
+ ppid : 1561
+ cputime : 1
+ cpuusage: 0.000000
+ cmdline : /usr/bin/dbus-daemon
+name : (gvfs-udisks2-vo)
+ pid : 1576
+ ppid : 1446
+ cputime : 8
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/gvfs-udisks2-volume-monitor
+name : (gvfs-afc-volume)
+ pid : 1590
+ ppid : 1446
+ cputime : 174
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/gvfs-afc-volume-monitor
+name : (gvfs-gphoto2-vo)
+ pid : 1595
+ ppid : 1446
+ cputime : 1
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/gvfs-gphoto2-volume-monitor
+name : (gvfs-mtp-volume)
+ pid : 1600
+ ppid : 1446
+ cputime : 1
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/gvfs-mtp-volume-monitor
+name : (gvfs-goa-volume)
+ pid : 1604
+ ppid : 1446
+ cputime : 2
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/gvfs-goa-volume-monitor
+name : (goa-daemon)
+ pid : 1608
+ ppid : 1446
+ cputime : 5
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/goa-daemon
+name : (goa-identity-se)
+ pid : 1615
+ ppid : 1446
+ cputime : 21
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/goa-identity-service
+name : (xdg-permission-)
+ pid : 1631
+ ppid : 1446
+ cputime : 1
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/xdg-permission-store
+name : (gnome-shell-cal)
+ pid : 1633
+ ppid : 1446
+ cputime : 5
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/gnome-shell-calendar-server
+name : (evolution-sourc)
+ pid : 1643
+ ppid : 1446
+ cputime : 14
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/evolution-source-registry
+name : (evolution-calen)
+ pid : 1650
+ ppid : 1446
+ cputime : 7
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/evolution-calendar-factory
+name : (dconf-service)
+ pid : 1658
+ ppid : 1446
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/dconf-service
+name : (evolution-addre)
+ pid : 1666
+ ppid : 1446
+ cputime : 4
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/evolution-addressbook-factory
+name : (gvfsd-trash)
+ pid : 1667
+ ppid : 1466
+ cputime : 4
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/gvfsd-trash
+name : (at-spi2-registr)
+ pid : 1682
+ ppid : 1446
+ cputime : 2
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/at-spi2-registryd
+name : (gjs)
+ pid : 1683
+ ppid : 1446
+ cputime : 6
+ cpuusage: 0.000000
+ cmdline : /usr/bin/gjs
+name : (sh)
+ pid : 1701
+ ppid : 1446
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : sh
+name : (gsd-a11y-settin)
+ pid : 1702
+ ppid : 1446
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/gsd-a11y-settings
+name : (gsd-color)
+ pid : 1703
+ ppid : 1446
+ cputime : 151
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/gsd-color
+name : (gsd-datetime)
+ pid : 1704
+ ppid : 1446
+ cputime : 2
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/gsd-datetime
+name : (gsd-housekeepin)
+ pid : 1705
+ ppid : 1446
+ cputime : 268
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/gsd-housekeeping
+name : (gsd-keyboard)
+ pid : 1708
+ ppid : 1446
+ cputime : 6
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/gsd-keyboard
+name : (ibus-daemon)
+ pid : 1709
+ ppid : 1701
+ cputime : 16
+ cpuusage: 0.000000
+ cmdline : /usr/bin/ibus-daemon
+name : (gsd-media-keys)
+ pid : 1710
+ ppid : 1446
+ cputime : 33
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/gsd-media-keys
+name : (gsd-power)
+ pid : 1711
+ ppid : 1446
+ cputime : 20
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/gsd-power
+name : (gsd-print-notif)
+ pid : 1712
+ ppid : 1446
+ cputime : 11
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/gsd-print-notifications
+name : (gsd-rfkill)
+ pid : 1714
+ ppid : 1446
+ cputime : 2
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/gsd-rfkill
+name : (gsd-screensaver)
+ pid : 1715
+ ppid : 1446
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/gsd-screensaver-proxy
+name : (gsd-sharing)
+ pid : 1717
+ ppid : 1446
+ cputime : 2
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/gsd-sharing
+name : (gsd-smartcard)
+ pid : 1719
+ ppid : 1446
+ cputime : 1
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/gsd-smartcard
+name : (gsd-sound)
+ pid : 1720
+ ppid : 1446
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/gsd-sound
+name : (gsd-wacom)
+ pid : 1724
+ ppid : 1446
+ cputime : 6
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/gsd-wacom
+name : (spice-vdagent)
+ pid : 1775
+ ppid : 1446
+ cputime : 45
+ cpuusage: 0.000000
+ cmdline : /usr/bin/spice-vdagent
+name : (gsd-printer)
+ pid : 1790
+ ppid : 1446
+ cputime : 8
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/gsd-printer
+name : (ibus-dconf)
+ pid : 1792
+ ppid : 1709
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/ibus-dconf
+name : (ibus-extension-)
+ pid : 1794
+ ppid : 1709
+ cputime : 77
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/ibus-extension-gtk3
+name : (ibus-portal)
+ pid : 1803
+ ppid : 1446
+ cputime : 2
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/ibus-portal
+name : (Xwayland)
+ pid : 1813
+ ppid : 1563
+ cputime : 31
+ cpuusage: 0.000000
+ cmdline : /usr/bin/Xwayland
+name : (ibus-engine-han)
+ pid : 1819
+ ppid : 1709
+ cputime : 7
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/ibus-engine-hangul
+name : (xdg-desktop-por)
+ pid : 1826
+ ppid : 1446
+ cputime : 140
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/xdg-desktop-portal
+name : (xdg-document-po)
+ pid : 1842
+ ppid : 1446
+ cputime : 2
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/xdg-document-portal
+name : (fusermount3)
+ pid : 1848
+ ppid : 1842
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : fusermount3
+name : (xdg-desktop-por)
+ pid : 1854
+ ppid : 1446
+ cputime : 39
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/xdg-desktop-portal-gnome
+name : (gsd-xsettings)
+ pid : 1864
+ ppid : 1446
+ cputime : 17
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/gsd-xsettings
+name : (gjs)
+ pid : 1882
+ ppid : 1446
+ cputime : 11
+ cpuusage: 0.000000
+ cmdline : /usr/bin/gjs
+name : (ibus-x11)
+ pid : 1912
+ ppid : 1446
+ cputime : 6
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/ibus-x11
+name : (xdg-desktop-por)
+ pid : 1935
+ ppid : 1446
+ cputime : 12
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/xdg-desktop-portal-gtk
+name : (evolution-alarm)
+ pid : 1940
+ ppid : 1544
+ cputime : 86
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/evolution-data-server/evolution-alarm-notify
+name : (gsd-disk-utilit)
+ pid : 1946
+ ppid : 1544
+ cputime : 1
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/gsd-disk-utility-notify
+name : (gvfsd-metadata)
+ pid : 2018
+ ppid : 1446
+ cputime : 1
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/gvfsd-metadata
+name : (gnome-terminal-)
+ pid : 2039
+ ppid : 1446
+ cputime : 46
+ cpuusage: 0.000000
+ cmdline : /usr/libexec/gnome-terminal-server
+name : (bash)
+ pid : 2069
+ ppid : 2039
+ cputime : 1
+ cpuusage: 0.000000
+ cmdline : bash
+name : (kworker/1:3-events)
+ pid : 2107
+ ppid : 2
+ cputime : 165
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (update-notifier)
+ pid : 2112
+ ppid : 1544
+ cputime : 207
+ cpuusage: 0.000000
+ cmdline : update-notifier
+name : (sshd)
+ pid : 2174
+ ppid : 941
+ cputime : 7
+ cpuusage: 0.000000
+ cmdline : sshd: acho [priv]
+name : (sshd)
+ pid : 2272
+ ppid : 2174
+ cputime : 919
+ cpuusage: 0.000000
+ cmdline : sshd: acho@pts/1
+name : (bash)
+ pid : 2273
+ ppid : 2272
+ cputime : 6
+ cpuusage: 0.000000
+ cmdline : -bash
+name : (sshd)
+ pid : 2303
+ ppid : 941
+ cputime : 3
+ cpuusage: 0.000000
+ cmdline : sshd: acho [priv]
+name : (sshd)
+ pid : 2350
+ ppid : 2303
+ cputime : 141
+ cpuusage: 0.000000
+ cmdline : sshd: acho@pts/2
+name : (bash)
+ pid : 2351
+ ppid : 2350
+ cputime : 39
+ cpuusage: 0.000000
+ cmdline : -bash
+name : (sshd)
+ pid : 2360
+ ppid : 941
+ cputime : 4
+ cpuusage: 0.000000
+ cmdline : sshd: acho [priv]
+name : (sshd)
+ pid : 2407
+ ppid : 2360
+ cputime : 143
+ cpuusage: 0.000000
+ cmdline : sshd: acho@pts/3
+name : (bash)
+ pid : 2408
+ ppid : 2407
+ cputime : 238
+ cpuusage: 0.000000
+ cmdline : -bash
+name : (sshd)
+ pid : 2440
+ ppid : 941
+ cputime : 3
+ cpuusage: 0.000000
+ cmdline : sshd: acho [priv]
+name : (sshd)
+ pid : 2496
+ ppid : 2440
+ cputime : 10
+ cpuusage: 0.000000
+ cmdline : sshd: acho@pts/4
+name : (bash)
+ pid : 2497
+ ppid : 2496
+ cputime : 7
+ cpuusage: 0.000000
+ cmdline : -bash
+name : (sshd)
+ pid : 2507
+ ppid : 941
+ cputime : 2
+ cpuusage: 0.000000
+ cmdline : sshd: acho [priv]
+name : (sshd)
+ pid : 2639
+ ppid : 2507
+ cputime : 3
+ cpuusage: 0.000000
+ cmdline : sshd: acho@pts/5
+name : (bash)
+ pid : 2640
+ ppid : 2639
+ cputime : 6
+ cpuusage: 0.000000
+ cmdline : -bash
+name : (sshd)
+ pid : 2703
+ ppid : 941
+ cputime : 4
+ cpuusage: 0.000000
+ cmdline : sshd: acho [priv]
+name : (sshd)
+ pid : 2750
+ ppid : 2703
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : sshd: acho@pts/6
+name : (bash)
+ pid : 2751
+ ppid : 2750
+ cputime : 1
+ cpuusage: 0.000000
+ cmdline : -bash
+name : (nvim)
+ pid : 2802
+ ppid : 2273
+ cputime : 3472
+ cpuusage: 0.000000
+ cmdline : nvim
+name : (kworker/3:1-cgroup_destroy)
+ pid : 3066
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (kworker/0:1-events)
+ pid : 3081
+ ppid : 2
+ cputime : 105
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (kworker/1:1-events)
+ pid : 3327
+ ppid : 2
+ cputime : 74
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (kworker/0:0-mm_percpu_wq)
+ pid : 3336
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (nvim)
+ pid : 3685
+ ppid : 2351
+ cputime : 165
+ cpuusage: 0.000000
+ cmdline : nvim
+name : (kworker/2:3-cgroup_destroy)
+ pid : 3715
+ ppid : 2
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (kworker/u8:1-flush-253:0)
+ pid : 3803
+ ppid : 2
+ cputime : 46
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (kworker/u8:2-events_unbound)
+ pid : 3829
+ ppid : 2
+ cputime : 49
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (kworker/u8:0-flush-253:0)
+ pid : 3891
+ ppid : 2
+ cputime : 21
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (kworker/u8:3-events_unbound)
+ pid : 3919
+ ppid : 2
+ cputime : 10
+ cpuusage: 0.000000
+ cmdline : (null)
+name : (agent)
+ pid : 3971
+ ppid : 2408
+ cputime : 0
+ cpuusage: 0.000000
+ cmdline : ./agent
+name : (null)
+ pid : -1378366608
+ ppid : 65535
+ cputime : -1378366608
+ cpuusage: 0.000000
+ cmdline : (null)
