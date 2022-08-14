@@ -45,26 +45,26 @@ struct cpu_info	*make_cpu(int fd)
 	cpu_info	*cur;
 
 	head = NULL;
-	free(get_next_line(fd)); //skip first line
-	while ((line = get_next_line(fd)))
+	free(get_next_line(fd, 0)); //skip first line
+	while ((line = get_next_line(fd, 0)))
 	{
 		first_word = strtok(line, " ");
 		if (!strcmp(first_word, "intr"))
 			break;
 		new = init_cpu();
-		cur->next = new;
-		cur = cur->next;
 		if (!head)
 			head = new;
+		cur->next = new;
+		cur = cur->next;
 		free(line);
 	}
+	get_next_line(fd, 1); //free buffer
 	close(fd);
 	return (head);
 }
 
 cpu_info	*get_cpu_info(void)
 {
-	cpu_info		*head;
 	int				fd;
 
 	fd = open("/proc/stat", O_RDONLY);

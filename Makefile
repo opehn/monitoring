@@ -17,7 +17,9 @@ A_SRC := read_file.c \
 		 get_proc_info.c \
 		 monitoring.c \
 		 get_next_line.c \
-		 get_cpu_info.c
+		 get_cpu_info.c \
+		 get_mem_info.c \
+		 get_pac_info.c
 
 A_OBJ = $(A_SRC:.c=.o) 
 

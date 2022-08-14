@@ -152,13 +152,20 @@ proc_info	*get_proc_info(void)
 		if (isnum(cur_dir_info->d_name))
 		{
 			new = init_proc(cur_dir_info->d_name);
-			cur->next = new;
-			cur = cur->next;
 			if (!head)
+			{
 				head = new;
+				cur = new;
+			}
+			else
+			{
+				cur->next = new;
+				cur = cur->next;
+			}
 		}
 		cur_dir_info = readdir(cur_dir);
 	}
 	closedir(cur_dir);
+	printf("head addr : %p\n", head);
 	return (head);
 }

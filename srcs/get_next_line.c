@@ -48,13 +48,22 @@ static int     append_backup(char **backup, char *buf)
     return (find_newline(*backup));
 }
 
-char    *get_next_line(int fd)
+char    *get_next_line(int fd, int flag)
 {
     static char *backup;
     char        *buf;
     int         idx;
     int         read_size;
 
+	if (flag)
+	{
+		if (backup)
+		{
+			free(backup);
+			backup = NULL;
+		}
+		return (NULL);
+	}
     idx = -1;
     buf = (char *)calloc(BUFFER_SIZE, sizeof(char));
     if (!buf || fd < 0 || BUFFER_SIZE < 1)
