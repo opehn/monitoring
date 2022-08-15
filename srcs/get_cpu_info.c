@@ -9,17 +9,16 @@ static void		parse_line(cpu_info *c)
 	{
 		res = strtok(NULL, " ");
 		if (i == 1)
-			c->usr = atoi(res);
+			c->usr = roundf(atoi(res) / sysconf(_SC_CLK_TCK));
 		if (i == 3)
-			c->sys = atoi(res);
+			c->sys = roundf(atoi(res) / sysconf(_SC_CLK_TCK));
 		if (i == 4)
-			c->idle = atoi(res);
+			c->idle = roundf(atoi(res)/ sysconf(_SC_CLK_TCK));
 		if (i == 5)
-			c->iowait = atoi(res);
+			c->iowait = roundf(atoi(res) / sysconf(_SC_CLK_TCK));
 		i++;
 	}
 }
-
 
 static cpu_info *init_cpu(void)
 {
@@ -56,9 +55,15 @@ struct cpu_info	*make_cpu(int fd)
 		}
 		new = init_cpu();
 		if (!head)
+		{
 			head = new;
-		cur->next = new;
-		cur = cur->next;
+			cur = new;
+		}
+		else
+		{
+			cur->next = new;
+			cur = cur->next;
+		}
 		free(line);
 	}
 	get_next_line(fd, 1); //free buffer

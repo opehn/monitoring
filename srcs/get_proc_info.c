@@ -10,23 +10,20 @@ static void	parse_stat(char *content, proc_info *p)
 
 	res = strtok(content, " ");
 	p->pid = atoi(res);
-	while (i <= 21)
+	while (i <= 14)
 	{
 		res = strtok(NULL, " ");
 		if (i == 1)
-			p->proc_name = strdup(res);
+			p->proc_name = skip_bracket(res);
 		if (i == 3)
 			p->ppid = atoi(res);
 		if (i == 13)
 			u_time = atoi(res);
 		if (i == 14)
 			s_time = atoi(res);
-		if (i == 21)
-			all_time = atoi(res);
 		i++;
 	}
 	p->cpu_time = u_time + s_time;
-	p->cpu_usage = p->cpu_time / all_time;
 }
 
 static void	get_username(proc_info *p, const char *path)
@@ -123,11 +120,12 @@ proc_info	*get_proc_info(void)
 	proc_info		*cur;
 	proc_info		*new;
 	DIR				*cur_dir; 
+	
 	struct dirent	*cur_dir_info;
 
 	cur_dir = opendir("/proc/");
 	cur_dir_info = readdir(cur_dir);
-	if (!cur_dir || !cur_dir_info)
+	if (!cur_dir || !cur_dir_info || errno)
 	{
 		perror("dir open err");
 		exit(EXIT_FAILURE);

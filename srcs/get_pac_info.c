@@ -5,7 +5,8 @@ static void	parse_line(pac_info *p, char *line)
 	char	*res;
 	int		i = 1;
 
-	strtok(line, " ");
+	res = strtok(line, " ");
+	p->net_name = strndup(res, strlen(res) - 1); //ignore colon 
 	while(i <= 10)
 	{
 		res = strtok(NULL, " ");
@@ -61,6 +62,7 @@ static pac_info	*make_pac(int fd)
 		}
 		free(line);
 	}
+	get_next_line(fd, 1);
 	close(fd);
 	return (head);
 }

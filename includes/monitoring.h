@@ -1,4 +1,5 @@
 #include <dirent.h>
+#include <math.h>
 #include <stdio.h>
 #include <errno.h>
 #include <string.h>
@@ -15,7 +16,6 @@ typedef struct	proc_info {
 	int					pid;
 	int					ppid;
 	int					cpu_time;
-	float				cpu_usage;
 	char				*proc_name;
 	char				*user_name;
 	char				*cmdline;
@@ -38,6 +38,7 @@ typedef struct mem_info {
 } mem_info;
 
 typedef struct pac_info {
+	char				*net_name;
 	int					in_cnt;
 	int					out_cnt;
 	int					in_byte;
@@ -50,15 +51,15 @@ proc_info	*get_proc_info(void);
 cpu_info	*get_cpu_info(void);
 mem_info	*get_mem_info(void);
 pac_info	*get_pac_info(void);
-int		isnum(char *nptr);
-void	read_stat(char *path);
 
 //util
 char	*my_strjoin(char *s1, char *s2);
 void	free_all(char **arr);
 int		isnum(char *str);
+char	*skip_bracket(char *src);
+void	read_stat(char *path);
 
-//get_next_line
+//file_util
 char    *get_next_line(int fd, int flag);
 char*   read_file(int fd);
 int     find_newline(char *str);

@@ -28,7 +28,7 @@ static char    *final_line(char **backup)
     len = strlen(*backup);
     res = my_strndup(*backup, len);
     free(*backup);
-    backup = NULL;
+    *backup = NULL;
     return (res);
 }
 

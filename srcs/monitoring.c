@@ -6,8 +6,8 @@ void	print_info(proc_info **p, cpu_info **c, mem_info **m, pac_info **pc)
 	printf("--------------------PROCESS INFO----------------------\n");
 	while ((*p))
 	{
-		printf("name : %s\n pid : %d\n ppid : %d\n cputime : %d\n cpuusage: %f\n user_name: %s\ncmdline : %s\n",
-				(*p)->proc_name, (*p)->pid, (*p)->ppid, (*p)->cpu_time, (*p)->cpu_usage, (*p)->user_name, (*p)->cmdline);
+		printf("name : %s\n pid : %d\n ppid : %d\n cputime : %d\n user_name: %s\ncmdline : %s\n",
+				(*p)->proc_name, (*p)->pid, (*p)->ppid, (*p)->cpu_time,(*p)->user_name, (*p)->cmdline);
 		(*p) = (*p)->next;
 	}
 
@@ -17,7 +17,6 @@ void	print_info(proc_info **p, cpu_info **c, mem_info **m, pac_info **pc)
 	{
 		printf("core %d\n usr : %d\n sys : %d\n iowait : %d\n idle : %d\n",
 				i, (*c)->usr, (*c)->sys, (*c)->iowait, (*c)->idle);
-		printf("cur addr : %p\n", *c);
 		(*c) = (*c)->next;
 		i++;
 	}
@@ -26,8 +25,8 @@ void	print_info(proc_info **p, cpu_info **c, mem_info **m, pac_info **pc)
 	i = 0;
 	while(*pc)
 	{
-		printf("device %d\nin_cnt : %d\nin_byte : %d\nout_cnt : %d\nout_byte : %d\n",
-			i, (*pc)->in_cnt, (*pc)->in_byte, (*pc)->out_cnt, (*pc)->out_byte);
+		printf("name : %s\nin_cnt : %d\nin_byte : %d\nout_cnt : %d\nout_byte : %d\n",
+			(*pc)->net_name, (*pc)->in_cnt, (*pc)->in_byte, (*pc)->out_cnt, (*pc)->out_byte);
 		*pc = (*pc)->next;
 		i++;
 	}
@@ -65,6 +64,7 @@ void	free_info(proc_info **p, cpu_info **c, mem_info **m, pac_info **pc)
 	while(*pc)
 	{
 		pctemp = (*pc)->next;
+		free((*pc)->net_name);
 		free(*pc);
 		*pc = pctemp;
 	}
@@ -79,18 +79,22 @@ int main(void)
 	mem_info	*m, *mtemp;
 	pac_info	*pc, *pctemp;
 
-	p = get_proc_info();
-	c = get_cpu_info();
-	m = get_mem_info();
-	pc = get_pac_info();
+	while(i)
+	{
+		c = get_cpu_info();
+		p = get_proc_info();
+		m = get_mem_info();
+		pc = get_pac_info();
 
-	ptemp = p;
-	ctemp = c;
-	mtemp = m;
-	pctemp = pc;
+		ptemp = p;
+		ctemp = c;
+		mtemp = m;
+		pctemp = pc;
 
-	print_info(&ptemp, &ctemp, &mtemp, &pctemp);
-	free_info(&p, &c, &m, &pc);
+		print_info(&ptemp, &ctemp, &mtemp, &pctemp);
+		free_info(&p, &c, &m, &pc);
+		usleep(1000);
+	}
 
 	return (0);
 }

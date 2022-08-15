@@ -1,5 +1,28 @@
 #include "monitoring.h"
 
+char *skip_bracket(char *src)
+{
+    char    *dest;
+    int     len;
+    int     i = 0;
+
+    if (!src)
+        return (NULL);
+
+    len = strlen(src) - 1;
+    dest = (char *)malloc(sizeof(char) * len);
+
+    src++;
+    while (src[i] != ')')
+    {
+        dest[i] = src[i];
+        i++;
+    }
+    dest[i] = '\0';
+
+    return (dest);
+}
+
 int isnum(char *str)
 {
     int i = 0;
