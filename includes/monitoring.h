@@ -52,11 +52,11 @@ mem_info	*get_mem_info(void);
 pac_info	*get_pac_info(void);
 int		isnum(char *nptr);
 void	read_stat(char *path);
-char	**split(char const *str, char c);
 
 //util
 char	*my_strjoin(char *s1, char *s2);
 void	free_all(char **arr);
+int		isnum(char *str);
 
 //get_next_line
 char    *get_next_line(int fd, int flag);

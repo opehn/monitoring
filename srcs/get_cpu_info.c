@@ -50,7 +50,10 @@ struct cpu_info	*make_cpu(int fd)
 	{
 		first_word = strtok(line, " ");
 		if (!strcmp(first_word, "intr"))
+		{
+			free(line);
 			break;
+		}
 		new = init_cpu();
 		if (!head)
 			head = new;

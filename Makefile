@@ -13,7 +13,6 @@ HEADERS = $(addprefix $(HEADER_DIR), $(HEADER_LIST))
 SRC_DIR = ./srcs/
 A_SRC := read_file.c \
 		 util.c \
-		 split.c \
 		 get_proc_info.c \
 		 monitoring.c \
 		 get_next_line.c \

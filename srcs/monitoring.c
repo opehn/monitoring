@@ -17,6 +17,7 @@ void	print_info(proc_info **p, cpu_info **c, mem_info **m, pac_info **pc)
 	{
 		printf("core %d\n usr : %d\n sys : %d\n iowait : %d\n idle : %d\n",
 				i, (*c)->usr, (*c)->sys, (*c)->iowait, (*c)->idle);
+		printf("cur addr : %p\n", *c);
 		(*c) = (*c)->next;
 		i++;
 	}
@@ -32,23 +33,64 @@ void	print_info(proc_info **p, cpu_info **c, mem_info **m, pac_info **pc)
 	}
 
 	printf("--------------------MEMORY INFO----------------------\n");
+	if (*m)
+	{
 	printf("total : %d\nfree : %d\nused : %d\nswap_used : %d\n",
 			(*m)->total, (*m)->free, (*m)->used, ((*m))->swap_used);
+	}
+}
+
+void	free_info(proc_info **p, cpu_info **c, mem_info **m, pac_info **pc)
+{
+	proc_info	*ptemp;
+	cpu_info	*ctemp;
+	mem_info	*mtemp;
+	pac_info	*pctemp;
+
+	while(*p)
+	{
+		free((*p)->proc_name);
+		free((*p)->user_name);
+		free((*p)->cmdline);
+		ptemp = (*p)->next;
+		free(*p);
+		*p = ptemp;
+	}
+	while(*c)
+	{
+		ctemp = (*c)->next;
+		free(*c);
+		*c = ctemp;
+	}
+	while(*pc)
+	{
+		pctemp = (*pc)->next;
+		free(*pc);
+		*pc = pctemp;
+	}
+	free(*m);
+	*m = NULL;
 }
 
 int main(void)
 {
-	proc_info	*p;
-	cpu_info	*c;
-	mem_info	*m;
-	pac_info	*pc;
+	proc_info	*p, *ptemp;
+	cpu_info	*c, *ctemp;
+	mem_info	*m, *mtemp;
+	pac_info	*pc, *pctemp;
 
 	p = get_proc_info();
-	printf("p addr : %p\n", p);
 	c = get_cpu_info();
 	m = get_mem_info();
 	pc = get_pac_info();
-	print_info(&p, &c, &m, &pc);
+
+	ptemp = p;
+	ctemp = c;
+	mtemp = m;
+	pctemp = pc;
+
+	print_info(&ptemp, &ctemp, &mtemp, &pctemp);
+	free_info(&p, &c, &m, &pc);
 
 	return (0);
 }

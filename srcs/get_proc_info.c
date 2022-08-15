@@ -1,19 +1,5 @@
 #include "monitoring.h"
 
-int	isnum(char *str)
-{
-	int	i = 0;
-	int	res = 0;
-
-	while(str[i])
-	{
-		if (!isdigit(str[i]))
-			return (0);
-		i++;
-	}
-	return (1);
-}
-
 static void	parse_stat(char *content, proc_info *p)
 {
 	char	*res;
@@ -66,7 +52,7 @@ static void	get_username(proc_info *p, const char *path)
 			exit(EXIT_FAILURE);
 		}
 	}
-	p->user_name = pw->pw_name;	
+	p->user_name = strdup(pw->pw_name);	
 }
 
 static void	get_stat(proc_info *p, char *stat_path)
@@ -166,6 +152,5 @@ proc_info	*get_proc_info(void)
 		cur_dir_info = readdir(cur_dir);
 	}
 	closedir(cur_dir);
-	printf("head addr : %p\n", head);
 	return (head);
 }

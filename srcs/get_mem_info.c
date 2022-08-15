@@ -13,8 +13,8 @@ static void			parse_info(mem_info *m, int fd)
 {
 	char	*line;
 	int		i = 0;
-	int		total;
-	int		free;
+	int		mtotal;
+	int		mfree;
 	int		s_total;
 	int		s_free;
 	
@@ -22,18 +22,19 @@ static void			parse_info(mem_info *m, int fd)
 	{
 		line = get_next_line(fd, 0);
 		if (i == 0)
-			total = atoi(second_word(line));
+			mtotal = atoi(second_word(line));
 		if (i == 1)
-			free = atoi(second_word(line));
+			mfree = atoi(second_word(line));
 		if (i == 14)
 			s_total = atoi(second_word(line));
 		if (i == 15)
 			s_free = atoi(second_word(line));
+		free(line);
 		i++;
 	}
-	m->free = free;
-	m->total = total;
-	m->used = total - free;
+	m->free = mfree;
+	m->total = mtotal;
+	m->used = mtotal - mfree;
 	m->swap_used = s_total - s_free;
 	get_next_line(fd, 1);
 }
