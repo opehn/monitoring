@@ -1,4 +1,4 @@
-#include "monitoring.h"
+#include "collect.h"
 
 char *skip_bracket(char *src)
 {
@@ -21,6 +21,13 @@ char *skip_bracket(char *src)
     dest[i] = '\0';
 
     return (dest);
+}
+
+int	nullguard_strlen(char *str)
+{
+	if (!str)
+		return (0);
+	return (strlen(str));
 }
 
 int isnum(char *str)
@@ -126,4 +133,14 @@ char    *my_strndup(char *origin, int len)
     }
     res[i] = '\0';
     return (res);
+}
+
+void   serialize_header(int signature, int length, int agent_id, char *payload)
+{
+	packet_header *pheader;
+	
+	pheader = (packet_header *)payload;
+	pheader->signature = htons((uint16_t)signature);
+	pheader->length = htonl((uint32_t) length);
+	pheader->agent_id = htonl((uint16_t) agent_id);
 }

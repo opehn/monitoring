@@ -1,43 +1,63 @@
 AGENT = agent
+SERVER = server
 
 CC = gcc
-#CC = clang-14 
 FLAGS = -g -Wall -Werror -Wextra
 
 INC = -I$(HEADER_DIR)
 
 HEADER_DIR = ./includes/
-HEADER_LIST = monitoring.h
+HEADER_LIST = collect.h \
+			  packet.h \
+			  queue.h
 HEADERS = $(addprefix $(HEADER_DIR), $(HEADER_LIST))
 
-SRC_DIR = ./srcs/
-A_SRC := read_file.c \
-		 util.c \
+A_SRC_DIR = ./agent_srcs/
+A_SRC_LIST := read_file.c \
 		 get_proc_info.c \
 		 monitoring.c \
 		 get_next_line.c \
 		 get_cpu_info.c \
 		 get_mem_info.c \
-		 get_pac_info.c
+		 get_net_info.c \
+		 agent.c \
+		 util.c \
+		 collect.c \
+		 send.c \
+		 queue.c
+A_SRC := $(addprefix $(A_SRC_DIR), $(A_SRC_LIST))
+A_OBJS = $(A_SRC:.c=.o)
 
-A_OBJ = $(A_SRC:.c=.o) 
+S_SRC_DIR = ./server_srcs/
+S_SRC_LIST := server.c
+S_SRC := $(addprefix $(S_SRC_DIR), $(S_SRC_LIST))
+S_OBJS = $(S_SRC:.c=.o)
 
-all : $(AGENT)
+all : $(AGENT) $(SERVER)
 
-#$(SERVER) : $(S_OBJ)
-#	$(CC) $(FLAGS) $^ -o $@ 
-
-$(AGENT) :$(A_OBJ)
+$(AGENT) : $(A_OBJS)
 	$(CC) $(FLAGS) $^ -o $@ 
 
-%.o : $(SRC_DIR)%.c $(HEADERS)
+$(SERVER) : $(S_OBJS)
+	$(CC) $(FLAGS) $^ -o $@ 
+
+$(A_SRC_DIR)%.o: $(A_SRC_DIR)%.c $(HEADERS)
+	$(CC) $(CFLAGS) -c -g $< -o $@ $(INC)
+	
+$(S_SRC_DIR)%.o: $(S_SRC_DIR)%.c $(HEADERS)
 	$(CC) $(CFLAGS) -c -g $< -o $@ $(INC)
 
 clean :
-	@rm -rf $(A_OBJ)
+	@rm -rf $(A_OBJS) $(S_OBJS)
 
 fclean : clean
 	@rm -rf $(AGENT)
+
+variable  :
+	@echo S_SRC : $(S_SRC)
+	@echo A_SRC : $(A_SRC)
+	@echo S_OBJS : $(S_OBJS)
+	@echo A_OBJS : $(A_OBJS)
 
 re : fclean all	
 

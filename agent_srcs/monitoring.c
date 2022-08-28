@@ -1,6 +1,6 @@
-#include "monitoring.h"
+#include "collect.h"
 
-void	print_info(proc_info **p, cpu_info **c, mem_info **m, pac_info **pc)
+/*void	print_info(proc_info **p, cpu_info **c, mem_info **m, pac_info **pc)
 {
 	printf("p addr : %p\n", p);
 	printf("--------------------PROCESS INFO----------------------\n");
@@ -37,49 +37,16 @@ void	print_info(proc_info **p, cpu_info **c, mem_info **m, pac_info **pc)
 	printf("total : %d\nfree : %d\nused : %d\nswap_used : %d\n",
 			(*m)->total, (*m)->free, (*m)->used, ((*m))->swap_used);
 	}
-}
+}*/
 
-void	free_info(proc_info **p, cpu_info **c, mem_info **m, pac_info **pc)
-{
-	proc_info	*ptemp;
-	cpu_info	*ctemp;
-	mem_info	*mtemp;
-	pac_info	*pctemp;
-
-	while(*p)
-	{
-		free((*p)->proc_name);
-		free((*p)->user_name);
-		free((*p)->cmdline);
-		ptemp = (*p)->next;
-		free(*p);
-		*p = ptemp;
-	}
-	while(*c)
-	{
-		ctemp = (*c)->next;
-		free(*c);
-		*c = ctemp;
-	}
-	while(*pc)
-	{
-		pctemp = (*pc)->next;
-		free((*pc)->net_name);
-		free(*pc);
-		*pc = pctemp;
-	}
-	free(*m);
-	*m = NULL;
-}
-
-int main(void)
+/*int main(void)
 {
 	proc_info	*p, *ptemp;
 	cpu_info	*c, *ctemp;
 	mem_info	*m, *mtemp;
 	pac_info	*pc, *pctemp;
 
-	while(i)
+	while(1)
 	{
 		c = get_cpu_info();
 		p = get_proc_info();
@@ -91,10 +58,9 @@ int main(void)
 		mtemp = m;
 		pctemp = pc;
 
-		print_info(&ptemp, &ctemp, &mtemp, &pctemp);
 		free_info(&p, &c, &m, &pc);
-		usleep(1000);
+		sleep(1);
 	}
 
 	return (0);
-}
+}*/
