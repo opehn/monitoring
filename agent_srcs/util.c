@@ -142,5 +142,5 @@ void   serialize_header(int signature, int length, int agent_id, char *payload)
 	pheader = (packet_header *)payload;
 	pheader->signature = htons((uint16_t)signature);
 	pheader->length = htonl((uint32_t) length);
-	pheader->agent_id = htonl((uint16_t) agent_id);
+	pheader->agent_id = htons((uint16_t) agent_id);
 }

@@ -1,19 +1,18 @@
 #include "collect.h"
-#include "queue.h"
+#include "agent_queue.h"
 
 int main(void)
 {
 	pthread_t	collect_tid;
 	pthread_t	send_tid;
-	param		*p;
-	queue		*q;
+	aparam		*p;
+	aqueue		*q;
 	
-	p = malloc(sizeof (param));
-	printf("main param addr : %p\n", p);
-	p->q = init_queue();
-	if (pthread_mutex_init(&p->queue_lock, NULL))
+	p = malloc(sizeof (aparam));
+	p->q = init_aqueue();
+	if (pthread_mutex_init(&p->aqueue_lock, NULL))
 	{
-		perror("metex init error");
+		perror("mutex init error");
 		exit (EXIT_FAILURE);
 	}
 	pthread_create(&collect_tid, NULL, collect_routine, (void *)p);
@@ -22,7 +21,7 @@ int main(void)
 	pthread_join(collect_tid, NULL);
 	pthread_join(send_tid, NULL);
 
-	pthread_mutex_destroy(&p->queue_lock);
+	pthread_mutex_destroy(&p->aqueue_lock);
 	free(p->q);
 	free(p);
 	return (0);

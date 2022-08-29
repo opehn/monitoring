@@ -1,10 +1,10 @@
 #include "collect.h"
-#include "queue.h"
+#include "agent_queue.h"
 
-void	free_queue(queue *q)
+void	free_queue(aqueue *q)
 {
-	queue_node	*temp;
-	queue_node	*head;
+	aqueue_node	*temp;
+	aqueue_node	*head;
 	head = q->head;
 	while (head)
 	{
@@ -18,33 +18,32 @@ void	free_queue(queue *q)
 
 void *collect_routine	(void *arg)
 {
-	param	*p;
-	queue	*q;
+	aparam	*p;
+	aqueue	*q;
 
-	p = (param *)arg;
-	printf("collect param addr : %p\n", p);
+	p = (aparam *)arg;
 	q = p->q;
 //	while (1)
 //	{
 		printf("push mem_info\n");
-		pthread_mutex_lock(&p->queue_lock);
+		pthread_mutex_lock(&p->aqueue_lock);
 		enqueue(q, get_mem_info());
-		pthread_mutex_unlock(&p->queue_lock);
+		pthread_mutex_unlock(&p->aqueue_lock);
 		sleep(1);
 		printf("push net_info\n");
-		pthread_mutex_lock(&p->queue_lock);
+		pthread_mutex_lock(&p->aqueue_lock);
 		enqueue(q, get_net_info());
-		pthread_mutex_unlock(&p->queue_lock);
+		pthread_mutex_unlock(&p->aqueue_lock);
 		sleep(1);
 		printf("push cpu_info\n");
-		pthread_mutex_lock(&p->queue_lock);
+		pthread_mutex_lock(&p->aqueue_lock);
 		enqueue(q, get_cpu_info());
-		pthread_mutex_unlock(&p->queue_lock);
+		pthread_mutex_unlock(&p->aqueue_lock);
 		sleep(1);
 		printf("push proc_info\n");
-		pthread_mutex_lock(&p->queue_lock);
+		pthread_mutex_lock(&p->aqueue_lock);
 		enqueue(q, get_proc_info());
-		pthread_mutex_unlock(&p->queue_lock);
+		pthread_mutex_unlock(&p->aqueue_lock);
 		sleep(1);
 //	}
 	

@@ -23,15 +23,20 @@ static void	parse_net(char *line, char *payload)
 	{
 		res = strtok(NULL, " ");
 		if (i == 1)
-			n->in_byte = strtoll(res, NULL, 10);
+			n->in_byte = htonl(strtoll(res, NULL, 10));
 		if (i == 2)
-			n->in_cnt = strtoll(res, NULL, 10);
+			n->in_cnt = htonl(strtoll(res, NULL, 10));
 		if (i == 9)
-			n->out_byte = strtoll(res, NULL, 10);
+			n->out_byte = htonl(strtoll(res, NULL, 10));
 		if (i == 10)
-			n->out_cnt = strtoll(res, NULL, 10);
+			n->out_cnt = htonl(strtoll(res, NULL, 10));
 		i++;
 	}
+	printf("collected netinfo in_cnt : %d\n", ntohl(n->in_cnt));
+	printf("collected netinfo out_cnt : %d\n", ntohl(n->out_cnt));
+	printf("collected netinfo in_byte : %d\n", ntohl(n->in_byte));
+	printf("collected netinfo out_byte : %d\n", ntohl(n->out_byte));
+	printf("-----------------------------------------\n");
 }
 
 static void	serialize_net(char *payload)
@@ -73,7 +78,6 @@ static packet	*make_packet(int net_cnt)
 		perror("malloc error");
 		exit(EXIT_FAILURE);
 	}
-	printf("get net payload addr : %p\n", net_packet->payload);
 	net_packet->length = packet_length;
 	payload = net_packet->payload;
 	serialize_header(N, packet_length, AID, payload);

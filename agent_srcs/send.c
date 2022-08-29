@@ -1,20 +1,77 @@
 #include "collect.h"
-#include "queue.h"
+#include "agent_queue.h"
+void	print_sendinfo(int signature, char *buf)
+{
+	if (signature == 11)
+	{
+		printf("send mem info free : %d\n", ntohl(*(uint32_t *)buf));
+		buf += sizeof(uint32_t);
+		printf("send mem info total : %d\n", ntohl(*(uint32_t *)buf));
+		buf += sizeof(uint32_t);
+		printf("send mem info used : %d\n", ntohl(*(uint32_t *)buf));
+		buf += sizeof(uint32_t);
+		printf("send mem info swap_used : %d\n", ntohl(*(uint32_t *)buf));
+		buf += sizeof(uint32_t);
+		printf("-------------------------------------------\n");
+	}
 
-void	*send_packet(int clientfd, queue *q, pthread_mutex_t *queue_mutex)
+	if (signature == 22)
+	{
+		printf("send net info in_cnt : %d\n", ntohl(*(uint64_t *)buf));
+		buf += sizeof(uint64_t);
+		printf("send net info out_cnt : %d\n", ntohl(*(uint64_t *)buf));
+		buf += sizeof(uint64_t);
+		printf("send net info in_byte : %d\n", ntohl(*(uint64_t *)buf));
+		buf += sizeof(uint64_t);
+		printf("send net info out_byte : %d\n", ntohl(*(uint64_t *)buf));
+		buf += sizeof(uint64_t);
+		printf("-------------------------------------------\n");
+	}
+}
+
+int	print_sendheader(char *buf)
+{
+
+	int	signature;
+
+	signature = ntohs(*(uint16_t *) buf);
+	if (signature == M)
+		printf("send mem_info\n");
+	else if (signature == N)
+		printf("send net_info\n");
+	else if (signature == C)
+		printf("send cpu_info\n");
+	else if (signature == P)
+		printf("send proc_info\n");
+	printf("send header signature : %d\n", signature);
+	buf += sizeof(uint16_t);
+	printf("send header length : %d\n", ntohl(*(uint32_t *)buf));
+	buf += sizeof(uint32_t);
+	printf("send header aid : %d\n", ntohs(*(uint16_t *)buf));
+	buf += sizeof(uint16_t);
+	printf("\n");
+	return (signature);
+}
+
+void	*send_packet(int clientfd, aqueue *q, pthread_mutex_t *aqueue_mutex)
 {
 	packet	*data;
+	char	*buf;
+	int		signature;
 
 	data = NULL;
-	printf("send info\n");
-	printf("size : %d\n", q->size);
-	pthread_mutex_lock(queue_mutex);
 	if (q->size > 0)
+	{
+		pthread_mutex_lock(aqueue_mutex);
 		data = dequeue(q);
-	pthread_mutex_unlock(queue_mutex);
-
+		pthread_mutex_unlock(aqueue_mutex);
+	}
 	if (data)
 	{
+		buf = data->payload;
+		signature = print_sendheader(buf);
+		buf += sizeof(packet_header);
+		print_sendinfo(signature, buf);
 		if (0 > send(clientfd, data->payload, data->length, 0))
 		{
 			perror("send error");
@@ -28,12 +85,11 @@ void	*send_routine(void *arg)
 	int				clientfd;
 	SA_IN			serveraddr;
 	int				res;
-	param			*p;
-	queue			*q;
+	aparam			*p;
+	aqueue			*q;
 
-	p = (param *)arg;
+	p = (aparam *)arg;
 	q = p->q;
-	printf("send param addr : %p\n", p);
 	if (0 > (clientfd = socket(AF_INET, SOCK_STREAM, 0)))
 	{
 		perror("socket open error");
@@ -48,10 +104,12 @@ void	*send_routine(void *arg)
 		perror("connect error");
 		exit(EXIT_FAILURE);
 	}
-	while(1)
+	int i = 0;
+	sleep(6);
+	while(i < 4)
 	{
-		send_packet(clientfd, q, &p->queue_lock); //prev가 NULL일경우 에러처리
-		sleep(1);
+		send_packet(clientfd, q, &p->aqueue_lock); //prev가 NULL일경우 에러처리
+		i++;
 	}
 	close(clientfd);
 }

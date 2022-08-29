@@ -67,7 +67,6 @@ static packet	*make_packet(int cpu_cnt)
 		perror("malloc error");
 		exit(EXIT_FAILURE);
 	}
-	printf("get cpu payload : %p\n", cpu_packet->payload);
 	cpu_packet->length = packet_length;
 	payload = cpu_packet->payload;
 	serialize_header(C, packet_length, AID, payload);

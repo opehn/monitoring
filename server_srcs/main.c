@@ -1,8 +1,6 @@
-#include "server_queue.h"
-#include "server.h"
-#include "packet.h"
+#include "collect.h"
 
-static void	init_socket(int *listenfd)
+void	init_socket(int *listenfd)
 {
 	int res;
 
@@ -34,17 +32,19 @@ static void	init_socket(int *listenfd)
 	}
 }
 
-static void	create_recv_thread(sparam *p)
+void	create_recv_thread(sparam *p)
 {
 	pthread_t		recv_tid;
-	if (pthread_mutex_init(&p->squeue_lock, NULL))
+	if (pthread_mutex_init(&p->squeue_lock, NULL));
 	{
 		perror("mutex init error");
 		exit (EXIT_FAILURE);
 	}
 	pthread_create(&recv_tid, NULL, receive_routine, (void *)p);
 	pthread_join(recv_tid, NULL);
+	return (0);
 }
+
 
 int		main(void)
 {
@@ -72,13 +72,13 @@ int		main(void)
 		p->serverfd = serverfd;
 		create_recv_thread(p);
 //		create_work_thread(p);
-		close(serverfd);
 	}
 	printf("\n[TCP 서버] 클라이언트 종료 : IP 주소 = %s, 포트번호 = %d\n",
 			inet_ntoa(clientaddr.sin_addr), ntohs(clientaddr.sin_port));
-	pthread_mutex_destroy(&p->squeue_lock);
+	pthread_mutex_destroy(&p->aqueue_lock);
 	free(p->q);
 	free(p);
+	close(serverfd);
 	close(listenfd);
 	return (0);
 }

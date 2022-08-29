@@ -15,8 +15,8 @@ static void			parse_info(char *payload, int fd)
 	int		i = 0;
 	int		mtotal;
 	int		mfree;
-	int		s_total;
-	int		s_free;
+	int		stotal;
+	int		sfree;
 	mem_info	*m;
 	
 	m = (mem_info *)payload;
@@ -28,9 +28,9 @@ static void			parse_info(char *payload, int fd)
 		if (i == 1)
 			mfree = atoi(second_word(line));
 		if (i == 14)
-			s_total = atoi(second_word(line));
+			stotal = atoi(second_word(line));
 		if (i == 15)
-			s_free = atoi(second_word(line));
+			sfree = atoi(second_word(line));
 		free(line);
 		i++;
 	}
@@ -38,7 +38,17 @@ static void			parse_info(char *payload, int fd)
 	m->free = htonl(mfree);
 	m->total = htonl(mtotal);
 	m->used = htonl(mtotal - mfree);
-	m->swap_used = htonl(s_total - s_free);
+	m->swap_used = htonl(stotal - sfree);
+//	printf("collected meminfo free : %d\n", mfree);
+//	printf("collected meminfo total : %d\n", mtotal);
+//	printf("collected meminfo used : %d\n", mtotal - mfree);
+//	printf("collected meminfo swap_used : %d\n", stotal - sfree);
+	
+	printf("collected meminfo free : %d\n", ntohl(m->free));
+	printf("collected meminfo total : %d\n", ntohl(m->total));
+	printf("collected meminfo used : %d\n", ntohl(m->used));
+	printf("collected meminfo swap_used : %d\n", ntohl(m->swap_used));
+	printf("---------------------------------------------------\n");
 	get_next_line(fd, 1); //free buffer
 }
 

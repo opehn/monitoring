@@ -9,7 +9,9 @@ INC = -I$(HEADER_DIR)
 HEADER_DIR = ./includes/
 HEADER_LIST = collect.h \
 			  packet.h \
-			  queue.h
+			  agent_queue.h \
+			  server.h \
+			  server_queue.h 
 HEADERS = $(addprefix $(HEADER_DIR), $(HEADER_LIST))
 
 A_SRC_DIR = ./agent_srcs/
@@ -24,12 +26,14 @@ A_SRC_LIST := read_file.c \
 		 util.c \
 		 collect.c \
 		 send.c \
-		 queue.c
+		 agent_queue.c 
 A_SRC := $(addprefix $(A_SRC_DIR), $(A_SRC_LIST))
 A_OBJS = $(A_SRC:.c=.o)
 
 S_SRC_DIR = ./server_srcs/
-S_SRC_LIST := server.c
+S_SRC_LIST := server.c \
+		 server_queue.c \
+		 receive.c
 S_SRC := $(addprefix $(S_SRC_DIR), $(S_SRC_LIST))
 S_OBJS = $(S_SRC:.c=.o)
 
