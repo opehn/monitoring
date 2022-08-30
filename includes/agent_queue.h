@@ -9,13 +9,14 @@ typedef struct aqueue_node {
 typedef struct aqueue {
 	struct aqueue_node		*head;
 	struct aqueue_node		*tail;
+	int						flag;
 	int						size;
+	pthread_mutex_t			aqueue_lock;
 } aqueue;
 
 typedef struct aparam
 {
 	aqueue			*q;
-	pthread_mutex_t	aqueue_lock;
 } aparam;
 
 aqueue		*init_aqueue(void);

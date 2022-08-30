@@ -10,21 +10,19 @@ void	print_sendinfo(int signature, char *buf)
 		buf += sizeof(uint32_t);
 		printf("send mem info used : %d\n", ntohl(*(uint32_t *)buf));
 		buf += sizeof(uint32_t);
-		printf("send mem info swap_used : %d\n", ntohl(*(uint32_t *)buf));
-		buf += sizeof(uint32_t);
-		printf("-------------------------------------------\n");
+		printf("send mem info swap_used : %d\n", ntohl(*(uint32_t *)buf)); buf += sizeof(uint32_t); printf("-------------------------------------------\n");
 	}
 
 	if (signature == 22)
 	{
-		printf("send net info in_cnt : %d\n", ntohl(*(uint64_t *)buf));
-		buf += sizeof(uint64_t);
-		printf("send net info out_cnt : %d\n", ntohl(*(uint64_t *)buf));
-		buf += sizeof(uint64_t);
-		printf("send net info in_byte : %d\n", ntohl(*(uint64_t *)buf));
-		buf += sizeof(uint64_t);
-		printf("send net info out_byte : %d\n", ntohl(*(uint64_t *)buf));
-		buf += sizeof(uint64_t);
+		printf("send net info in_cnt : %d\n", ntohl(*(uint32_t *)buf));
+		buf += sizeof(uint32_t);
+		printf("send net info out_cnt : %d\n", ntohl(*(uint32_t *)buf));
+		buf += sizeof(uint32_t);
+		printf("send net info in_byte : %d\n", ntohl(*(uint32_t *)buf));
+		buf += sizeof(uint32_t);
+		printf("send net info out_byte : %d\n", ntohl(*(uint32_t *)buf));
+		buf += sizeof(uint32_t);
 		printf("-------------------------------------------\n");
 	}
 }
@@ -34,7 +32,7 @@ int	print_sendheader(char *buf)
 
 	int	signature;
 
-	signature = ntohs(*(uint16_t *) buf);
+	signature = ntohs(*((uint16_t *) buf));
 	if (signature == M)
 		printf("send mem_info\n");
 	else if (signature == N)
@@ -53,6 +51,31 @@ int	print_sendheader(char *buf)
 	return (signature);
 }
 
+packet	*safe_dequeue(aqueue *q)
+{
+	int		res;
+	packet	*data;
+
+//	pthread_mutex_lock(&q->aqueue_lock);
+ //   res = (q->flag = 0);
+  //  pthread_mutex_unlock(&q->aqueue_lock);
+
+    if (q->flag == 0)
+    {
+		pthread_mutex_lock(&q->aqueue_lock);
+		q->flag = 1;
+		pthread_mutex_unlock(&q->aqueue_lock);
+
+		data = dequeue(q);
+
+		pthread_mutex_lock(&q->aqueue_lock);
+		q->flag = 0;
+		pthread_mutex_unlock(&q->aqueue_lock);
+	}
+
+	return (data);
+}
+
 void	*send_packet(int clientfd, aqueue *q, pthread_mutex_t *aqueue_mutex)
 {
 	packet	*data;
@@ -62,9 +85,8 @@ void	*send_packet(int clientfd, aqueue *q, pthread_mutex_t *aqueue_mutex)
 	data = NULL;
 	if (q->size > 0)
 	{
-		pthread_mutex_lock(aqueue_mutex);
 		data = dequeue(q);
-		pthread_mutex_unlock(aqueue_mutex);
+		//data = safe_dequeue(q);
 	}
 	if (data)
 	{
@@ -79,6 +101,7 @@ void	*send_packet(int clientfd, aqueue *q, pthread_mutex_t *aqueue_mutex)
 		}
 	}
 }
+
 
 void	*send_routine(void *arg)
 {
@@ -104,12 +127,11 @@ void	*send_routine(void *arg)
 		perror("connect error");
 		exit(EXIT_FAILURE);
 	}
-	int i = 0;
 	sleep(6);
-	while(i < 4)
+	while(1)
 	{
-		send_packet(clientfd, q, &p->aqueue_lock); //prev가 NULL일경우 에러처리
-		i++;
+		send_packet(clientfd, q, &q->aqueue_lock); //prev가 NULL일경우 에러처리
+		sleep(1);
 	}
 	close(clientfd);
 }

@@ -33,9 +33,9 @@ static void	parse_stat(char *payload, char *content)
 		if (i == 3)
 			p->ppid = htonl(atoi(res));
 		if (i == 13)
-			u_time = strtoll(res, NULL, 10); 
+			u_time = htonl(strtoll(res, NULL, 10)); 
 		if (i == 14)
-			s_time = strtoll(res, NULL, 10);
+			s_time = htonl(strtoll(res, NULL, 10));
 		i++;
 	}
 	p->cpu_time = u_time + s_time; //hton64..
@@ -146,7 +146,6 @@ static void	serialize_proc(char *payload, char *d_name)
 	get_username(payload, dir_path);
 	payload += 32;
 	get_cmdline(payload, cmd_path);
-	payload += CMD_LEN;
 }
 
 static int	*iter_dir(char *payload)
@@ -168,7 +167,6 @@ static int	*iter_dir(char *payload)
 		{
 			serialize_proc(payload, cur_dir_info->d_name);
 			payload += sizeof(proc_info);
-
 		}
 		cur_dir_info = readdir(cur_dir);
 	}
@@ -189,9 +187,9 @@ static packet	*make_packet(int proc_cnt)
 		perror("malloc error");
 		exit(EXIT_FAILURE);
 	}
+	serialize_header(P, packet_length, AID, proc_packet->payload);
 	proc_packet->length = packet_length;
 	payload = proc_packet->payload;
-	serialize_header(P, packet_length, AID, payload);
 	payload += sizeof(packet_header);
 	iter_dir(payload);
 	
@@ -219,6 +217,7 @@ static int	count_proc(void)
 		cur_dir_info = readdir(cur_dir);
 	}
 	closedir(cur_dir);
+	printf("proc_cnt : %d\n", proc_cnt);
 	return (proc_cnt);
 }
 

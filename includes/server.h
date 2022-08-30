@@ -13,7 +13,7 @@
 #include <stdint.h>
 #include <pthread.h>
 
-#define SERVERPORT 9000
+#define SERVERPORT 8000
 typedef struct	sockaddr SA;
 typedef struct	sockaddr_in SA_IN;
 

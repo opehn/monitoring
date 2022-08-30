@@ -4,7 +4,7 @@
 
 static int	recv_wrap(int serverfd, char *buf, int size, int flag)
 {
-	printf("receive byte size : %d\n", size);
+	printf("receive byte size : %d, ", size);
 	int res;
 
 	if (0 > (res = recv(serverfd, buf, size, flag)))
@@ -20,6 +20,7 @@ static int	recv_wrap(int serverfd, char *buf, int size, int flag)
 
 static packet_header		*deserialize_header(char *buf)
 {
+	printf("deserialize_header\n");
 	packet_header	*header;
 //	packet_header	*temp;
 	char			*temp;
@@ -36,9 +37,9 @@ static packet_header		*deserialize_header(char *buf)
 	header->length = ntohl(*(uint32_t *)buf);
 	buf += sizeof(uint32_t);
 	header->agent_id = ntohs(*(uint16_t *)buf);
-	printf("deserialized signature : %d\n", header->signature);
-	printf("deserialized length : %d\n", header->length);
-	printf("deserialized agent_id : %d\n", header->agent_id);
+	printf("signature : %d\n", header->signature);
+	printf("length : %d\n", header->length);
+	printf("agent_id : %d\n", header->agent_id);
 //	free(temp);
 //	temp = NULL;
 	return (header);
@@ -48,15 +49,15 @@ void	print_deserialize(int signature, char *payload)
 {
 	if (signature == M)
 	{
-		printf("deserialized mem free : %d\n", ntohl(*(uint32_t *)payload));
+		printf(" deserialize mem info\n");
+		printf("mem free : %d\n", ntohl(*(uint32_t *)payload));
 		payload += sizeof(uint32_t);
-		printf("deserialized mem total : %d\n", ntohl(*(uint32_t *)payload));
+		printf("mem total : %d\n", ntohl(*(uint32_t *)payload));
 		payload += sizeof(uint32_t);
-		printf("deserialized mem used : %d\n", ntohl(*(uint32_t *)payload));
+		printf("mem used : %d\n", ntohl(*(uint32_t *)payload));
 		payload += sizeof(uint32_t);
-		printf("deserialized mem swap_used : %d\n", ntohl(*(uint32_t *)payload));
+		printf("mem swap_used : %d\n", ntohl(*(uint32_t *)payload));
 		printf("----------------------------------------------\n");
-
 	}
 }
 
@@ -77,7 +78,7 @@ void	*receive_routine(void *arg)
 			break;
 		header = deserialize_header(header_buf);
 		payload_buf = malloc(header->length);
-		if (0 > recv_wrap(p->serverfd, payload_buf, header->length, MSG_WAITALL))
+		if (0 > recv_wrap(p->serverfd, payload_buf, header->length - sizeof(packet_header), MSG_WAITALL))
 		{
 			free(payload_buf);
 			payload_buf = NULL;
