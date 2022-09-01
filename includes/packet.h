@@ -9,7 +9,7 @@
 #define P 44
 #define AID	42
 
-#define CMD_LEN 500
+#define CMD_LEN 50
 
 #pragma pack(1)
 

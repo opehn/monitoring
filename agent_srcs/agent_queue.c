@@ -8,7 +8,6 @@ aqueue *init_aqueue(void)
 	q = malloc(sizeof(aqueue));
 	q->head = NULL;
 	q->tail = NULL;
-	q->flag = 0;
 	q->size = 0;
 	if (pthread_mutex_init(&q->aqueue_lock, NULL))
     {
@@ -32,27 +31,20 @@ aqueue_node  *init_node(packet *data, aqueue_node *tail)
 
 packet	 *peek(aqueue *q)
 {
-	packet	*res;
+	int		i;
 
+	printf("peek, size : %d\n", q->size);
 	if (q->size == 0)
 		return (NULL);
 	else
-	{
-		res = malloc(sizeof(packet));
-		res->length = q->head->data->length;
-		res->payload = malloc(sizeof(res->length));
-		memcpy(res->payload, q->head->data->payload, res->length);
-	}
-		return (res);
+		return (q->head->data);
 }
 
 void	enqueue (aqueue *q, packet *data)
 {
 	aqueue_node	*new;
 
-//	printf("enaqueue payload addr : %p\n", data->payload);
 	new = init_node(data, q->tail);
-	//printf("new node addr : %p\n", new);
 	if (q->head == NULL) //adding first node of aqueue
 	{
 		q->head = new;
@@ -64,25 +56,20 @@ void	enqueue (aqueue *q, packet *data)
 	}
 	q->tail = new;
 	q->size += 1;
+	printf("enqueue, size : %d\n", q->size);
 }
 
-packet  *dequeue(aqueue *q)
+void	free_head(aqueue *q)
 {
-	packet		*copied_data;
+	packet		*data;
 	aqueue_node	*temp;
 
-	printf("queue size : %d\n", q->size);
-	if (q->size == 0)
-	{
-		return (NULL);
-	}
+	if (!q->size)
+		return ;
 	else
 	{
-		//printf("peek data addr : %p\n", data);
 		if (q->head == q->tail)
 		{
-			//When aqueue contains only one node
-			copied_data = peek(q);
 			free(q->head->data);
 			free(q->head);
 			q->tail = NULL;
@@ -90,10 +77,6 @@ packet  *dequeue(aqueue *q)
 		}
 		else
 		{
-			//printf("head addr : %p\n", q->head);
-		//	printf("head next : %p\n", q->head->next);
-		//	printf("head prev : %p\n", q->head->prev);
-			copied_data = peek(q);
 			temp = q->head;
 			q->head = q->head->next;
 			q->head->prev = NULL;
@@ -101,6 +84,5 @@ packet  *dequeue(aqueue *q)
 			free(temp);
 		}
 		q->size--;
-		return (copied_data);
 	}
 }

@@ -1,5 +1,6 @@
 #include "collect.h"
 #include "agent_queue.h"
+
 void	print_sendinfo(int signature, char *buf)
 {
 	if (signature == 11)
@@ -29,7 +30,6 @@ void	print_sendinfo(int signature, char *buf)
 
 int	print_sendheader(char *buf)
 {
-
 	int	signature;
 
 	signature = ntohs(*((uint16_t *) buf));
@@ -51,33 +51,9 @@ int	print_sendheader(char *buf)
 	return (signature);
 }
 
-packet	*safe_dequeue(aqueue *q)
+void	send_packet(int clientfd, aqueue *q, pthread_mutex_t *aqueue_mutex)
 {
-	int		res;
-	packet	*data;
-
-//	pthread_mutex_lock(&q->aqueue_lock);
- //   res = (q->flag = 0);
-  //  pthread_mutex_unlock(&q->aqueue_lock);
-
-    if (q->flag == 0)
-    {
-		pthread_mutex_lock(&q->aqueue_lock);
-		q->flag = 1;
-		pthread_mutex_unlock(&q->aqueue_lock);
-
-		data = dequeue(q);
-
-		pthread_mutex_lock(&q->aqueue_lock);
-		q->flag = 0;
-		pthread_mutex_unlock(&q->aqueue_lock);
-	}
-
-	return (data);
-}
-
-void	*send_packet(int clientfd, aqueue *q, pthread_mutex_t *aqueue_mutex)
-{
+	printf("send_packet, size : %d\n", q->size);
 	packet	*data;
 	char	*buf;
 	int		signature;
@@ -85,8 +61,9 @@ void	*send_packet(int clientfd, aqueue *q, pthread_mutex_t *aqueue_mutex)
 	data = NULL;
 	if (q->size > 0)
 	{
-		data = dequeue(q);
-		//data = safe_dequeue(q);
+		pthread_mutex_lock(&q->aqueue_lock);
+		data = peek(q);
+		pthread_mutex_unlock(&q->aqueue_lock);
 	}
 	if (data)
 	{
@@ -97,11 +74,14 @@ void	*send_packet(int clientfd, aqueue *q, pthread_mutex_t *aqueue_mutex)
 		if (0 > send(clientfd, data->payload, data->length, 0))
 		{
 			perror("send error");
+			free_head(q);
 			exit (EXIT_FAILURE);
 		}
 	}
+	pthread_mutex_lock(&q->aqueue_lock);
+	free_head(q);
+	pthread_mutex_unlock(&q->aqueue_lock);
 }
-
 
 void	*send_routine(void *arg)
 {
@@ -127,11 +107,11 @@ void	*send_routine(void *arg)
 		perror("connect error");
 		exit(EXIT_FAILURE);
 	}
-	sleep(6);
+	sleep(5);
 	while(1)
 	{
 		send_packet(clientfd, q, &q->aqueue_lock); //prev가 NULL일경우 에러처리
-		sleep(1);
+		sleep(2);
 	}
 	close(clientfd);
 }

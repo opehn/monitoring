@@ -217,7 +217,6 @@ static int	count_proc(void)
 		cur_dir_info = readdir(cur_dir);
 	}
 	closedir(cur_dir);
-	printf("proc_cnt : %d\n", proc_cnt);
 	return (proc_cnt);
 }
 
