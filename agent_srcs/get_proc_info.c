@@ -10,14 +10,16 @@ static void	parse_stat(char *payload, char *content)
 	int				j;
 	char			*buf;
 	proc_info		*p;
+	char			*temp;
 
+	temp = NULL;
 	p = (proc_info *)payload;
-	res = strtok(content, " ");
-	p->pid = htonl(atoi(res));
+	res = strtok_r(content, " ", &temp);
+	p->pid = atoi(res);
 	while (i <= 14)
 	{
 		j = 0;
-		res = strtok(NULL, " ");
+		res = strtok_r(NULL, " ", &temp);
 		if (i == 1)
 		{
 			buf = skip_bracket(res);
@@ -31,14 +33,14 @@ static void	parse_stat(char *payload, char *content)
 			buf = NULL;
 		}
 		if (i == 3)
-			p->ppid = htonl(atoi(res));
+			p->ppid = atoi(res);
 		if (i == 13)
-			u_time = htonl(strtoll(res, NULL, 10)); 
+			u_time = strtoll(res, NULL, 10); 
 		if (i == 14)
-			s_time = htonl(strtoll(res, NULL, 10));
+			s_time = strtoll(res, NULL, 10);
 		i++;
 	}
-	p->cpu_time = u_time + s_time; //hton64..
+	p->cpu_time = u_time + s_time; 
 }
 
 static void	get_stat(char *payload, char *stat_path)

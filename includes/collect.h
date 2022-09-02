@@ -2,6 +2,7 @@
 #define COLLECT_H
 
 #include "packet.h"
+#include <signal.h>
 #include <dirent.h>
 #include <math.h>
 #include <stdio.h>

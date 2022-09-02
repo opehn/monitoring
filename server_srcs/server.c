@@ -17,8 +17,8 @@ static void	init_socket(int *listenfd)
 	SA_IN   serveraddr;
 	memset(&serveraddr, 0, sizeof(serveraddr));
 	serveraddr.sin_family = AF_INET;
-	serveraddr.sin_addr.s_addr = htonl(INADDR_ANY);
-	serveraddr.sin_port = htons(SERVERPORT);
+	serveraddr.sin_addr.s_addr = INADDR_ANY;
+	serveraddr.sin_port = SERVERPORT;
 	if (0 > (res = bind(*listenfd, (SA *)&serveraddr,\
 			sizeof(serveraddr))))
 	{
@@ -48,13 +48,18 @@ static void	create_recv_thread(sparam *p)
 
 int		main(void)
 {
-	int				serverfd;
-	int				listenfd;
-	SA_IN			clientaddr;
-	socklen_t		addrlen;
-	sparam			*p;
-	squeue			*q;
+	int					clientfd;
+	int					listenfd;
+	SA_IN				clientaddr;
+	socklen_t			addrlen;
+	sparam				*p;
+	squeue				*q;
+	struct sigaction	act;
 
+	act.sa_handler = SIG_IGN;
+	sigemptyset(&act.sa_mask);
+	act.sa_flags = 0;
+	sigaction(SIGPIPE, &act, NULL);
 	p = malloc(sizeof(sparam));
 	p->q = init_squeue();
 
@@ -62,20 +67,20 @@ int		main(void)
 	addrlen = sizeof(clientaddr);
 	while(1)
 	{
-		if(0 > (serverfd = accept(listenfd, (SA *)&clientaddr, &addrlen)))
+		if(0 > (clientfd = accept(listenfd, (SA *)&clientaddr, &addrlen)))
 		{
 			perror("accpet error");
 			break;
 		}
 		printf("\n[TCP 서버] 클라이언트 점속: IP 주소 = %s, 포트 번호 = %d\n",
-				inet_ntoa(clientaddr.sin_addr), ntohs(clientaddr.sin_port));
-		p->serverfd = serverfd;
+				inet_ntoa(clientaddr.sin_addr), clientaddr.sin_port);
+		p->clientfd = clientfd;
 		create_recv_thread(p);
 //		create_work_thread(p);
-		close(serverfd);
+		close(clientfd);
 	}
 	printf("\n[TCP 서버] 클라이언트 종료 : IP 주소 = %s, 포트번호 = %d\n",
-			inet_ntoa(clientaddr.sin_addr), ntohs(clientaddr.sin_port));
+			inet_ntoa(clientaddr.sin_addr), clientaddr.sin_port);
 	pthread_mutex_destroy(&p->squeue_lock);
 	free(p->q);
 	free(p);

@@ -8,6 +8,10 @@ int main(void)
 	aparam		*p;
 	aqueue		*q;
 	
+	struct sigaction act;
+	act.sa_handler = SIG_IGN;
+	act.sa_flags = 0;
+	sigaction(SIGPIPE, &act, NULL);	
 	p = malloc(sizeof (aparam));
 	p->q = init_aqueue();
 	pthread_create(&collect_tid, NULL, collect_routine, (void *)p);

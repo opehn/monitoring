@@ -7,9 +7,11 @@ static void	parse_net(char *line, char *payload)
 	int			i = 1;
 	int			j = 0;
 	net_info	*n;
+	char		*temp;
 
+	temp = NULL;
 	n = (net_info *)payload;
-	res = strtok(line, " ");
+	res = strtok_r(line, " ", &temp);
 	buf = strndup(res, strlen(res) - 1); //ignore colon 
 	memset(n->net_name, 0, 16);
 	while(j < nullguard_strlen(buf))
@@ -21,21 +23,21 @@ static void	parse_net(char *line, char *payload)
 	buf = NULL;
 	while(i <= 10)
 	{
-		res = strtok(NULL, " ");
+		res = strtok_r(NULL, " ", &temp);
 		if (i == 1)
-			n->in_byte = htonl(strtoll(res, NULL, 10));
+			n->in_byte = strtoll(res, NULL, 10);
 		if (i == 2)
-			n->in_cnt = htonl(strtoll(res, NULL, 10));
+			n->in_cnt = strtoll(res, NULL, 10);
 		if (i == 9)
-			n->out_byte = htonl(strtoll(res, NULL, 10));
+			n->out_byte = strtoll(res, NULL, 10);
 		if (i == 10)
-			n->out_cnt = htonl(strtoll(res, NULL, 10));
+			n->out_cnt = strtoll(res, NULL, 10);
 		i++;
 	}
-	printf("collected netinfo in_cnt : %d\n", ntohl(n->in_cnt));
-	printf("collected netinfo out_cnt : %d\n", ntohl(n->out_cnt));
-	printf("collected netinfo in_byte : %d\n", ntohl(n->in_byte));
-	printf("collected netinfo out_byte : %d\n", ntohl(n->out_byte));
+	printf("collected netinfo in_cnt : %ld\n", n->in_cnt);
+	printf("collected netinfo out_cnt : %ld\n", n->out_cnt);
+	printf("collected netinfo in_byte : %ld\n", n->in_byte);
+	printf("collected netinfo out_byte : %ld\n", n->out_byte);
 	printf("-----------------------------------------\n");
 }
 

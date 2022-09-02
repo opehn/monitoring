@@ -5,24 +5,24 @@ void	print_sendinfo(int signature, char *buf)
 {
 	if (signature == 11)
 	{
-		printf("send mem info free : %d\n", ntohl(*(uint32_t *)buf));
+		printf("send mem info free : %d\n", *(uint32_t *)buf);
 		buf += sizeof(uint32_t);
-		printf("send mem info total : %d\n", ntohl(*(uint32_t *)buf));
+		printf("send mem info total : %d\n", *(uint32_t *)buf);
 		buf += sizeof(uint32_t);
-		printf("send mem info used : %d\n", ntohl(*(uint32_t *)buf));
+		printf("send mem info used : %d\n", *(uint32_t *)buf);
 		buf += sizeof(uint32_t);
-		printf("send mem info swap_used : %d\n", ntohl(*(uint32_t *)buf)); buf += sizeof(uint32_t); printf("-------------------------------------------\n");
+		printf("send mem info swap_used : %d\n", *(uint32_t *)buf); buf += sizeof(uint32_t); printf("-------------------------------------------\n");
 	}
 
 	if (signature == 22)
 	{
-		printf("send net info in_cnt : %d\n", ntohl(*(uint32_t *)buf));
+		printf("send net info in_cnt : %d\n", *(uint32_t *)buf);
 		buf += sizeof(uint32_t);
-		printf("send net info out_cnt : %d\n", ntohl(*(uint32_t *)buf));
+		printf("send net info out_cnt : %d\n", *(uint32_t *)buf);
 		buf += sizeof(uint32_t);
-		printf("send net info in_byte : %d\n", ntohl(*(uint32_t *)buf));
+		printf("send net info in_byte : %d\n", *(uint32_t *)buf);
 		buf += sizeof(uint32_t);
-		printf("send net info out_byte : %d\n", ntohl(*(uint32_t *)buf));
+		printf("send net info out_byte : %d\n", *(uint32_t *)buf);
 		buf += sizeof(uint32_t);
 		printf("-------------------------------------------\n");
 	}
@@ -32,7 +32,7 @@ int	print_sendheader(char *buf)
 {
 	int	signature;
 
-	signature = ntohs(*((uint16_t *) buf));
+	signature = *((uint16_t *) buf);
 	if (signature == M)
 		printf("send mem_info\n");
 	else if (signature == N)
@@ -43,9 +43,9 @@ int	print_sendheader(char *buf)
 		printf("send proc_info\n");
 	printf("send header signature : %d\n", signature);
 	buf += sizeof(uint16_t);
-	printf("send header length : %d\n", ntohl(*(uint32_t *)buf));
+	printf("send header length : %d\n", *(uint32_t *)buf);
 	buf += sizeof(uint32_t);
-	printf("send header aid : %d\n", ntohs(*(uint16_t *)buf));
+	printf("send header aid : %d\n", *(uint16_t *)buf);
 	buf += sizeof(uint16_t);
 	printf("\n");
 	return (signature);
@@ -101,7 +101,7 @@ void	*send_routine(void *arg)
 	memset(&serveraddr, 0, sizeof(SA_IN));
 	serveraddr.sin_family = AF_INET;
 	serveraddr.sin_addr.s_addr = inet_addr(SERVERIP);
-	serveraddr.sin_port = htons(SERVERPORT);
+	serveraddr.sin_port = SERVERPORT;
 	if (0 > (connect(clientfd, (SA *)&serveraddr, sizeof(serveraddr))))
 	{
 		perror("connect error");

@@ -1,15 +1,16 @@
 #include "collect.h"
 
-static void	serialize_cpu(char *payload)
+static void	serialize_cpu(char *payload, char **save_ptr)
 {
-	char	*res;
-	int		i = 1;
+	char		*res;
+	int			i = 1;
 	cpu_info	*c;
+	char		*temp;
 
 	c = (cpu_info *)payload;
 	while (i <= 5)
 	{
-		res = strtok(NULL, " ");
+		res = strtok_r(*save_ptr, " ", &temp);
 		if (i == 1)
 			c->usr = roundf(atoi(res) / sysconf(_SC_CLK_TCK));
 		if (i == 3)
@@ -27,6 +28,7 @@ static void	parse_cpu(char *payload)
 	int			fd;
 	char		*line;
 	char		*first_word;
+	char		*save_ptr;
 
 	fd = open("/proc/stat", O_RDONLY);
 	if (fd < 0)
@@ -37,13 +39,13 @@ static void	parse_cpu(char *payload)
 	free(get_next_line(fd, 0)); //skip first line
 	while ((line = get_next_line(fd, 0)))
 	{
-		first_word = strtok(line, " ");
+		first_word = strtok_r(line, " ", &save_ptr);
 		if (!strcmp(first_word, "intr"))
 		{
 			free(line);
 			break;
 		}
-		serialize_cpu(payload);
+		serialize_cpu(payload, &save_ptr);
 		payload += sizeof(cpu_info);
 		free(line);
 	}
@@ -81,6 +83,7 @@ static int	count_cpu(void)
 	char		*line;
 	char		*first_word;
 	int			cpu_cnt = 0;
+	char		*temp;
 
 	fd = open("/proc/stat", O_RDONLY);
 	if (fd < 0)
@@ -91,7 +94,7 @@ static int	count_cpu(void)
 	free(get_next_line(fd, 0)); //skip first line
 	while ((line = get_next_line(fd, 0)))
 	{
-		first_word = strtok(line, " ");
+		first_word = strtok_r(line, " ", &temp);
 		if (!strcmp(first_word, "intr"))
 		{
 			free(line);
