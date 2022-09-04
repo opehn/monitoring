@@ -41,8 +41,8 @@ typedef struct  cpu_info {
 } cpu_info;
 
 typedef struct mem_info {
-    uint32_t            free;
     uint32_t            total;
+    uint32_t            free;
     uint32_t            used;
     uint32_t            swap_used;
 } mem_info;

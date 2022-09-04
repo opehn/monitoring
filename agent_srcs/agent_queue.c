@@ -61,7 +61,6 @@ void	enqueue (aqueue *q, packet *data)
 
 void	free_head(aqueue *q)
 {
-	packet		*data;
 	aqueue_node	*temp;
 
 	if (!q->size)
@@ -70,6 +69,7 @@ void	free_head(aqueue *q)
 	{
 		if (q->head == q->tail)
 		{
+			free(q->head->data->payload);
 			free(q->head->data);
 			free(q->head);
 			q->tail = NULL;
@@ -80,6 +80,7 @@ void	free_head(aqueue *q)
 			temp = q->head;
 			q->head = q->head->next;
 			q->head->prev = NULL;
+			free(temp->data->payload);
 			free(temp->data);
 			free(temp);
 		}

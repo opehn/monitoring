@@ -1,7 +1,7 @@
 #ifndef	SERVER_QUEUE_H
 #define	SERVER_QUEUE_H
 
-#include "server.h"
+#include <pthread.h>
 #include "packet.h"
 
 typedef struct squeue_node 
@@ -14,15 +14,22 @@ typedef struct squeue_node
 
 typedef struct squeue 
 {
-	struct squeue_node	 *head;
-	struct squeue_node	 *tail;
-	int					 size;
+	struct squeue_node	*head;
+	struct squeue_node	*tail;
+	int					size;
 } squeue;
+
+typedef struct sparam
+{
+	squeue				*q;
+	int					clientfd;
+	pthread_mutex_t squeue_lock;
+} sparam;
 
 squeue		*init_squeue(void);
 squeue_node	*init_node(packet_header *header, char *payload, squeue_node *prev);
-char		*peek(squeue *q);
+squeue_node	*peek(squeue *q);
 void		enqueue (squeue *q, packet_header *header, char *payload);
-char		*dequeue(squeue *q);
+void		free_shead(squeue *q);
 
 #endif

@@ -1,7 +1,6 @@
 #include "server.h"
 #include "server_queue.h"
 #include "packet.h"
-
 squeue *init_squeue(void)
 {
 	squeue *q;
@@ -9,6 +8,7 @@ squeue *init_squeue(void)
 	q = malloc(sizeof(squeue));
 	q->head = NULL;
 	q->tail = NULL;
+	q->size = 0;
 
 	return (q);
 }
@@ -24,18 +24,20 @@ squeue_node  *init_node(packet_header *header, char *payload, squeue_node *tail)
 	new->next = NULL;
 }
 
-char	 *peek(squeue *q)
+squeue_node	 *peek(squeue *q)
 {
+
 	if (!q->size)
 		return (NULL);
 	else
-		return (q->head->payload);
+		return (q->head);
 }
 
 void	enqueue (squeue *q, packet_header *header, char *payload)
 {
 	squeue_node	*new;
 
+	printf("size : %d\n", q->size);
 	new = init_node(header, payload, q->tail);
 	if (q->head == NULL) //adding first node of squeue
 	{
@@ -50,30 +52,32 @@ void	enqueue (squeue *q, packet_header *header, char *payload)
 	q->tail = new;
 }
 
-char  *dequeue(squeue *q)
+void  free_shead(squeue *q)
 {
-	char		*payload;
+	squeue_node	*temp;
 
 	if (q->size == 0)
-	{
-		return (NULL);
-	}
+		return ;
 	else
 	{
-		payload = peek(q);
-		printf("peek payload addr : %p\n", payload);
 		if (q->head == q->tail)
 		{
 			//When squeue contains only one node
+			free(q->head->header);
+			free(q->head->payload);
+			free(q->head);
 			q->tail = NULL;
 			q->head = NULL;
 		}
 		else
 		{
+			temp = q->head;
 			q->head = q->head->next;
 			q->head->prev = NULL;
+			free(temp->header);
+			free(temp->payload);
+			free(temp);
 		}
 		q->size--;
-		return (payload);
 	}
 }

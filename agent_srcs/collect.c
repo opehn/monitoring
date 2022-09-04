@@ -1,21 +1,6 @@
 #include "collect.h"
 #include "agent_queue.h"
 
-void	free_queue(aqueue *q)
-{
-	aqueue_node	*temp;
-	aqueue_node	*head;
-	head = q->head;
-	while (head)
-	{
-		temp = head->next;
-		free(head->data->payload);
-		free(head->data);
-		free(head);
-		head = temp;
-	}
-}
-
 void *collect_routine	(void *arg)
 {
 	aparam	*p;

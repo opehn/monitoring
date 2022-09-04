@@ -74,7 +74,6 @@ void	send_packet(int clientfd, aqueue *q, pthread_mutex_t *aqueue_mutex)
 		if (0 > send(clientfd, data->payload, data->length, 0))
 		{
 			perror("send error");
-			free_head(q);
 			exit (EXIT_FAILURE);
 		}
 	}
@@ -110,8 +109,8 @@ void	*send_routine(void *arg)
 	sleep(5);
 	while(1)
 	{
-		send_packet(clientfd, q, &q->aqueue_lock); //prev가 NULL일경우 에러처리
-		sleep(2);
+		send_packet(clientfd, q, &q->aqueue_lock);
+		sleep(1);
 	}
 	close(clientfd);
 }

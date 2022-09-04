@@ -1,6 +1,4 @@
-#include "server_queue.h"
 #include "server.h"
-#include "packet.h"
 
 static void	init_socket(int *listenfd)
 {
@@ -34,14 +32,32 @@ static void	init_socket(int *listenfd)
 	}
 }
 
+static pthread_t *create_worker_thread(sparam *p)
+{
+	pthread_t	*worker_id;
+	int			i = 0;
+
+	if (!(worker_id = malloc(sizeof(pthread_t) * WORKER_NUM)))
+	{
+		perror("malloc error");
+		exit (EXIT_FAILURE);
+	}
+	while (i < WORKER_NUM)
+	{
+		pthread_create(&worker_id[i],  NULL, worker_routine, (void *)p);
+		if (worker_id < 0)
+		{
+			perror("thread create error");
+			exit (EXIT_FAILURE);
+		}
+		i++;
+	}
+}
+
 static void	create_recv_thread(sparam *p)
 {
 	pthread_t		recv_tid;
-	if (pthread_mutex_init(&p->squeue_lock, NULL))
-	{
-		perror("mutex init error");
-		exit (EXIT_FAILURE);
-	}
+
 	pthread_create(&recv_tid, NULL, receive_routine, (void *)p);
 	pthread_join(recv_tid, NULL);
 }
@@ -55,6 +71,7 @@ int		main(void)
 	sparam				*p;
 	squeue				*q;
 	struct sigaction	act;
+	pthread_t			*worker_tid;
 
 	act.sa_handler = SIG_IGN;
 	sigemptyset(&act.sa_mask);
@@ -62,6 +79,13 @@ int		main(void)
 	sigaction(SIGPIPE, &act, NULL);
 	p = malloc(sizeof(sparam));
 	p->q = init_squeue();
+	p->clientfd = 0;
+	if (pthread_mutex_init(&p->squeue_lock, NULL))
+	{
+		perror("mutex init error");
+		exit (EXIT_FAILURE);
+	}
+	worker_tid = create_worker_thread(p);
 
 	init_socket(&listenfd);
 	addrlen = sizeof(clientaddr);
@@ -76,9 +100,10 @@ int		main(void)
 				inet_ntoa(clientaddr.sin_addr), clientaddr.sin_port);
 		p->clientfd = clientfd;
 		create_recv_thread(p);
-//		create_work_thread(p);
 		close(clientfd);
 	}
+	for (int i = 0; i < WORKER_NUM; i++)
+		pthread_join(worker_tid[i], NULL);
 	printf("\n[TCP 서버] 클라이언트 종료 : IP 주소 = %s, 포트번호 = %d\n",
 			inet_ntoa(clientaddr.sin_addr), clientaddr.sin_port);
 	pthread_mutex_destroy(&p->squeue_lock);

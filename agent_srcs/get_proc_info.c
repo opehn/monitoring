@@ -70,15 +70,14 @@ static void	get_username(char *payload, const char *path)
 {
 	struct stat		buf;
 	struct passwd	*pw;
-	char			*temp;
+	char			temp[16];
 	int				i  = 0;
 
 	if (0 > stat(path, &buf))
 	{
-		char *null = "NULL";
-		while (i < 4)
+		while (i < 16)
 		{
-			payload[i] = null[i];
+			payload[i] = 0;
 			i++;
 		}
 		return;
@@ -96,14 +95,18 @@ static void	get_username(char *payload, const char *path)
 			exit(EXIT_FAILURE);
 		}
 	}
-	temp = strdup(pw->pw_name);	
+	memset(temp, 0, 16);
+	while (i < nullguard_strlen(pw->pw_name))
+	{
+		temp[i] = pw->pw_name[i];
+		i++;
+	}
+	i = 0;
 	while(i < nullguard_strlen(temp))
 	{
 		payload[i] = temp[i];
 		i++;
 	}
-	free(temp);
-	temp = NULL;
 }
 
 static void	get_cmdline(char *payload, char *cmd_path)
@@ -123,14 +126,13 @@ static void	get_cmdline(char *payload, char *cmd_path)
 		}
 		errno = 0;
 	}
-	buf = read_file(fd);
+	if (!(buf = read_file(fd)))
+		return;
 	while (i < nullguard_strlen(buf))
 	{
 		payload[i] = buf[i];
 		i++;
 	}
-	free(buf);
-	buf = NULL;
 	close(fd);
 }
 
@@ -183,7 +185,7 @@ static packet	*make_packet(int proc_cnt)
 
 	packet_length = sizeof(packet_header) + sizeof(proc_info) * proc_cnt;
 	proc_packet = malloc(sizeof(packet));
-	proc_packet->payload = malloc(packet_length);
+	proc_packet->payload = calloc(sizeof(char), packet_length);
 	if(!proc_packet || !proc_packet->payload)
 	{
 		perror("malloc error");
