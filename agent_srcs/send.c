@@ -32,7 +32,7 @@ int	print_sendheader(char *buf)
 {
 	int	signature;
 
-	signature = *((uint16_t *) buf);
+	signature = *((uint16_t *)buf);
 	if (signature == M)
 		printf("send mem_info\n");
 	else if (signature == N)
@@ -51,12 +51,46 @@ int	print_sendheader(char *buf)
 	return (signature);
 }
 
-void	send_packet(int clientfd, aqueue *q, pthread_mutex_t *aqueue_mutex)
+int	sendinfo_log(char *buf, int logfd)
 {
-	printf("send_packet, size : %d\n", q->size);
+	packet_header	*pht;
+	int		signature;
+	int		length;
+	char	*msg;
+
+	msg = malloc(100);
+	signature = *((uint16_t *)buf);
+	buf += sizeof(uint16_t);
+	length = *((uint32_t *)buf);
+	printf("signature : %d\n", signature);
+	printf("length : %d\n", length);
+	if (signature == M)
+		sprintf(msg, "send memory info, byte size : %d", length);
+	else if (signature == N)
+		sprintf(msg, "send network info, byte size : %d", length);
+	else if (signature == C)
+		sprintf(msg, "send cpu info, byte size : %d", length);
+	else if (signature == P)
+		sprintf(msg, "send process info, byte size : %d", length);
+	printf("msg : %s\n", msg);
+	logging(logfd, msg);
+}
+
+int	err_log(char *err_type, int logfd)
+{
+	char	*msg;
+
+	msg = malloc(150);
+	sprintf(msg, "%s : %s", err_type, strerror(errno));
+	logging(logfd, msg);
+}
+
+void	send_packet(int clientfd, aparam *p, pthread_mutex_t *aqueue_mutex)
+{
 	packet	*data;
 	char	*buf;
 	int		signature;
+	aqueue	*q = p->q;
 
 	data = NULL;
 	if (q->size > 0)
@@ -72,9 +106,11 @@ void	send_packet(int clientfd, aqueue *q, pthread_mutex_t *aqueue_mutex)
 		buf += sizeof(packet_header);
 		print_sendinfo(signature, buf);
 		if (0 > send(clientfd, data->payload, data->length, 0))
+			err_log("send err", p->logfd);
+		else
 		{
-			perror("send error");
-			exit (EXIT_FAILURE);
+			buf -= sizeof(packet_header);
+			sendinfo_log(buf, p->logfd);
 		}
 	}
 	pthread_mutex_lock(&q->aqueue_lock);
@@ -103,14 +139,16 @@ void	*send_routine(void *arg)
 	serveraddr.sin_port = SERVERPORT;
 	if (0 > (connect(clientfd, (SA *)&serveraddr, sizeof(serveraddr))))
 	{
-		perror("connect error");
+		err_log("connect err", p->logfd);
 		exit(EXIT_FAILURE);
 	}
 	sleep(5);
-	while(1)
+	int i = 0;
+	while(i < 4)
 	{
-		send_packet(clientfd, q, &q->aqueue_lock);
+		send_packet(clientfd, p, &q->aqueue_lock);
 		sleep(1);
+		i++;
 	}
 	close(clientfd);
 }

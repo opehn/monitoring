@@ -18,6 +18,7 @@ typedef struct aqueue {
 
 typedef struct aparam
 {
+	int				logfd;
 	aqueue			*q;
 } aparam;
 

@@ -55,7 +55,6 @@ char	*read_file(int fd)
 		free(buf);
 	if (read_size < 0)
 	{
-		printf("here\n");
 		perror("read error");
 		exit(EXIT_FAILURE);
 	}

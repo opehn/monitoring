@@ -29,7 +29,7 @@ typedef struct sockaddr_in SA_IN;
 #define BUFSIZE		512
 
 //parsing
-packet			*get_proc_info(void);
+packet			*get_proc_info(int logfd);
 packet			*get_cpu_info(void);
 packet			*get_mem_info(void);
 packet			*get_net_info(void);
@@ -54,5 +54,8 @@ void			*collect_routine(void *param);
 
 //send
 void			*send_routine(void *param);
+
+//log
+void    logging(int logfd, char *msg);
 
 #endif

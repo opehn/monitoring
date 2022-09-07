@@ -26,7 +26,8 @@ A_SRC_LIST := read_file.c \
 		 util.c \
 		 collect.c \
 		 send.c \
-		 agent_queue.c 
+		 agent_queue.c \
+		 log.c
 A_SRC := $(addprefix $(A_SRC_DIR), $(A_SRC_LIST))
 A_OBJS = $(A_SRC:.c=.o)
 

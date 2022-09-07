@@ -200,13 +200,14 @@ static packet	*make_packet(int proc_cnt)
 	return (proc_packet);
 }
 
-static int	count_proc(void)
+static int	count_proc(int logfd)
 {
 	DIR				*cur_dir; 
 	int				cur_cmd_len;
 	struct dirent	*cur_dir_info;
 	int				proc_cnt = 0;
 
+	printf("before logfd : %d\n", logfd);
 	cur_dir = opendir("/proc/");
 	cur_dir_info = readdir(cur_dir);
 	if (!cur_dir || !cur_dir_info || errno)
@@ -221,14 +222,17 @@ static int	count_proc(void)
 		cur_dir_info = readdir(cur_dir);
 	}
 	closedir(cur_dir);
+	printf("after logfd : %d\n", logfd);
+	write(logfd, "hi10\n", 4);
 	return (proc_cnt);
 }
 
 
-packet		*get_proc_info(void)
+packet		*get_proc_info(int logfd)
 {
 	int			proc_cnt;
 
-	proc_cnt = count_proc();
+	write(logfd, "hi9\n", 4);
+	proc_cnt = count_proc(logfd);
 	return (make_packet(proc_cnt));
 }

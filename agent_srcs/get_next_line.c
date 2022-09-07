@@ -8,7 +8,7 @@ static char    *split_line(char **backup, int idx)
 
     len = strlen(*backup);
     line = strndup(*backup, idx + 1);
-    temp = strndup(&(*backup)[idx + 1], len - idx - 1);
+    temp = strndup(&(*backup)[idx + 1], len - idx);
     free(*backup);
     *backup = temp;
     return (line);
