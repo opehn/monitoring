@@ -140,9 +140,19 @@ int main(void)
 	aparam			*p;
 	aqueue			*q;
 	int				logfd;
-	char			*filename;
 
-	logfd = daemonize();
+//	logfd = daemonize();
+
+	char *filename;
+	filename = make_filename();
+	if (!(logfd = open(filename, O_RDWR | O_APPEND | O_CREAT | O_NOCTTY, S_IRWXU)))
+	{
+		perror("file open error");
+		free(filename);
+		exit(EXIT_FAILURE);
+	}
+	free(filename);
+
 	p = init_param(logfd);
 	set_signal();
 	pthread_create(&collect_tid, NULL, collect_routine, (void *)p);

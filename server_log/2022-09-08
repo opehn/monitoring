@@ -14,3 +14,65 @@ hi
 
 [09-21-08] : worker thread start working
 [09-21-13] : save memory data
+[11-11-20] : worker thread created, waiting. . .
+[11-12-46] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 16536
+
+[11-12-46] : worker thread start working
+[11-12-51] : save memory data
+[11-21-32] : worker thread created, waiting. . .
+[11-21-32] : bind error : Address already in use
+[11-21-43] : worker thread created, waiting. . .
+[11-21-43] : bind error : Address already in use
+[11-21-59] : worker thread created, waiting. . .
+[11-22-10] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 17048
+
+[11-22-10] : worker thread start working
+[11-22-15] : save memory data
+[11-25-59] : worker thread created, waiting. . .
+[11-26-01] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 17560
+
+[11-26-01] : worker thread start working
+[11-26-06] : save memory data
+[11-26-57] : worker thread created, waiting. . .
+[11-26-58] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 18072
+
+[11-26-58] : worker thread start working
+[11-27-03] : save memory data
+[11-28-44] : worker thread created, waiting. . .
+[11-28-45] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 18584
+
+[11-28-45] : worker thread start working
+[11-28-50] : save memory data
+[11-30-16] : worker thread created, waiting. . .
+[11-30-17] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 19096
+
+[11-30-17] : worker thread start working
+[11-30-22] : save memory data
+[11-31-23] : worker thread created, waiting. . .
+[11-31-25] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 19608
+
+[11-31-25] : worker thread start working
+[11-31-30] : save memory data
+[11-32-20] : worker thread created, waiting. . .
+[11-32-22] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 20120
+
+[11-32-22] : worker thread start working
+[11-32-27] : save memory data
+[11-32-53] : worker thread created, waiting. . .
+[11-32-55] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 20632
+
+[11-32-55] : worker thread start working
+[11-33-00] : save memory data
+[11-33-01] : save network data
+[11-33-02] : save cpu data
+[11-33-03] : save process data
+[11-33-04] : save memory data

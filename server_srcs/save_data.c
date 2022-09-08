@@ -144,16 +144,18 @@ static void	write_data(int fd, int logfd, squeue *q, pthread_mutex_t *log_lock)
 
 void	save_file(sparam *p)
 {
+	printf("save_file\n");
 	char	*file_name;
 	int		fd;
 	squeue	*q;
 
 	q = p->q;
 	file_name = make_filename(q->head->header->agent_id, p->logfd, &p->log_lock);
+	printf("file name : %s\n", file_name);
 	if (0 > (fd = open(file_name, O_RDWR | O_APPEND | O_CREAT, S_IRWXU)))
 	{
+		printf("here");
 		err_log("file open error", p->logfd, &p->log_lock);
-		perror("file open error");
 		return ;
 	}
 	free(file_name);

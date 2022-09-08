@@ -9,6 +9,7 @@ static int	  check_signature(int signature)
 	{
 		if (signature == signature_arr[i])
 			return (1);
+		i++;
 	}
 	return (0);
 }
