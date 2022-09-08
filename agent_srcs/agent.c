@@ -143,9 +143,9 @@ int main(void)
 	p = init_param(logfd);
 	set_signal();
 	pthread_create(&collect_tid, NULL, collect_routine, (void *)p);
-	agent_logging(logfd, p->log_lock, "collect thread created");
+	agent_logging(logfd, &p->log_lock, "collect thread created");
 	pthread_create(&send_tid, NULL, send_routine, (void *)p);
-	agent_logging(logfd, p->log_lock, "send thread created");
+	agent_logging(logfd, &p->log_lock, "send thread created");
 
 	pthread_join(collect_tid, NULL);
 	pthread_join(send_tid, NULL);

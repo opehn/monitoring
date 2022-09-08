@@ -1,7 +1,7 @@
 #include "collect.h"
 #include "agent_queue.h"
 
-int	sendinfo_log(char *buf, int logfd)
+void	sendinfo_log(char *buf, int logfd, pthread_mutex_t *log_lock)
 {
 	packet_header	*pht;
 	int		signature;
@@ -20,22 +20,21 @@ int	sendinfo_log(char *buf, int logfd)
 		sprintf(msg, "send cpu info, byte size : %d", length);
 	else if (signature == P)
 		sprintf(msg, "send process info, byte size : %d", length);
-	printf("msg : %s\n", msg);
-	logging(logfd, msg);
+	agent_logging(logfd, log_lock, msg);
 	free(msg);
 }
 
-int	err_log(char *err_type, int logfd)
+int	err_log(char *err_type, int logfd, pthread_mutex_t *log_lock)
 {
 	char	*msg;
 
 	msg = malloc(150);
 	sprintf(msg, "%s : %s", err_type, strerror(errno));
-	logging(logfd, msg);
+	agent_logging(logfd, log_lock, msg);
 	free(msg);
 }
 
-void	send_packet(int clientfd, aparam *p, pthread_mutex_t *aqueue_mutex)
+void	send_packet(int clientfd, aparam *p, pthread_mutex_t *aqueue_mutex, pthread_mutex_t *log_lock)
 {
 	packet	*data;
 	char	*buf;
@@ -53,9 +52,9 @@ void	send_packet(int clientfd, aparam *p, pthread_mutex_t *aqueue_mutex)
 	{
 		buf = data->payload;
 		if (0 > send(clientfd, data->payload, data->length, 0))
-			err_log("send err", p->logfd);
+			err_log("send err", p->logfd, log_lock);
 		else
-			sendinfo_log(buf, p->logfd);
+			sendinfo_log(buf, p->logfd, log_lock);
 	}
 	pthread_mutex_lock(&q->aqueue_lock);
 	free_head(q);
@@ -83,14 +82,14 @@ void	*send_routine(void *arg)
 	serveraddr.sin_port = SERVERPORT;
 	if (0 > (connect(clientfd, (SA *)&serveraddr, sizeof(serveraddr))))
 	{
-		err_log("connect err", p->logfd);
+		err_log("connect err", p->logfd, &p->log_lock);
 		exit(EXIT_FAILURE);
 	}
 	sleep(5);
 	int i = 0;
 	while(i < 4)
 	{
-		send_packet(clientfd, p, &q->aqueue_lock);
+		send_packet(clientfd, p, &q->aqueue_lock, &p->log_lock);
 		sleep(1);
 		i++;
 	}

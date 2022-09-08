@@ -56,6 +56,6 @@ void			*collect_routine(void *param);
 void			*send_routine(void *param);
 
 //log
-void			agent_logging(int logfd, pthread_mutex_t log_lock, char *msg);
+void			agent_logging(int logfd, pthread_mutex_t *log_lock, char *msg);
 
 #endif

@@ -142,6 +142,7 @@ static pthread_t *create_worker_thread(sparam *p)
 		server_logging("worker thread created, waiting. . .", p->logfd);
 		i++;
 	}
+	return (worker_id);
 }
 
 static void	create_recv_thread(sparam *p)

@@ -7,7 +7,7 @@ static int	  check_signature(int signature)
 
 	while (i < 4)
 	{
-		if (signature = signature_arr[i])
+		if (signature == signature_arr[i])
 			return (1);
 	}
 	return (0);
