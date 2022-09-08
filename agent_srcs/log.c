@@ -1,6 +1,6 @@
 #include "collect.h"
 
-void	agent_logging(int logfd, pthread_mutex_t *log_lock, char *msg)
+void	agent_logging(char *msg, int logfd, pthread_mutex_t *log_lock)
 {
 	time_t		cur = time(NULL);
 	struct tm	*t = localtime(&cur);

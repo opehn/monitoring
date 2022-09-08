@@ -25,7 +25,7 @@ void	*worker_routine(void *args)
 			break;
 		usleep(10000);
 	}
-	server_logging("worker thread start working", p->logfd);
+	server_logging("worker thread start working", p->logfd, &p->log_lock);
 	while (1)
 	{
 		cur = peek(p->q);
@@ -36,5 +36,5 @@ void	*worker_routine(void *args)
 		}
 		sleep(1);
 	}
-	server_logging("worker thread end", p->logfd);
+	server_logging("worker thread end", p->logfd, &p->log_lock);
 }

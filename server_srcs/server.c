@@ -72,7 +72,7 @@ static int daemonize(void)
     char str[256];
     pid_fd = open("./server_log/daemon_pid", O_RDWR | O_CREAT | O_NOCTTY, 0640);
     if (pid_fd < 0) {
-		err_log("log error", logfd);
+		perror("log error");
         exit(EXIT_FAILURE);
     }
     sprintf(str, "%d\n", getpid());
@@ -81,7 +81,7 @@ static int daemonize(void)
     filename = make_filename();
     if (!(logfd = open(filename, O_RDWR | O_APPEND | O_CREAT | O_NOCTTY, S_IRWXU)))
     {
-		err_log("log file open error", logfd);
+		perror("log file open error");
         free(filename);
         exit(EXIT_FAILURE);
     }
@@ -89,14 +89,14 @@ static int daemonize(void)
     return (logfd);
 }
 
-static void	init_socket(int *listenfd, int logfd)
+static void	init_socket(int *listenfd, int logfd, pthread_mutex_t *log_lock)
 {
 	int res;
 
 	//socket()
 	if (0 > (*listenfd = socket(AF_INET, SOCK_STREAM, 0)))
 	{
-		err_log("socket open error", logfd);
+		err_log("socket open error", logfd, log_lock);
 		exit(EXIT_FAILURE);
 	}
 
@@ -109,14 +109,14 @@ static void	init_socket(int *listenfd, int logfd)
 	if (0 > (res = bind(*listenfd, (SA *)&serveraddr,\
 			sizeof(serveraddr))))
 	{
-		err_log("bind error", logfd);
+		err_log("bind error", logfd, log_lock);
 		exit(EXIT_FAILURE);
 	}
 
 	//listen()
 	if(0 > (listen(*listenfd, SOMAXCONN)))
 	{
-		err_log("listen error", logfd);
+		err_log("listen error", logfd, log_lock);
 		exit(EXIT_FAILURE);
 	}
 }
@@ -128,7 +128,7 @@ static pthread_t *create_worker_thread(sparam *p)
 
 	if (!(worker_id = malloc(sizeof(pthread_t) * WORKER_NUM)))
 	{
-		err_log("malloc error", p->logfd);
+		err_log("malloc error", p->logfd, &p->log_lock);
 		exit (EXIT_FAILURE);
 	}
 	while (i < WORKER_NUM)
@@ -136,10 +136,10 @@ static pthread_t *create_worker_thread(sparam *p)
 		pthread_create(&worker_id[i],  NULL, worker_routine, (void *)p);
 		if (worker_id < 0)
 		{
-			err_log("thread create error", p->logfd);
+			err_log("thread create error", p->logfd, &p->log_lock);
 			exit (EXIT_FAILURE);
 		}
-		server_logging("worker thread created, waiting. . .", p->logfd);
+		server_logging("worker thread created, waiting. . .", p->logfd, &p->log_lock);
 		i++;
 	}
 	return (worker_id);
@@ -162,14 +162,14 @@ sparam	*init_param(int logfd)
 	p->q = init_squeue();
 	p->clientfd = 0;
 	p->logfd = logfd;
-	if (pthread_mutex_init(&p->squeue_lock, NULL))
-	{
-		err_log("mutex init error", logfd);
-		exit (EXIT_FAILURE);
-	}
 	if (pthread_mutex_init(&p->log_lock, NULL))
 	{
-		err_log("mutex init error", logfd);
+		perror("mutex init error");
+		exit (EXIT_FAILURE);
+	}
+	if (pthread_mutex_init(&p->squeue_lock, NULL))
+	{
+		err_log("mutex init error", logfd, &p->log_lock);
 		exit (EXIT_FAILURE);
 	}
 	return (p);
@@ -198,20 +198,20 @@ int		main(void)
 	logfd = daemonize();
 	p = init_param(logfd);
 	worker_tid = create_worker_thread(p);
-	init_socket(&listenfd, logfd);
+	init_socket(&listenfd, logfd, &p->log_lock);
 	addrlen = sizeof(clientaddr);
 	while(1)
 	{
 		if(0 > (clientfd = accept(listenfd, (SA *)&clientaddr, &addrlen)))
 		{
-			err_log("accept error", logfd);
+			err_log("accept error", logfd, &p->log_lock);
 			break;
 		}
 		char	*msg;
 		msg = malloc (100);
 		sprintf(msg, "\n[TCP 서버] 클라이언트 접속: IP 주소 = %s, 포트 번호 = %d\n",
 				inet_ntoa(clientaddr.sin_addr), clientaddr.sin_port);
-		server_logging(msg, logfd);
+		server_logging(msg, logfd, &p->log_lock);
 		free(msg);
 		p->clientfd = clientfd;
 		create_recv_thread(p);
@@ -223,7 +223,7 @@ int		main(void)
 	msg = malloc(100);
 	sprintf(msg, "\n[TCP 서버] 클라이언트 종료 : IP 주소 = %s, 포트번호 = %d\n",
 			inet_ntoa(clientaddr.sin_addr), clientaddr.sin_port);
-	server_logging(msg, logfd);
+	server_logging(msg, logfd, &p->log_lock);
 	free(msg);
 	pthread_mutex_destroy(&p->squeue_lock);
 	pthread_mutex_destroy(&p->log_lock);

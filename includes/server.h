@@ -29,8 +29,8 @@ void			*receive_routine(void *arg);
 void			*worker_routine(void *args);
 void			save_file(sparam *p);
 
-void	server_logging(char *msg, int logfd);
-int		err_log(char *err_type, int logfd);
+void	server_logging(char *msg, int logfd, pthread_mutex_t *log_lock);
+void	err_log(char *err_type, int logfd, pthread_mutex_t *log_lock);
 void	send_packet(int clientfd, sparam *p, pthread_mutex_t *aqueue_mutex);
 
 #endif

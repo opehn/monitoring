@@ -152,7 +152,7 @@ static void	serialize_proc(char *payload, char *d_name)
 	get_cmdline(payload, cmd_path);
 }
 
-static int	*iter_dir(char *payload)
+static void	*iter_dir(char *payload)
 {
 	DIR				*cur_dir; 
 	int				cur_cmd_len;

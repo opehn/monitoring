@@ -20,17 +20,17 @@ void	sendinfo_log(char *buf, int logfd, pthread_mutex_t *log_lock)
 		sprintf(msg, "send cpu info, byte size : %d", length);
 	else if (signature == P)
 		sprintf(msg, "send process info, byte size : %d", length);
-	agent_logging(logfd, log_lock, msg);
+	agent_logging(msg, logfd, log_lock);
 	free(msg);
 }
 
-int	err_log(char *err_type, int logfd, pthread_mutex_t *log_lock)
+void	err_log(char *err_type, int logfd, pthread_mutex_t *log_lock)
 {
 	char	*msg;
 
 	msg = malloc(150);
 	sprintf(msg, "%s : %s", err_type, strerror(errno));
-	agent_logging(logfd, log_lock, msg);
+	agent_logging(msg, logfd, log_lock);
 	free(msg);
 }
 

@@ -124,8 +124,11 @@ static aparam *init_param(int logfd)
 
 	p = malloc(sizeof (aparam));
 	p->q = init_aqueue();
-	pthread_mutex_init(&p->q->aqueue_lock, NULL);
-	pthread_mutex_init(&p->log_lock, NULL);
+	if (pthread_mutex_init(&p->log_lock, NULL))
+    {
+        perror("mutex init error");
+        exit (EXIT_FAILURE);
+    }
 	p->logfd = logfd;
 	return (p);
 }
@@ -143,9 +146,9 @@ int main(void)
 	p = init_param(logfd);
 	set_signal();
 	pthread_create(&collect_tid, NULL, collect_routine, (void *)p);
-	agent_logging(logfd, &p->log_lock, "collect thread created");
+	agent_logging("collect thread created", logfd, &p->log_lock);
 	pthread_create(&send_tid, NULL, send_routine, (void *)p);
-	agent_logging(logfd, &p->log_lock, "send thread created");
+	agent_logging("send thread created", logfd, &p->log_lock);
 
 	pthread_join(collect_tid, NULL);
 	pthread_join(send_tid, NULL);

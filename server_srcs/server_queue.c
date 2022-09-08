@@ -22,6 +22,7 @@ squeue_node  *init_node(packet_header *header, char *payload, squeue_node *tail)
 	new->payload = payload;
 	new->prev = tail;
 	new->next = NULL;
+	return (new);
 }
 
 squeue_node	 *peek(squeue *q)
@@ -37,7 +38,6 @@ void	enqueue (squeue *q, packet_header *header, char *payload)
 {
 	squeue_node	*new;
 
-	printf("size : %d\n", q->size);
 	new = init_node(header, payload, q->tail);
 	if (q->head == NULL) //adding first node of squeue
 	{
