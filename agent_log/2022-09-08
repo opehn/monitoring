@@ -100,3 +100,57 @@ push mem_info
 [07-23-55] : push net_info
 [07-23-56] : push cpu_info
 [07-23-57] : push proc_info
+[09-21-08] : collect thread created
+[09-21-08] : push mem_info
+[09-21-08] : send thread created
+[09-21-09] : push net_info
+[09-21-10] : push cpu_info
+[09-21-11] : push proc_info
+[09-21-13] : push mem_info
+[09-21-13] : send memory info, byte size : 24
+[09-21-14] : push net_info
+[09-21-14] : send network info, byte size : 56
+[09-21-15] : push cpu_info
+[09-21-15] : send cpu info, byte size : 136
+[09-21-16] : push proc_info
+[09-21-16] : send process info, byte size : 28280
+[09-21-17] : push mem_info
+[09-21-18] : push net_info
+[09-21-19] : push cpu_info
+[09-21-20] : push proc_info
+[09-21-21] : push mem_info
+[09-21-22] : push net_info
+[09-21-23] : push cpu_info
+[09-21-24] : push proc_info
+[09-21-25] : push mem_info
+[09-21-26] : push net_info
+[09-21-27] : push cpu_info
+[09-21-28] : push proc_info
+[09-21-29] : push mem_info
+[09-21-30] : push net_info
+[09-21-31] : push cpu_info
+[09-21-32] : push proc_info
+[09-21-33] : push mem_info
+[09-21-34] : push net_info
+[09-21-35] : push cpu_info
+[09-21-36] : push proc_info
+[09-21-37] : push mem_info
+[09-21-38] : push net_info
+[09-21-39] : push cpu_info
+[09-21-40] : push proc_info
+[09-21-41] : push mem_info
+[09-21-42] : push net_info
+[09-21-43] : push cpu_info
+[09-21-44] : push proc_info
+[09-21-45] : push mem_info
+[09-21-46] : push net_info
+[09-21-47] : push cpu_info
+[09-21-48] : push proc_info
+[09-21-49] : push mem_info
+[09-21-50] : push net_info
+[09-21-51] : push cpu_info
+[09-21-52] : push proc_info
+[09-21-53] : push mem_info
+[09-21-54] : push net_info
+[09-21-55] : push cpu_info
+[09-21-56] : push proc_info

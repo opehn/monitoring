@@ -1,7 +1,7 @@
 AGENT = agent
 SERVER = server
 
-CC = gcc
+CC = clang-14 
 FLAGS = -g -Wall -Werror -Wextra
 
 INC = -I$(HEADER_DIR)

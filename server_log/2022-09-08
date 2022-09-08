@@ -8,3 +8,9 @@ hi
 [TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 15512
 
 [07-23-54] : worker thread start working
+[09-21-05] : worker thread created, waiting. . .
+[09-21-08] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 16024
+
+[09-21-08] : worker thread start working
+[09-21-13] : save memory data

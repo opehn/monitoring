@@ -1032,3 +1032,6 @@ pid : 85267 ppid : 1 User name : acho CPU time : 27 Cmdline : ./agent
 nvim
 pid : 85271 ppid : 83770 User name : acho CPU time : 10 Cmdline : nvim
 ----------------------------------------------------------------------------------------------------
+MEMORY
+MemTotal : 4002172 MemFree : 313136 Used : 3689036 SwapUsed : 16468
+

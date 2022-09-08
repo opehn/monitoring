@@ -87,11 +87,10 @@ void	*send_routine(void *arg)
 	}
 	sleep(5);
 	int i = 0;
-	while(i < 4)
+	while(1)
 	{
 		send_packet(clientfd, p, &q->aqueue_lock, &p->log_lock);
 		sleep(1);
-		i++;
 	}
 	close(clientfd);
 }
