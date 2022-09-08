@@ -207,7 +207,6 @@ static int	count_proc(int logfd)
 	struct dirent	*cur_dir_info;
 	int				proc_cnt = 0;
 
-	printf("before logfd : %d\n", logfd);
 	cur_dir = opendir("/proc/");
 	cur_dir_info = readdir(cur_dir);
 	if (!cur_dir || !cur_dir_info || errno)
@@ -222,7 +221,6 @@ static int	count_proc(int logfd)
 		cur_dir_info = readdir(cur_dir);
 	}
 	closedir(cur_dir);
-	printf("after logfd : %d\n", logfd);
 	return (proc_cnt);
 }
 

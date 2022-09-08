@@ -83,6 +83,7 @@ void	*send_routine(void *arg)
 	if (0 > (connect(clientfd, (SA *)&serveraddr, sizeof(serveraddr))))
 	{
 		err_log("connect err", p->logfd, &p->log_lock);
+		close(clientfd);
 		exit(EXIT_FAILURE);
 	}
 	sleep(5);
