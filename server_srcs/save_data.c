@@ -2,7 +2,6 @@
 
 char	*make_filename(int aid)
 {
-	printf("make_filename\n");
 	time_t		cur_time; 
 	struct tm*	time_struct;
 	char		*file_name;
@@ -114,44 +113,49 @@ void	write_process(int fd, squeue *q)
 	free_shead(q);
 }
 
-void	write_data(int fd, squeue *q)
+static void	write_data(int fd, int logfd, squeue *q)
 {
 	char	type[10];
 
 	switch (q->head->header->signature)
 	{
 		case 11 :
+			server_logging("save memory data", logfd);
 			write(fd, "MEMORY\n", 7);
 			write_memory(fd, q);
 			break;
 		case 22 :
+			server_logging("save network data", logfd);
 			write(fd, "NETWORK\n", 8);
 			write_network(fd, q);
 			break;
 		case 33 :
+			server_logging("save cpu data", logfd);
 			write(fd, "CPU\n", 4);
 			write_cpu(fd, q);
 			break;
 		case 44 :
-			write(fd, "PROCESS\n", 8);
+			server_logging("save process data", logfd);
 			write_process(fd, q);
 			write(fd, "----------------------------------------------------------------------------------------------------\n", 101);
 			break;
 	}
 }
 
-void	save_file(squeue *q)
+void	save_file(sparam *p)
 {
-	printf("save_file\n");
 	char	*file_name;
 	int		fd;
+	squeue	*q;
 
+	q = p->q;
 	file_name = make_filename(q->head->header->agent_id);
 	if (0 > (fd = open(file_name, O_RDWR | O_APPEND | O_CREAT, S_IRWXU)))
 	{
+		err_log("file open error", p->logfd);
 		perror("file open error");
 		return ;
 	}
 	free(file_name);
-	write_data(fd, q);
+	write_data(fd, p->logfd, q);
 }

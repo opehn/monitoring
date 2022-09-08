@@ -36,7 +36,8 @@ S_SRC_LIST := server.c \
 		 server_queue.c \
 		 receive.c \
 		 save_data.c \
-		 worker.c
+		 worker.c \
+		 log.c
 S_SRC := $(addprefix $(S_SRC_DIR), $(S_SRC_LIST))
 S_OBJS = $(S_SRC:.c=.o)
 

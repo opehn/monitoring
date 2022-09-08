@@ -23,7 +23,9 @@ typedef struct sparam
 {
 	squeue				*q;
 	int					clientfd;
+	int					logfd;
 	pthread_mutex_t squeue_lock;
+	pthread_mutex_t log_lock;
 } sparam;
 
 squeue		*init_squeue(void);

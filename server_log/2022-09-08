@@ -1,0 +1,10 @@
+hi
+[06-52-52] : worker thread created
+[06-53-12] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 15000
+
+[07-23-51] : worker thread created, waiting. . .
+[07-23-54] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 15512
+
+[07-23-54] : worker thread start working

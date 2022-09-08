@@ -1,56 +1,6 @@
 #include "collect.h"
 #include "agent_queue.h"
 
-void	print_sendinfo(int signature, char *buf)
-{
-	if (signature == 11)
-	{
-		printf("send mem info free : %d\n", *(uint32_t *)buf);
-		buf += sizeof(uint32_t);
-		printf("send mem info total : %d\n", *(uint32_t *)buf);
-		buf += sizeof(uint32_t);
-		printf("send mem info used : %d\n", *(uint32_t *)buf);
-		buf += sizeof(uint32_t);
-		printf("send mem info swap_used : %d\n", *(uint32_t *)buf); buf += sizeof(uint32_t); printf("-------------------------------------------\n");
-	}
-
-	if (signature == 22)
-	{
-		printf("send net info in_cnt : %d\n", *(uint32_t *)buf);
-		buf += sizeof(uint32_t);
-		printf("send net info out_cnt : %d\n", *(uint32_t *)buf);
-		buf += sizeof(uint32_t);
-		printf("send net info in_byte : %d\n", *(uint32_t *)buf);
-		buf += sizeof(uint32_t);
-		printf("send net info out_byte : %d\n", *(uint32_t *)buf);
-		buf += sizeof(uint32_t);
-		printf("-------------------------------------------\n");
-	}
-}
-
-int	print_sendheader(char *buf)
-{
-	int	signature;
-
-	signature = *((uint16_t *)buf);
-	if (signature == M)
-		printf("send mem_info\n");
-	else if (signature == N)
-		printf("send net_info\n");
-	else if (signature == C)
-		printf("send cpu_info\n");
-	else if (signature == P)
-		printf("send proc_info\n");
-	printf("send header signature : %d\n", signature);
-	buf += sizeof(uint16_t);
-	printf("send header length : %d\n", *(uint32_t *)buf);
-	buf += sizeof(uint32_t);
-	printf("send header aid : %d\n", *(uint16_t *)buf);
-	buf += sizeof(uint16_t);
-	printf("\n");
-	return (signature);
-}
-
 int	sendinfo_log(char *buf, int logfd)
 {
 	packet_header	*pht;
@@ -62,8 +12,6 @@ int	sendinfo_log(char *buf, int logfd)
 	signature = *((uint16_t *)buf);
 	buf += sizeof(uint16_t);
 	length = *((uint32_t *)buf);
-	printf("signature : %d\n", signature);
-	printf("length : %d\n", length);
 	if (signature == M)
 		sprintf(msg, "send memory info, byte size : %d", length);
 	else if (signature == N)
@@ -74,6 +22,7 @@ int	sendinfo_log(char *buf, int logfd)
 		sprintf(msg, "send process info, byte size : %d", length);
 	printf("msg : %s\n", msg);
 	logging(logfd, msg);
+	free(msg);
 }
 
 int	err_log(char *err_type, int logfd)
@@ -83,6 +32,7 @@ int	err_log(char *err_type, int logfd)
 	msg = malloc(150);
 	sprintf(msg, "%s : %s", err_type, strerror(errno));
 	logging(logfd, msg);
+	free(msg);
 }
 
 void	send_packet(int clientfd, aparam *p, pthread_mutex_t *aqueue_mutex)
@@ -102,16 +52,10 @@ void	send_packet(int clientfd, aparam *p, pthread_mutex_t *aqueue_mutex)
 	if (data)
 	{
 		buf = data->payload;
-		signature = print_sendheader(buf);
-		buf += sizeof(packet_header);
-		print_sendinfo(signature, buf);
 		if (0 > send(clientfd, data->payload, data->length, 0))
 			err_log("send err", p->logfd);
 		else
-		{
-			buf -= sizeof(packet_header);
 			sendinfo_log(buf, p->logfd);
-		}
 	}
 	pthread_mutex_lock(&q->aqueue_lock);
 	free_head(q);

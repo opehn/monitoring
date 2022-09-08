@@ -27,6 +27,10 @@ typedef struct	sockaddr_in SA_IN;
 
 void			*receive_routine(void *arg);
 void			*worker_routine(void *args);
-void			save_file(squeue *q);
+void			save_file(sparam *p);
+
+void	server_logging(char *msg, int logfd);
+int		err_log(char *err_type, int logfd);
+void	send_packet(int clientfd, sparam *p, pthread_mutex_t *aqueue_mutex);
 
 #endif

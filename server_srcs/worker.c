@@ -25,15 +25,16 @@ void	*worker_routine(void *args)
 			break;
 		usleep(10000);
 	}
-	printf("here\n");
+	server_logging("worker thread start working", p->logfd);
 	while (1)
 	{
 		cur = peek(p->q);
 		if (cur)
 		{
 			if (check_signature(cur->header->signature))
-				save_file(p->q);
+				save_file(p);
 		}
 		sleep(1);
 	}
+	server_logging("worker thread end", p->logfd);
 }

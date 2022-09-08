@@ -1,34 +1,17 @@
 #include "server.h"
 
-static int	recv_wrap(int clientfd, char *buf, int size, int flag)
+static int	recv_wrap(int clientfd, int logfd, char *buf, int size, int flag)
 {
-	printf("receive byte size : %d, ", size);
 	int res;
 
 	if (0 > (res = recv(clientfd, buf, size, flag)))
 	{
-		perror("server recv error");
+		err_log("server rece error", logfd);
 		return (-1);
 	}
 	else if (res == 0)
 		return (-2);
 	return (0);
-}
-
-void	print_deserialize(int signature, char *payload)
-{
-	if (signature == M)
-	{
-		printf(" deserialize mem info\n");
-		printf("mem free : %d\n", *(uint32_t *)payload);
-		payload += sizeof(uint32_t);
-		printf("mem total : %d\n", *(uint32_t *)payload);
-		payload += sizeof(uint32_t);
-		printf("mem used : %d\n", *(uint32_t *)payload);
-		payload += sizeof(uint32_t);
-		printf("mem swap_used : %d\n", *(uint32_t *)payload);
-		printf("----------------------------------------------\n");
-	}
 }
 
 void	*receive_routine(void *arg)
@@ -46,12 +29,11 @@ void	*receive_routine(void *arg)
 	{
 		if (!(header_buf = malloc(sizeof(packet_header))))
 		{
-			perror("malloc error");
+			err_log("malloc error", p->logfd);
 			return (NULL);
 		}
-		if (0 > recv_wrap(p->clientfd, header_buf, sizeof(packet_header), MSG_WAITALL))
+		if (0 > recv_wrap(p->clientfd, p->logfd, header_buf, sizeof(packet_header), MSG_WAITALL))
 		{
-			printf("here\n");
 			free(header_buf);
 			return (NULL);
 		}
@@ -59,10 +41,10 @@ void	*receive_routine(void *arg)
 		body_length = header->length - sizeof(packet_header);
 		if (!(payload_buf = malloc(body_length)))
 		{
-			perror("malloc error");
+			err_log("malloc error", p->logfd);
 			return (NULL);
 		}
-		if (0 > recv_wrap(p->clientfd, payload_buf, body_length, MSG_WAITALL))
+		if (0 > recv_wrap(p->clientfd, p->logfd, payload_buf, body_length, MSG_WAITALL))
 		{
 			printf("here\n");
 			free(header_buf);
@@ -73,5 +55,6 @@ void	*receive_routine(void *arg)
 		enqueue(p->q, (packet_header *)header_buf, payload_buf);
 		pthread_mutex_unlock(&p->squeue_lock);
 	}
+	server_logging("receive thread end", p->logfd);
 	return (NULL);
 }

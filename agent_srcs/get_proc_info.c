@@ -223,7 +223,6 @@ static int	count_proc(int logfd)
 	}
 	closedir(cur_dir);
 	printf("after logfd : %d\n", logfd);
-	write(logfd, "hi10\n", 4);
 	return (proc_cnt);
 }
 
@@ -232,7 +231,6 @@ packet		*get_proc_info(int logfd)
 {
 	int			proc_cnt;
 
-	write(logfd, "hi9\n", 4);
 	proc_cnt = count_proc(logfd);
 	return (make_packet(proc_cnt));
 }

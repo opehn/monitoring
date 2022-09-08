@@ -1,1 +1,1 @@
-cat log/daemon_pid | xargs kill
+cat agent_log/daemon_pid | xargs kill
