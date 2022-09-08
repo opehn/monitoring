@@ -88,14 +88,6 @@ static int daemonize(void)
 	fopen("/dev/null", "w+");
 	fopen("/dev/null", "w+");
 
-	char str[256];
-	pid_fd = open("./agent_log/daemon_pid", O_RDWR|O_CREAT | O_NOCTTY, 0640);
-	if (pid_fd < 0) {
-		exit(EXIT_FAILURE);
-	}
-	sprintf(str, "%d\n", getpid());
-	write(pid_fd, str, strlen(str));
-
 	filename = make_filename();
 	if (!(logfd = open(filename, O_RDWR | O_APPEND | O_CREAT | O_NOCTTY, S_IRWXU)))
 	{
