@@ -1,5 +1,15 @@
 #include "collect.h"
 
+void    err_log(char *err_type, int logfd, pthread_mutex_t *log_lock)
+{
+    char    *msg;
+
+    msg = malloc(150);
+    sprintf(msg, "%s : %s", err_type, strerror(errno));
+    agent_logging(msg, logfd, log_lock);
+    free(msg);
+}
+
 void	agent_logging(char *msg, int logfd, pthread_mutex_t *log_lock)
 {
 	time_t		cur = time(NULL);

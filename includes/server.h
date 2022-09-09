@@ -20,7 +20,7 @@
 #include "server_queue.h"
 
 #define SERVERPORT 8000
-#define WORKER_NUM 1
+#define WORKER_NUM 4
 
 typedef struct	sockaddr SA;
 typedef struct	sockaddr_in SA_IN;

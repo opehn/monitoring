@@ -1,0 +1,348 @@
+[05-22-20] : worker thread created, waiting. . .
+[05-22-22] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 32408
+
+[05-22-22] : worker thread start working
+[05-22-25] : save memory data
+[05-22-26] : save network data
+[05-22-27] : save cpu data
+[05-22-28] : save process data
+[05-22-29] : save memory data
+[05-22-30] : save network data
+[05-22-31] : save cpu data
+[05-22-32] : save process data
+[05-22-33] : save memory data
+[05-22-34] : save network data
+[05-22-35] : save cpu data
+[05-22-36] : save process data
+[05-22-37] : save memory data
+[05-22-38] : save network data
+[05-22-39] : save cpu data
+[05-22-40] : save process data
+[05-22-41] : save memory data
+[05-22-42] : save network data
+[05-22-43] : save cpu data
+[05-22-44] : save process data
+[05-22-45] : save memory data
+[05-22-46] : save network data
+[05-22-47] : save cpu data
+[05-22-48] : save process data
+[05-22-49] : save memory data
+[05-22-50] : save network data
+[05-22-51] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 32920
+
+[05-22-51] : save cpu data
+[05-22-52] : save process data
+[05-22-53] : save memory data
+[05-22-54] : save network data
+[05-22-55] : save cpu data
+[05-23-05] : worker thread created, waiting. . .
+[07-35-04] : worker thread created, waiting. . .
+[07-35-04] : worker thread created, waiting. . .
+[07-35-04] : worker thread created, waiting. . .
+[07-35-04] : worker thread created, waiting. . .
+[07-35-07] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 33432
+
+[07-35-07] : worker thread start working
+[07-35-07] : worker thread start working
+[07-35-07] : worker thread start working
+[07-35-07] : worker thread start working
+[07-35-10] : save memory data
+[07-35-11] : save network data
+[07-35-11] : save cpu data
+[07-35-11] : save process data
+[07-35-11] : save process data
+[07-35-12] : save network data
+[07-35-12] : save cpu data
+[07-35-12] : save process data
+[07-35-12] : save memory data
+[07-35-13] : save network data
+[07-35-13] : save cpu data
+[07-35-13] : save process data
+[07-35-13] : save process data
+[07-35-14] : save network data
+[07-35-14] : save network data
+[07-38-09] : worker thread created, waiting. . .
+[07-38-09] : worker thread created, waiting. . .
+[07-38-09] : worker thread created, waiting. . .
+[07-38-09] : worker thread created, waiting. . .
+[07-38-11] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 33944
+
+[07-38-11] : worker thread start working
+[07-38-11] : worker thread start working
+[07-38-11] : worker thread start working
+[07-38-11] : worker thread start working
+[07-40-22] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 34456
+
+[07-40-26] : save memory data
+[07-40-26] : save memory data
+[07-40-26] : save memory data
+[07-40-26] : save process data
+[07-40-27] : save memory data
+[07-40-27] : save memory data
+[07-40-27] : save memory data
+[07-40-27] : save process data
+[07-40-28] : save memory data
+[07-40-28] : save memory data
+[07-40-28] : save memory data
+[07-40-28] : save process data
+[07-40-29] : save memory data
+[07-40-29] : save memory data
+[07-40-29] : save cpu data
+[07-40-29] : save process data
+[07-40-30] : save memory data
+[07-40-30] : save network data
+[07-40-30] : save cpu data
+[07-40-30] : save process data
+[07-40-31] : save memory data
+[07-40-31] : save network data
+[07-40-31] : save cpu data
+[07-40-31] : save process data
+[07-40-32] : save memory data
+[07-40-32] : save network data
+[07-40-32] : save cpu data
+[07-40-32] : save process data
+[07-40-33] : save memory data
+[07-40-33] : save network data
+[07-40-33] : save cpu data
+[07-40-33] : save process data
+[07-40-34] : save memory data
+[07-40-34] : save network data
+[07-40-34] : save cpu data
+[07-40-34] : save process data
+[07-40-35] : save memory data
+[07-40-35] : save network data
+[07-40-35] : save cpu data
+[07-40-35] : save process data
+[07-40-36] : save memory data
+[07-40-36] : save network data
+[07-40-36] : save cpu data
+[07-40-36] : save process data
+[07-40-37] : save memory data
+[07-40-37] : save network data
+[07-40-37] : save cpu data
+[07-40-37] : save process data
+[07-40-38] : save memory data
+[07-40-38] : save network data
+[07-40-38] : save cpu data
+[07-40-38] : save process data
+[07-40-39] : save memory data
+[07-40-39] : save network data
+[07-40-39] : save network data
+[07-40-39] : save cpu data
+[07-51-20] : worker thread created, waiting. . .
+[07-51-20] : worker thread created, waiting. . .
+[07-51-20] : worker thread created, waiting. . .
+[07-51-20] : worker thread created, waiting. . .
+[07-51-22] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 34968
+
+[07-51-22] : worker thread start working
+[07-51-22] : worker thread start working
+[07-51-22] : worker thread start working
+[07-51-22] : worker thread start working
+[07-51-25] : save memory data
+[07-51-26] : save network data
+[07-51-26] : save cpu data
+[07-51-26] : save process data
+[07-51-26] : save memory data
+[07-51-27] : save network data
+[07-51-27] : save cpu data
+[07-51-27] : save process data
+[07-51-27] : save memory data
+[07-51-28] : save network data
+[07-51-28] : save network data
+[07-51-28] : save cpu data
+[07-51-28] : save process data
+[07-59-27] : worker thread created, waiting. . .
+[07-59-27] : worker thread created, waiting. . .
+[07-59-27] : worker thread created, waiting. . .
+[07-59-27] : worker thread created, waiting. . .
+[07-59-32] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 35480
+
+[07-59-32] : worker thread start working
+[07-59-32] : worker thread start working
+[07-59-32] : worker thread start working
+[07-59-32] : worker thread start working
+[07-59-35] : save memory data
+[07-59-35] : save memory data
+[07-59-35] : save memory data
+[07-59-35] : save memory data
+[09-21-44] : worker thread created, waiting. . .
+[09-21-44] : worker thread created, waiting. . .
+[09-21-44] : worker thread created, waiting. . .
+[09-21-44] : worker thread created, waiting. . .
+[09-21-46] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 35992
+
+[09-21-46] : worker thread start working
+[09-21-46] : worker thread start working
+[09-21-46] : worker thread start working
+[09-21-46] : worker thread start working
+[09-21-49] : save memory data
+[09-21-49] : save network data
+[09-21-49] : save cpu data
+[09-21-49] : save process data
+[09-21-49] : save memory data
+[09-21-49] : save network data
+[09-21-49] : save cpu data
+[09-21-49] : save process data
+[09-21-49] : save memory data
+[09-21-49] : save network data
+[09-21-49] : save cpu data
+[09-21-49] : save process data
+[09-21-50] : save memory data
+[09-21-50] : save network data
+[09-24-51] : worker thread created, waiting. . .
+[09-24-51] : worker thread created, waiting. . .
+[09-24-51] : worker thread created, waiting. . .
+[09-24-51] : worker thread created, waiting. . .
+[09-24-52] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 36504
+
+[09-24-52] : worker thread start working
+[09-24-52] : worker thread start working
+[09-24-52] : worker thread start working
+[09-24-52] : worker thread start working
+[09-24-55] : save memory data
+[09-24-56] : save network data
+[09-24-56] : save cpu data
+[09-24-56] : save process data
+[09-24-56] : save memory data
+[09-24-57] : save network data
+[09-24-57] : save cpu data
+[09-24-57] : save process data
+[09-24-57] : save memory data
+[09-24-58] : save network data
+[09-24-58] : save cpu data
+[09-24-58] : save process data
+[09-24-58] : save memory data
+[09-24-59] : save network data
+[09-24-59] : save cpu data
+[09-24-59] : save process data
+[09-24-59] : save memory data
+[09-25-00] : save network data
+[09-25-00] : save cpu data
+[09-25-00] : save process data
+[09-25-00] : save memory data
+[09-25-01] : save network data
+[09-25-01] : save cpu data
+[09-25-01] : save process data
+[09-25-01] : save memory data
+[09-25-02] : save network data
+[09-25-02] : save cpu data
+[09-25-02] : save process data
+[09-25-02] : save memory data
+[09-25-03] : save network data
+[09-25-03] : save cpu data
+[09-25-03] : save process data
+[09-25-03] : save memory data
+[09-25-04] : save network data
+[09-25-04] : save cpu data
+[09-25-04] : save process data
+[09-25-04] : save memory data
+[09-25-05] : save network data
+[09-25-05] : save cpu data
+[09-25-05] : save process data
+[09-25-05] : save memory data
+[09-25-06] : save network data
+[09-25-06] : save cpu data
+[09-25-06] : save process data
+[09-25-06] : save memory data
+[09-25-07] : save network data
+[09-25-07] : save cpu data
+[09-25-07] : save process data
+[09-25-07] : save memory data
+[09-25-08] : save network data
+[09-25-08] : save cpu data
+[09-25-08] : save process data
+[09-25-08] : save memory data
+[09-25-09] : save network data
+[09-25-09] : save cpu data
+[09-25-09] : save process data
+[09-25-09] : save memory data
+[09-25-10] : save network data
+[09-25-10] : save cpu data
+[09-25-10] : save process data
+[09-25-10] : save memory data
+[09-25-11] : save network data
+[09-25-11] : save cpu data
+[09-25-11] : save process data
+[09-25-11] : save memory data
+[09-25-12] : save network data
+[09-25-12] : save cpu data
+[09-25-12] : save process data
+[09-25-12] : save network data
+[09-25-13] : save cpu data
+[09-25-13] : save process data
+[09-25-13] : save memory data
+[09-25-13] : save network data
+[09-25-14] : save cpu data
+[09-25-14] : save process data
+[09-25-14] : save memory data
+[09-25-14] : save network data
+[09-25-15] : save cpu data
+[09-25-15] : save process data
+[09-25-15] : save memory data
+[09-25-15] : save network data
+[09-25-16] : save cpu data
+[09-25-16] : save process data
+[09-25-16] : save network data
+[09-25-16] : save cpu data
+[09-25-17] : save process data
+[09-25-17] : save memory data
+[09-25-17] : save network data
+[09-25-17] : save cpu data
+[09-25-18] : save process data
+[09-25-18] : save memory data
+[09-25-18] : save network data
+[09-25-18] : save cpu data
+[09-25-19] : save process data
+[09-25-19] : save memory data
+[09-25-19] : save network data
+[09-25-19] : save cpu data
+[09-25-20] : save process data
+[09-25-20] : save memory data
+[09-25-20] : save network data
+[09-25-20] : save cpu data
+[09-25-21] : save process data
+[09-25-21] : save memory data
+[09-25-21] : save network data
+[09-25-21] : save cpu data
+[09-25-22] : save process data
+[09-25-22] : save memory data
+[09-25-22] : save network data
+[09-25-22] : save cpu data
+[09-25-23] : save process data
+[09-25-23] : save memory data
+[09-25-23] : save network data
+[09-25-23] : save cpu data
+[09-25-24] : save process data
+[09-25-24] : save memory data
+[09-25-24] : save network data
+[09-25-24] : save cpu data
+[09-25-25] : save process data
+[09-25-25] : save memory data
+[09-25-25] : save network data
+[09-25-25] : save cpu data
+[09-25-26] : save process data
+[09-25-26] : save memory data
+[09-25-26] : save network data
+[09-25-26] : save cpu data
+[09-25-27] : save process data
+[09-25-27] : save memory data
+[09-25-27] : save network data
+[09-25-27] : save cpu data
+[09-25-28] : save process data
+[09-25-28] : save memory data
+[09-25-28] : save network data
+[09-25-28] : save cpu data
+[09-25-29] : save process data
+[09-25-29] : save memory data
+[09-25-29] : save network data
+[09-25-29] : save cpu data

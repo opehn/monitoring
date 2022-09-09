@@ -54,21 +54,21 @@ static void			parse_info(char *payload, int fd)
 	get_next_line(fd, 1); //free buffer
 }
 
-static void	serialize_mem(char *payload)
+static void	serialize_mem(char *payload, int logfd, pthread_mutex_t log_lock)
 {
 	int			fd;
 
 	fd = open("/proc/meminfo", O_RDONLY);
 	if (fd < 0)
 	{
-		perror("file open error");
+		err_log("file open error", logfd, log_lock);
 		exit(EXIT_FAILURE);
 	}
 	parse_info(payload, fd);
 	close(fd);
 }
 
-packet			*get_mem_info(void)
+packet			*get_mem_info(int aid, int logfd)
 {
 	packet			*mem_packet;
 	int				packet_length;
@@ -77,7 +77,6 @@ packet			*get_mem_info(void)
 	packet_length = sizeof(packet_header) + sizeof(mem_info);
 	mem_packet = malloc(sizeof(packet));
 	mem_packet->payload = malloc(packet_length);
-
 	if (!mem_packet || !mem_packet->payload)
 	{
 		perror("malloc error");
@@ -85,9 +84,8 @@ packet			*get_mem_info(void)
 	}
 	mem_packet->length = packet_length;
 	payload = mem_packet->payload;
-	serialize_header(M, packet_length, AID, payload);
+	serialize_header(M, packet_length, aid, payload);
 	payload += sizeof(packet_header);
 	serialize_mem(payload);
-
 	return (mem_packet);
 }

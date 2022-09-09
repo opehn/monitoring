@@ -60,7 +60,11 @@ static void	get_stat(char *payload, char *stat_path)
 	}
 	content = read_file(fd);
 	parse_stat(payload, content);
-	close(fd);
+	int res;
+	if (0 > (res = close(fd)))
+	{
+		perror("fd close error");
+	}
 	free(content);
 	content = NULL;
 }
@@ -70,7 +74,6 @@ static void	get_username(char *payload, const char *path)
 {
 	struct stat		buf;
 	struct passwd	*pw;
-	char			temp[16];
 	int				i  = 0;
 
 	if (0 > stat(path, &buf))
@@ -95,18 +98,12 @@ static void	get_username(char *payload, const char *path)
 			exit(EXIT_FAILURE);
 		}
 	}
-	memset(temp, 0, 16);
-	while (i < nullguard_strlen(pw->pw_name))
+	while(i < nullguard_strlen(pw->pw_name))
 	{
-		temp[i] = pw->pw_name[i];
+		payload[i] = pw->pw_name[i];
 		i++;
 	}
-	i = 0;
-	while(i < nullguard_strlen(temp))
-	{
-		payload[i] = temp[i];
-		i++;
-	}
+	payload[i] = '\0';
 }
 
 static void	get_cmdline(char *payload, char *cmd_path)
@@ -127,13 +124,24 @@ static void	get_cmdline(char *payload, char *cmd_path)
 		errno = 0;
 	}
 	if (!(buf = read_file(fd)))
+	{
+		if (0 > close(fd))
+		{
+			perror("fd close error");
+		}
 		return;
+	}
+	if (0 > close(fd))
+	{
+		perror("fd close error");
+	}
 	while (i < nullguard_strlen(buf))
 	{
 		payload[i] = buf[i];
 		i++;
 	}
-	close(fd);
+	payload[i] = '\0';
+	free(buf);
 }
 
 static void	serialize_proc(char *payload, char *d_name)
@@ -197,6 +205,11 @@ static packet	*make_packet(int proc_cnt)
 	payload += sizeof(packet_header);
 	iter_dir(payload);
 	
+/*	int fd;
+	for (fd = sysconf(_SC_OPEN_MAX); fd > 5; fd--) 
+	{
+		close(fd);
+    }*/
 	return (proc_packet);
 }
 

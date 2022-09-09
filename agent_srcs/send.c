@@ -86,12 +86,11 @@ void	*send_routine(void *arg)
 		close(clientfd);
 		exit(EXIT_FAILURE);
 	}
-	sleep(5);
-	int i = 0;
+	sleep(3);
 	while(1)
 	{
 		send_packet(clientfd, p, &q->aqueue_lock, &p->log_lock);
-		sleep(1);
+		usleep(10000);
 	}
 	close(clientfd);
 }

@@ -100,17 +100,28 @@ static int daemonize(void)
 	return (logfd);
 }
 
+static void signal_hadler(int signal)
+{
+	if (signal == SIGPIPE)
+	{
+		return;
+	}
+	if (signal == SIGINT)
+	{
+		exit(EXIT_SUCCESS);
+	}
+}
+
 static void	set_signal(void)
 {
 	struct sigaction act;
 
 	act.sa_handler = SIG_IGN;
 	act.sa_flags = 0;
-	sigaction(SIGPIPE, &act, NULL);	
 
 }
 
-static aparam *init_param(int logfd)
+static aparam *init_param(int logfd, int aid)
 {
 	aparam			*p;
 
@@ -122,19 +133,25 @@ static aparam *init_param(int logfd)
         exit (EXIT_FAILURE);
     }
 	p->logfd = logfd;
+	p->aid = aid;
 	return (p);
 }
 
-int main(void)
+int main(int argc, char **argv)
 {
 	pthread_t		collect_tid;
 	pthread_t		send_tid;
 	aparam			*p;
 	aqueue			*q;
 	int				logfd;
+	int				aid;
 
 //	logfd = daemonize();
 
+	if (argc != 2)
+		return;
+	aid = atoi(argv[1]);
+	
 	char *filename;
 	filename = make_filename();
 	if (!(logfd = open(filename, O_RDWR | O_APPEND | O_CREAT | O_NOCTTY, S_IRWXU)))
@@ -145,7 +162,7 @@ int main(void)
 	}
 	free(filename);
 
-	p = init_param(logfd);
+	p = init_param(logfd, aid);
 	set_signal();
 	pthread_create(&collect_tid, NULL, collect_routine, (void *)p);
 	agent_logging("collect thread created", logfd, &p->log_lock);

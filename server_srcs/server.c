@@ -162,6 +162,7 @@ sparam	*init_param(int logfd)
 	p->q = init_squeue();
 	p->clientfd = 0;
 	p->logfd = logfd;
+	p->flag = 0;
 	if (pthread_mutex_init(&p->log_lock, NULL))
 	{
 		perror("mutex init error");

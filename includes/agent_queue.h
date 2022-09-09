@@ -18,6 +18,7 @@ typedef struct aqueue {
 
 typedef struct aparam
 {
+	int				aid;
 	int				logfd;
 	pthread_mutex_t	log_lock;
 	aqueue			*q;

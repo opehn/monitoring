@@ -22,7 +22,6 @@ char	*make_filename(int aid, int logfd, pthread_mutex_t *log_lock)
 	day = time_struct->tm_mday;
 	sprintf(file_name, "./data/%d_%d-%02d-%02d", aid, year, month, day);
 	return (file_name);
-
 }
 
 void	write_memory(int fd, squeue *q)
@@ -136,6 +135,7 @@ static void	write_data(int fd, int logfd, squeue *q, pthread_mutex_t *log_lock)
 			break;
 		case 44 :
 			server_logging("save process data", logfd, log_lock);
+			write(fd, "PROCESS\n", 8);
 			write_process(fd, q);
 			write(fd, "----------------------------------------------------------------------------------------------------\n", 101);
 			break;

@@ -7,7 +7,6 @@
 #define N 22
 #define C 33
 #define P 44
-#define AID	42
 
 #define CMD_LEN 50
 
