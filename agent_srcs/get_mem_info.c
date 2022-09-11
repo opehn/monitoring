@@ -1,4 +1,6 @@
-#include "collect.h"
+#include "agent.h"
+
+extern ashare *g_ashare;
 
 static char			*second_word(char *line)
 {
@@ -54,21 +56,21 @@ static void			parse_info(char *payload, int fd)
 	get_next_line(fd, 1); //free buffer
 }
 
-static void	serialize_mem(char *payload, int logfd, pthread_mutex_t log_lock)
+static void	serialize_mem(char *payload)
 {
 	int			fd;
 
 	fd = open("/proc/meminfo", O_RDONLY);
 	if (fd < 0)
 	{
-		err_log("file open error", logfd, log_lock);
+		err_log("file open error");
 		exit(EXIT_FAILURE);
 	}
 	parse_info(payload, fd);
 	close(fd);
 }
 
-packet			*get_mem_info(int aid, int logfd)
+packet			*get_mem_info(void)
 {
 	packet			*mem_packet;
 	int				packet_length;
@@ -79,12 +81,12 @@ packet			*get_mem_info(int aid, int logfd)
 	mem_packet->payload = malloc(packet_length);
 	if (!mem_packet || !mem_packet->payload)
 	{
-		perror("malloc error");
+		err_log("malloc error");
 		exit(EXIT_FAILURE);
 	}
 	mem_packet->length = packet_length;
 	payload = mem_packet->payload;
-	serialize_header(M, packet_length, aid, payload);
+	serialize_header(M, packet_length, g_ashare->aid, payload);
 	payload += sizeof(packet_header);
 	serialize_mem(payload);
 	return (mem_packet);

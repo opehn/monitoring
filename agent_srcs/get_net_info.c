@@ -1,4 +1,6 @@
-#include "collect.h"
+#include "agent.h"
+
+extern ashare	*g_ashare;
 
 static void	parse_net(char *line, char *payload)
 {
@@ -50,7 +52,7 @@ static void	serialize_net(char *payload)
 	fd = open("/proc/net/dev", O_RDONLY);
 	if (fd < 0)
 	{
-		perror("file open error");
+		err_log("file open error");
 		exit(EXIT_FAILURE);
 	}
 	while (i++ < 3)
@@ -77,12 +79,12 @@ static packet	*make_packet(int net_cnt)
 	net_packet->payload = malloc(packet_length);
 	if (!net_packet || !net_packet->payload)
 	{
-		perror("malloc error");
+		err_log("malloc error");
 		exit(EXIT_FAILURE);
 	}
 	net_packet->length = packet_length;
 	payload = net_packet->payload;
-	serialize_header(N, packet_length, AID, payload);
+	serialize_header(N, packet_length, g_ashare->aid, payload);
 	payload += sizeof(packet_header);
 	serialize_net(payload);
 
@@ -99,7 +101,7 @@ static int	count_net(void)
 	fd = open("/proc/net/dev", O_RDONLY);
 	if (fd < 0)
 	{
-		perror("file open error");
+		err_log("file open error");
 		exit(EXIT_FAILURE);
 	}
 	while (i++ < 3)

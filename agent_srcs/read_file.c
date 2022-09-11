@@ -1,4 +1,4 @@
-#include "collect.h"
+#include "agent.h"
 
 static char	*final_line(char **backup)
 {
@@ -55,7 +55,7 @@ char	*read_file(int fd)
 		free(buf);
 	if (read_size < 0)
 	{
-		perror("read error");
+		err_log("read error");
 		exit(EXIT_FAILURE);
 	}
 	return (final_line(&backup));

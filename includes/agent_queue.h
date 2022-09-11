@@ -13,16 +13,7 @@ typedef struct aqueue {
 	struct aqueue_node		*head;
 	struct aqueue_node		*tail;
 	int						size;
-	pthread_mutex_t			aqueue_lock;
 } aqueue;
-
-typedef struct aparam
-{
-	int				aid;
-	int				logfd;
-	pthread_mutex_t	log_lock;
-	aqueue			*q;
-} aparam;
 
 aqueue		*init_aqueue(void);
 aqueue_node	*init_node(packet *data, aqueue_node *prev);

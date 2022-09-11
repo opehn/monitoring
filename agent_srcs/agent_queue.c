@@ -1,4 +1,4 @@
-#include "collect.h"
+#include "agent.h"
 #include "agent_queue.h"
 
 aqueue *init_aqueue(void)
@@ -9,11 +9,6 @@ aqueue *init_aqueue(void)
 	q->head = NULL;
 	q->tail = NULL;
 	q->size = 0;
-	if (pthread_mutex_init(&q->aqueue_lock, NULL))
-    {
-        perror("mutex init error");
-        exit (EXIT_FAILURE);
-    }
 
 	return (q);
 }

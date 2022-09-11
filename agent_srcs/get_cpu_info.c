@@ -1,4 +1,6 @@
-#include "collect.h"
+#include "agent.h"
+
+extern ashare *g_ashare;
 
 static void	serialize_cpu(char *payload, char **save_ptr)
 {
@@ -33,7 +35,7 @@ static void	parse_cpu(char *payload)
 	fd = open("/proc/stat", O_RDONLY);
 	if (fd < 0)
 	{
-		perror("file open error");
+		err_log("file open error");
 		exit(EXIT_FAILURE);
 	}
 	free(get_next_line(fd, 0)); //skip first line
@@ -66,12 +68,12 @@ static packet	*make_packet(int cpu_cnt)
 	cpu_packet->payload = malloc(packet_length);
 	if (!cpu_packet || !cpu_packet->payload)
 	{
-		perror("malloc error");
+		err_log("malloc error");
 		exit(EXIT_FAILURE);
 	}
 	cpu_packet->length = packet_length;
 	payload = cpu_packet->payload;
-	serialize_header(C, packet_length, AID, payload);
+	serialize_header(C, packet_length, g_ashare->aid, payload);
 	payload += sizeof(packet_header);
 	parse_cpu(payload);
 	return (cpu_packet);
@@ -88,7 +90,7 @@ static int	count_cpu(void)
 	fd = open("/proc/stat", O_RDONLY);
 	if (fd < 0)
 	{
-		perror("file open error");
+		err_log("file open error");
 		exit(EXIT_FAILURE);
 	}
 	free(get_next_line(fd, 0)); //skip first line

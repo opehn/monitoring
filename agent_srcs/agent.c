@@ -1,5 +1,7 @@
-#include "collect.h"
 #include "agent_queue.h"
+#include "agent.h"
+
+ashare	*g_ashare;
 
 static void	free_queue(aqueue *q)
 {
@@ -83,9 +85,7 @@ static int daemonize(void)
 
 	close(0);
 	close(1);
-	close(2);
 	fopen("/dev/null", "r");
-	fopen("/dev/null", "w+");
 	fopen("/dev/null", "w+");
 
 	filename = make_filename();
@@ -95,7 +95,9 @@ static int daemonize(void)
 		free(filename);
 		exit(EXIT_FAILURE);
 	}
+	dup2(logfd, STDERR_FILENO);
 	free(filename);
+
 
 	return (logfd);
 }
@@ -121,27 +123,28 @@ static void	set_signal(void)
 
 }
 
-static aparam *init_param(int logfd, int aid)
+static void init_share(int logfd, int aid)
 {
-	aparam			*p;
-
-	p = malloc(sizeof (aparam));
-	p->q = init_aqueue();
-	if (pthread_mutex_init(&p->log_lock, NULL))
+	g_ashare = malloc(sizeof(ashare));
+	g_ashare->q = init_aqueue();
+	if (pthread_mutex_init(&g_ashare->aqueue_lock, NULL))
     {
-        perror("mutex init error");
+        err_log("mutex init error");
         exit (EXIT_FAILURE);
     }
-	p->logfd = logfd;
-	p->aid = aid;
-	return (p);
+	if (pthread_mutex_init(&g_ashare->log_lock, NULL))
+    {
+        err_log("mutex init error");
+        exit (EXIT_FAILURE);
+    }
+	g_ashare->logfd = logfd;
+	g_ashare->aid = aid;
 }
 
 int main(int argc, char **argv)
 {
 	pthread_t		collect_tid;
 	pthread_t		send_tid;
-	aparam			*p;
 	aqueue			*q;
 	int				logfd;
 	int				aid;
@@ -149,7 +152,7 @@ int main(int argc, char **argv)
 //	logfd = daemonize();
 
 	if (argc != 2)
-		return;
+		return (0);
 	aid = atoi(argv[1]);
 	
 	char *filename;
@@ -161,20 +164,20 @@ int main(int argc, char **argv)
 		exit(EXIT_FAILURE);
 	}
 	free(filename);
-
-	p = init_param(logfd, aid);
+	init_share(logfd, aid);
 	set_signal();
-	pthread_create(&collect_tid, NULL, collect_routine, (void *)p);
-	agent_logging("collect thread created", logfd, &p->log_lock);
-	pthread_create(&send_tid, NULL, send_routine, (void *)p);
-	agent_logging("send thread created", logfd, &p->log_lock);
+	pthread_create(&collect_tid, NULL, collect_routine, NULL);
+	agent_logging("collect thread created");
+	pthread_create(&send_tid, NULL, send_routine, NULL);
+	agent_logging("send thread created");
 
 	pthread_join(collect_tid, NULL);
 	pthread_join(send_tid, NULL);
 
-	pthread_mutex_destroy(&p->q->aqueue_lock);
-	free_queue(p->q);
-	free(p);
+	pthread_mutex_destroy(&g_ashare->aqueue_lock);
+	pthread_mutex_destroy(&g_ashare->log_lock);
+	free_queue(g_ashare->q);
+	free(g_ashare);
 	close(logfd);
 	return (0);
 }

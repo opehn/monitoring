@@ -1,5 +1,6 @@
-#include "collect.h"
+#include "agent.h"
 
+extern ashare *g_ashare;
 static void	parse_stat(char *payload, char *content)
 {
 	char			*res;
@@ -53,7 +54,7 @@ static void	get_stat(char *payload, char *stat_path)
 	{
 		if (errno != ENOENT)
 		{
-			perror("file open error");
+			err_log("file open error");
 			exit(EXIT_FAILURE);
 		}
 		errno = 0;
@@ -63,7 +64,7 @@ static void	get_stat(char *payload, char *stat_path)
 	int res;
 	if (0 > (res = close(fd)))
 	{
-		perror("fd close error");
+		err_log("fd close error");
 	}
 	free(content);
 	content = NULL;
@@ -89,7 +90,7 @@ static void	get_username(char *payload, const char *path)
 	{
 		if (errno)
 		{
-			perror("getpwuid error");
+			err_log("getpwuid error");
 			exit(EXIT_FAILURE);
 		}
 		else
@@ -118,7 +119,7 @@ static void	get_cmdline(char *payload, char *cmd_path)
 	{
 		if (errno != ENOENT)
 		{
-			perror("file open error");
+			err_log("file open error");
 			exit(EXIT_FAILURE);
 		}
 		errno = 0;
@@ -127,13 +128,13 @@ static void	get_cmdline(char *payload, char *cmd_path)
 	{
 		if (0 > close(fd))
 		{
-			perror("fd close error");
+			err_log("fd close error");
 		}
 		return;
 	}
 	if (0 > close(fd))
 	{
-		perror("fd close error");
+		err_log("fd close error");
 	}
 	while (i < nullguard_strlen(buf))
 	{
@@ -170,7 +171,7 @@ static void	*iter_dir(char *payload)
 	cur_dir_info = readdir(cur_dir);
 	if (!cur_dir || !cur_dir_info || errno)
 	{
-		perror("dir open err");
+		err_log("dir open err");
 		exit(EXIT_FAILURE);
 	}
 	while (cur_dir_info != NULL)
@@ -196,24 +197,19 @@ static packet	*make_packet(int proc_cnt)
 	proc_packet->payload = calloc(sizeof(char), packet_length);
 	if(!proc_packet || !proc_packet->payload)
 	{
-		perror("malloc error");
+		err_log("malloc error");
 		exit(EXIT_FAILURE);
 	}
-	serialize_header(P, packet_length, AID, proc_packet->payload);
+	serialize_header(P, packet_length, g_ashare->aid, proc_packet->payload);
 	proc_packet->length = packet_length;
 	payload = proc_packet->payload;
 	payload += sizeof(packet_header);
 	iter_dir(payload);
 	
-/*	int fd;
-	for (fd = sysconf(_SC_OPEN_MAX); fd > 5; fd--) 
-	{
-		close(fd);
-    }*/
 	return (proc_packet);
 }
 
-static int	count_proc(int logfd)
+static int	count_proc(void)
 {
 	DIR				*cur_dir; 
 	int				cur_cmd_len;
@@ -224,7 +220,7 @@ static int	count_proc(int logfd)
 	cur_dir_info = readdir(cur_dir);
 	if (!cur_dir || !cur_dir_info || errno)
 	{
-		perror("dir open err");
+		err_log("dir open err");
 		exit(EXIT_FAILURE);
 	}
 	while (cur_dir_info != NULL)
@@ -238,10 +234,10 @@ static int	count_proc(int logfd)
 }
 
 
-packet		*get_proc_info(int logfd)
+packet		*get_proc_info(void)
 {
 	int			proc_cnt;
 
-	proc_cnt = count_proc(logfd);
+	proc_cnt = count_proc();
 	return (make_packet(proc_cnt));
 }

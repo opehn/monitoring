@@ -89,12 +89,12 @@ static int daemonize(void)
     return (logfd);
 }
 
-static void	init_socket(int *listenfd, int logfd, pthread_mutex_t *log_lock)
+static void	init_socket(int listenfd, int logfd, pthread_mutex_t *log_lock)
 {
 	int res;
 
 	//socket()
-	if (0 > (*listenfd = socket(AF_INET, SOCK_STREAM, 0)))
+	if (0 > (listenfd = socket(AF_INET, SOCK_STREAM, 0)))
 	{
 		err_log("socket open error", logfd, log_lock);
 		exit(EXIT_FAILURE);
@@ -106,7 +106,7 @@ static void	init_socket(int *listenfd, int logfd, pthread_mutex_t *log_lock)
 	serveraddr.sin_family = AF_INET;
 	serveraddr.sin_addr.s_addr = INADDR_ANY;
 	serveraddr.sin_port = SERVERPORT;
-	if (0 > (res = bind(*listenfd, (SA *)&serveraddr,\
+	if (0 > (res = bind(listenfd, (SA *)&serveraddr,\
 			sizeof(serveraddr))))
 	{
 		err_log("bind error", logfd, log_lock);
@@ -114,7 +114,7 @@ static void	init_socket(int *listenfd, int logfd, pthread_mutex_t *log_lock)
 	}
 
 	//listen()
-	if(0 > (listen(*listenfd, SOMAXCONN)))
+	if(0 > (listen(listenfd, SOMAXCONN)))
 	{
 		err_log("listen error", logfd, log_lock);
 		exit(EXIT_FAILURE);
@@ -209,7 +209,7 @@ int		main(void)
 	
 	p = init_param(logfd);
 	worker_tid = create_worker_thread(p);
-	init_socket(&listenfd, logfd, &p->log_lock);
+	init_socket(listenfd, logfd, &p->log_lock);
 	addrlen = sizeof(clientaddr);
 	while(1)
 	{

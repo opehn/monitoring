@@ -1,4 +1,3 @@
-#include "collect.h"
 #include "server_queue.h"
 
 void	init_socket(int *listenfd)

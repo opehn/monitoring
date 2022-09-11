@@ -7,7 +7,7 @@ FLAGS = -g -Wall -Werror -Wextra
 INC = -I$(HEADER_DIR)
 
 HEADER_DIR = ./includes/
-HEADER_LIST = collect.h \
+HEADER_LIST = agent.h \
 			  packet.h \
 			  agent_queue.h \
 			  server.h \
@@ -17,7 +17,6 @@ HEADERS = $(addprefix $(HEADER_DIR), $(HEADER_LIST))
 A_SRC_DIR = ./agent_srcs/
 A_SRC_LIST := read_file.c \
 		 get_proc_info.c \
-		 monitoring.c \
 		 get_next_line.c \
 		 get_cpu_info.c \
 		 get_mem_info.c \

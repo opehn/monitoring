@@ -1,5 +1,5 @@
-#ifndef	COLLECT_H
-#define COLLECT_H
+#ifndef	AGENT_H
+#define AGENT_H
 
 #include "packet.h"
 #include <signal.h>
@@ -28,11 +28,22 @@ typedef struct sockaddr_in SA_IN;
 #define SERVERPORT	8000
 #define BUFSIZE		512
 
+typedef struct aqueue aqueue;
+
+typedef struct ashare
+{
+	int				aid;
+	int				logfd;
+	aqueue			*q;
+	pthread_mutex_t aqueue_lock;
+	pthread_mutex_t log_lock;
+} ashare;
+
 //parsing
-packet			*get_proc_info(int logfd);
-packet			*get_cpu_info(void);
 packet			*get_mem_info(void);
 packet			*get_net_info(void);
+packet			*get_cpu_info(void);
+packet			*get_proc_info(void);
 
 //util
 char			*my_strjoin(char *s1, char *s2);
@@ -56,6 +67,8 @@ void			*collect_routine(void *param);
 void			*send_routine(void *param);
 
 //log
-void			agent_logging(char *msg, int logfd, pthread_mutex_t *log_lock);
+void			agent_logging(char *msg);
+void			err_log(char *err_type);
+void			sendinfo_log(char *buf);
 
 #endif
