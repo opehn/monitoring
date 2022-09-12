@@ -1,5 +1,9 @@
 #include "server.h"
 
+sshare			*g_sshare;
+data_queue		*g_dq;
+pthread_cond_t	g_cond;
+
 static char *make_filename(void)
 {
     time_t      cur_time;
@@ -64,9 +68,7 @@ static int daemonize(void)
 
     close(0);
     close(1);
-    close(2);
     fopen("/dev/null", "r");
-    fopen("/dev/null", "w+");
     fopen("/dev/null", "w+");
 
     char str[256];
@@ -85,21 +87,22 @@ static int daemonize(void)
         free(filename);
         exit(EXIT_FAILURE);
     }
+	dup2(logfd, STDERR_FILENO);
     free(filename);
     return (logfd);
 }
 
-static void	init_socket(int listenfd, int logfd, pthread_mutex_t *log_lock)
+static int init_socket(int logfd, pthread_mutex_t *log_lock)
 {
 	int res;
+	int	listenfd;
 
 	//socket()
 	if (0 > (listenfd = socket(AF_INET, SOCK_STREAM, 0)))
 	{
-		err_log("socket open error", logfd, log_lock);
+		err_log("socket open error");
 		exit(EXIT_FAILURE);
 	}
-
 	//bind()
 	SA_IN   serveraddr;
 	memset(&serveraddr, 0, sizeof(serveraddr));
@@ -109,71 +112,87 @@ static void	init_socket(int listenfd, int logfd, pthread_mutex_t *log_lock)
 	if (0 > (res = bind(listenfd, (SA *)&serveraddr,\
 			sizeof(serveraddr))))
 	{
-		err_log("bind error", logfd, log_lock);
+		err_log("bind error");
 		exit(EXIT_FAILURE);
 	}
 
 	//listen()
 	if(0 > (listen(listenfd, SOMAXCONN)))
 	{
-		err_log("listen error", logfd, log_lock);
+		err_log("listen error");
 		exit(EXIT_FAILURE);
 	}
+	return (listenfd);
 }
 
-static pthread_t *create_worker_thread(sparam *p)
+static pthread_t *create_worker_thread(int max_cli)
 {
-	pthread_t	*worker_id;
+	pthread_t	*worker_tid;
 	int			i = 0;
 
-	if (!(worker_id = malloc(sizeof(pthread_t) * WORKER_NUM)))
+	if (!(worker_tid = malloc(sizeof(pthread_t) * max_cli)))
 	{
-		err_log("malloc error", p->logfd, &p->log_lock);
+		err_log("malloc error");
 		exit (EXIT_FAILURE);
 	}
-	while (i < WORKER_NUM)
+	while (i < max_cli)
 	{
-		pthread_create(&worker_id[i],  NULL, worker_routine, (void *)p);
-		if (worker_id < 0)
+		pthread_create(&worker_tid[i],  NULL, worker_routine, NULL);
+		if (worker_tid < 0)
 		{
-			err_log("thread create error", p->logfd, &p->log_lock);
+			err_log("thread create error");
 			exit (EXIT_FAILURE);
 		}
-		server_logging("worker thread created, waiting. . .", p->logfd, &p->log_lock);
+		server_logging("worker thread created, waiting. . .");
 		i++;
 	}
-	return (worker_id);
+	return (worker_tid);
 }
 
-static void	create_recv_thread(sparam *p)
+static pthread_t *create_recv_thread(int max_cli)
 {
-	pthread_t		recv_tid;
+	pthread_t	*recv_tid;
+	int			i = 0;
 
-	pthread_create(&recv_tid, NULL, receive_routine, (void *)p);
-	pthread_join(recv_tid, NULL);
+	if (!(recv_tid = malloc(sizeof(pthread_t) * max_cli)))
+	{
+		err_log("malloc error");
+		exit (EXIT_FAILURE);
+	}
+	while (i < max_cli)
+	{
+		pthread_create(&recv_tid[i],  NULL, accept_perthread, NULL);
+		if (recv_tid < 0)
+		{
+			err_log("thread create error");
+			exit (EXIT_FAILURE);
+		}
+		server_logging("receive thread created, waiting. . .");
+		i++;
+	}
+	return (recv_tid);
 }
 
-sparam	*init_param(int logfd)
+void	init_sshare(int logfd)
 {
-	sparam				*p;
-	squeue				*q;
-
-	p = malloc(sizeof(sparam));
-	p->q = init_squeue();
-	p->clientfd = 0;
-	p->logfd = logfd;
-	p->flag = 0;
-	if (pthread_mutex_init(&p->log_lock, NULL))
+	g_dq = init_data_queue();
+	g_sshare = malloc(sizeof(sshare));
+	g_sshare->logfd = logfd;
+	if (pthread_mutex_init(&g_sshare->log_lock, NULL))
 	{
-		perror("mutex init error");
+		err_log("mutex init error");
 		exit (EXIT_FAILURE);
 	}
-	if (pthread_mutex_init(&p->squeue_lock, NULL))
+	if (pthread_mutex_init(&g_sshare->dq_lock, NULL))
 	{
-		err_log("mutex init error", logfd, &p->log_lock);
+		err_log("mutex init error");
 		exit (EXIT_FAILURE);
 	}
-	return (p);
+	if (pthread_mutex_init(&g_sshare->accept_lock, NULL))
+	{
+		err_log("mutex init error");
+		exit (EXIT_FAILURE);
+	}
 }
 
 void	set_signal(void)
@@ -186,18 +205,19 @@ void	set_signal(void)
 	sigaction(SIGPIPE, &act, NULL);
 }
 
-int		main(void)
+int		main(int argc, char **argv)
 {
-	int					clientfd;
-	int					listenfd;
 	SA_IN				clientaddr;
-	socklen_t			addrlen;
-	sparam				*p;
-	pthread_t			*worker_tid;
 	int					logfd;
+	int					max_cli;
+	char				*filename;
+	pthread_t			*worker_tid;
+	pthread_t			*recv_tid;
 
+	if (argc != 2)
+		return (0);
+	max_cli = atoi(argv[1]);
 //	logfd = daemonize();
-	char *filename;
     filename = make_filename();
     if (!(logfd = open(filename, O_RDWR | O_APPEND | O_CREAT | O_NOCTTY, S_IRWXU)))
     {
@@ -207,39 +227,32 @@ int		main(void)
     }
     free(filename);
 	
-	p = init_param(logfd);
-	worker_tid = create_worker_thread(p);
-	init_socket(listenfd, logfd, &p->log_lock);
-	addrlen = sizeof(clientaddr);
-	while(1)
+	init_sshare(logfd);
+	/* open listen socket */
+	g_sshare->listenfd = init_socket(logfd, &g_sshare->log_lock);
+
+	/* create receive thread / worker thread */
+	recv_tid = create_recv_thread(max_cli);
+	worker_tid = create_worker_thread(max_cli);
+	for (int i = 0; i < max_cli; i++)
 	{
-		if(0 > (clientfd = accept(listenfd, (SA *)&clientaddr, &addrlen)))
-		{
-			err_log("accept error", logfd, &p->log_lock);
-			break;
-		}
-		char	*msg;
-		msg = malloc (100);
-		sprintf(msg, "\n[TCP 서버] 클라이언트 접속: IP 주소 = %s, 포트 번호 = %d\n",
-				inet_ntoa(clientaddr.sin_addr), clientaddr.sin_port);
-		server_logging(msg, logfd, &p->log_lock);
-		free(msg);
-		p->clientfd = clientfd;
-		create_recv_thread(p);
-		close(clientfd);
-	}
-	for (int i = 0; i < WORKER_NUM; i++)
 		pthread_join(worker_tid[i], NULL);
+		pthread_join(recv_tid[i], NULL);
+	}
+
+	/* logging */
 	char	*msg;
 	msg = malloc(100);
 	sprintf(msg, "\n[TCP 서버] 클라이언트 종료 : IP 주소 = %s, 포트번호 = %d\n",
 			inet_ntoa(clientaddr.sin_addr), clientaddr.sin_port);
-	server_logging(msg, logfd, &p->log_lock);
+	server_logging(msg);
 	free(msg);
-	pthread_mutex_destroy(&p->squeue_lock);
-	pthread_mutex_destroy(&p->log_lock);
-	free(p->q);
-	free(p);
-	close(listenfd);
+
+	/* free resource */
+	pthread_mutex_destroy(&g_sshare->dq_lock);
+	pthread_mutex_destroy(&g_sshare->log_lock);
+	free(g_dq);
+	close(g_sshare->listenfd);
+	free(g_sshare);
 	return (0);
 }

@@ -32,7 +32,7 @@ A_OBJS = $(A_SRC:.c=.o)
 
 S_SRC_DIR = ./server_srcs/
 S_SRC_LIST := server.c \
-		 server_queue.c \
+		 data_queue.c \
 		 receive.c \
 		 save_data.c \
 		 worker.c \

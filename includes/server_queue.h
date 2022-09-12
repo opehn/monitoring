@@ -4,35 +4,25 @@
 #include <pthread.h>
 #include "packet.h"
 
-typedef struct squeue_node 
+typedef struct data_queue_node 
 {
-	packet_header		*header;
-	char				*payload;
-	struct squeue_node	 *prev;
-	struct squeue_node	 *next;
-} squeue_node;
+	packet_header				*header;
+	char						*payload;
+	struct data_queue_node		*prev;
+	struct data_queue_node	*next;
+} data_queue_node;
 
-typedef struct squeue 
+typedef struct data_queue 
 {
-	struct squeue_node	*head;
-	struct squeue_node	*tail;
-	int					size;
-} squeue;
+	struct data_queue_node	*head;
+	struct data_queue_node	*tail;
+	int						size;
+} data_queue;
 
-typedef struct sparam
-{
-	squeue				*q;
-	int					clientfd;
-	int					logfd;
-	int					flag;
-	pthread_mutex_t		squeue_lock;
-	pthread_mutex_t		log_lock;
-} sparam;
-
-squeue		*init_squeue(void);
-squeue_node	*init_node(packet_header *header, char *payload, squeue_node *prev);
-squeue_node	*peek(squeue *q);
-void		enqueue (squeue *q, packet_header *header, char *payload);
-void		free_shead(squeue *q);
+data_queue			*init_data_queue(void);
+data_queue_node		*init_node(packet_header *header, char *payload, data_queue_node *prev);
+data_queue_node		*peek(data_queue *q);
+void				enqueue (data_queue *q, packet_header *header, char *payload);
+void				free_shead(data_queue *q);
 
 #endif

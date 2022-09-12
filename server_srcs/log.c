@@ -1,16 +1,18 @@
 #include "server.h"
 
-void err_log(char *err_type, int logfd, pthread_mutex_t *log_lock)
+extern	sshare	*g_sshare;
+
+void err_log(char *err_type)
 {
 	char	*msg;
 
 	msg = malloc(150);
 	sprintf(msg, "%s : %s", err_type, strerror(errno));
-	server_logging(msg, logfd, log_lock);
+	server_logging(msg);
 	free(msg);
 }
 
-void	server_logging(char *msg, int logfd, pthread_mutex_t *log_lock)
+void	server_logging(char *msg)
 {
 	time_t		cur = time(NULL);
 	struct tm	*t = localtime(&cur);
@@ -19,7 +21,7 @@ void	server_logging(char *msg, int logfd, pthread_mutex_t *log_lock)
 
 	sprintf(log_msg, "[%02d-%02d-%02d] : %s\n", t->tm_hour, t->tm_min, t->tm_sec, msg);
 	msg_len = strlen(log_msg);
-	pthread_mutex_lock(log_lock);
-	write(logfd, log_msg, msg_len);
-	pthread_mutex_unlock(log_lock);
+	pthread_mutex_lock(&g_sshare->log_lock);
+	write(g_sshare->logfd, log_msg, msg_len);
+	pthread_mutex_unlock(&g_sshare->log_lock);
 }

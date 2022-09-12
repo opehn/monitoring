@@ -21,7 +21,7 @@ static void	free_queue(aqueue *q)
 	free(q);
 }
 
-static char	*make_filename(void)
+static char	*make_filename(int aid)
 {
 	time_t		cur_time;
 	struct tm*	time_struct;
@@ -41,11 +41,11 @@ static char	*make_filename(void)
 	year = time_struct->tm_year + 1900;
 	month = time_struct->tm_mon + 1;
 	day = time_struct->tm_mday;
-	sprintf(file_name, "./agent_log/%d-%02d-%02d", year, month, day);
+	sprintf(file_name, "./agent_log/%d_%d-%02d-%02d", aid, year, month, day);
 	return (file_name);
 }
 
-static int daemonize(void)
+static int daemonize(int aid)
 {
 	pid_t	pid = 0;
 	int		fd;
@@ -88,7 +88,7 @@ static int daemonize(void)
 	fopen("/dev/null", "r");
 	fopen("/dev/null", "w+");
 
-	filename = make_filename();
+	filename = make_filename(aid);
 	if (!(logfd = open(filename, O_RDWR | O_APPEND | O_CREAT | O_NOCTTY, S_IRWXU)))
 	{
 		perror("file open error");
@@ -106,10 +106,12 @@ static void signal_hadler(int signal)
 {
 	if (signal == SIGPIPE)
 	{
+		agent_logging("received SIG_PIPE");
 		return;
 	}
 	if (signal == SIGINT)
 	{
+		agent_logging("received SIG_INT");
 		exit(EXIT_SUCCESS);
 	}
 }
@@ -149,14 +151,14 @@ int main(int argc, char **argv)
 	int				logfd;
 	int				aid;
 
-//	logfd = daemonize();
-
 	if (argc != 2)
 		return (0);
 	aid = atoi(argv[1]);
 	
+//	logfd = daemonize(aid);
+
 	char *filename;
-	filename = make_filename();
+	filename = make_filename(aid);
 	if (!(logfd = open(filename, O_RDWR | O_APPEND | O_CREAT | O_NOCTTY, S_IRWXU)))
 	{
 		perror("file open error");

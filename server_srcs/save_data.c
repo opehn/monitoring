@@ -1,6 +1,9 @@
 #include "server.h"
 
-char	*make_filename(int aid, int logfd, pthread_mutex_t *log_lock)
+extern sshare		*g_sshare;
+extern data_queue	*g_dq;
+
+char	*make_filename(int aid)
 {
 	time_t		cur_time; 
 	struct tm*	time_struct;
@@ -11,7 +14,7 @@ char	*make_filename(int aid, int logfd, pthread_mutex_t *log_lock)
 
 	if (!(file_name = malloc(sizeof(char) * 50)))
 	{
-		err_log("malloc failed", logfd, log_lock);
+		err_log("malloc failed");
 		return (NULL);
 	}
 	cur_time = time(NULL);
@@ -24,28 +27,28 @@ char	*make_filename(int aid, int logfd, pthread_mutex_t *log_lock)
 	return (file_name);
 }
 
-void	write_memory(int fd, squeue *q)
+void	write_memory(int fd)
 {
 	mem_info	*m;
 	char		*payload;
 	char		buf[90];
 
-	payload = q->head->payload;
+	payload = g_dq->head->payload;
 	m = (mem_info *)payload;
 	sprintf(buf, "MemTotal : %d MemFree : %d Used : %d SwapUsed : %d\n\n",
 			m->total, m->free, m->used, m->swap_used);
 	write(fd, buf, strlen(buf));
-	free_shead(q);
+	free_shead(g_dq);
 }
 
-void	write_network(int fd, squeue *q)
+void	write_network(int fd)
 {
 	net_info	*n;
 	char		*payload;
 	int			length;
 
-	payload = q->head->payload;
-	length = q->head->header->length - sizeof(packet_header);
+	payload = g_dq->head->payload;
+	length = g_dq->head->header->length - sizeof(packet_header);
 	n = (net_info *)payload;
 	while(length)
 	{
@@ -56,10 +59,10 @@ void	write_network(int fd, squeue *q)
 		length -= sizeof(net_info);
 		n++;
 	}
-	free_shead(q);
+	free_shead(g_dq);
 }
 
-void	write_cpu(int fd, squeue *q)
+void	write_cpu(int fd)
 {
 	cpu_info	*c;
 	char		*payload;
@@ -68,9 +71,9 @@ void	write_cpu(int fd, squeue *q)
 	char		core[15];
 	int			i = 0;
 
-	payload = q->head->payload;
-	payload = q->head->payload;
-	length = q->head->header->length - sizeof(packet_header);
+	payload = g_dq->head->payload;
+	payload = g_dq->head->payload;
+	length = g_dq->head->header->length - sizeof(packet_header);
 	c = (cpu_info *)payload;
 	while(length)
 	{
@@ -83,10 +86,10 @@ void	write_cpu(int fd, squeue *q)
 		c++;
 		i++;
 	}
-	free_shead(q);
+	free_shead(g_dq);
 }
 
-void	write_process(int fd, squeue *q)
+void	write_process(int fd)
 {
 	proc_info	*p;
 	char		*payload;
@@ -95,9 +98,9 @@ void	write_process(int fd, squeue *q)
 	char		core[15];
 	int			i = 0;
 
-	payload = q->head->payload;
-	payload = q->head->payload;
-	length = q->head->header->length - sizeof(packet_header);
+	payload = g_dq->head->payload;
+	payload = g_dq->head->payload;
+	length = g_dq->head->header->length - sizeof(packet_header);
 	p = (proc_info *)payload;
 	while(length)
 	{
@@ -109,55 +112,51 @@ void	write_process(int fd, squeue *q)
 		p++;
 		i++;
 	}
-	free_shead(q);
+	free_shead(g_dq);
 }
 
-static void	write_data(int fd, int logfd, squeue *q, pthread_mutex_t *log_lock)
+static void	write_data(int fd)
 {
 	char	type[10];
 
-	switch (q->head->header->signature)
+	switch (g_dq->head->header->signature)
 	{
 		case 11 :
-			server_logging("save memory data", logfd, log_lock);
+			server_logging("save memory data");
 			write(fd, "MEMORY\n", 7);
-			write_memory(fd, q);
+			write_memory(fd);
 			break;
 		case 22 :
-			server_logging("save network data", logfd, log_lock);
+			server_logging("save network data");
 			write(fd, "NETWORK\n", 8);
-			write_network(fd, q);
+			write_network(fd);
 			break;
 		case 33 :
-			server_logging("save cpu data", logfd, log_lock);
+			server_logging("save cpu data");
 			write(fd, "CPU\n", 4);
-			write_cpu(fd, q);
+			write_cpu(fd);
 			break;
 		case 44 :
-			server_logging("save process data", logfd, log_lock);
+			server_logging("save process data");
 			write(fd, "PROCESS\n", 8);
-			write_process(fd, q);
+			write_process(fd);
 			write(fd, "----------------------------------------------------------------------------------------------------\n", 101);
 			break;
 	}
 }
 
-void	save_file(sparam *p)
+void	save_file(void)
 {
 	printf("save_file\n");
 	char	*file_name;
 	int		fd;
-	squeue	*q;
 
-	q = p->q;
-	file_name = make_filename(q->head->header->agent_id, p->logfd, &p->log_lock);
-	printf("file name : %s\n", file_name);
+	file_name = make_filename(g_dq->head->header->agent_id);
 	if (0 > (fd = open(file_name, O_RDWR | O_APPEND | O_CREAT, S_IRWXU)))
 	{
-		printf("here");
-		err_log("file open error", p->logfd, &p->log_lock);
+		err_log("file open error");
 		return ;
 	}
 	free(file_name);
-	write_data(fd, p->logfd, q, &p->log_lock);
+	write_data(fd);
 }

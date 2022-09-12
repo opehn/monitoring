@@ -1,9 +1,13 @@
 #include "server.h"
 
+extern sshare		*g_sshare;
+extern data_queue	*g_dq;
+
 static int	  check_signature(int signature)
 {
 	int signature_arr[4] = {11, 22, 33, 44};
-	int i = 0;
+	int	i;
+
 	printf("signature : %d\n", signature);
 
 	while (i < 4)
@@ -17,44 +21,26 @@ static int	  check_signature(int signature)
 
 void	*worker_routine(void *args)
 {
-	sparam		*p;
-	squeue_node	*cur;
-	int			res;
+	data_queue_node	*cur;
+	int				res;
 
-	p = (sparam *)args;
-	while (1)	
-	{
-		if (p->clientfd)
-			break;
-		usleep(10000);
-	}
-	server_logging("worker thread start working", p->logfd, &p->log_lock);
+	pthread_mutex_lock(&g_sshare->cond_lock);
+	pthread_cond_wait(&g_sshare->cond, &g_sshare->cond_lock);
+	pthread_mutex_unlock(&g_sshare->cond_lock);
+	server_logging("worker thread start working");
+
 	while (1)
 	{
-		while (1)
-		{
-			pthread_mutex_lock(&p->squeue_lock);
-			res = (p->flag == 0);
-			pthread_mutex_unlock(&p->squeue_lock);
-			if (res)
-			{
-				pthread_mutex_lock(&p->squeue_lock);
-				p->flag = 1;
-				pthread_mutex_unlock(&p->squeue_lock);
-				break;
-			}
-			usleep(10000);
-		}
-		cur = peek(p->q);
+		pthread_mutex_lock(&g_sshare->dq_lock);
+		cur = peek(g_dq);
+		pthread_mutex_lock(&g_sshare->dq_lock);
 		if (cur)
 		{
 			if (check_signature(cur->header->signature))
-				save_file(p);
+				save_file();
 		}
-		pthread_mutex_lock(&p->squeue_lock);
-		p->flag = 0;
-		pthread_mutex_unlock(&p->squeue_lock);
+		server_logging("finish service");
 		sleep(1);
 	}
-	server_logging("worker thread end", p->logfd, &p->log_lock);
+	server_logging("worker thread destroied");
 }

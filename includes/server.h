@@ -25,12 +25,24 @@
 typedef struct	sockaddr SA;
 typedef struct	sockaddr_in SA_IN;
 
-void			*receive_routine(void *arg);
-void			*worker_routine(void *args);
-void			save_file(sparam *p);
+typedef struct sshare
+{
+	int					listenfd;
+    int                 logfd;
+    pthread_mutex_t     dq_lock;
+    pthread_mutex_t     log_lock;
+    pthread_mutex_t     accept_lock;
+    pthread_mutex_t     cond_lock;
+	pthread_cond_t		cond;
+	int					flag;
+} sshare;
 
-void	server_logging(char *msg, int logfd, pthread_mutex_t *log_lock);
-void	err_log(char *err_type, int logfd, pthread_mutex_t *log_lock);
-void	send_packet(int clientfd, sparam *p, pthread_mutex_t *aqueue_mutex);
+void	*accept_perthread(void *args);
+void	*worker_routine(void *args);
+void	save_file(void);
+
+void	server_logging(char *msg);
+void	err_log(char *err_type);
+void	send_packet(int coonfd);
 
 #endif
