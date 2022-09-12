@@ -81,6 +81,7 @@ static int daemonize(void)
     write(pid_fd, str, strlen(str));
 
     filename = make_filename();
+	printf("filename : %s\n", filename);
     if (!(logfd = open(filename, O_RDWR | O_APPEND | O_CREAT | O_NOCTTY, S_IRWXU)))
     {
 		perror("log file open error");
@@ -178,6 +179,7 @@ void	init_sshare(int logfd)
 	g_dq = init_data_queue();
 	g_sshare = malloc(sizeof(sshare));
 	g_sshare->logfd = logfd;
+	g_sshare->flag = 0;
 	if (pthread_mutex_init(&g_sshare->log_lock, NULL))
 	{
 		err_log("mutex init error");
@@ -228,6 +230,7 @@ int		main(int argc, char **argv)
     free(filename);
 	
 	init_sshare(logfd);
+
 	/* open listen socket */
 	g_sshare->listenfd = init_socket(logfd, &g_sshare->log_lock);
 

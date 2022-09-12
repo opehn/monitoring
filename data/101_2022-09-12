@@ -1,0 +1,3331 @@
+MEMORY
+MemTotal : 4002172 MemFree : 371436 Used : 3630736 SwapUsed : 22356
+
+NETWORK
+enp0s6 Received bytes : 364894608 Received cnt : 1339102 Transmit bytes : 884011 Transmit cnts : 323200580
+
+CPU
+cpu0 User : 2302 System : 2302 iowait : 2302 idle : 2302
+
+cpu1 User : 2818 System : 2818 iowait : 2818 idle : 2818
+
+cpu2 User : 2317 System : 2317 iowait : 2317 idle : 2317
+
+cpu3 User : 2192 System : 2192 iowait : 2192 idle : 2192
+
+PROCESS
+systemd
+pid : 1 ppid : 0 User name : root CPU time : 15373 Cmdline : /sbin/init
+kthreadd
+pid : 2 ppid : 0 User name : root CPU time : 490 Cmdline : 
+rcu_gp
+pid : 3 ppid : 2 User name : root CPU time : 0 Cmdline : 
+rcu_par_gp
+pid : 4 ppid : 2 User name : root CPU time : 0 Cmdline : 
+netns
+pid : 5 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/0:0H-everoot
+pid : 7 ppid : 2 User name : root CPU time : 0 Cmdline : 
+mm_percpu_wq
+pid : 9 ppid : 2 User name : root CPU time : 0 Cmdline : 
+rcu_tasks_rude_
+pid : 10 ppid : 2 User name : root CPU time : 0 Cmdline : 
+rcu_tasks_trace
+pid : 11 ppid : 2 User name : root CPU time : 0 Cmdline : 
+ksoftirqd/0
+pid : 12 ppid : 2 User name : root CPU time : 10378 Cmdline : 
+rcu_sched
+pid : 13 ppid : 2 User name : root CPU time : 35801 Cmdline : 
+migration/0
+pid : 14 ppid : 2 User name : root CPU time : 979 Cmdline : 
+idle_inject/0
+pid : 15 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cpuhp/0
+pid : 17 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cpuhp/1
+pid : 18 ppid : 2 User name : root CPU time : 0 Cmdline : 
+idle_inject/1
+pid : 19 ppid : 2 User name : root CPU time : 0 Cmdline : 
+migration/1
+pid : 20 ppid : 2 User name : root CPU time : 1329 Cmdline : 
+ksoftirqd/1
+pid : 21 ppid : 2 User name : root CPU time : 8319 Cmdline : 
+kworker/1:0H-everoot
+pid : 23 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cpuhp/2
+pid : 24 ppid : 2 User name : root CPU time : 0 Cmdline : 
+idle_inject/2
+pid : 25 ppid : 2 User name : root CPU time : 0 Cmdline : 
+migration/2
+pid : 26 ppid : 2 User name : root CPU time : 1582 Cmdline : 
+ksoftirqd/2
+pid : 27 ppid : 2 User name : root CPU time : 8270 Cmdline : 
+kworker/2:0H-everoot
+pid : 29 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cpuhp/3
+pid : 30 ppid : 2 User name : root CPU time : 0 Cmdline : 
+idle_inject/3
+pid : 31 ppid : 2 User name : root CPU time : 0 Cmdline : 
+migration/3
+pid : 32 ppid : 2 User name : root CPU time : 1714 Cmdline : 
+ksoftirqd/3
+pid : 33 ppid : 2 User name : root CPU time : 4610 Cmdline : 
+kworker/3:0H-everoot
+pid : 35 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kdevtmpfs
+pid : 36 ppid : 2 User name : root CPU time : 1 Cmdline : 
+inet_frag_wq
+pid : 37 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kauditd
+pid : 41 ppid : 2 User name : root CPU time : 12 Cmdline : 
+khungtaskd
+pid : 42 ppid : 2 User name : root CPU time : 2472 Cmdline : 
+oom_reaper
+pid : 43 ppid : 2 User name : root CPU time : 0 Cmdline : 
+writeback
+pid : 44 ppid : 2 User name : root CPU time : 54 Cmdline : 
+kcompactd0
+pid : 45 ppid : 2 User name : root CPU time : 13357 Cmdline : 
+ksmd
+pid : 46 ppid : 2 User name : root CPU time : 0 Cmdline : 
+khugepaged
+pid : 47 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kintegrityd
+pid : 93 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kblockd
+pid : 94 ppid : 2 User name : root CPU time : 0 Cmdline : 
+blkcg_punt_bio
+pid : 95 ppid : 2 User name : root CPU time : 0 Cmdline : 
+tpm_dev_wq
+pid : 96 ppid : 2 User name : root CPU time : 0 Cmdline : 
+ata_sff
+pid : 97 ppid : 2 User name : root CPU time : 0 Cmdline : 
+md
+pid : 98 ppid : 2 User name : root CPU time : 0 Cmdline : 
+edac-poller
+pid : 99 ppid : 2 User name : root CPU time : 0 Cmdline : 
+devfreq_wq
+pid : 100 ppid : 2 User name : root CPU time : 0 Cmdline : 
+watchdogd
+pid : 101 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/1:1H-kblroot
+pid : 103 ppid : 2 User name : root CPU time : 359 Cmdline : 
+kswapd0
+pid : 104 ppid : 2 User name : root CPU time : 4936 Cmdline : 
+ecryptfs-kthrea
+pid : 105 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kthrotld
+pid : 107 ppid : 2 User name : root CPU time : 0 Cmdline : 
+irq/49-ACPI:Ged
+pid : 108 ppid : 2 User name : root CPU time : 0 Cmdline : 
+acpi_thermal_pm
+pid : 109 ppid : 2 User name : root CPU time : 0 Cmdline : 
+mld
+pid : 111 ppid : 2 User name : root CPU time : 0 Cmdline : 
+ipv6_addrconf
+pid : 112 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kstrp
+pid : 121 ppid : 2 User name : root CPU time : 0 Cmdline : 
+zswap-shrink
+pid : 124 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/u9:0
+pid : 125 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cryptd
+pid : 129 ppid : 2 User name : root CPU time : 0 Cmdline : 
+charger_manager
+pid : 167 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/0:1H-kblroot
+pid : 210 ppid : 2 User name : root CPU time : 243 Cmdline : 
+kworker/3:1H-kblroot
+pid : 217 ppid : 2 User name : root CPU time : 240 Cmdline : 
+kworker/2:1H-kblroot
+pid : 226 ppid : 2 User name : root CPU time : 318 Cmdline : 
+kdmflush
+pid : 264 ppid : 2 User name : root CPU time : 0 Cmdline : 
+raid5wq
+pid : 290 ppid : 2 User name : root CPU time : 0 Cmdline : 
+jbd2/dm-0-8
+pid : 348 ppid : 2 User name : root CPU time : 5344 Cmdline : 
+ext4-rsv-conver
+pid : 349 ppid : 2 User name : root CPU time : 0 Cmdline : 
+hwrng
+pid : 385 ppid : 2 User name : root CPU time : 317 Cmdline : 
+systemd-journal
+pid : 427 ppid : 1 User name : root CPU time : 8478 Cmdline : /lib/systemd/systemd-journald
+ipmi-msghandler
+pid : 454 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kaluad
+pid : 477 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kmpath_rdacd
+pid : 480 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kmpathd
+pid : 482 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kmpath_handlerd
+pid : 483 ppid : 2 User name : root CPU time : 0 Cmdline : 
+multipathd
+pid : 484 ppid : 1 User name : root CPU time : 29921 Cmdline : /sbin/multipathd
+systemd-udevd
+pid : 488 ppid : 1 User name : root CPU time : 2137 Cmdline : /lib/systemd/systemd-udevd
+scsi_eh_0
+pid : 571 ppid : 2 User name : root CPU time : 0 Cmdline : 
+scsi_tmf_0
+pid : 572 ppid : 2 User name : root CPU time : 0 Cmdline : 
+usb-storage
+pid : 573 ppid : 2 User name : root CPU time : 21854 Cmdline : 
+uas
+pid : 574 ppid : 2 User name : root CPU time : 0 Cmdline : 
+jbd2/vda2-8
+pid : 677 ppid : 2 User name : root CPU time : 0 Cmdline : 
+ext4-rsv-conver
+pid : 678 ppid : 2 User name : root CPU time : 0 Cmdline : 
+systemd-oomd
+pid : 728 ppid : 1 User name : systemd-oom CPU time : 134043 Cmdline : /lib/systemd/systemd-oomd
+systemd-timesyn
+pid : 732 ppid : 1 User name : systemd-timesync CPU time : 2608 Cmdline : /lib/systemd/systemd-timesyncd
+systemd-network
+pid : 778 ppid : 1 User name : systemd-network CPU time : 5709 Cmdline : /lib/systemd/systemd-networkd
+systemd-resolve
+pid : 780 ppid : 1 User name : systemd-resolve CPU time : 4664 Cmdline : /lib/systemd/systemd-resolved
+avahi-daemon
+pid : 802 ppid : 1 User name : avahi CPU time : 8451 Cmdline : avahi-daemon: running [acho.local]
+dbus-daemon
+pid : 803 ppid : 1 User name : messagebus CPU time : 3014 Cmdline : @dbus-daemon
+NetworkManager
+pid : 804 ppid : 1 User name : root CPU time : 8596 Cmdline : /usr/sbin/NetworkManager
+irqbalance
+pid : 809 ppid : 1 User name : root CPU time : 11617 Cmdline : /usr/sbin/irqbalance
+networkd-dispat
+pid : 810 ppid : 1 User name : root CPU time : 111 Cmdline : /usr/bin/python3
+polkitd
+pid : 811 ppid : 1 User name : root CPU time : 1829 Cmdline : /usr/libexec/polkitd
+power-profiles-
+pid : 812 ppid : 1 User name : root CPU time : 57 Cmdline : /usr/libexec/power-profiles-daemon
+rsyslogd
+pid : 813 ppid : 1 User name : syslog CPU time : 1325 Cmdline : /usr/sbin/rsyslogd
+snapd
+pid : 814 ppid : 1 User name : root CPU time : 32256 Cmdline : /usr/lib/snapd/snapd
+accounts-daemon
+pid : 816 ppid : 1 User name : root CPU time : 4266 Cmdline : /usr/libexec/accounts-daemon
+switcheroo-cont
+pid : 817 ppid : 1 User name : root CPU time : 4 Cmdline : /usr/libexec/switcheroo-control
+systemd-logind
+pid : 818 ppid : 1 User name : root CPU time : 1955 Cmdline : /lib/systemd/systemd-logind
+udisksd
+pid : 819 ppid : 1 User name : root CPU time : 1808 Cmdline : /usr/libexec/udisks2/udisksd
+wpa_supplicant
+pid : 820 ppid : 1 User name : root CPU time : 1933 Cmdline : /sbin/wpa_supplicant
+avahi-daemon
+pid : 822 ppid : 802 User name : avahi CPU time : 0 Cmdline : avahi-daemon: chroot helper
+spice-webdavd
+pid : 852 ppid : 1 User name : root CPU time : 195 Cmdline : /usr/sbin/spice-webdavd
+unattended-upgr
+pid : 863 ppid : 1 User name : root CPU time : 5 Cmdline : /usr/bin/python3
+ModemManager
+pid : 874 ppid : 1 User name : root CPU time : 161 Cmdline : /usr/sbin/ModemManager
+cron
+pid : 930 ppid : 1 User name : root CPU time : 2979 Cmdline : /usr/sbin/cron
+kerneloops
+pid : 945 ppid : 1 User name : kernoops CPU time : 1082 Cmdline : /usr/sbin/kerneloops
+agetty
+pid : 954 ppid : 1 User name : root CPU time : 0 Cmdline : /sbin/agetty
+kerneloops
+pid : 968 ppid : 1 User name : kernoops CPU time : 1129 Cmdline : /usr/sbin/kerneloops
+sshd
+pid : 975 ppid : 1 User name : root CPU time : 201 Cmdline : sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 sta×
+gdm3
+pid : 983 ppid : 1 User name : root CPU time : 391 Cmdline : /usr/sbin/gdm3
+apache2
+pid : 1012 ppid : 1 User name : root CPU time : 9891 Cmdline : /usr/sbin/apache2
+upowerd
+pid : 1233 ppid : 1 User name : root CPU time : 206 Cmdline : /usr/libexec/upowerd
+colord
+pid : 1413 ppid : 1 User name : colord CPU time : 12 Cmdline : /usr/libexec/colord
+spice-vdagentd
+pid : 1449 ppid : 1 User name : root CPU time : 834 Cmdline : /usr/sbin/spice-vdagentd
+gdm-session-wor
+pid : 1465 ppid : 983 User name : root CPU time : 157 Cmdline : gdm-session-worker [pam/gdm-password]
+systemd
+pid : 1473 ppid : 1 User name : acho CPU time : 1035 Cmdline : /lib/systemd/systemd
+(sd-pam
+pid : 1474 ppid : 1473 User name : acho CPU time : 0 Cmdline : (sd-pam)
+pipewire
+pid : 1480 ppid : 1473 User name : acho CPU time : 89 Cmdline : /usr/bin/pipewire
+pipewire-media-
+pid : 1481 ppid : 1473 User name : acho CPU time : 240 Cmdline : /usr/bin/pipewire-media-session
+pulseaudio
+pid : 1482 ppid : 1473 User name : acho CPU time : 246 Cmdline : /usr/bin/pulseaudio
+dbus-daemon
+pid : 1486 ppid : 1473 User name : acho CPU time : 1428 Cmdline : /usr/bin/dbus-daemon
+gnome-keyring-d
+pid : 1488 ppid : 1 User name : acho CPU time : 391 Cmdline : /usr/bin/gnome-keyring-daemon
+gvfsd
+pid : 1492 ppid : 1473 User name : acho CPU time : 50 Cmdline : /usr/libexec/gvfsd
+gvfsd-fuse
+pid : 1497 ppid : 1473 User name : acho CPU time : 6 Cmdline : /usr/libexec/gvfsd-fuse
+gdm-wayland-ses
+pid : 1507 ppid : 1465 User name : acho CPU time : 4 Cmdline : /usr/libexec/gdm-wayland-session
+gnome-session-b
+pid : 1512 ppid : 1507 User name : acho CPU time : 1 Cmdline : /usr/libexec/gnome-session-binary
+tracker-miner-f
+pid : 1533 ppid : 1473 User name : acho CPU time : 3169 Cmdline : /usr/libexec/tracker-miner-fs-3
+gnome-session-c
+pid : 1561 ppid : 1473 User name : acho CPU time : 0 Cmdline : /usr/libexec/gnome-session-ctl
+gnome-session-b
+pid : 1574 ppid : 1473 User name : acho CPU time : 587 Cmdline : /usr/libexec/gnome-session-binary
+gnome-shell
+pid : 1591 ppid : 1473 User name : acho CPU time : 374127 Cmdline : /usr/bin/gnome-shell
+at-spi-bus-laun
+pid : 1593 ppid : 1574 User name : acho CPU time : 29 Cmdline : /usr/libexec/at-spi-bus-launcher
+dbus-daemon
+pid : 1600 ppid : 1593 User name : acho CPU time : 35 Cmdline : /usr/bin/dbus-daemon
+gvfs-udisks2-vo
+pid : 1603 ppid : 1473 User name : acho CPU time : 105 Cmdline : /usr/libexec/gvfs-udisks2-volume-monitor
+gvfs-afc-volume
+pid : 1611 ppid : 1473 User name : acho CPU time : 7320 Cmdline : /usr/libexec/gvfs-afc-volume-monitor
+gvfs-gphoto2-vo
+pid : 1616 ppid : 1473 User name : acho CPU time : 17 Cmdline : /usr/libexec/gvfs-gphoto2-volume-monitor
+gvfs-mtp-volume
+pid : 1629 ppid : 1473 User name : acho CPU time : 20 Cmdline : /usr/libexec/gvfs-mtp-volume-monitor
+gvfs-goa-volume
+pid : 1634 ppid : 1473 User name : acho CPU time : 22 Cmdline : /usr/libexec/gvfs-goa-volume-monitor
+goa-daemon
+pid : 1638 ppid : 1473 User name : acho CPU time : 102 Cmdline : /usr/libexec/goa-daemon
+goa-identity-se
+pid : 1645 ppid : 1473 User name : acho CPU time : 509 Cmdline : /usr/libexec/goa-identity-service
+xdg-permission-
+pid : 1658 ppid : 1473 User name : acho CPU time : 8 Cmdline : /usr/libexec/xdg-permission-store
+gnome-shell-cal
+pid : 1660 ppid : 1473 User name : acho CPU time : 21 Cmdline : /usr/libexec/gnome-shell-calendar-server
+evolution-sourc
+pid : 1670 ppid : 1473 User name : acho CPU time : 157 Cmdline : /usr/libexec/evolution-source-registry
+evolution-calen
+pid : 1677 ppid : 1473 User name : acho CPU time : 226 Cmdline : /usr/libexec/evolution-calendar-factory
+dconf-service
+pid : 1685 ppid : 1473 User name : acho CPU time : 24 Cmdline : /usr/libexec/dconf-service
+evolution-addre
+pid : 1690 ppid : 1473 User name : acho CPU time : 114 Cmdline : /usr/libexec/evolution-addressbook-factory
+gvfsd-trash
+pid : 1694 ppid : 1492 User name : acho CPU time : 76 Cmdline : /usr/libexec/gvfsd-trash
+gjs
+pid : 1712 ppid : 1473 User name : acho CPU time : 14 Cmdline : /usr/bin/gjs
+at-spi2-registr
+pid : 1714 ppid : 1473 User name : acho CPU time : 17 Cmdline : /usr/libexec/at-spi2-registryd
+sh
+pid : 1721 ppid : 1473 User name : acho CPU time : 0 Cmdline : sh
+gsd-a11y-settin
+pid : 1723 ppid : 1473 User name : acho CPU time : 6 Cmdline : /usr/libexec/gsd-a11y-settings
+gsd-color
+pid : 1724 ppid : 1473 User name : acho CPU time : 4585 Cmdline : /usr/libexec/gsd-color
+gsd-datetime
+pid : 1725 ppid : 1473 User name : acho CPU time : 7 Cmdline : /usr/libexec/gsd-datetime
+gsd-housekeepin
+pid : 1732 ppid : 1473 User name : acho CPU time : 8347 Cmdline : /usr/libexec/gsd-housekeeping
+gsd-keyboard
+pid : 1733 ppid : 1473 User name : acho CPU time : 41 Cmdline : /usr/libexec/gsd-keyboard
+gsd-media-keys
+pid : 1734 ppid : 1473 User name : acho CPU time : 636 Cmdline : /usr/libexec/gsd-media-keys
+gsd-power
+pid : 1736 ppid : 1473 User name : acho CPU time : 733 Cmdline : /usr/libexec/gsd-power
+gsd-print-notif
+pid : 1737 ppid : 1473 User name : acho CPU time : 390 Cmdline : /usr/libexec/gsd-print-notifications
+gsd-rfkill
+pid : 1738 ppid : 1473 User name : acho CPU time : 104 Cmdline : /usr/libexec/gsd-rfkill
+gsd-screensaver
+pid : 1743 ppid : 1473 User name : acho CPU time : 5 Cmdline : /usr/libexec/gsd-screensaver-proxy
+gsd-sharing
+pid : 1744 ppid : 1473 User name : acho CPU time : 133 Cmdline : /usr/libexec/gsd-sharing
+gsd-smartcard
+pid : 1745 ppid : 1473 User name : acho CPU time : 5 Cmdline : /usr/libexec/gsd-smartcard
+gsd-sound
+pid : 1746 ppid : 1473 User name : acho CPU time : 7 Cmdline : /usr/libexec/gsd-sound
+gsd-wacom
+pid : 1748 ppid : 1473 User name : acho CPU time : 40 Cmdline : /usr/libexec/gsd-wacom
+ibus-daemon
+pid : 1749 ppid : 1721 User name : acho CPU time : 173 Cmdline : /usr/bin/ibus-daemon
+spice-vdagent
+pid : 1790 ppid : 1473 User name : acho CPU time : 1263 Cmdline : /usr/bin/spice-vdagent
+ibus-dconf
+pid : 1809 ppid : 1749 User name : acho CPU time : 3 Cmdline : /usr/libexec/ibus-dconf
+ibus-extension-
+pid : 1810 ppid : 1749 User name : acho CPU time : 151 Cmdline : /usr/libexec/ibus-extension-gtk3
+ibus-portal
+pid : 1826 ppid : 1473 User name : acho CPU time : 124 Cmdline : /usr/libexec/ibus-portal
+Xwayland
+pid : 1833 ppid : 1591 User name : acho CPU time : 90484 Cmdline : /usr/bin/Xwayland
+gsd-printer
+pid : 1845 ppid : 1473 User name : acho CPU time : 253 Cmdline : /usr/libexec/gsd-printer
+ibus-engine-han
+pid : 1850 ppid : 1749 User name : acho CPU time : 56 Cmdline : /usr/libexec/ibus-engine-hangul
+gsd-xsettings
+pid : 1856 ppid : 1473 User name : acho CPU time : 361 Cmdline : /usr/libexec/gsd-xsettings
+xdg-desktop-por
+pid : 1871 ppid : 1473 User name : acho CPU time : 6287 Cmdline : /usr/libexec/xdg-desktop-portal
+xdg-document-po
+pid : 1877 ppid : 1473 User name : acho CPU time : 173 Cmdline : /usr/libexec/xdg-document-portal
+fusermount3
+pid : 1884 ppid : 1877 User name : root CPU time : 0 Cmdline : fusermount3
+xdg-desktop-por
+pid : 1890 ppid : 1473 User name : acho CPU time : 1540 Cmdline : /usr/libexec/xdg-desktop-portal-gnome
+ibus-x11
+pid : 1915 ppid : 1473 User name : acho CPU time : 48 Cmdline : /usr/libexec/ibus-x11
+gjs
+pid : 1930 ppid : 1473 User name : acho CPU time : 206 Cmdline : /usr/bin/gjs
+evolution-alarm
+pid : 1949 ppid : 1574 User name : acho CPU time : 2218 Cmdline : /usr/libexec/evolution-data-server/evolution-alarm 
+gsd-disk-utilit
+pid : 1952 ppid : 1574 User name : acho CPU time : 29 Cmdline : /usr/libexec/gsd-disk-utility-notify
+xdg-desktop-por
+pid : 2015 ppid : 1473 User name : acho CPU time : 1448 Cmdline : /usr/libexec/xdg-desktop-portal-gtk
+gvfsd-metadata
+pid : 2046 ppid : 1473 User name : acho CPU time : 24 Cmdline : /usr/libexec/gvfsd-metadata
+update-notifier
+pid : 2085 ppid : 1574 User name : acho CPU time : 9849 Cmdline : update-notifier
+gnome-terminal-
+pid : 2350 ppid : 1473 User name : acho CPU time : 491 Cmdline : /usr/libexec/gnome-terminal-server
+bash
+pid : 2380 ppid : 2350 User name : acho CPU time : 2 Cmdline : bash
+bash
+pid : 2400 ppid : 2350 User name : acho CPU time : 1 Cmdline : bash
+packagekitd
+pid : 48279 ppid : 1 User name : root CPU time : 11189 Cmdline : /usr/libexec/packagekitd
+mysqld
+pid : 50066 ppid : 1 User name : mysql CPU time : 546941 Cmdline : /usr/sbin/mysqld
+snap
+pid : 50745 ppid : 1473 User name : acho CPU time : 15092 Cmdline : /usr/bin/snap
+firefox
+pid : 53210 ppid : 1591 User name : acho CPU time : 356209 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Socket
+pid : 53348 ppid : 0 User name : acho CPU time : 13 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Privileged
+pid : 53395 ppid : 0 User name : acho CPU time : 15783 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+WebExtensions
+pid : 53925 ppid : 53210 User name : acho CPU time : 1330 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Isolated
+pid : 54233 ppid : 0 User name : acho CPU time : 24 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Isolated
+pid : 54284 ppid : 0 User name : acho CPU time : 0 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Web
+pid : 54310 ppid : 0 User name : acho CPU time : 1035 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Web
+pid : 54344 ppid : 0 User name : acho CPU time : 1179 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Web
+pid : 54348 ppid : 0 User name : acho CPU time : 1071 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+nautilus
+pid : 54396 ppid : 1473 User name : acho CPU time : 4970 Cmdline : /usr/bin/nautilus
+gedit
+pid : 75153 ppid : 1473 User name : acho CPU time : 4259 Cmdline : /usr/bin/gedit
+update-manager
+pid : 95458 ppid : 1473 User name : acho CPU time : 300 Cmdline : /usr/bin/python3
+sshd
+pid : 97640 ppid : 975 User name : root CPU time : 59 Cmdline : sshd: acho [priv]
+sshd
+pid : 97658 ppid : 975 User name : root CPU time : 41 Cmdline : sshd: acho [priv]
+sshd
+pid : 97787 ppid : 97640 User name : acho CPU time : 912 Cmdline : sshd: acho@pts/0
+sshd
+pid : 97798 ppid : 97658 User name : acho CPU time : 698 Cmdline : sshd: acho@pts/1
+sshd
+pid : 97799 ppid : 975 User name : root CPU time : 14 Cmdline : sshd: acho [priv]
+bash
+pid : 97800 ppid : 97787 User name : acho CPU time : 254 Cmdline : -bash
+bash
+pid : 97801 ppid : 97798 User name : acho CPU time : 295 Cmdline : -bash
+sshd
+pid : 97866 ppid : 97799 User name : acho CPU time : 161 Cmdline : sshd: acho@pts/4
+bash
+pid : 97867 ppid : 97866 User name : acho CPU time : 364 Cmdline : -bash
+kworker/3:3-evenroot
+pid : 99387 ppid : 2 User name : root CPU time : 2711 Cmdline : 
+kworker/1:0-evenroot
+pid : 99424 ppid : 2 User name : root CPU time : 469 Cmdline : 
+apache2
+pid : 99506 ppid : 1012 User name : www-data CPU time : 2 Cmdline : /usr/sbin/apache2
+apache2
+pid : 99516 ppid : 1012 User name : www-data CPU time : 1 Cmdline : /usr/sbin/apache2
+kworker/2:3-evenroot
+pid : 99574 ppid : 2 User name : root CPU time : 714 Cmdline : 
+cupsd
+pid : 99575 ppid : 1 User name : root CPU time : 67 Cmdline : /usr/sbin/cupsd
+cups-browsed
+pid : 99578 ppid : 1 User name : root CPU time : 20 Cmdline : /usr/sbin/cups-browsed
+kworker/3:0-cgroroot
+pid : 100182 ppid : 2 User name : root CPU time : 2 Cmdline : 
+kworker/2:0-evenroot
+pid : 100988 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/1:2-evenroot
+pid : 102733 ppid : 2 User name : root CPU time : 144 Cmdline : 
+kworker/0:1
+pid : 103229 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/u8:1-everoot
+pid : 103672 ppid : 2 User name : root CPU time : 78 Cmdline : 
+kworker/0:2-evenroot
+pid : 103756 ppid : 2 User name : root CPU time : 8 Cmdline : 
+kworker/u8:3-fluroot
+pid : 103757 ppid : 2 User name : root CPU time : 12 Cmdline : 
+kworker/u8:0-everoot
+pid : 103762 ppid : 2 User name : root CPU time : 17 Cmdline : 
+kworker/u8:2-everoot
+pid : 103944 ppid : 2 User name : root CPU time : 13 Cmdline : 
+server
+pid : 104014 ppid : 97867 User name : acho CPU time : 1 Cmdline : ./server
+agent
+pid : 104019 ppid : 97801 User name : acho CPU time : 18 Cmdline : ./agent
+agent
+pid : 104022 ppid : 97800 User name : acho CPU time : 1 Cmdline : ./agent
+----------------------------------------------------------------------------------------------------
+MEMORY
+MemTotal : 4002172 MemFree : 371436 Used : 3630736 SwapUsed : 22356
+
+NETWORK
+enp0s6 Received bytes : 364895598 Received cnt : 1339117 Transmit bytes : 884025 Transmit cnts : 323203000
+
+CPU
+cpu0 User : 2302 System : 2302 iowait : 2302 idle : 2302
+
+cpu1 User : 2818 System : 2818 iowait : 2818 idle : 2818
+
+cpu2 User : 2317 System : 2317 iowait : 2317 idle : 2317
+
+cpu3 User : 2192 System : 2192 iowait : 2192 idle : 2192
+
+PROCESS
+systemd
+pid : 1 ppid : 0 User name : root CPU time : 15373 Cmdline : /sbin/init
+kthreadd
+pid : 2 ppid : 0 User name : root CPU time : 490 Cmdline : 
+rcu_gp
+pid : 3 ppid : 2 User name : root CPU time : 0 Cmdline : 
+rcu_par_gp
+pid : 4 ppid : 2 User name : root CPU time : 0 Cmdline : 
+netns
+pid : 5 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/0:0H-everoot
+pid : 7 ppid : 2 User name : root CPU time : 0 Cmdline : 
+mm_percpu_wq
+pid : 9 ppid : 2 User name : root CPU time : 0 Cmdline : 
+rcu_tasks_rude_
+pid : 10 ppid : 2 User name : root CPU time : 0 Cmdline : 
+rcu_tasks_trace
+pid : 11 ppid : 2 User name : root CPU time : 0 Cmdline : 
+ksoftirqd/0
+pid : 12 ppid : 2 User name : root CPU time : 10378 Cmdline : 
+rcu_sched
+pid : 13 ppid : 2 User name : root CPU time : 35801 Cmdline : 
+migration/0
+pid : 14 ppid : 2 User name : root CPU time : 979 Cmdline : 
+idle_inject/0
+pid : 15 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cpuhp/0
+pid : 17 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cpuhp/1
+pid : 18 ppid : 2 User name : root CPU time : 0 Cmdline : 
+idle_inject/1
+pid : 19 ppid : 2 User name : root CPU time : 0 Cmdline : 
+migration/1
+pid : 20 ppid : 2 User name : root CPU time : 1329 Cmdline : 
+ksoftirqd/1
+pid : 21 ppid : 2 User name : root CPU time : 8319 Cmdline : 
+kworker/1:0H-everoot
+pid : 23 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cpuhp/2
+pid : 24 ppid : 2 User name : root CPU time : 0 Cmdline : 
+idle_inject/2
+pid : 25 ppid : 2 User name : root CPU time : 0 Cmdline : 
+migration/2
+pid : 26 ppid : 2 User name : root CPU time : 1582 Cmdline : 
+ksoftirqd/2
+pid : 27 ppid : 2 User name : root CPU time : 8270 Cmdline : 
+kworker/2:0H-everoot
+pid : 29 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cpuhp/3
+pid : 30 ppid : 2 User name : root CPU time : 0 Cmdline : 
+idle_inject/3
+pid : 31 ppid : 2 User name : root CPU time : 0 Cmdline : 
+migration/3
+pid : 32 ppid : 2 User name : root CPU time : 1714 Cmdline : 
+ksoftirqd/3
+pid : 33 ppid : 2 User name : root CPU time : 4610 Cmdline : 
+kworker/3:0H-everoot
+pid : 35 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kdevtmpfs
+pid : 36 ppid : 2 User name : root CPU time : 1 Cmdline : 
+inet_frag_wq
+pid : 37 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kauditd
+pid : 41 ppid : 2 User name : root CPU time : 12 Cmdline : 
+khungtaskd
+pid : 42 ppid : 2 User name : root CPU time : 2472 Cmdline : 
+oom_reaper
+pid : 43 ppid : 2 User name : root CPU time : 0 Cmdline : 
+writeback
+pid : 44 ppid : 2 User name : root CPU time : 54 Cmdline : 
+kcompactd0
+pid : 45 ppid : 2 User name : root CPU time : 13357 Cmdline : 
+ksmd
+pid : 46 ppid : 2 User name : root CPU time : 0 Cmdline : 
+khugepaged
+pid : 47 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kintegrityd
+pid : 93 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kblockd
+pid : 94 ppid : 2 User name : root CPU time : 0 Cmdline : 
+blkcg_punt_bio
+pid : 95 ppid : 2 User name : root CPU time : 0 Cmdline : 
+tpm_dev_wq
+pid : 96 ppid : 2 User name : root CPU time : 0 Cmdline : 
+ata_sff
+pid : 97 ppid : 2 User name : root CPU time : 0 Cmdline : 
+md
+pid : 98 ppid : 2 User name : root CPU time : 0 Cmdline : 
+edac-poller
+pid : 99 ppid : 2 User name : root CPU time : 0 Cmdline : 
+devfreq_wq
+pid : 100 ppid : 2 User name : root CPU time : 0 Cmdline : 
+watchdogd
+pid : 101 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/1:1H-kblroot
+pid : 103 ppid : 2 User name : root CPU time : 359 Cmdline : 
+kswapd0
+pid : 104 ppid : 2 User name : root CPU time : 4936 Cmdline : 
+ecryptfs-kthrea
+pid : 105 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kthrotld
+pid : 107 ppid : 2 User name : root CPU time : 0 Cmdline : 
+irq/49-ACPI:Ged
+pid : 108 ppid : 2 User name : root CPU time : 0 Cmdline : 
+acpi_thermal_pm
+pid : 109 ppid : 2 User name : root CPU time : 0 Cmdline : 
+mld
+pid : 111 ppid : 2 User name : root CPU time : 0 Cmdline : 
+ipv6_addrconf
+pid : 112 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kstrp
+pid : 121 ppid : 2 User name : root CPU time : 0 Cmdline : 
+zswap-shrink
+pid : 124 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/u9:0
+pid : 125 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cryptd
+pid : 129 ppid : 2 User name : root CPU time : 0 Cmdline : 
+charger_manager
+pid : 167 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/0:1H-kblroot
+pid : 210 ppid : 2 User name : root CPU time : 243 Cmdline : 
+kworker/3:1H-kblroot
+pid : 217 ppid : 2 User name : root CPU time : 240 Cmdline : 
+kworker/2:1H-kblroot
+pid : 226 ppid : 2 User name : root CPU time : 318 Cmdline : 
+kdmflush
+pid : 264 ppid : 2 User name : root CPU time : 0 Cmdline : 
+raid5wq
+pid : 290 ppid : 2 User name : root CPU time : 0 Cmdline : 
+jbd2/dm-0-8
+pid : 348 ppid : 2 User name : root CPU time : 5344 Cmdline : 
+ext4-rsv-conver
+pid : 349 ppid : 2 User name : root CPU time : 0 Cmdline : 
+hwrng
+pid : 385 ppid : 2 User name : root CPU time : 317 Cmdline : 
+systemd-journal
+pid : 427 ppid : 1 User name : root CPU time : 8478 Cmdline : /lib/systemd/systemd-journald
+ipmi-msghandler
+pid : 454 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kaluad
+pid : 477 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kmpath_rdacd
+pid : 480 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kmpathd
+pid : 482 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kmpath_handlerd
+pid : 483 ppid : 2 User name : root CPU time : 0 Cmdline : 
+multipathd
+pid : 484 ppid : 1 User name : root CPU time : 29921 Cmdline : /sbin/multipathd
+systemd-udevd
+pid : 488 ppid : 1 User name : root CPU time : 2137 Cmdline : /lib/systemd/systemd-udevd
+scsi_eh_0
+pid : 571 ppid : 2 User name : root CPU time : 0 Cmdline : 
+scsi_tmf_0
+pid : 572 ppid : 2 User name : root CPU time : 0 Cmdline : 
+usb-storage
+pid : 573 ppid : 2 User name : root CPU time : 21854 Cmdline : 
+uas
+pid : 574 ppid : 2 User name : root CPU time : 0 Cmdline : 
+jbd2/vda2-8
+pid : 677 ppid : 2 User name : root CPU time : 0 Cmdline : 
+ext4-rsv-conver
+pid : 678 ppid : 2 User name : root CPU time : 0 Cmdline : 
+systemd-oomd
+pid : 728 ppid : 1 User name : systemd-oom CPU time : 134044 Cmdline : /lib/systemd/systemd-oomd
+systemd-timesyn
+pid : 732 ppid : 1 User name : systemd-timesync CPU time : 2608 Cmdline : /lib/systemd/systemd-timesyncd
+systemd-network
+pid : 778 ppid : 1 User name : systemd-network CPU time : 5709 Cmdline : /lib/systemd/systemd-networkd
+systemd-resolve
+pid : 780 ppid : 1 User name : systemd-resolve CPU time : 4664 Cmdline : /lib/systemd/systemd-resolved
+avahi-daemon
+pid : 802 ppid : 1 User name : avahi CPU time : 8451 Cmdline : avahi-daemon: running [acho.local]
+dbus-daemon
+pid : 803 ppid : 1 User name : messagebus CPU time : 3014 Cmdline : @dbus-daemon
+NetworkManager
+pid : 804 ppid : 1 User name : root CPU time : 8596 Cmdline : /usr/sbin/NetworkManager
+irqbalance
+pid : 809 ppid : 1 User name : root CPU time : 11617 Cmdline : /usr/sbin/irqbalance
+networkd-dispat
+pid : 810 ppid : 1 User name : root CPU time : 111 Cmdline : /usr/bin/python3
+polkitd
+pid : 811 ppid : 1 User name : root CPU time : 1829 Cmdline : /usr/libexec/polkitd
+power-profiles-
+pid : 812 ppid : 1 User name : root CPU time : 57 Cmdline : /usr/libexec/power-profiles-daemon
+rsyslogd
+pid : 813 ppid : 1 User name : syslog CPU time : 1325 Cmdline : /usr/sbin/rsyslogd
+snapd
+pid : 814 ppid : 1 User name : root CPU time : 32256 Cmdline : /usr/lib/snapd/snapd
+accounts-daemon
+pid : 816 ppid : 1 User name : root CPU time : 4266 Cmdline : /usr/libexec/accounts-daemon
+switcheroo-cont
+pid : 817 ppid : 1 User name : root CPU time : 4 Cmdline : /usr/libexec/switcheroo-control
+systemd-logind
+pid : 818 ppid : 1 User name : root CPU time : 1955 Cmdline : /lib/systemd/systemd-logind
+udisksd
+pid : 819 ppid : 1 User name : root CPU time : 1808 Cmdline : /usr/libexec/udisks2/udisksd
+wpa_supplicant
+pid : 820 ppid : 1 User name : root CPU time : 1933 Cmdline : /sbin/wpa_supplicant
+avahi-daemon
+pid : 822 ppid : 802 User name : avahi CPU time : 0 Cmdline : avahi-daemon: chroot helper
+spice-webdavd
+pid : 852 ppid : 1 User name : root CPU time : 195 Cmdline : /usr/sbin/spice-webdavd
+unattended-upgr
+pid : 863 ppid : 1 User name : root CPU time : 5 Cmdline : /usr/bin/python3
+ModemManager
+pid : 874 ppid : 1 User name : root CPU time : 161 Cmdline : /usr/sbin/ModemManager
+cron
+pid : 930 ppid : 1 User name : root CPU time : 2979 Cmdline : /usr/sbin/cron
+kerneloops
+pid : 945 ppid : 1 User name : kernoops CPU time : 1082 Cmdline : /usr/sbin/kerneloops
+agetty
+pid : 954 ppid : 1 User name : root CPU time : 0 Cmdline : /sbin/agetty
+kerneloops
+pid : 968 ppid : 1 User name : kernoops CPU time : 1129 Cmdline : /usr/sbin/kerneloops
+sshd
+pid : 975 ppid : 1 User name : root CPU time : 201 Cmdline : sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 sta×
+gdm3
+pid : 983 ppid : 1 User name : root CPU time : 391 Cmdline : /usr/sbin/gdm3
+apache2
+pid : 1012 ppid : 1 User name : root CPU time : 9891 Cmdline : /usr/sbin/apache2
+upowerd
+pid : 1233 ppid : 1 User name : root CPU time : 206 Cmdline : /usr/libexec/upowerd
+colord
+pid : 1413 ppid : 1 User name : colord CPU time : 12 Cmdline : /usr/libexec/colord
+spice-vdagentd
+pid : 1449 ppid : 1 User name : root CPU time : 834 Cmdline : /usr/sbin/spice-vdagentd
+gdm-session-wor
+pid : 1465 ppid : 983 User name : root CPU time : 157 Cmdline : gdm-session-worker [pam/gdm-password]
+systemd
+pid : 1473 ppid : 1 User name : acho CPU time : 1035 Cmdline : /lib/systemd/systemd
+(sd-pam
+pid : 1474 ppid : 1473 User name : acho CPU time : 0 Cmdline : (sd-pam)
+pipewire
+pid : 1480 ppid : 1473 User name : acho CPU time : 89 Cmdline : /usr/bin/pipewire
+pipewire-media-
+pid : 1481 ppid : 1473 User name : acho CPU time : 240 Cmdline : /usr/bin/pipewire-media-session
+pulseaudio
+pid : 1482 ppid : 1473 User name : acho CPU time : 246 Cmdline : /usr/bin/pulseaudio
+dbus-daemon
+pid : 1486 ppid : 1473 User name : acho CPU time : 1428 Cmdline : /usr/bin/dbus-daemon
+gnome-keyring-d
+pid : 1488 ppid : 1 User name : acho CPU time : 391 Cmdline : /usr/bin/gnome-keyring-daemon
+gvfsd
+pid : 1492 ppid : 1473 User name : acho CPU time : 50 Cmdline : /usr/libexec/gvfsd
+gvfsd-fuse
+pid : 1497 ppid : 1473 User name : acho CPU time : 6 Cmdline : /usr/libexec/gvfsd-fuse
+gdm-wayland-ses
+pid : 1507 ppid : 1465 User name : acho CPU time : 4 Cmdline : /usr/libexec/gdm-wayland-session
+gnome-session-b
+pid : 1512 ppid : 1507 User name : acho CPU time : 1 Cmdline : /usr/libexec/gnome-session-binary
+tracker-miner-f
+pid : 1533 ppid : 1473 User name : acho CPU time : 3169 Cmdline : /usr/libexec/tracker-miner-fs-3
+gnome-session-c
+pid : 1561 ppid : 1473 User name : acho CPU time : 0 Cmdline : /usr/libexec/gnome-session-ctl
+gnome-session-b
+pid : 1574 ppid : 1473 User name : acho CPU time : 587 Cmdline : /usr/libexec/gnome-session-binary
+gnome-shell
+pid : 1591 ppid : 1473 User name : acho CPU time : 374127 Cmdline : /usr/bin/gnome-shell
+at-spi-bus-laun
+pid : 1593 ppid : 1574 User name : acho CPU time : 29 Cmdline : /usr/libexec/at-spi-bus-launcher
+dbus-daemon
+pid : 1600 ppid : 1593 User name : acho CPU time : 35 Cmdline : /usr/bin/dbus-daemon
+gvfs-udisks2-vo
+pid : 1603 ppid : 1473 User name : acho CPU time : 105 Cmdline : /usr/libexec/gvfs-udisks2-volume-monitor
+gvfs-afc-volume
+pid : 1611 ppid : 1473 User name : acho CPU time : 7320 Cmdline : /usr/libexec/gvfs-afc-volume-monitor
+gvfs-gphoto2-vo
+pid : 1616 ppid : 1473 User name : acho CPU time : 17 Cmdline : /usr/libexec/gvfs-gphoto2-volume-monitor
+gvfs-mtp-volume
+pid : 1629 ppid : 1473 User name : acho CPU time : 20 Cmdline : /usr/libexec/gvfs-mtp-volume-monitor
+gvfs-goa-volume
+pid : 1634 ppid : 1473 User name : acho CPU time : 22 Cmdline : /usr/libexec/gvfs-goa-volume-monitor
+goa-daemon
+pid : 1638 ppid : 1473 User name : acho CPU time : 102 Cmdline : /usr/libexec/goa-daemon
+goa-identity-se
+pid : 1645 ppid : 1473 User name : acho CPU time : 509 Cmdline : /usr/libexec/goa-identity-service
+xdg-permission-
+pid : 1658 ppid : 1473 User name : acho CPU time : 8 Cmdline : /usr/libexec/xdg-permission-store
+gnome-shell-cal
+pid : 1660 ppid : 1473 User name : acho CPU time : 21 Cmdline : /usr/libexec/gnome-shell-calendar-server
+evolution-sourc
+pid : 1670 ppid : 1473 User name : acho CPU time : 157 Cmdline : /usr/libexec/evolution-source-registry
+evolution-calen
+pid : 1677 ppid : 1473 User name : acho CPU time : 226 Cmdline : /usr/libexec/evolution-calendar-factory
+dconf-service
+pid : 1685 ppid : 1473 User name : acho CPU time : 24 Cmdline : /usr/libexec/dconf-service
+evolution-addre
+pid : 1690 ppid : 1473 User name : acho CPU time : 114 Cmdline : /usr/libexec/evolution-addressbook-factory
+gvfsd-trash
+pid : 1694 ppid : 1492 User name : acho CPU time : 76 Cmdline : /usr/libexec/gvfsd-trash
+gjs
+pid : 1712 ppid : 1473 User name : acho CPU time : 14 Cmdline : /usr/bin/gjs
+at-spi2-registr
+pid : 1714 ppid : 1473 User name : acho CPU time : 17 Cmdline : /usr/libexec/at-spi2-registryd
+sh
+pid : 1721 ppid : 1473 User name : acho CPU time : 0 Cmdline : sh
+gsd-a11y-settin
+pid : 1723 ppid : 1473 User name : acho CPU time : 6 Cmdline : /usr/libexec/gsd-a11y-settings
+gsd-color
+pid : 1724 ppid : 1473 User name : acho CPU time : 4585 Cmdline : /usr/libexec/gsd-color
+gsd-datetime
+pid : 1725 ppid : 1473 User name : acho CPU time : 7 Cmdline : /usr/libexec/gsd-datetime
+gsd-housekeepin
+pid : 1732 ppid : 1473 User name : acho CPU time : 8347 Cmdline : /usr/libexec/gsd-housekeeping
+gsd-keyboard
+pid : 1733 ppid : 1473 User name : acho CPU time : 41 Cmdline : /usr/libexec/gsd-keyboard
+gsd-media-keys
+pid : 1734 ppid : 1473 User name : acho CPU time : 636 Cmdline : /usr/libexec/gsd-media-keys
+gsd-power
+pid : 1736 ppid : 1473 User name : acho CPU time : 733 Cmdline : /usr/libexec/gsd-power
+gsd-print-notif
+pid : 1737 ppid : 1473 User name : acho CPU time : 390 Cmdline : /usr/libexec/gsd-print-notifications
+gsd-rfkill
+pid : 1738 ppid : 1473 User name : acho CPU time : 104 Cmdline : /usr/libexec/gsd-rfkill
+gsd-screensaver
+pid : 1743 ppid : 1473 User name : acho CPU time : 5 Cmdline : /usr/libexec/gsd-screensaver-proxy
+gsd-sharing
+pid : 1744 ppid : 1473 User name : acho CPU time : 133 Cmdline : /usr/libexec/gsd-sharing
+gsd-smartcard
+pid : 1745 ppid : 1473 User name : acho CPU time : 5 Cmdline : /usr/libexec/gsd-smartcard
+gsd-sound
+pid : 1746 ppid : 1473 User name : acho CPU time : 7 Cmdline : /usr/libexec/gsd-sound
+gsd-wacom
+pid : 1748 ppid : 1473 User name : acho CPU time : 40 Cmdline : /usr/libexec/gsd-wacom
+ibus-daemon
+pid : 1749 ppid : 1721 User name : acho CPU time : 173 Cmdline : /usr/bin/ibus-daemon
+spice-vdagent
+pid : 1790 ppid : 1473 User name : acho CPU time : 1263 Cmdline : /usr/bin/spice-vdagent
+ibus-dconf
+pid : 1809 ppid : 1749 User name : acho CPU time : 3 Cmdline : /usr/libexec/ibus-dconf
+ibus-extension-
+pid : 1810 ppid : 1749 User name : acho CPU time : 151 Cmdline : /usr/libexec/ibus-extension-gtk3
+ibus-portal
+pid : 1826 ppid : 1473 User name : acho CPU time : 124 Cmdline : /usr/libexec/ibus-portal
+Xwayland
+pid : 1833 ppid : 1591 User name : acho CPU time : 90484 Cmdline : /usr/bin/Xwayland
+gsd-printer
+pid : 1845 ppid : 1473 User name : acho CPU time : 253 Cmdline : /usr/libexec/gsd-printer
+ibus-engine-han
+pid : 1850 ppid : 1749 User name : acho CPU time : 56 Cmdline : /usr/libexec/ibus-engine-hangul
+gsd-xsettings
+pid : 1856 ppid : 1473 User name : acho CPU time : 361 Cmdline : /usr/libexec/gsd-xsettings
+xdg-desktop-por
+pid : 1871 ppid : 1473 User name : acho CPU time : 6287 Cmdline : /usr/libexec/xdg-desktop-portal
+xdg-document-po
+pid : 1877 ppid : 1473 User name : acho CPU time : 173 Cmdline : /usr/libexec/xdg-document-portal
+fusermount3
+pid : 1884 ppid : 1877 User name : root CPU time : 0 Cmdline : fusermount3
+xdg-desktop-por
+pid : 1890 ppid : 1473 User name : acho CPU time : 1540 Cmdline : /usr/libexec/xdg-desktop-portal-gnome
+ibus-x11
+pid : 1915 ppid : 1473 User name : acho CPU time : 48 Cmdline : /usr/libexec/ibus-x11
+gjs
+pid : 1930 ppid : 1473 User name : acho CPU time : 206 Cmdline : /usr/bin/gjs
+evolution-alarm
+pid : 1949 ppid : 1574 User name : acho CPU time : 2218 Cmdline : /usr/libexec/evolution-data-server/evolution-alarm 
+gsd-disk-utilit
+pid : 1952 ppid : 1574 User name : acho CPU time : 29 Cmdline : /usr/libexec/gsd-disk-utility-notify
+xdg-desktop-por
+pid : 2015 ppid : 1473 User name : acho CPU time : 1448 Cmdline : /usr/libexec/xdg-desktop-portal-gtk
+gvfsd-metadata
+pid : 2046 ppid : 1473 User name : acho CPU time : 24 Cmdline : /usr/libexec/gvfsd-metadata
+update-notifier
+pid : 2085 ppid : 1574 User name : acho CPU time : 9849 Cmdline : update-notifier
+gnome-terminal-
+pid : 2350 ppid : 1473 User name : acho CPU time : 491 Cmdline : /usr/libexec/gnome-terminal-server
+bash
+pid : 2380 ppid : 2350 User name : acho CPU time : 2 Cmdline : bash
+bash
+pid : 2400 ppid : 2350 User name : acho CPU time : 1 Cmdline : bash
+packagekitd
+pid : 48279 ppid : 1 User name : root CPU time : 11189 Cmdline : /usr/libexec/packagekitd
+mysqld
+pid : 50066 ppid : 1 User name : mysql CPU time : 546942 Cmdline : /usr/sbin/mysqld
+snap
+pid : 50745 ppid : 1473 User name : acho CPU time : 15092 Cmdline : /usr/bin/snap
+firefox
+pid : 53210 ppid : 1591 User name : acho CPU time : 356209 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Socket
+pid : 53348 ppid : 0 User name : acho CPU time : 13 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Privileged
+pid : 53395 ppid : 0 User name : acho CPU time : 15783 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+WebExtensions
+pid : 53925 ppid : 53210 User name : acho CPU time : 1330 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Isolated
+pid : 54233 ppid : 0 User name : acho CPU time : 24 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Isolated
+pid : 54284 ppid : 0 User name : acho CPU time : 0 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Web
+pid : 54310 ppid : 0 User name : acho CPU time : 1035 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Web
+pid : 54344 ppid : 0 User name : acho CPU time : 1179 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Web
+pid : 54348 ppid : 0 User name : acho CPU time : 1071 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+nautilus
+pid : 54396 ppid : 1473 User name : acho CPU time : 4970 Cmdline : /usr/bin/nautilus
+gedit
+pid : 75153 ppid : 1473 User name : acho CPU time : 4259 Cmdline : /usr/bin/gedit
+update-manager
+pid : 95458 ppid : 1473 User name : acho CPU time : 300 Cmdline : /usr/bin/python3
+sshd
+pid : 97640 ppid : 975 User name : root CPU time : 59 Cmdline : sshd: acho [priv]
+sshd
+pid : 97658 ppid : 975 User name : root CPU time : 41 Cmdline : sshd: acho [priv]
+sshd
+pid : 97787 ppid : 97640 User name : acho CPU time : 912 Cmdline : sshd: acho@pts/0
+sshd
+pid : 97798 ppid : 97658 User name : acho CPU time : 698 Cmdline : sshd: acho@pts/1
+sshd
+pid : 97799 ppid : 975 User name : root CPU time : 14 Cmdline : sshd: acho [priv]
+bash
+pid : 97800 ppid : 97787 User name : acho CPU time : 254 Cmdline : -bash
+bash
+pid : 97801 ppid : 97798 User name : acho CPU time : 295 Cmdline : -bash
+sshd
+pid : 97866 ppid : 97799 User name : acho CPU time : 162 Cmdline : sshd: acho@pts/4
+bash
+pid : 97867 ppid : 97866 User name : acho CPU time : 364 Cmdline : -bash
+kworker/3:3-evenroot
+pid : 99387 ppid : 2 User name : root CPU time : 2711 Cmdline : 
+kworker/1:0-evenroot
+pid : 99424 ppid : 2 User name : root CPU time : 469 Cmdline : 
+apache2
+pid : 99506 ppid : 1012 User name : www-data CPU time : 2 Cmdline : /usr/sbin/apache2
+apache2
+pid : 99516 ppid : 1012 User name : www-data CPU time : 1 Cmdline : /usr/sbin/apache2
+kworker/2:3-evenroot
+pid : 99574 ppid : 2 User name : root CPU time : 714 Cmdline : 
+cupsd
+pid : 99575 ppid : 1 User name : root CPU time : 67 Cmdline : /usr/sbin/cupsd
+cups-browsed
+pid : 99578 ppid : 1 User name : root CPU time : 20 Cmdline : /usr/sbin/cups-browsed
+kworker/3:0-cgroroot
+pid : 100182 ppid : 2 User name : root CPU time : 2 Cmdline : 
+kworker/2:0-evenroot
+pid : 100988 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/1:2-mm_proot
+pid : 102733 ppid : 2 User name : root CPU time : 144 Cmdline : 
+kworker/0:1
+pid : 103229 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/u8:1-everoot
+pid : 103672 ppid : 2 User name : root CPU time : 78 Cmdline : 
+kworker/0:2-evenroot
+pid : 103756 ppid : 2 User name : root CPU time : 8 Cmdline : 
+kworker/u8:3-fluroot
+pid : 103757 ppid : 2 User name : root CPU time : 12 Cmdline : 
+kworker/u8:0-fluroot
+pid : 103762 ppid : 2 User name : root CPU time : 18 Cmdline : 
+kworker/u8:2-everoot
+pid : 103944 ppid : 2 User name : root CPU time : 14 Cmdline : 
+server
+pid : 104014 ppid : 97867 User name : acho CPU time : 1 Cmdline : ./server
+agent
+pid : 104019 ppid : 97801 User name : acho CPU time : 20 Cmdline : ./agent
+agent
+pid : 104022 ppid : 97800 User name : acho CPU time : 2 Cmdline : ./agent
+----------------------------------------------------------------------------------------------------
+MEMORY
+MemTotal : 4002172 MemFree : 371436 Used : 3630736 SwapUsed : 22356
+
+NETWORK
+enp0s6 Received bytes : 364896654 Received cnt : 1339133 Transmit bytes : 884041 Transmit cnts : 323205884
+
+CPU
+cpu0 User : 2302 System : 2302 iowait : 2302 idle : 2302
+
+cpu1 User : 2818 System : 2818 iowait : 2818 idle : 2818
+
+cpu2 User : 2317 System : 2317 iowait : 2317 idle : 2317
+
+cpu3 User : 2192 System : 2192 iowait : 2192 idle : 2192
+
+PROCESS
+systemd
+pid : 1 ppid : 0 User name : root CPU time : 15373 Cmdline : /sbin/init
+kthreadd
+pid : 2 ppid : 0 User name : root CPU time : 490 Cmdline : 
+rcu_gp
+pid : 3 ppid : 2 User name : root CPU time : 0 Cmdline : 
+rcu_par_gp
+pid : 4 ppid : 2 User name : root CPU time : 0 Cmdline : 
+netns
+pid : 5 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/0:0H-everoot
+pid : 7 ppid : 2 User name : root CPU time : 0 Cmdline : 
+mm_percpu_wq
+pid : 9 ppid : 2 User name : root CPU time : 0 Cmdline : 
+rcu_tasks_rude_
+pid : 10 ppid : 2 User name : root CPU time : 0 Cmdline : 
+rcu_tasks_trace
+pid : 11 ppid : 2 User name : root CPU time : 0 Cmdline : 
+ksoftirqd/0
+pid : 12 ppid : 2 User name : root CPU time : 10378 Cmdline : 
+rcu_sched
+pid : 13 ppid : 2 User name : root CPU time : 35802 Cmdline : 
+migration/0
+pid : 14 ppid : 2 User name : root CPU time : 979 Cmdline : 
+idle_inject/0
+pid : 15 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cpuhp/0
+pid : 17 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cpuhp/1
+pid : 18 ppid : 2 User name : root CPU time : 0 Cmdline : 
+idle_inject/1
+pid : 19 ppid : 2 User name : root CPU time : 0 Cmdline : 
+migration/1
+pid : 20 ppid : 2 User name : root CPU time : 1329 Cmdline : 
+ksoftirqd/1
+pid : 21 ppid : 2 User name : root CPU time : 8319 Cmdline : 
+kworker/1:0H-everoot
+pid : 23 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cpuhp/2
+pid : 24 ppid : 2 User name : root CPU time : 0 Cmdline : 
+idle_inject/2
+pid : 25 ppid : 2 User name : root CPU time : 0 Cmdline : 
+migration/2
+pid : 26 ppid : 2 User name : root CPU time : 1582 Cmdline : 
+ksoftirqd/2
+pid : 27 ppid : 2 User name : root CPU time : 8270 Cmdline : 
+kworker/2:0H-everoot
+pid : 29 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cpuhp/3
+pid : 30 ppid : 2 User name : root CPU time : 0 Cmdline : 
+idle_inject/3
+pid : 31 ppid : 2 User name : root CPU time : 0 Cmdline : 
+migration/3
+pid : 32 ppid : 2 User name : root CPU time : 1714 Cmdline : 
+ksoftirqd/3
+pid : 33 ppid : 2 User name : root CPU time : 4610 Cmdline : 
+kworker/3:0H-everoot
+pid : 35 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kdevtmpfs
+pid : 36 ppid : 2 User name : root CPU time : 1 Cmdline : 
+inet_frag_wq
+pid : 37 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kauditd
+pid : 41 ppid : 2 User name : root CPU time : 12 Cmdline : 
+khungtaskd
+pid : 42 ppid : 2 User name : root CPU time : 2472 Cmdline : 
+oom_reaper
+pid : 43 ppid : 2 User name : root CPU time : 0 Cmdline : 
+writeback
+pid : 44 ppid : 2 User name : root CPU time : 54 Cmdline : 
+kcompactd0
+pid : 45 ppid : 2 User name : root CPU time : 13357 Cmdline : 
+ksmd
+pid : 46 ppid : 2 User name : root CPU time : 0 Cmdline : 
+khugepaged
+pid : 47 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kintegrityd
+pid : 93 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kblockd
+pid : 94 ppid : 2 User name : root CPU time : 0 Cmdline : 
+blkcg_punt_bio
+pid : 95 ppid : 2 User name : root CPU time : 0 Cmdline : 
+tpm_dev_wq
+pid : 96 ppid : 2 User name : root CPU time : 0 Cmdline : 
+ata_sff
+pid : 97 ppid : 2 User name : root CPU time : 0 Cmdline : 
+md
+pid : 98 ppid : 2 User name : root CPU time : 0 Cmdline : 
+edac-poller
+pid : 99 ppid : 2 User name : root CPU time : 0 Cmdline : 
+devfreq_wq
+pid : 100 ppid : 2 User name : root CPU time : 0 Cmdline : 
+watchdogd
+pid : 101 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/1:1H-kblroot
+pid : 103 ppid : 2 User name : root CPU time : 359 Cmdline : 
+kswapd0
+pid : 104 ppid : 2 User name : root CPU time : 4936 Cmdline : 
+ecryptfs-kthrea
+pid : 105 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kthrotld
+pid : 107 ppid : 2 User name : root CPU time : 0 Cmdline : 
+irq/49-ACPI:Ged
+pid : 108 ppid : 2 User name : root CPU time : 0 Cmdline : 
+acpi_thermal_pm
+pid : 109 ppid : 2 User name : root CPU time : 0 Cmdline : 
+mld
+pid : 111 ppid : 2 User name : root CPU time : 0 Cmdline : 
+ipv6_addrconf
+pid : 112 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kstrp
+pid : 121 ppid : 2 User name : root CPU time : 0 Cmdline : 
+zswap-shrink
+pid : 124 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/u9:0
+pid : 125 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cryptd
+pid : 129 ppid : 2 User name : root CPU time : 0 Cmdline : 
+charger_manager
+pid : 167 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/0:1H-kblroot
+pid : 210 ppid : 2 User name : root CPU time : 243 Cmdline : 
+kworker/3:1H-kblroot
+pid : 217 ppid : 2 User name : root CPU time : 240 Cmdline : 
+kworker/2:1H-kblroot
+pid : 226 ppid : 2 User name : root CPU time : 318 Cmdline : 
+kdmflush
+pid : 264 ppid : 2 User name : root CPU time : 0 Cmdline : 
+raid5wq
+pid : 290 ppid : 2 User name : root CPU time : 0 Cmdline : 
+jbd2/dm-0-8
+pid : 348 ppid : 2 User name : root CPU time : 5344 Cmdline : 
+ext4-rsv-conver
+pid : 349 ppid : 2 User name : root CPU time : 0 Cmdline : 
+hwrng
+pid : 385 ppid : 2 User name : root CPU time : 317 Cmdline : 
+systemd-journal
+pid : 427 ppid : 1 User name : root CPU time : 8478 Cmdline : /lib/systemd/systemd-journald
+ipmi-msghandler
+pid : 454 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kaluad
+pid : 477 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kmpath_rdacd
+pid : 480 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kmpathd
+pid : 482 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kmpath_handlerd
+pid : 483 ppid : 2 User name : root CPU time : 0 Cmdline : 
+multipathd
+pid : 484 ppid : 1 User name : root CPU time : 29921 Cmdline : /sbin/multipathd
+systemd-udevd
+pid : 488 ppid : 1 User name : root CPU time : 2137 Cmdline : /lib/systemd/systemd-udevd
+scsi_eh_0
+pid : 571 ppid : 2 User name : root CPU time : 0 Cmdline : 
+scsi_tmf_0
+pid : 572 ppid : 2 User name : root CPU time : 0 Cmdline : 
+usb-storage
+pid : 573 ppid : 2 User name : root CPU time : 21854 Cmdline : 
+uas
+pid : 574 ppid : 2 User name : root CPU time : 0 Cmdline : 
+jbd2/vda2-8
+pid : 677 ppid : 2 User name : root CPU time : 0 Cmdline : 
+ext4-rsv-conver
+pid : 678 ppid : 2 User name : root CPU time : 0 Cmdline : 
+systemd-oomd
+pid : 728 ppid : 1 User name : systemd-oom CPU time : 134044 Cmdline : /lib/systemd/systemd-oomd
+systemd-timesyn
+pid : 732 ppid : 1 User name : systemd-timesync CPU time : 2608 Cmdline : /lib/systemd/systemd-timesyncd
+systemd-network
+pid : 778 ppid : 1 User name : systemd-network CPU time : 5709 Cmdline : /lib/systemd/systemd-networkd
+systemd-resolve
+pid : 780 ppid : 1 User name : systemd-resolve CPU time : 4664 Cmdline : /lib/systemd/systemd-resolved
+avahi-daemon
+pid : 802 ppid : 1 User name : avahi CPU time : 8451 Cmdline : avahi-daemon: running [acho.local]
+dbus-daemon
+pid : 803 ppid : 1 User name : messagebus CPU time : 3014 Cmdline : @dbus-daemon
+NetworkManager
+pid : 804 ppid : 1 User name : root CPU time : 8596 Cmdline : /usr/sbin/NetworkManager
+irqbalance
+pid : 809 ppid : 1 User name : root CPU time : 11617 Cmdline : /usr/sbin/irqbalance
+networkd-dispat
+pid : 810 ppid : 1 User name : root CPU time : 111 Cmdline : /usr/bin/python3
+polkitd
+pid : 811 ppid : 1 User name : root CPU time : 1829 Cmdline : /usr/libexec/polkitd
+power-profiles-
+pid : 812 ppid : 1 User name : root CPU time : 57 Cmdline : /usr/libexec/power-profiles-daemon
+rsyslogd
+pid : 813 ppid : 1 User name : syslog CPU time : 1325 Cmdline : /usr/sbin/rsyslogd
+snapd
+pid : 814 ppid : 1 User name : root CPU time : 32256 Cmdline : /usr/lib/snapd/snapd
+accounts-daemon
+pid : 816 ppid : 1 User name : root CPU time : 4266 Cmdline : /usr/libexec/accounts-daemon
+switcheroo-cont
+pid : 817 ppid : 1 User name : root CPU time : 4 Cmdline : /usr/libexec/switcheroo-control
+systemd-logind
+pid : 818 ppid : 1 User name : root CPU time : 1955 Cmdline : /lib/systemd/systemd-logind
+udisksd
+pid : 819 ppid : 1 User name : root CPU time : 1808 Cmdline : /usr/libexec/udisks2/udisksd
+wpa_supplicant
+pid : 820 ppid : 1 User name : root CPU time : 1933 Cmdline : /sbin/wpa_supplicant
+avahi-daemon
+pid : 822 ppid : 802 User name : avahi CPU time : 0 Cmdline : avahi-daemon: chroot helper
+spice-webdavd
+pid : 852 ppid : 1 User name : root CPU time : 195 Cmdline : /usr/sbin/spice-webdavd
+unattended-upgr
+pid : 863 ppid : 1 User name : root CPU time : 5 Cmdline : /usr/bin/python3
+ModemManager
+pid : 874 ppid : 1 User name : root CPU time : 161 Cmdline : /usr/sbin/ModemManager
+cron
+pid : 930 ppid : 1 User name : root CPU time : 2979 Cmdline : /usr/sbin/cron
+kerneloops
+pid : 945 ppid : 1 User name : kernoops CPU time : 1082 Cmdline : /usr/sbin/kerneloops
+agetty
+pid : 954 ppid : 1 User name : root CPU time : 0 Cmdline : /sbin/agetty
+kerneloops
+pid : 968 ppid : 1 User name : kernoops CPU time : 1129 Cmdline : /usr/sbin/kerneloops
+sshd
+pid : 975 ppid : 1 User name : root CPU time : 201 Cmdline : sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 sta×
+gdm3
+pid : 983 ppid : 1 User name : root CPU time : 391 Cmdline : /usr/sbin/gdm3
+apache2
+pid : 1012 ppid : 1 User name : root CPU time : 9891 Cmdline : /usr/sbin/apache2
+upowerd
+pid : 1233 ppid : 1 User name : root CPU time : 206 Cmdline : /usr/libexec/upowerd
+colord
+pid : 1413 ppid : 1 User name : colord CPU time : 12 Cmdline : /usr/libexec/colord
+spice-vdagentd
+pid : 1449 ppid : 1 User name : root CPU time : 834 Cmdline : /usr/sbin/spice-vdagentd
+gdm-session-wor
+pid : 1465 ppid : 983 User name : root CPU time : 157 Cmdline : gdm-session-worker [pam/gdm-password]
+systemd
+pid : 1473 ppid : 1 User name : acho CPU time : 1035 Cmdline : /lib/systemd/systemd
+(sd-pam
+pid : 1474 ppid : 1473 User name : acho CPU time : 0 Cmdline : (sd-pam)
+pipewire
+pid : 1480 ppid : 1473 User name : acho CPU time : 89 Cmdline : /usr/bin/pipewire
+pipewire-media-
+pid : 1481 ppid : 1473 User name : acho CPU time : 240 Cmdline : /usr/bin/pipewire-media-session
+pulseaudio
+pid : 1482 ppid : 1473 User name : acho CPU time : 246 Cmdline : /usr/bin/pulseaudio
+dbus-daemon
+pid : 1486 ppid : 1473 User name : acho CPU time : 1428 Cmdline : /usr/bin/dbus-daemon
+gnome-keyring-d
+pid : 1488 ppid : 1 User name : acho CPU time : 391 Cmdline : /usr/bin/gnome-keyring-daemon
+gvfsd
+pid : 1492 ppid : 1473 User name : acho CPU time : 50 Cmdline : /usr/libexec/gvfsd
+gvfsd-fuse
+pid : 1497 ppid : 1473 User name : acho CPU time : 6 Cmdline : /usr/libexec/gvfsd-fuse
+gdm-wayland-ses
+pid : 1507 ppid : 1465 User name : acho CPU time : 4 Cmdline : /usr/libexec/gdm-wayland-session
+gnome-session-b
+pid : 1512 ppid : 1507 User name : acho CPU time : 1 Cmdline : /usr/libexec/gnome-session-binary
+tracker-miner-f
+pid : 1533 ppid : 1473 User name : acho CPU time : 3169 Cmdline : /usr/libexec/tracker-miner-fs-3
+gnome-session-c
+pid : 1561 ppid : 1473 User name : acho CPU time : 0 Cmdline : /usr/libexec/gnome-session-ctl
+gnome-session-b
+pid : 1574 ppid : 1473 User name : acho CPU time : 587 Cmdline : /usr/libexec/gnome-session-binary
+gnome-shell
+pid : 1591 ppid : 1473 User name : acho CPU time : 374127 Cmdline : /usr/bin/gnome-shell
+at-spi-bus-laun
+pid : 1593 ppid : 1574 User name : acho CPU time : 29 Cmdline : /usr/libexec/at-spi-bus-launcher
+dbus-daemon
+pid : 1600 ppid : 1593 User name : acho CPU time : 35 Cmdline : /usr/bin/dbus-daemon
+gvfs-udisks2-vo
+pid : 1603 ppid : 1473 User name : acho CPU time : 105 Cmdline : /usr/libexec/gvfs-udisks2-volume-monitor
+gvfs-afc-volume
+pid : 1611 ppid : 1473 User name : acho CPU time : 7320 Cmdline : /usr/libexec/gvfs-afc-volume-monitor
+gvfs-gphoto2-vo
+pid : 1616 ppid : 1473 User name : acho CPU time : 17 Cmdline : /usr/libexec/gvfs-gphoto2-volume-monitor
+gvfs-mtp-volume
+pid : 1629 ppid : 1473 User name : acho CPU time : 20 Cmdline : /usr/libexec/gvfs-mtp-volume-monitor
+gvfs-goa-volume
+pid : 1634 ppid : 1473 User name : acho CPU time : 22 Cmdline : /usr/libexec/gvfs-goa-volume-monitor
+goa-daemon
+pid : 1638 ppid : 1473 User name : acho CPU time : 102 Cmdline : /usr/libexec/goa-daemon
+goa-identity-se
+pid : 1645 ppid : 1473 User name : acho CPU time : 509 Cmdline : /usr/libexec/goa-identity-service
+xdg-permission-
+pid : 1658 ppid : 1473 User name : acho CPU time : 8 Cmdline : /usr/libexec/xdg-permission-store
+gnome-shell-cal
+pid : 1660 ppid : 1473 User name : acho CPU time : 21 Cmdline : /usr/libexec/gnome-shell-calendar-server
+evolution-sourc
+pid : 1670 ppid : 1473 User name : acho CPU time : 157 Cmdline : /usr/libexec/evolution-source-registry
+evolution-calen
+pid : 1677 ppid : 1473 User name : acho CPU time : 226 Cmdline : /usr/libexec/evolution-calendar-factory
+dconf-service
+pid : 1685 ppid : 1473 User name : acho CPU time : 24 Cmdline : /usr/libexec/dconf-service
+evolution-addre
+pid : 1690 ppid : 1473 User name : acho CPU time : 114 Cmdline : /usr/libexec/evolution-addressbook-factory
+gvfsd-trash
+pid : 1694 ppid : 1492 User name : acho CPU time : 76 Cmdline : /usr/libexec/gvfsd-trash
+gjs
+pid : 1712 ppid : 1473 User name : acho CPU time : 14 Cmdline : /usr/bin/gjs
+at-spi2-registr
+pid : 1714 ppid : 1473 User name : acho CPU time : 17 Cmdline : /usr/libexec/at-spi2-registryd
+sh
+pid : 1721 ppid : 1473 User name : acho CPU time : 0 Cmdline : sh
+gsd-a11y-settin
+pid : 1723 ppid : 1473 User name : acho CPU time : 6 Cmdline : /usr/libexec/gsd-a11y-settings
+gsd-color
+pid : 1724 ppid : 1473 User name : acho CPU time : 4585 Cmdline : /usr/libexec/gsd-color
+gsd-datetime
+pid : 1725 ppid : 1473 User name : acho CPU time : 7 Cmdline : /usr/libexec/gsd-datetime
+gsd-housekeepin
+pid : 1732 ppid : 1473 User name : acho CPU time : 8347 Cmdline : /usr/libexec/gsd-housekeeping
+gsd-keyboard
+pid : 1733 ppid : 1473 User name : acho CPU time : 41 Cmdline : /usr/libexec/gsd-keyboard
+gsd-media-keys
+pid : 1734 ppid : 1473 User name : acho CPU time : 636 Cmdline : /usr/libexec/gsd-media-keys
+gsd-power
+pid : 1736 ppid : 1473 User name : acho CPU time : 733 Cmdline : /usr/libexec/gsd-power
+gsd-print-notif
+pid : 1737 ppid : 1473 User name : acho CPU time : 390 Cmdline : /usr/libexec/gsd-print-notifications
+gsd-rfkill
+pid : 1738 ppid : 1473 User name : acho CPU time : 104 Cmdline : /usr/libexec/gsd-rfkill
+gsd-screensaver
+pid : 1743 ppid : 1473 User name : acho CPU time : 5 Cmdline : /usr/libexec/gsd-screensaver-proxy
+gsd-sharing
+pid : 1744 ppid : 1473 User name : acho CPU time : 133 Cmdline : /usr/libexec/gsd-sharing
+gsd-smartcard
+pid : 1745 ppid : 1473 User name : acho CPU time : 5 Cmdline : /usr/libexec/gsd-smartcard
+gsd-sound
+pid : 1746 ppid : 1473 User name : acho CPU time : 7 Cmdline : /usr/libexec/gsd-sound
+gsd-wacom
+pid : 1748 ppid : 1473 User name : acho CPU time : 40 Cmdline : /usr/libexec/gsd-wacom
+ibus-daemon
+pid : 1749 ppid : 1721 User name : acho CPU time : 173 Cmdline : /usr/bin/ibus-daemon
+spice-vdagent
+pid : 1790 ppid : 1473 User name : acho CPU time : 1263 Cmdline : /usr/bin/spice-vdagent
+ibus-dconf
+pid : 1809 ppid : 1749 User name : acho CPU time : 3 Cmdline : /usr/libexec/ibus-dconf
+ibus-extension-
+pid : 1810 ppid : 1749 User name : acho CPU time : 151 Cmdline : /usr/libexec/ibus-extension-gtk3
+ibus-portal
+pid : 1826 ppid : 1473 User name : acho CPU time : 124 Cmdline : /usr/libexec/ibus-portal
+Xwayland
+pid : 1833 ppid : 1591 User name : acho CPU time : 90484 Cmdline : /usr/bin/Xwayland
+gsd-printer
+pid : 1845 ppid : 1473 User name : acho CPU time : 253 Cmdline : /usr/libexec/gsd-printer
+ibus-engine-han
+pid : 1850 ppid : 1749 User name : acho CPU time : 56 Cmdline : /usr/libexec/ibus-engine-hangul
+gsd-xsettings
+pid : 1856 ppid : 1473 User name : acho CPU time : 361 Cmdline : /usr/libexec/gsd-xsettings
+xdg-desktop-por
+pid : 1871 ppid : 1473 User name : acho CPU time : 6287 Cmdline : /usr/libexec/xdg-desktop-portal
+xdg-document-po
+pid : 1877 ppid : 1473 User name : acho CPU time : 173 Cmdline : /usr/libexec/xdg-document-portal
+fusermount3
+pid : 1884 ppid : 1877 User name : root CPU time : 0 Cmdline : fusermount3
+xdg-desktop-por
+pid : 1890 ppid : 1473 User name : acho CPU time : 1540 Cmdline : /usr/libexec/xdg-desktop-portal-gnome
+ibus-x11
+pid : 1915 ppid : 1473 User name : acho CPU time : 48 Cmdline : /usr/libexec/ibus-x11
+gjs
+pid : 1930 ppid : 1473 User name : acho CPU time : 206 Cmdline : /usr/bin/gjs
+evolution-alarm
+pid : 1949 ppid : 1574 User name : acho CPU time : 2218 Cmdline : /usr/libexec/evolution-data-server/evolution-alarm 
+gsd-disk-utilit
+pid : 1952 ppid : 1574 User name : acho CPU time : 29 Cmdline : /usr/libexec/gsd-disk-utility-notify
+xdg-desktop-por
+pid : 2015 ppid : 1473 User name : acho CPU time : 1448 Cmdline : /usr/libexec/xdg-desktop-portal-gtk
+gvfsd-metadata
+pid : 2046 ppid : 1473 User name : acho CPU time : 24 Cmdline : /usr/libexec/gvfsd-metadata
+update-notifier
+pid : 2085 ppid : 1574 User name : acho CPU time : 9849 Cmdline : update-notifier
+gnome-terminal-
+pid : 2350 ppid : 1473 User name : acho CPU time : 491 Cmdline : /usr/libexec/gnome-terminal-server
+bash
+pid : 2380 ppid : 2350 User name : acho CPU time : 2 Cmdline : bash
+bash
+pid : 2400 ppid : 2350 User name : acho CPU time : 1 Cmdline : bash
+packagekitd
+pid : 48279 ppid : 1 User name : root CPU time : 11189 Cmdline : /usr/libexec/packagekitd
+mysqld
+pid : 50066 ppid : 1 User name : mysql CPU time : 546944 Cmdline : /usr/sbin/mysqld
+snap
+pid : 50745 ppid : 1473 User name : acho CPU time : 15092 Cmdline : /usr/bin/snap
+firefox
+pid : 53210 ppid : 1591 User name : acho CPU time : 356209 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Socket
+pid : 53348 ppid : 0 User name : acho CPU time : 13 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Privileged
+pid : 53395 ppid : 0 User name : acho CPU time : 15783 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+WebExtensions
+pid : 53925 ppid : 53210 User name : acho CPU time : 1330 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Isolated
+pid : 54233 ppid : 0 User name : acho CPU time : 24 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Isolated
+pid : 54284 ppid : 0 User name : acho CPU time : 0 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Web
+pid : 54310 ppid : 0 User name : acho CPU time : 1035 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Web
+pid : 54344 ppid : 0 User name : acho CPU time : 1179 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Web
+pid : 54348 ppid : 0 User name : acho CPU time : 1071 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+nautilus
+pid : 54396 ppid : 1473 User name : acho CPU time : 4970 Cmdline : /usr/bin/nautilus
+gedit
+pid : 75153 ppid : 1473 User name : acho CPU time : 4259 Cmdline : /usr/bin/gedit
+update-manager
+pid : 95458 ppid : 1473 User name : acho CPU time : 300 Cmdline : /usr/bin/python3
+sshd
+pid : 97640 ppid : 975 User name : root CPU time : 59 Cmdline : sshd: acho [priv]
+sshd
+pid : 97658 ppid : 975 User name : root CPU time : 41 Cmdline : sshd: acho [priv]
+sshd
+pid : 97787 ppid : 97640 User name : acho CPU time : 912 Cmdline : sshd: acho@pts/0
+sshd
+pid : 97798 ppid : 97658 User name : acho CPU time : 699 Cmdline : sshd: acho@pts/1
+sshd
+pid : 97799 ppid : 975 User name : root CPU time : 14 Cmdline : sshd: acho [priv]
+bash
+pid : 97800 ppid : 97787 User name : acho CPU time : 254 Cmdline : -bash
+bash
+pid : 97801 ppid : 97798 User name : acho CPU time : 295 Cmdline : -bash
+sshd
+pid : 97866 ppid : 97799 User name : acho CPU time : 162 Cmdline : sshd: acho@pts/4
+bash
+pid : 97867 ppid : 97866 User name : acho CPU time : 364 Cmdline : -bash
+kworker/3:3-evenroot
+pid : 99387 ppid : 2 User name : root CPU time : 2711 Cmdline : 
+kworker/1:0-evenroot
+pid : 99424 ppid : 2 User name : root CPU time : 469 Cmdline : 
+apache2
+pid : 99506 ppid : 1012 User name : www-data CPU time : 2 Cmdline : /usr/sbin/apache2
+apache2
+pid : 99516 ppid : 1012 User name : www-data CPU time : 1 Cmdline : /usr/sbin/apache2
+kworker/2:3-evenroot
+pid : 99574 ppid : 2 User name : root CPU time : 714 Cmdline : 
+cupsd
+pid : 99575 ppid : 1 User name : root CPU time : 67 Cmdline : /usr/sbin/cupsd
+cups-browsed
+pid : 99578 ppid : 1 User name : root CPU time : 20 Cmdline : /usr/sbin/cups-browsed
+kworker/3:0-cgroroot
+pid : 100182 ppid : 2 User name : root CPU time : 2 Cmdline : 
+kworker/2:0-evenroot
+pid : 100988 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/1:2-evenroot
+pid : 102733 ppid : 2 User name : root CPU time : 144 Cmdline : 
+kworker/0:1
+pid : 103229 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/u8:1-everoot
+pid : 103672 ppid : 2 User name : root CPU time : 78 Cmdline : 
+kworker/0:2-evenroot
+pid : 103756 ppid : 2 User name : root CPU time : 8 Cmdline : 
+kworker/u8:3-fluroot
+pid : 103757 ppid : 2 User name : root CPU time : 12 Cmdline : 
+kworker/u8:0-everoot
+pid : 103762 ppid : 2 User name : root CPU time : 18 Cmdline : 
+kworker/u8:2-everoot
+pid : 103944 ppid : 2 User name : root CPU time : 15 Cmdline : 
+server
+pid : 104014 ppid : 97867 User name : acho CPU time : 1 Cmdline : ./server
+agent
+pid : 104019 ppid : 97801 User name : acho CPU time : 22 Cmdline : ./agent
+agent
+pid : 104022 ppid : 97800 User name : acho CPU time : 3 Cmdline : ./agent
+----------------------------------------------------------------------------------------------------
+MEMORY
+MemTotal : 4002172 MemFree : 371436 Used : 3630736 SwapUsed : 22356
+
+NETWORK
+enp0s6 Received bytes : 364897908 Received cnt : 1339152 Transmit bytes : 884061 Transmit cnts : 323209312
+
+CPU
+cpu0 User : 2302 System : 2302 iowait : 2302 idle : 2302
+
+cpu1 User : 2818 System : 2818 iowait : 2818 idle : 2818
+
+cpu2 User : 2317 System : 2317 iowait : 2317 idle : 2317
+
+cpu3 User : 2192 System : 2192 iowait : 2192 idle : 2192
+
+PROCESS
+systemd
+pid : 1 ppid : 0 User name : root CPU time : 15373 Cmdline : /sbin/init
+kthreadd
+pid : 2 ppid : 0 User name : root CPU time : 490 Cmdline : 
+rcu_gp
+pid : 3 ppid : 2 User name : root CPU time : 0 Cmdline : 
+rcu_par_gp
+pid : 4 ppid : 2 User name : root CPU time : 0 Cmdline : 
+netns
+pid : 5 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/0:0H-everoot
+pid : 7 ppid : 2 User name : root CPU time : 0 Cmdline : 
+mm_percpu_wq
+pid : 9 ppid : 2 User name : root CPU time : 0 Cmdline : 
+rcu_tasks_rude_
+pid : 10 ppid : 2 User name : root CPU time : 0 Cmdline : 
+rcu_tasks_trace
+pid : 11 ppid : 2 User name : root CPU time : 0 Cmdline : 
+ksoftirqd/0
+pid : 12 ppid : 2 User name : root CPU time : 10378 Cmdline : 
+rcu_sched
+pid : 13 ppid : 2 User name : root CPU time : 35802 Cmdline : 
+migration/0
+pid : 14 ppid : 2 User name : root CPU time : 979 Cmdline : 
+idle_inject/0
+pid : 15 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cpuhp/0
+pid : 17 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cpuhp/1
+pid : 18 ppid : 2 User name : root CPU time : 0 Cmdline : 
+idle_inject/1
+pid : 19 ppid : 2 User name : root CPU time : 0 Cmdline : 
+migration/1
+pid : 20 ppid : 2 User name : root CPU time : 1329 Cmdline : 
+ksoftirqd/1
+pid : 21 ppid : 2 User name : root CPU time : 8319 Cmdline : 
+kworker/1:0H-everoot
+pid : 23 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cpuhp/2
+pid : 24 ppid : 2 User name : root CPU time : 0 Cmdline : 
+idle_inject/2
+pid : 25 ppid : 2 User name : root CPU time : 0 Cmdline : 
+migration/2
+pid : 26 ppid : 2 User name : root CPU time : 1582 Cmdline : 
+ksoftirqd/2
+pid : 27 ppid : 2 User name : root CPU time : 8270 Cmdline : 
+kworker/2:0H-everoot
+pid : 29 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cpuhp/3
+pid : 30 ppid : 2 User name : root CPU time : 0 Cmdline : 
+idle_inject/3
+pid : 31 ppid : 2 User name : root CPU time : 0 Cmdline : 
+migration/3
+pid : 32 ppid : 2 User name : root CPU time : 1714 Cmdline : 
+ksoftirqd/3
+pid : 33 ppid : 2 User name : root CPU time : 4610 Cmdline : 
+kworker/3:0H-everoot
+pid : 35 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kdevtmpfs
+pid : 36 ppid : 2 User name : root CPU time : 1 Cmdline : 
+inet_frag_wq
+pid : 37 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kauditd
+pid : 41 ppid : 2 User name : root CPU time : 12 Cmdline : 
+khungtaskd
+pid : 42 ppid : 2 User name : root CPU time : 2472 Cmdline : 
+oom_reaper
+pid : 43 ppid : 2 User name : root CPU time : 0 Cmdline : 
+writeback
+pid : 44 ppid : 2 User name : root CPU time : 54 Cmdline : 
+kcompactd0
+pid : 45 ppid : 2 User name : root CPU time : 13357 Cmdline : 
+ksmd
+pid : 46 ppid : 2 User name : root CPU time : 0 Cmdline : 
+khugepaged
+pid : 47 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kintegrityd
+pid : 93 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kblockd
+pid : 94 ppid : 2 User name : root CPU time : 0 Cmdline : 
+blkcg_punt_bio
+pid : 95 ppid : 2 User name : root CPU time : 0 Cmdline : 
+tpm_dev_wq
+pid : 96 ppid : 2 User name : root CPU time : 0 Cmdline : 
+ata_sff
+pid : 97 ppid : 2 User name : root CPU time : 0 Cmdline : 
+md
+pid : 98 ppid : 2 User name : root CPU time : 0 Cmdline : 
+edac-poller
+pid : 99 ppid : 2 User name : root CPU time : 0 Cmdline : 
+devfreq_wq
+pid : 100 ppid : 2 User name : root CPU time : 0 Cmdline : 
+watchdogd
+pid : 101 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/1:1H-kblroot
+pid : 103 ppid : 2 User name : root CPU time : 359 Cmdline : 
+kswapd0
+pid : 104 ppid : 2 User name : root CPU time : 4936 Cmdline : 
+ecryptfs-kthrea
+pid : 105 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kthrotld
+pid : 107 ppid : 2 User name : root CPU time : 0 Cmdline : 
+irq/49-ACPI:Ged
+pid : 108 ppid : 2 User name : root CPU time : 0 Cmdline : 
+acpi_thermal_pm
+pid : 109 ppid : 2 User name : root CPU time : 0 Cmdline : 
+mld
+pid : 111 ppid : 2 User name : root CPU time : 0 Cmdline : 
+ipv6_addrconf
+pid : 112 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kstrp
+pid : 121 ppid : 2 User name : root CPU time : 0 Cmdline : 
+zswap-shrink
+pid : 124 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/u9:0
+pid : 125 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cryptd
+pid : 129 ppid : 2 User name : root CPU time : 0 Cmdline : 
+charger_manager
+pid : 167 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/0:1H-kblroot
+pid : 210 ppid : 2 User name : root CPU time : 243 Cmdline : 
+kworker/3:1H-kblroot
+pid : 217 ppid : 2 User name : root CPU time : 240 Cmdline : 
+kworker/2:1H-kblroot
+pid : 226 ppid : 2 User name : root CPU time : 318 Cmdline : 
+kdmflush
+pid : 264 ppid : 2 User name : root CPU time : 0 Cmdline : 
+raid5wq
+pid : 290 ppid : 2 User name : root CPU time : 0 Cmdline : 
+jbd2/dm-0-8
+pid : 348 ppid : 2 User name : root CPU time : 5344 Cmdline : 
+ext4-rsv-conver
+pid : 349 ppid : 2 User name : root CPU time : 0 Cmdline : 
+hwrng
+pid : 385 ppid : 2 User name : root CPU time : 317 Cmdline : 
+systemd-journal
+pid : 427 ppid : 1 User name : root CPU time : 8478 Cmdline : /lib/systemd/systemd-journald
+ipmi-msghandler
+pid : 454 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kaluad
+pid : 477 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kmpath_rdacd
+pid : 480 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kmpathd
+pid : 482 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kmpath_handlerd
+pid : 483 ppid : 2 User name : root CPU time : 0 Cmdline : 
+multipathd
+pid : 484 ppid : 1 User name : root CPU time : 29921 Cmdline : /sbin/multipathd
+systemd-udevd
+pid : 488 ppid : 1 User name : root CPU time : 2137 Cmdline : /lib/systemd/systemd-udevd
+scsi_eh_0
+pid : 571 ppid : 2 User name : root CPU time : 0 Cmdline : 
+scsi_tmf_0
+pid : 572 ppid : 2 User name : root CPU time : 0 Cmdline : 
+usb-storage
+pid : 573 ppid : 2 User name : root CPU time : 21854 Cmdline : 
+uas
+pid : 574 ppid : 2 User name : root CPU time : 0 Cmdline : 
+jbd2/vda2-8
+pid : 677 ppid : 2 User name : root CPU time : 0 Cmdline : 
+ext4-rsv-conver
+pid : 678 ppid : 2 User name : root CPU time : 0 Cmdline : 
+systemd-oomd
+pid : 728 ppid : 1 User name : systemd-oom CPU time : 134044 Cmdline : /lib/systemd/systemd-oomd
+systemd-timesyn
+pid : 732 ppid : 1 User name : systemd-timesync CPU time : 2608 Cmdline : /lib/systemd/systemd-timesyncd
+systemd-network
+pid : 778 ppid : 1 User name : systemd-network CPU time : 5709 Cmdline : /lib/systemd/systemd-networkd
+systemd-resolve
+pid : 780 ppid : 1 User name : systemd-resolve CPU time : 4664 Cmdline : /lib/systemd/systemd-resolved
+avahi-daemon
+pid : 802 ppid : 1 User name : avahi CPU time : 8451 Cmdline : avahi-daemon: running [acho.local]
+dbus-daemon
+pid : 803 ppid : 1 User name : messagebus CPU time : 3014 Cmdline : @dbus-daemon
+NetworkManager
+pid : 804 ppid : 1 User name : root CPU time : 8596 Cmdline : /usr/sbin/NetworkManager
+irqbalance
+pid : 809 ppid : 1 User name : root CPU time : 11617 Cmdline : /usr/sbin/irqbalance
+networkd-dispat
+pid : 810 ppid : 1 User name : root CPU time : 111 Cmdline : /usr/bin/python3
+polkitd
+pid : 811 ppid : 1 User name : root CPU time : 1829 Cmdline : /usr/libexec/polkitd
+power-profiles-
+pid : 812 ppid : 1 User name : root CPU time : 57 Cmdline : /usr/libexec/power-profiles-daemon
+rsyslogd
+pid : 813 ppid : 1 User name : syslog CPU time : 1325 Cmdline : /usr/sbin/rsyslogd
+snapd
+pid : 814 ppid : 1 User name : root CPU time : 32256 Cmdline : /usr/lib/snapd/snapd
+accounts-daemon
+pid : 816 ppid : 1 User name : root CPU time : 4266 Cmdline : /usr/libexec/accounts-daemon
+switcheroo-cont
+pid : 817 ppid : 1 User name : root CPU time : 4 Cmdline : /usr/libexec/switcheroo-control
+systemd-logind
+pid : 818 ppid : 1 User name : root CPU time : 1955 Cmdline : /lib/systemd/systemd-logind
+udisksd
+pid : 819 ppid : 1 User name : root CPU time : 1808 Cmdline : /usr/libexec/udisks2/udisksd
+wpa_supplicant
+pid : 820 ppid : 1 User name : root CPU time : 1933 Cmdline : /sbin/wpa_supplicant
+avahi-daemon
+pid : 822 ppid : 802 User name : avahi CPU time : 0 Cmdline : avahi-daemon: chroot helper
+spice-webdavd
+pid : 852 ppid : 1 User name : root CPU time : 195 Cmdline : /usr/sbin/spice-webdavd
+unattended-upgr
+pid : 863 ppid : 1 User name : root CPU time : 5 Cmdline : /usr/bin/python3
+ModemManager
+pid : 874 ppid : 1 User name : root CPU time : 161 Cmdline : /usr/sbin/ModemManager
+cron
+pid : 930 ppid : 1 User name : root CPU time : 2979 Cmdline : /usr/sbin/cron
+kerneloops
+pid : 945 ppid : 1 User name : kernoops CPU time : 1082 Cmdline : /usr/sbin/kerneloops
+agetty
+pid : 954 ppid : 1 User name : root CPU time : 0 Cmdline : /sbin/agetty
+kerneloops
+pid : 968 ppid : 1 User name : kernoops CPU time : 1129 Cmdline : /usr/sbin/kerneloops
+sshd
+pid : 975 ppid : 1 User name : root CPU time : 201 Cmdline : sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 sta×
+gdm3
+pid : 983 ppid : 1 User name : root CPU time : 391 Cmdline : /usr/sbin/gdm3
+apache2
+pid : 1012 ppid : 1 User name : root CPU time : 9891 Cmdline : /usr/sbin/apache2
+upowerd
+pid : 1233 ppid : 1 User name : root CPU time : 206 Cmdline : /usr/libexec/upowerd
+colord
+pid : 1413 ppid : 1 User name : colord CPU time : 12 Cmdline : /usr/libexec/colord
+spice-vdagentd
+pid : 1449 ppid : 1 User name : root CPU time : 834 Cmdline : /usr/sbin/spice-vdagentd
+gdm-session-wor
+pid : 1465 ppid : 983 User name : root CPU time : 157 Cmdline : gdm-session-worker [pam/gdm-password]
+systemd
+pid : 1473 ppid : 1 User name : acho CPU time : 1035 Cmdline : /lib/systemd/systemd
+(sd-pam
+pid : 1474 ppid : 1473 User name : acho CPU time : 0 Cmdline : (sd-pam)
+pipewire
+pid : 1480 ppid : 1473 User name : acho CPU time : 89 Cmdline : /usr/bin/pipewire
+pipewire-media-
+pid : 1481 ppid : 1473 User name : acho CPU time : 240 Cmdline : /usr/bin/pipewire-media-session
+pulseaudio
+pid : 1482 ppid : 1473 User name : acho CPU time : 246 Cmdline : /usr/bin/pulseaudio
+dbus-daemon
+pid : 1486 ppid : 1473 User name : acho CPU time : 1428 Cmdline : /usr/bin/dbus-daemon
+gnome-keyring-d
+pid : 1488 ppid : 1 User name : acho CPU time : 391 Cmdline : /usr/bin/gnome-keyring-daemon
+gvfsd
+pid : 1492 ppid : 1473 User name : acho CPU time : 50 Cmdline : /usr/libexec/gvfsd
+gvfsd-fuse
+pid : 1497 ppid : 1473 User name : acho CPU time : 6 Cmdline : /usr/libexec/gvfsd-fuse
+gdm-wayland-ses
+pid : 1507 ppid : 1465 User name : acho CPU time : 4 Cmdline : /usr/libexec/gdm-wayland-session
+gnome-session-b
+pid : 1512 ppid : 1507 User name : acho CPU time : 1 Cmdline : /usr/libexec/gnome-session-binary
+tracker-miner-f
+pid : 1533 ppid : 1473 User name : acho CPU time : 3169 Cmdline : /usr/libexec/tracker-miner-fs-3
+gnome-session-c
+pid : 1561 ppid : 1473 User name : acho CPU time : 0 Cmdline : /usr/libexec/gnome-session-ctl
+gnome-session-b
+pid : 1574 ppid : 1473 User name : acho CPU time : 587 Cmdline : /usr/libexec/gnome-session-binary
+gnome-shell
+pid : 1591 ppid : 1473 User name : acho CPU time : 374128 Cmdline : /usr/bin/gnome-shell
+at-spi-bus-laun
+pid : 1593 ppid : 1574 User name : acho CPU time : 29 Cmdline : /usr/libexec/at-spi-bus-launcher
+dbus-daemon
+pid : 1600 ppid : 1593 User name : acho CPU time : 35 Cmdline : /usr/bin/dbus-daemon
+gvfs-udisks2-vo
+pid : 1603 ppid : 1473 User name : acho CPU time : 105 Cmdline : /usr/libexec/gvfs-udisks2-volume-monitor
+gvfs-afc-volume
+pid : 1611 ppid : 1473 User name : acho CPU time : 7320 Cmdline : /usr/libexec/gvfs-afc-volume-monitor
+gvfs-gphoto2-vo
+pid : 1616 ppid : 1473 User name : acho CPU time : 17 Cmdline : /usr/libexec/gvfs-gphoto2-volume-monitor
+gvfs-mtp-volume
+pid : 1629 ppid : 1473 User name : acho CPU time : 20 Cmdline : /usr/libexec/gvfs-mtp-volume-monitor
+gvfs-goa-volume
+pid : 1634 ppid : 1473 User name : acho CPU time : 22 Cmdline : /usr/libexec/gvfs-goa-volume-monitor
+goa-daemon
+pid : 1638 ppid : 1473 User name : acho CPU time : 102 Cmdline : /usr/libexec/goa-daemon
+goa-identity-se
+pid : 1645 ppid : 1473 User name : acho CPU time : 509 Cmdline : /usr/libexec/goa-identity-service
+xdg-permission-
+pid : 1658 ppid : 1473 User name : acho CPU time : 8 Cmdline : /usr/libexec/xdg-permission-store
+gnome-shell-cal
+pid : 1660 ppid : 1473 User name : acho CPU time : 21 Cmdline : /usr/libexec/gnome-shell-calendar-server
+evolution-sourc
+pid : 1670 ppid : 1473 User name : acho CPU time : 157 Cmdline : /usr/libexec/evolution-source-registry
+evolution-calen
+pid : 1677 ppid : 1473 User name : acho CPU time : 226 Cmdline : /usr/libexec/evolution-calendar-factory
+dconf-service
+pid : 1685 ppid : 1473 User name : acho CPU time : 24 Cmdline : /usr/libexec/dconf-service
+evolution-addre
+pid : 1690 ppid : 1473 User name : acho CPU time : 114 Cmdline : /usr/libexec/evolution-addressbook-factory
+gvfsd-trash
+pid : 1694 ppid : 1492 User name : acho CPU time : 76 Cmdline : /usr/libexec/gvfsd-trash
+gjs
+pid : 1712 ppid : 1473 User name : acho CPU time : 14 Cmdline : /usr/bin/gjs
+at-spi2-registr
+pid : 1714 ppid : 1473 User name : acho CPU time : 17 Cmdline : /usr/libexec/at-spi2-registryd
+sh
+pid : 1721 ppid : 1473 User name : acho CPU time : 0 Cmdline : sh
+gsd-a11y-settin
+pid : 1723 ppid : 1473 User name : acho CPU time : 6 Cmdline : /usr/libexec/gsd-a11y-settings
+gsd-color
+pid : 1724 ppid : 1473 User name : acho CPU time : 4585 Cmdline : /usr/libexec/gsd-color
+gsd-datetime
+pid : 1725 ppid : 1473 User name : acho CPU time : 7 Cmdline : /usr/libexec/gsd-datetime
+gsd-housekeepin
+pid : 1732 ppid : 1473 User name : acho CPU time : 8347 Cmdline : /usr/libexec/gsd-housekeeping
+gsd-keyboard
+pid : 1733 ppid : 1473 User name : acho CPU time : 41 Cmdline : /usr/libexec/gsd-keyboard
+gsd-media-keys
+pid : 1734 ppid : 1473 User name : acho CPU time : 636 Cmdline : /usr/libexec/gsd-media-keys
+gsd-power
+pid : 1736 ppid : 1473 User name : acho CPU time : 733 Cmdline : /usr/libexec/gsd-power
+gsd-print-notif
+pid : 1737 ppid : 1473 User name : acho CPU time : 390 Cmdline : /usr/libexec/gsd-print-notifications
+gsd-rfkill
+pid : 1738 ppid : 1473 User name : acho CPU time : 104 Cmdline : /usr/libexec/gsd-rfkill
+gsd-screensaver
+pid : 1743 ppid : 1473 User name : acho CPU time : 5 Cmdline : /usr/libexec/gsd-screensaver-proxy
+gsd-sharing
+pid : 1744 ppid : 1473 User name : acho CPU time : 133 Cmdline : /usr/libexec/gsd-sharing
+gsd-smartcard
+pid : 1745 ppid : 1473 User name : acho CPU time : 5 Cmdline : /usr/libexec/gsd-smartcard
+gsd-sound
+pid : 1746 ppid : 1473 User name : acho CPU time : 7 Cmdline : /usr/libexec/gsd-sound
+gsd-wacom
+pid : 1748 ppid : 1473 User name : acho CPU time : 40 Cmdline : /usr/libexec/gsd-wacom
+ibus-daemon
+pid : 1749 ppid : 1721 User name : acho CPU time : 173 Cmdline : /usr/bin/ibus-daemon
+spice-vdagent
+pid : 1790 ppid : 1473 User name : acho CPU time : 1263 Cmdline : /usr/bin/spice-vdagent
+ibus-dconf
+pid : 1809 ppid : 1749 User name : acho CPU time : 3 Cmdline : /usr/libexec/ibus-dconf
+ibus-extension-
+pid : 1810 ppid : 1749 User name : acho CPU time : 151 Cmdline : /usr/libexec/ibus-extension-gtk3
+ibus-portal
+pid : 1826 ppid : 1473 User name : acho CPU time : 124 Cmdline : /usr/libexec/ibus-portal
+Xwayland
+pid : 1833 ppid : 1591 User name : acho CPU time : 90484 Cmdline : /usr/bin/Xwayland
+gsd-printer
+pid : 1845 ppid : 1473 User name : acho CPU time : 253 Cmdline : /usr/libexec/gsd-printer
+ibus-engine-han
+pid : 1850 ppid : 1749 User name : acho CPU time : 56 Cmdline : /usr/libexec/ibus-engine-hangul
+gsd-xsettings
+pid : 1856 ppid : 1473 User name : acho CPU time : 361 Cmdline : /usr/libexec/gsd-xsettings
+xdg-desktop-por
+pid : 1871 ppid : 1473 User name : acho CPU time : 6287 Cmdline : /usr/libexec/xdg-desktop-portal
+xdg-document-po
+pid : 1877 ppid : 1473 User name : acho CPU time : 173 Cmdline : /usr/libexec/xdg-document-portal
+fusermount3
+pid : 1884 ppid : 1877 User name : root CPU time : 0 Cmdline : fusermount3
+xdg-desktop-por
+pid : 1890 ppid : 1473 User name : acho CPU time : 1540 Cmdline : /usr/libexec/xdg-desktop-portal-gnome
+ibus-x11
+pid : 1915 ppid : 1473 User name : acho CPU time : 48 Cmdline : /usr/libexec/ibus-x11
+gjs
+pid : 1930 ppid : 1473 User name : acho CPU time : 206 Cmdline : /usr/bin/gjs
+evolution-alarm
+pid : 1949 ppid : 1574 User name : acho CPU time : 2218 Cmdline : /usr/libexec/evolution-data-server/evolution-alarm 
+gsd-disk-utilit
+pid : 1952 ppid : 1574 User name : acho CPU time : 29 Cmdline : /usr/libexec/gsd-disk-utility-notify
+xdg-desktop-por
+pid : 2015 ppid : 1473 User name : acho CPU time : 1448 Cmdline : /usr/libexec/xdg-desktop-portal-gtk
+gvfsd-metadata
+pid : 2046 ppid : 1473 User name : acho CPU time : 24 Cmdline : /usr/libexec/gvfsd-metadata
+update-notifier
+pid : 2085 ppid : 1574 User name : acho CPU time : 9849 Cmdline : update-notifier
+gnome-terminal-
+pid : 2350 ppid : 1473 User name : acho CPU time : 491 Cmdline : /usr/libexec/gnome-terminal-server
+bash
+pid : 2380 ppid : 2350 User name : acho CPU time : 2 Cmdline : bash
+bash
+pid : 2400 ppid : 2350 User name : acho CPU time : 1 Cmdline : bash
+packagekitd
+pid : 48279 ppid : 1 User name : root CPU time : 11189 Cmdline : /usr/libexec/packagekitd
+mysqld
+pid : 50066 ppid : 1 User name : mysql CPU time : 546945 Cmdline : /usr/sbin/mysqld
+snap
+pid : 50745 ppid : 1473 User name : acho CPU time : 15092 Cmdline : /usr/bin/snap
+firefox
+pid : 53210 ppid : 1591 User name : acho CPU time : 356209 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Socket
+pid : 53348 ppid : 0 User name : acho CPU time : 13 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Privileged
+pid : 53395 ppid : 0 User name : acho CPU time : 15783 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+WebExtensions
+pid : 53925 ppid : 53210 User name : acho CPU time : 1330 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Isolated
+pid : 54233 ppid : 0 User name : acho CPU time : 24 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Isolated
+pid : 54284 ppid : 0 User name : acho CPU time : 0 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Web
+pid : 54310 ppid : 0 User name : acho CPU time : 1035 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Web
+pid : 54344 ppid : 0 User name : acho CPU time : 1179 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Web
+pid : 54348 ppid : 0 User name : acho CPU time : 1071 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+nautilus
+pid : 54396 ppid : 1473 User name : acho CPU time : 4970 Cmdline : /usr/bin/nautilus
+gedit
+pid : 75153 ppid : 1473 User name : acho CPU time : 4260 Cmdline : /usr/bin/gedit
+update-manager
+pid : 95458 ppid : 1473 User name : acho CPU time : 300 Cmdline : /usr/bin/python3
+sshd
+pid : 97640 ppid : 975 User name : root CPU time : 59 Cmdline : sshd: acho [priv]
+sshd
+pid : 97658 ppid : 975 User name : root CPU time : 41 Cmdline : sshd: acho [priv]
+sshd
+pid : 97787 ppid : 97640 User name : acho CPU time : 912 Cmdline : sshd: acho@pts/0
+sshd
+pid : 97798 ppid : 97658 User name : acho CPU time : 699 Cmdline : sshd: acho@pts/1
+sshd
+pid : 97799 ppid : 975 User name : root CPU time : 14 Cmdline : sshd: acho [priv]
+bash
+pid : 97800 ppid : 97787 User name : acho CPU time : 254 Cmdline : -bash
+bash
+pid : 97801 ppid : 97798 User name : acho CPU time : 295 Cmdline : -bash
+sshd
+pid : 97866 ppid : 97799 User name : acho CPU time : 162 Cmdline : sshd: acho@pts/4
+bash
+pid : 97867 ppid : 97866 User name : acho CPU time : 364 Cmdline : -bash
+kworker/3:3-evenroot
+pid : 99387 ppid : 2 User name : root CPU time : 2711 Cmdline : 
+kworker/1:0-evenroot
+pid : 99424 ppid : 2 User name : root CPU time : 469 Cmdline : 
+apache2
+pid : 99506 ppid : 1012 User name : www-data CPU time : 2 Cmdline : /usr/sbin/apache2
+apache2
+pid : 99516 ppid : 1012 User name : www-data CPU time : 1 Cmdline : /usr/sbin/apache2
+kworker/2:3-mm_proot
+pid : 99574 ppid : 2 User name : root CPU time : 714 Cmdline : 
+cupsd
+pid : 99575 ppid : 1 User name : root CPU time : 67 Cmdline : /usr/sbin/cupsd
+cups-browsed
+pid : 99578 ppid : 1 User name : root CPU time : 20 Cmdline : /usr/sbin/cups-browsed
+kworker/3:0-cgroroot
+pid : 100182 ppid : 2 User name : root CPU time : 2 Cmdline : 
+kworker/2:0-evenroot
+pid : 100988 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/1:2-mm_proot
+pid : 102733 ppid : 2 User name : root CPU time : 144 Cmdline : 
+kworker/0:1
+pid : 103229 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/u8:1-everoot
+pid : 103672 ppid : 2 User name : root CPU time : 78 Cmdline : 
+kworker/0:2-mm_proot
+pid : 103756 ppid : 2 User name : root CPU time : 8 Cmdline : 
+kworker/u8:3-fluroot
+pid : 103757 ppid : 2 User name : root CPU time : 12 Cmdline : 
+kworker/u8:0-everoot
+pid : 103762 ppid : 2 User name : root CPU time : 18 Cmdline : 
+kworker/u8:2-everoot
+pid : 103944 ppid : 2 User name : root CPU time : 15 Cmdline : 
+server
+pid : 104014 ppid : 97867 User name : acho CPU time : 2 Cmdline : ./server
+agent
+pid : 104019 ppid : 97801 User name : acho CPU time : 24 Cmdline : ./agent
+agent
+pid : 104022 ppid : 97800 User name : acho CPU time : 5 Cmdline : ./agent
+----------------------------------------------------------------------------------------------------
+MEMORY
+MemTotal : 4002172 MemFree : 371184 Used : 3630988 SwapUsed : 22356
+
+NETWORK
+enp0s6 Received bytes : 364900548 Received cnt : 1339192 Transmit bytes : 884101 Transmit cnts : 323215216
+
+CPU
+cpu0 User : 2302 System : 2302 iowait : 2302 idle : 2302
+
+cpu1 User : 2818 System : 2818 iowait : 2818 idle : 2818
+
+cpu2 User : 2317 System : 2317 iowait : 2317 idle : 2317
+
+cpu3 User : 2192 System : 2192 iowait : 2192 idle : 2192
+
+PROCESS
+systemd
+pid : 1 ppid : 0 User name : root CPU time : 15373 Cmdline : /sbin/init
+kthreadd
+pid : 2 ppid : 0 User name : root CPU time : 490 Cmdline : 
+rcu_gp
+pid : 3 ppid : 2 User name : root CPU time : 0 Cmdline : 
+rcu_par_gp
+pid : 4 ppid : 2 User name : root CPU time : 0 Cmdline : 
+netns
+pid : 5 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/0:0H-everoot
+pid : 7 ppid : 2 User name : root CPU time : 0 Cmdline : 
+mm_percpu_wq
+pid : 9 ppid : 2 User name : root CPU time : 0 Cmdline : 
+rcu_tasks_rude_
+pid : 10 ppid : 2 User name : root CPU time : 0 Cmdline : 
+rcu_tasks_trace
+pid : 11 ppid : 2 User name : root CPU time : 0 Cmdline : 
+ksoftirqd/0
+pid : 12 ppid : 2 User name : root CPU time : 10378 Cmdline : 
+rcu_sched
+pid : 13 ppid : 2 User name : root CPU time : 35802 Cmdline : 
+migration/0
+pid : 14 ppid : 2 User name : root CPU time : 979 Cmdline : 
+idle_inject/0
+pid : 15 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cpuhp/0
+pid : 17 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cpuhp/1
+pid : 18 ppid : 2 User name : root CPU time : 0 Cmdline : 
+idle_inject/1
+pid : 19 ppid : 2 User name : root CPU time : 0 Cmdline : 
+migration/1
+pid : 20 ppid : 2 User name : root CPU time : 1329 Cmdline : 
+ksoftirqd/1
+pid : 21 ppid : 2 User name : root CPU time : 8319 Cmdline : 
+kworker/1:0H-everoot
+pid : 23 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cpuhp/2
+pid : 24 ppid : 2 User name : root CPU time : 0 Cmdline : 
+idle_inject/2
+pid : 25 ppid : 2 User name : root CPU time : 0 Cmdline : 
+migration/2
+pid : 26 ppid : 2 User name : root CPU time : 1582 Cmdline : 
+ksoftirqd/2
+pid : 27 ppid : 2 User name : root CPU time : 8270 Cmdline : 
+kworker/2:0H-everoot
+pid : 29 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cpuhp/3
+pid : 30 ppid : 2 User name : root CPU time : 0 Cmdline : 
+idle_inject/3
+pid : 31 ppid : 2 User name : root CPU time : 0 Cmdline : 
+migration/3
+pid : 32 ppid : 2 User name : root CPU time : 1714 Cmdline : 
+ksoftirqd/3
+pid : 33 ppid : 2 User name : root CPU time : 4610 Cmdline : 
+kworker/3:0H-everoot
+pid : 35 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kdevtmpfs
+pid : 36 ppid : 2 User name : root CPU time : 1 Cmdline : 
+inet_frag_wq
+pid : 37 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kauditd
+pid : 41 ppid : 2 User name : root CPU time : 12 Cmdline : 
+khungtaskd
+pid : 42 ppid : 2 User name : root CPU time : 2472 Cmdline : 
+oom_reaper
+pid : 43 ppid : 2 User name : root CPU time : 0 Cmdline : 
+writeback
+pid : 44 ppid : 2 User name : root CPU time : 54 Cmdline : 
+kcompactd0
+pid : 45 ppid : 2 User name : root CPU time : 13357 Cmdline : 
+ksmd
+pid : 46 ppid : 2 User name : root CPU time : 0 Cmdline : 
+khugepaged
+pid : 47 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kintegrityd
+pid : 93 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kblockd
+pid : 94 ppid : 2 User name : root CPU time : 0 Cmdline : 
+blkcg_punt_bio
+pid : 95 ppid : 2 User name : root CPU time : 0 Cmdline : 
+tpm_dev_wq
+pid : 96 ppid : 2 User name : root CPU time : 0 Cmdline : 
+ata_sff
+pid : 97 ppid : 2 User name : root CPU time : 0 Cmdline : 
+md
+pid : 98 ppid : 2 User name : root CPU time : 0 Cmdline : 
+edac-poller
+pid : 99 ppid : 2 User name : root CPU time : 0 Cmdline : 
+devfreq_wq
+pid : 100 ppid : 2 User name : root CPU time : 0 Cmdline : 
+watchdogd
+pid : 101 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/1:1H-kblroot
+pid : 103 ppid : 2 User name : root CPU time : 359 Cmdline : 
+kswapd0
+pid : 104 ppid : 2 User name : root CPU time : 4936 Cmdline : 
+ecryptfs-kthrea
+pid : 105 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kthrotld
+pid : 107 ppid : 2 User name : root CPU time : 0 Cmdline : 
+irq/49-ACPI:Ged
+pid : 108 ppid : 2 User name : root CPU time : 0 Cmdline : 
+acpi_thermal_pm
+pid : 109 ppid : 2 User name : root CPU time : 0 Cmdline : 
+mld
+pid : 111 ppid : 2 User name : root CPU time : 0 Cmdline : 
+ipv6_addrconf
+pid : 112 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kstrp
+pid : 121 ppid : 2 User name : root CPU time : 0 Cmdline : 
+zswap-shrink
+pid : 124 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/u9:0
+pid : 125 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cryptd
+pid : 129 ppid : 2 User name : root CPU time : 0 Cmdline : 
+charger_manager
+pid : 167 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/0:1H-kblroot
+pid : 210 ppid : 2 User name : root CPU time : 243 Cmdline : 
+kworker/3:1H-kblroot
+pid : 217 ppid : 2 User name : root CPU time : 240 Cmdline : 
+kworker/2:1H-kblroot
+pid : 226 ppid : 2 User name : root CPU time : 318 Cmdline : 
+kdmflush
+pid : 264 ppid : 2 User name : root CPU time : 0 Cmdline : 
+raid5wq
+pid : 290 ppid : 2 User name : root CPU time : 0 Cmdline : 
+jbd2/dm-0-8
+pid : 348 ppid : 2 User name : root CPU time : 5344 Cmdline : 
+ext4-rsv-conver
+pid : 349 ppid : 2 User name : root CPU time : 0 Cmdline : 
+hwrng
+pid : 385 ppid : 2 User name : root CPU time : 317 Cmdline : 
+systemd-journal
+pid : 427 ppid : 1 User name : root CPU time : 8478 Cmdline : /lib/systemd/systemd-journald
+ipmi-msghandler
+pid : 454 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kaluad
+pid : 477 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kmpath_rdacd
+pid : 480 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kmpathd
+pid : 482 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kmpath_handlerd
+pid : 483 ppid : 2 User name : root CPU time : 0 Cmdline : 
+multipathd
+pid : 484 ppid : 1 User name : root CPU time : 29921 Cmdline : /sbin/multipathd
+systemd-udevd
+pid : 488 ppid : 1 User name : root CPU time : 2137 Cmdline : /lib/systemd/systemd-udevd
+scsi_eh_0
+pid : 571 ppid : 2 User name : root CPU time : 0 Cmdline : 
+scsi_tmf_0
+pid : 572 ppid : 2 User name : root CPU time : 0 Cmdline : 
+usb-storage
+pid : 573 ppid : 2 User name : root CPU time : 21854 Cmdline : 
+uas
+pid : 574 ppid : 2 User name : root CPU time : 0 Cmdline : 
+jbd2/vda2-8
+pid : 677 ppid : 2 User name : root CPU time : 0 Cmdline : 
+ext4-rsv-conver
+pid : 678 ppid : 2 User name : root CPU time : 0 Cmdline : 
+systemd-oomd
+pid : 728 ppid : 1 User name : systemd-oom CPU time : 134044 Cmdline : /lib/systemd/systemd-oomd
+systemd-timesyn
+pid : 732 ppid : 1 User name : systemd-timesync CPU time : 2608 Cmdline : /lib/systemd/systemd-timesyncd
+systemd-network
+pid : 778 ppid : 1 User name : systemd-network CPU time : 5709 Cmdline : /lib/systemd/systemd-networkd
+systemd-resolve
+pid : 780 ppid : 1 User name : systemd-resolve CPU time : 4664 Cmdline : /lib/systemd/systemd-resolved
+avahi-daemon
+pid : 802 ppid : 1 User name : avahi CPU time : 8451 Cmdline : avahi-daemon: running [acho.local]
+dbus-daemon
+pid : 803 ppid : 1 User name : messagebus CPU time : 3014 Cmdline : @dbus-daemon
+NetworkManager
+pid : 804 ppid : 1 User name : root CPU time : 8596 Cmdline : /usr/sbin/NetworkManager
+irqbalance
+pid : 809 ppid : 1 User name : root CPU time : 11617 Cmdline : /usr/sbin/irqbalance
+networkd-dispat
+pid : 810 ppid : 1 User name : root CPU time : 111 Cmdline : /usr/bin/python3
+polkitd
+pid : 811 ppid : 1 User name : root CPU time : 1829 Cmdline : /usr/libexec/polkitd
+power-profiles-
+pid : 812 ppid : 1 User name : root CPU time : 57 Cmdline : /usr/libexec/power-profiles-daemon
+rsyslogd
+pid : 813 ppid : 1 User name : syslog CPU time : 1325 Cmdline : /usr/sbin/rsyslogd
+snapd
+pid : 814 ppid : 1 User name : root CPU time : 32256 Cmdline : /usr/lib/snapd/snapd
+accounts-daemon
+pid : 816 ppid : 1 User name : root CPU time : 4266 Cmdline : /usr/libexec/accounts-daemon
+switcheroo-cont
+pid : 817 ppid : 1 User name : root CPU time : 4 Cmdline : /usr/libexec/switcheroo-control
+systemd-logind
+pid : 818 ppid : 1 User name : root CPU time : 1955 Cmdline : /lib/systemd/systemd-logind
+udisksd
+pid : 819 ppid : 1 User name : root CPU time : 1808 Cmdline : /usr/libexec/udisks2/udisksd
+wpa_supplicant
+pid : 820 ppid : 1 User name : root CPU time : 1933 Cmdline : /sbin/wpa_supplicant
+avahi-daemon
+pid : 822 ppid : 802 User name : avahi CPU time : 0 Cmdline : avahi-daemon: chroot helper
+spice-webdavd
+pid : 852 ppid : 1 User name : root CPU time : 195 Cmdline : /usr/sbin/spice-webdavd
+unattended-upgr
+pid : 863 ppid : 1 User name : root CPU time : 5 Cmdline : /usr/bin/python3
+ModemManager
+pid : 874 ppid : 1 User name : root CPU time : 161 Cmdline : /usr/sbin/ModemManager
+cron
+pid : 930 ppid : 1 User name : root CPU time : 2979 Cmdline : /usr/sbin/cron
+kerneloops
+pid : 945 ppid : 1 User name : kernoops CPU time : 1082 Cmdline : /usr/sbin/kerneloops
+agetty
+pid : 954 ppid : 1 User name : root CPU time : 0 Cmdline : /sbin/agetty
+kerneloops
+pid : 968 ppid : 1 User name : kernoops CPU time : 1129 Cmdline : /usr/sbin/kerneloops
+sshd
+pid : 975 ppid : 1 User name : root CPU time : 201 Cmdline : sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 sta×
+gdm3
+pid : 983 ppid : 1 User name : root CPU time : 391 Cmdline : /usr/sbin/gdm3
+apache2
+pid : 1012 ppid : 1 User name : root CPU time : 9891 Cmdline : /usr/sbin/apache2
+upowerd
+pid : 1233 ppid : 1 User name : root CPU time : 206 Cmdline : /usr/libexec/upowerd
+colord
+pid : 1413 ppid : 1 User name : colord CPU time : 12 Cmdline : /usr/libexec/colord
+spice-vdagentd
+pid : 1449 ppid : 1 User name : root CPU time : 834 Cmdline : /usr/sbin/spice-vdagentd
+gdm-session-wor
+pid : 1465 ppid : 983 User name : root CPU time : 157 Cmdline : gdm-session-worker [pam/gdm-password]
+systemd
+pid : 1473 ppid : 1 User name : acho CPU time : 1035 Cmdline : /lib/systemd/systemd
+(sd-pam
+pid : 1474 ppid : 1473 User name : acho CPU time : 0 Cmdline : (sd-pam)
+pipewire
+pid : 1480 ppid : 1473 User name : acho CPU time : 89 Cmdline : /usr/bin/pipewire
+pipewire-media-
+pid : 1481 ppid : 1473 User name : acho CPU time : 240 Cmdline : /usr/bin/pipewire-media-session
+pulseaudio
+pid : 1482 ppid : 1473 User name : acho CPU time : 246 Cmdline : /usr/bin/pulseaudio
+dbus-daemon
+pid : 1486 ppid : 1473 User name : acho CPU time : 1428 Cmdline : /usr/bin/dbus-daemon
+gnome-keyring-d
+pid : 1488 ppid : 1 User name : acho CPU time : 391 Cmdline : /usr/bin/gnome-keyring-daemon
+gvfsd
+pid : 1492 ppid : 1473 User name : acho CPU time : 50 Cmdline : /usr/libexec/gvfsd
+gvfsd-fuse
+pid : 1497 ppid : 1473 User name : acho CPU time : 6 Cmdline : /usr/libexec/gvfsd-fuse
+gdm-wayland-ses
+pid : 1507 ppid : 1465 User name : acho CPU time : 4 Cmdline : /usr/libexec/gdm-wayland-session
+gnome-session-b
+pid : 1512 ppid : 1507 User name : acho CPU time : 1 Cmdline : /usr/libexec/gnome-session-binary
+tracker-miner-f
+pid : 1533 ppid : 1473 User name : acho CPU time : 3169 Cmdline : /usr/libexec/tracker-miner-fs-3
+gnome-session-c
+pid : 1561 ppid : 1473 User name : acho CPU time : 0 Cmdline : /usr/libexec/gnome-session-ctl
+gnome-session-b
+pid : 1574 ppid : 1473 User name : acho CPU time : 587 Cmdline : /usr/libexec/gnome-session-binary
+gnome-shell
+pid : 1591 ppid : 1473 User name : acho CPU time : 374128 Cmdline : /usr/bin/gnome-shell
+at-spi-bus-laun
+pid : 1593 ppid : 1574 User name : acho CPU time : 29 Cmdline : /usr/libexec/at-spi-bus-launcher
+dbus-daemon
+pid : 1600 ppid : 1593 User name : acho CPU time : 35 Cmdline : /usr/bin/dbus-daemon
+gvfs-udisks2-vo
+pid : 1603 ppid : 1473 User name : acho CPU time : 105 Cmdline : /usr/libexec/gvfs-udisks2-volume-monitor
+gvfs-afc-volume
+pid : 1611 ppid : 1473 User name : acho CPU time : 7320 Cmdline : /usr/libexec/gvfs-afc-volume-monitor
+gvfs-gphoto2-vo
+pid : 1616 ppid : 1473 User name : acho CPU time : 17 Cmdline : /usr/libexec/gvfs-gphoto2-volume-monitor
+gvfs-mtp-volume
+pid : 1629 ppid : 1473 User name : acho CPU time : 20 Cmdline : /usr/libexec/gvfs-mtp-volume-monitor
+gvfs-goa-volume
+pid : 1634 ppid : 1473 User name : acho CPU time : 22 Cmdline : /usr/libexec/gvfs-goa-volume-monitor
+goa-daemon
+pid : 1638 ppid : 1473 User name : acho CPU time : 102 Cmdline : /usr/libexec/goa-daemon
+goa-identity-se
+pid : 1645 ppid : 1473 User name : acho CPU time : 509 Cmdline : /usr/libexec/goa-identity-service
+xdg-permission-
+pid : 1658 ppid : 1473 User name : acho CPU time : 8 Cmdline : /usr/libexec/xdg-permission-store
+gnome-shell-cal
+pid : 1660 ppid : 1473 User name : acho CPU time : 21 Cmdline : /usr/libexec/gnome-shell-calendar-server
+evolution-sourc
+pid : 1670 ppid : 1473 User name : acho CPU time : 157 Cmdline : /usr/libexec/evolution-source-registry
+evolution-calen
+pid : 1677 ppid : 1473 User name : acho CPU time : 226 Cmdline : /usr/libexec/evolution-calendar-factory
+dconf-service
+pid : 1685 ppid : 1473 User name : acho CPU time : 24 Cmdline : /usr/libexec/dconf-service
+evolution-addre
+pid : 1690 ppid : 1473 User name : acho CPU time : 114 Cmdline : /usr/libexec/evolution-addressbook-factory
+gvfsd-trash
+pid : 1694 ppid : 1492 User name : acho CPU time : 76 Cmdline : /usr/libexec/gvfsd-trash
+gjs
+pid : 1712 ppid : 1473 User name : acho CPU time : 14 Cmdline : /usr/bin/gjs
+at-spi2-registr
+pid : 1714 ppid : 1473 User name : acho CPU time : 17 Cmdline : /usr/libexec/at-spi2-registryd
+sh
+pid : 1721 ppid : 1473 User name : acho CPU time : 0 Cmdline : sh
+gsd-a11y-settin
+pid : 1723 ppid : 1473 User name : acho CPU time : 6 Cmdline : /usr/libexec/gsd-a11y-settings
+gsd-color
+pid : 1724 ppid : 1473 User name : acho CPU time : 4585 Cmdline : /usr/libexec/gsd-color
+gsd-datetime
+pid : 1725 ppid : 1473 User name : acho CPU time : 7 Cmdline : /usr/libexec/gsd-datetime
+gsd-housekeepin
+pid : 1732 ppid : 1473 User name : acho CPU time : 8347 Cmdline : /usr/libexec/gsd-housekeeping
+gsd-keyboard
+pid : 1733 ppid : 1473 User name : acho CPU time : 41 Cmdline : /usr/libexec/gsd-keyboard
+gsd-media-keys
+pid : 1734 ppid : 1473 User name : acho CPU time : 636 Cmdline : /usr/libexec/gsd-media-keys
+gsd-power
+pid : 1736 ppid : 1473 User name : acho CPU time : 733 Cmdline : /usr/libexec/gsd-power
+gsd-print-notif
+pid : 1737 ppid : 1473 User name : acho CPU time : 390 Cmdline : /usr/libexec/gsd-print-notifications
+gsd-rfkill
+pid : 1738 ppid : 1473 User name : acho CPU time : 104 Cmdline : /usr/libexec/gsd-rfkill
+gsd-screensaver
+pid : 1743 ppid : 1473 User name : acho CPU time : 5 Cmdline : /usr/libexec/gsd-screensaver-proxy
+gsd-sharing
+pid : 1744 ppid : 1473 User name : acho CPU time : 133 Cmdline : /usr/libexec/gsd-sharing
+gsd-smartcard
+pid : 1745 ppid : 1473 User name : acho CPU time : 5 Cmdline : /usr/libexec/gsd-smartcard
+gsd-sound
+pid : 1746 ppid : 1473 User name : acho CPU time : 7 Cmdline : /usr/libexec/gsd-sound
+gsd-wacom
+pid : 1748 ppid : 1473 User name : acho CPU time : 40 Cmdline : /usr/libexec/gsd-wacom
+ibus-daemon
+pid : 1749 ppid : 1721 User name : acho CPU time : 173 Cmdline : /usr/bin/ibus-daemon
+spice-vdagent
+pid : 1790 ppid : 1473 User name : acho CPU time : 1263 Cmdline : /usr/bin/spice-vdagent
+ibus-dconf
+pid : 1809 ppid : 1749 User name : acho CPU time : 3 Cmdline : /usr/libexec/ibus-dconf
+ibus-extension-
+pid : 1810 ppid : 1749 User name : acho CPU time : 151 Cmdline : /usr/libexec/ibus-extension-gtk3
+ibus-portal
+pid : 1826 ppid : 1473 User name : acho CPU time : 124 Cmdline : /usr/libexec/ibus-portal
+Xwayland
+pid : 1833 ppid : 1591 User name : acho CPU time : 90484 Cmdline : /usr/bin/Xwayland
+gsd-printer
+pid : 1845 ppid : 1473 User name : acho CPU time : 253 Cmdline : /usr/libexec/gsd-printer
+ibus-engine-han
+pid : 1850 ppid : 1749 User name : acho CPU time : 56 Cmdline : /usr/libexec/ibus-engine-hangul
+gsd-xsettings
+pid : 1856 ppid : 1473 User name : acho CPU time : 361 Cmdline : /usr/libexec/gsd-xsettings
+xdg-desktop-por
+pid : 1871 ppid : 1473 User name : acho CPU time : 6287 Cmdline : /usr/libexec/xdg-desktop-portal
+xdg-document-po
+pid : 1877 ppid : 1473 User name : acho CPU time : 173 Cmdline : /usr/libexec/xdg-document-portal
+fusermount3
+pid : 1884 ppid : 1877 User name : root CPU time : 0 Cmdline : fusermount3
+xdg-desktop-por
+pid : 1890 ppid : 1473 User name : acho CPU time : 1540 Cmdline : /usr/libexec/xdg-desktop-portal-gnome
+ibus-x11
+pid : 1915 ppid : 1473 User name : acho CPU time : 48 Cmdline : /usr/libexec/ibus-x11
+gjs
+pid : 1930 ppid : 1473 User name : acho CPU time : 206 Cmdline : /usr/bin/gjs
+evolution-alarm
+pid : 1949 ppid : 1574 User name : acho CPU time : 2218 Cmdline : /usr/libexec/evolution-data-server/evolution-alarm 
+gsd-disk-utilit
+pid : 1952 ppid : 1574 User name : acho CPU time : 29 Cmdline : /usr/libexec/gsd-disk-utility-notify
+xdg-desktop-por
+pid : 2015 ppid : 1473 User name : acho CPU time : 1448 Cmdline : /usr/libexec/xdg-desktop-portal-gtk
+gvfsd-metadata
+pid : 2046 ppid : 1473 User name : acho CPU time : 24 Cmdline : /usr/libexec/gvfsd-metadata
+update-notifier
+pid : 2085 ppid : 1574 User name : acho CPU time : 9850 Cmdline : update-notifier
+gnome-terminal-
+pid : 2350 ppid : 1473 User name : acho CPU time : 491 Cmdline : /usr/libexec/gnome-terminal-server
+bash
+pid : 2380 ppid : 2350 User name : acho CPU time : 2 Cmdline : bash
+bash
+pid : 2400 ppid : 2350 User name : acho CPU time : 1 Cmdline : bash
+packagekitd
+pid : 48279 ppid : 1 User name : root CPU time : 11189 Cmdline : /usr/libexec/packagekitd
+mysqld
+pid : 50066 ppid : 1 User name : mysql CPU time : 546947 Cmdline : /usr/sbin/mysqld
+snap
+pid : 50745 ppid : 1473 User name : acho CPU time : 15092 Cmdline : /usr/bin/snap
+firefox
+pid : 53210 ppid : 1591 User name : acho CPU time : 356209 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Socket
+pid : 53348 ppid : 0 User name : acho CPU time : 13 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Privileged
+pid : 53395 ppid : 0 User name : acho CPU time : 15783 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+WebExtensions
+pid : 53925 ppid : 53210 User name : acho CPU time : 1330 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Isolated
+pid : 54233 ppid : 0 User name : acho CPU time : 24 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Isolated
+pid : 54284 ppid : 0 User name : acho CPU time : 0 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Web
+pid : 54310 ppid : 0 User name : acho CPU time : 1035 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Web
+pid : 54344 ppid : 0 User name : acho CPU time : 1179 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Web
+pid : 54348 ppid : 0 User name : acho CPU time : 1071 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+nautilus
+pid : 54396 ppid : 1473 User name : acho CPU time : 4970 Cmdline : /usr/bin/nautilus
+gedit
+pid : 75153 ppid : 1473 User name : acho CPU time : 4260 Cmdline : /usr/bin/gedit
+update-manager
+pid : 95458 ppid : 1473 User name : acho CPU time : 300 Cmdline : /usr/bin/python3
+sshd
+pid : 97640 ppid : 975 User name : root CPU time : 59 Cmdline : sshd: acho [priv]
+sshd
+pid : 97658 ppid : 975 User name : root CPU time : 41 Cmdline : sshd: acho [priv]
+sshd
+pid : 97787 ppid : 97640 User name : acho CPU time : 912 Cmdline : sshd: acho@pts/0
+sshd
+pid : 97798 ppid : 97658 User name : acho CPU time : 699 Cmdline : sshd: acho@pts/1
+sshd
+pid : 97799 ppid : 975 User name : root CPU time : 14 Cmdline : sshd: acho [priv]
+bash
+pid : 97800 ppid : 97787 User name : acho CPU time : 254 Cmdline : -bash
+bash
+pid : 97801 ppid : 97798 User name : acho CPU time : 295 Cmdline : -bash
+sshd
+pid : 97866 ppid : 97799 User name : acho CPU time : 162 Cmdline : sshd: acho@pts/4
+bash
+pid : 97867 ppid : 97866 User name : acho CPU time : 364 Cmdline : -bash
+kworker/3:3-evenroot
+pid : 99387 ppid : 2 User name : root CPU time : 2711 Cmdline : 
+kworker/1:0-evenroot
+pid : 99424 ppid : 2 User name : root CPU time : 469 Cmdline : 
+apache2
+pid : 99506 ppid : 1012 User name : www-data CPU time : 2 Cmdline : /usr/sbin/apache2
+apache2
+pid : 99516 ppid : 1012 User name : www-data CPU time : 1 Cmdline : /usr/sbin/apache2
+kworker/2:3-evenroot
+pid : 99574 ppid : 2 User name : root CPU time : 714 Cmdline : 
+cupsd
+pid : 99575 ppid : 1 User name : root CPU time : 67 Cmdline : /usr/sbin/cupsd
+cups-browsed
+pid : 99578 ppid : 1 User name : root CPU time : 20 Cmdline : /usr/sbin/cups-browsed
+kworker/3:0-cgroroot
+pid : 100182 ppid : 2 User name : root CPU time : 2 Cmdline : 
+kworker/2:0-evenroot
+pid : 100988 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/1:2-evenroot
+pid : 102733 ppid : 2 User name : root CPU time : 144 Cmdline : 
+kworker/0:1
+pid : 103229 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/u8:1-everoot
+pid : 103672 ppid : 2 User name : root CPU time : 78 Cmdline : 
+kworker/0:2-evenroot
+pid : 103756 ppid : 2 User name : root CPU time : 8 Cmdline : 
+kworker/u8:3-fluroot
+pid : 103757 ppid : 2 User name : root CPU time : 12 Cmdline : 
+kworker/u8:0-everoot
+pid : 103762 ppid : 2 User name : root CPU time : 18 Cmdline : 
+kworker/u8:2-everoot
+pid : 103944 ppid : 2 User name : root CPU time : 16 Cmdline : 
+server
+pid : 104014 ppid : 97867 User name : acho CPU time : 3 Cmdline : ./server
+agent
+pid : 104019 ppid : 97801 User name : acho CPU time : 26 Cmdline : ./agent
+agent
+pid : 104022 ppid : 97800 User name : acho CPU time : 7 Cmdline : ./agent
+----------------------------------------------------------------------------------------------------
+MEMORY
+MemTotal : 4002172 MemFree : 371184 Used : 3630988 SwapUsed : 22356
+
+NETWORK
+enp0s6 Received bytes : 364901934 Received cnt : 1339213 Transmit bytes : 884123 Transmit cnts : 323218932
+
+CPU
+cpu0 User : 2302 System : 2302 iowait : 2302 idle : 2302
+
+cpu1 User : 2818 System : 2818 iowait : 2818 idle : 2818
+
+cpu2 User : 2317 System : 2317 iowait : 2317 idle : 2317
+
+cpu3 User : 2192 System : 2192 iowait : 2192 idle : 2192
+
+PROCESS
+systemd
+pid : 1 ppid : 0 User name : root CPU time : 15373 Cmdline : /sbin/init
+kthreadd
+pid : 2 ppid : 0 User name : root CPU time : 490 Cmdline : 
+rcu_gp
+pid : 3 ppid : 2 User name : root CPU time : 0 Cmdline : 
+rcu_par_gp
+pid : 4 ppid : 2 User name : root CPU time : 0 Cmdline : 
+netns
+pid : 5 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/0:0H-everoot
+pid : 7 ppid : 2 User name : root CPU time : 0 Cmdline : 
+mm_percpu_wq
+pid : 9 ppid : 2 User name : root CPU time : 0 Cmdline : 
+rcu_tasks_rude_
+pid : 10 ppid : 2 User name : root CPU time : 0 Cmdline : 
+rcu_tasks_trace
+pid : 11 ppid : 2 User name : root CPU time : 0 Cmdline : 
+ksoftirqd/0
+pid : 12 ppid : 2 User name : root CPU time : 10378 Cmdline : 
+rcu_sched
+pid : 13 ppid : 2 User name : root CPU time : 35802 Cmdline : 
+migration/0
+pid : 14 ppid : 2 User name : root CPU time : 979 Cmdline : 
+idle_inject/0
+pid : 15 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cpuhp/0
+pid : 17 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cpuhp/1
+pid : 18 ppid : 2 User name : root CPU time : 0 Cmdline : 
+idle_inject/1
+pid : 19 ppid : 2 User name : root CPU time : 0 Cmdline : 
+migration/1
+pid : 20 ppid : 2 User name : root CPU time : 1329 Cmdline : 
+ksoftirqd/1
+pid : 21 ppid : 2 User name : root CPU time : 8319 Cmdline : 
+kworker/1:0H-everoot
+pid : 23 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cpuhp/2
+pid : 24 ppid : 2 User name : root CPU time : 0 Cmdline : 
+idle_inject/2
+pid : 25 ppid : 2 User name : root CPU time : 0 Cmdline : 
+migration/2
+pid : 26 ppid : 2 User name : root CPU time : 1582 Cmdline : 
+ksoftirqd/2
+pid : 27 ppid : 2 User name : root CPU time : 8270 Cmdline : 
+kworker/2:0H-everoot
+pid : 29 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cpuhp/3
+pid : 30 ppid : 2 User name : root CPU time : 0 Cmdline : 
+idle_inject/3
+pid : 31 ppid : 2 User name : root CPU time : 0 Cmdline : 
+migration/3
+pid : 32 ppid : 2 User name : root CPU time : 1714 Cmdline : 
+ksoftirqd/3
+pid : 33 ppid : 2 User name : root CPU time : 4610 Cmdline : 
+kworker/3:0H-everoot
+pid : 35 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kdevtmpfs
+pid : 36 ppid : 2 User name : root CPU time : 1 Cmdline : 
+inet_frag_wq
+pid : 37 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kauditd
+pid : 41 ppid : 2 User name : root CPU time : 12 Cmdline : 
+khungtaskd
+pid : 42 ppid : 2 User name : root CPU time : 2472 Cmdline : 
+oom_reaper
+pid : 43 ppid : 2 User name : root CPU time : 0 Cmdline : 
+writeback
+pid : 44 ppid : 2 User name : root CPU time : 54 Cmdline : 
+kcompactd0
+pid : 45 ppid : 2 User name : root CPU time : 13357 Cmdline : 
+ksmd
+pid : 46 ppid : 2 User name : root CPU time : 0 Cmdline : 
+khugepaged
+pid : 47 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kintegrityd
+pid : 93 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kblockd
+pid : 94 ppid : 2 User name : root CPU time : 0 Cmdline : 
+blkcg_punt_bio
+pid : 95 ppid : 2 User name : root CPU time : 0 Cmdline : 
+tpm_dev_wq
+pid : 96 ppid : 2 User name : root CPU time : 0 Cmdline : 
+ata_sff
+pid : 97 ppid : 2 User name : root CPU time : 0 Cmdline : 
+md
+pid : 98 ppid : 2 User name : root CPU time : 0 Cmdline : 
+edac-poller
+pid : 99 ppid : 2 User name : root CPU time : 0 Cmdline : 
+devfreq_wq
+pid : 100 ppid : 2 User name : root CPU time : 0 Cmdline : 
+watchdogd
+pid : 101 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/1:1H-kblroot
+pid : 103 ppid : 2 User name : root CPU time : 359 Cmdline : 
+kswapd0
+pid : 104 ppid : 2 User name : root CPU time : 4936 Cmdline : 
+ecryptfs-kthrea
+pid : 105 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kthrotld
+pid : 107 ppid : 2 User name : root CPU time : 0 Cmdline : 
+irq/49-ACPI:Ged
+pid : 108 ppid : 2 User name : root CPU time : 0 Cmdline : 
+acpi_thermal_pm
+pid : 109 ppid : 2 User name : root CPU time : 0 Cmdline : 
+mld
+pid : 111 ppid : 2 User name : root CPU time : 0 Cmdline : 
+ipv6_addrconf
+pid : 112 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kstrp
+pid : 121 ppid : 2 User name : root CPU time : 0 Cmdline : 
+zswap-shrink
+pid : 124 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/u9:0
+pid : 125 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cryptd
+pid : 129 ppid : 2 User name : root CPU time : 0 Cmdline : 
+charger_manager
+pid : 167 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/0:1H-kblroot
+pid : 210 ppid : 2 User name : root CPU time : 243 Cmdline : 
+kworker/3:1H-kblroot
+pid : 217 ppid : 2 User name : root CPU time : 240 Cmdline : 
+kworker/2:1H-kblroot
+pid : 226 ppid : 2 User name : root CPU time : 318 Cmdline : 
+kdmflush
+pid : 264 ppid : 2 User name : root CPU time : 0 Cmdline : 
+raid5wq
+pid : 290 ppid : 2 User name : root CPU time : 0 Cmdline : 
+jbd2/dm-0-8
+pid : 348 ppid : 2 User name : root CPU time : 5344 Cmdline : 
+ext4-rsv-conver
+pid : 349 ppid : 2 User name : root CPU time : 0 Cmdline : 
+hwrng
+pid : 385 ppid : 2 User name : root CPU time : 317 Cmdline : 
+systemd-journal
+pid : 427 ppid : 1 User name : root CPU time : 8478 Cmdline : /lib/systemd/systemd-journald
+ipmi-msghandler
+pid : 454 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kaluad
+pid : 477 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kmpath_rdacd
+pid : 480 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kmpathd
+pid : 482 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kmpath_handlerd
+pid : 483 ppid : 2 User name : root CPU time : 0 Cmdline : 
+multipathd
+pid : 484 ppid : 1 User name : root CPU time : 29921 Cmdline : /sbin/multipathd
+systemd-udevd
+pid : 488 ppid : 1 User name : root CPU time : 2137 Cmdline : /lib/systemd/systemd-udevd
+scsi_eh_0
+pid : 571 ppid : 2 User name : root CPU time : 0 Cmdline : 
+scsi_tmf_0
+pid : 572 ppid : 2 User name : root CPU time : 0 Cmdline : 
+usb-storage
+pid : 573 ppid : 2 User name : root CPU time : 21854 Cmdline : 
+uas
+pid : 574 ppid : 2 User name : root CPU time : 0 Cmdline : 
+jbd2/vda2-8
+pid : 677 ppid : 2 User name : root CPU time : 0 Cmdline : 
+ext4-rsv-conver
+pid : 678 ppid : 2 User name : root CPU time : 0 Cmdline : 
+systemd-oomd
+pid : 728 ppid : 1 User name : systemd-oom CPU time : 134044 Cmdline : /lib/systemd/systemd-oomd
+systemd-timesyn
+pid : 732 ppid : 1 User name : systemd-timesync CPU time : 2608 Cmdline : /lib/systemd/systemd-timesyncd
+systemd-network
+pid : 778 ppid : 1 User name : systemd-network CPU time : 5709 Cmdline : /lib/systemd/systemd-networkd
+systemd-resolve
+pid : 780 ppid : 1 User name : systemd-resolve CPU time : 4664 Cmdline : /lib/systemd/systemd-resolved
+avahi-daemon
+pid : 802 ppid : 1 User name : avahi CPU time : 8451 Cmdline : avahi-daemon: running [acho.local]
+dbus-daemon
+pid : 803 ppid : 1 User name : messagebus CPU time : 3014 Cmdline : @dbus-daemon
+NetworkManager
+pid : 804 ppid : 1 User name : root CPU time : 8596 Cmdline : /usr/sbin/NetworkManager
+irqbalance
+pid : 809 ppid : 1 User name : root CPU time : 11617 Cmdline : /usr/sbin/irqbalance
+networkd-dispat
+pid : 810 ppid : 1 User name : root CPU time : 111 Cmdline : /usr/bin/python3
+polkitd
+pid : 811 ppid : 1 User name : root CPU time : 1829 Cmdline : /usr/libexec/polkitd
+power-profiles-
+pid : 812 ppid : 1 User name : root CPU time : 57 Cmdline : /usr/libexec/power-profiles-daemon
+rsyslogd
+pid : 813 ppid : 1 User name : syslog CPU time : 1325 Cmdline : /usr/sbin/rsyslogd
+snapd
+pid : 814 ppid : 1 User name : root CPU time : 32256 Cmdline : /usr/lib/snapd/snapd
+accounts-daemon
+pid : 816 ppid : 1 User name : root CPU time : 4266 Cmdline : /usr/libexec/accounts-daemon
+switcheroo-cont
+pid : 817 ppid : 1 User name : root CPU time : 4 Cmdline : /usr/libexec/switcheroo-control
+systemd-logind
+pid : 818 ppid : 1 User name : root CPU time : 1955 Cmdline : /lib/systemd/systemd-logind
+udisksd
+pid : 819 ppid : 1 User name : root CPU time : 1808 Cmdline : /usr/libexec/udisks2/udisksd
+wpa_supplicant
+pid : 820 ppid : 1 User name : root CPU time : 1933 Cmdline : /sbin/wpa_supplicant
+avahi-daemon
+pid : 822 ppid : 802 User name : avahi CPU time : 0 Cmdline : avahi-daemon: chroot helper
+spice-webdavd
+pid : 852 ppid : 1 User name : root CPU time : 195 Cmdline : /usr/sbin/spice-webdavd
+unattended-upgr
+pid : 863 ppid : 1 User name : root CPU time : 5 Cmdline : /usr/bin/python3
+ModemManager
+pid : 874 ppid : 1 User name : root CPU time : 161 Cmdline : /usr/sbin/ModemManager
+cron
+pid : 930 ppid : 1 User name : root CPU time : 2979 Cmdline : /usr/sbin/cron
+kerneloops
+pid : 945 ppid : 1 User name : kernoops CPU time : 1082 Cmdline : /usr/sbin/kerneloops
+agetty
+pid : 954 ppid : 1 User name : root CPU time : 0 Cmdline : /sbin/agetty
+kerneloops
+pid : 968 ppid : 1 User name : kernoops CPU time : 1129 Cmdline : /usr/sbin/kerneloops
+sshd
+pid : 975 ppid : 1 User name : root CPU time : 201 Cmdline : sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 sta×
+gdm3
+pid : 983 ppid : 1 User name : root CPU time : 391 Cmdline : /usr/sbin/gdm3
+apache2
+pid : 1012 ppid : 1 User name : root CPU time : 9891 Cmdline : /usr/sbin/apache2
+upowerd
+pid : 1233 ppid : 1 User name : root CPU time : 206 Cmdline : /usr/libexec/upowerd
+colord
+pid : 1413 ppid : 1 User name : colord CPU time : 12 Cmdline : /usr/libexec/colord
+spice-vdagentd
+pid : 1449 ppid : 1 User name : root CPU time : 834 Cmdline : /usr/sbin/spice-vdagentd
+gdm-session-wor
+pid : 1465 ppid : 983 User name : root CPU time : 157 Cmdline : gdm-session-worker [pam/gdm-password]
+systemd
+pid : 1473 ppid : 1 User name : acho CPU time : 1035 Cmdline : /lib/systemd/systemd
+(sd-pam
+pid : 1474 ppid : 1473 User name : acho CPU time : 0 Cmdline : (sd-pam)
+pipewire
+pid : 1480 ppid : 1473 User name : acho CPU time : 89 Cmdline : /usr/bin/pipewire
+pipewire-media-
+pid : 1481 ppid : 1473 User name : acho CPU time : 240 Cmdline : /usr/bin/pipewire-media-session
+pulseaudio
+pid : 1482 ppid : 1473 User name : acho CPU time : 246 Cmdline : /usr/bin/pulseaudio
+dbus-daemon
+pid : 1486 ppid : 1473 User name : acho CPU time : 1428 Cmdline : /usr/bin/dbus-daemon
+gnome-keyring-d
+pid : 1488 ppid : 1 User name : acho CPU time : 391 Cmdline : /usr/bin/gnome-keyring-daemon
+gvfsd
+pid : 1492 ppid : 1473 User name : acho CPU time : 50 Cmdline : /usr/libexec/gvfsd
+gvfsd-fuse
+pid : 1497 ppid : 1473 User name : acho CPU time : 6 Cmdline : /usr/libexec/gvfsd-fuse
+gdm-wayland-ses
+pid : 1507 ppid : 1465 User name : acho CPU time : 4 Cmdline : /usr/libexec/gdm-wayland-session
+gnome-session-b
+pid : 1512 ppid : 1507 User name : acho CPU time : 1 Cmdline : /usr/libexec/gnome-session-binary
+tracker-miner-f
+pid : 1533 ppid : 1473 User name : acho CPU time : 3169 Cmdline : /usr/libexec/tracker-miner-fs-3
+gnome-session-c
+pid : 1561 ppid : 1473 User name : acho CPU time : 0 Cmdline : /usr/libexec/gnome-session-ctl
+gnome-session-b
+pid : 1574 ppid : 1473 User name : acho CPU time : 587 Cmdline : /usr/libexec/gnome-session-binary
+gnome-shell
+pid : 1591 ppid : 1473 User name : acho CPU time : 374128 Cmdline : /usr/bin/gnome-shell
+at-spi-bus-laun
+pid : 1593 ppid : 1574 User name : acho CPU time : 29 Cmdline : /usr/libexec/at-spi-bus-launcher
+dbus-daemon
+pid : 1600 ppid : 1593 User name : acho CPU time : 35 Cmdline : /usr/bin/dbus-daemon
+gvfs-udisks2-vo
+pid : 1603 ppid : 1473 User name : acho CPU time : 105 Cmdline : /usr/libexec/gvfs-udisks2-volume-monitor
+gvfs-afc-volume
+pid : 1611 ppid : 1473 User name : acho CPU time : 7320 Cmdline : /usr/libexec/gvfs-afc-volume-monitor
+gvfs-gphoto2-vo
+pid : 1616 ppid : 1473 User name : acho CPU time : 17 Cmdline : /usr/libexec/gvfs-gphoto2-volume-monitor
+gvfs-mtp-volume
+pid : 1629 ppid : 1473 User name : acho CPU time : 20 Cmdline : /usr/libexec/gvfs-mtp-volume-monitor
+gvfs-goa-volume
+pid : 1634 ppid : 1473 User name : acho CPU time : 22 Cmdline : /usr/libexec/gvfs-goa-volume-monitor
+goa-daemon
+pid : 1638 ppid : 1473 User name : acho CPU time : 102 Cmdline : /usr/libexec/goa-daemon
+goa-identity-se
+pid : 1645 ppid : 1473 User name : acho CPU time : 509 Cmdline : /usr/libexec/goa-identity-service
+xdg-permission-
+pid : 1658 ppid : 1473 User name : acho CPU time : 8 Cmdline : /usr/libexec/xdg-permission-store
+gnome-shell-cal
+pid : 1660 ppid : 1473 User name : acho CPU time : 21 Cmdline : /usr/libexec/gnome-shell-calendar-server
+evolution-sourc
+pid : 1670 ppid : 1473 User name : acho CPU time : 157 Cmdline : /usr/libexec/evolution-source-registry
+evolution-calen
+pid : 1677 ppid : 1473 User name : acho CPU time : 226 Cmdline : /usr/libexec/evolution-calendar-factory
+dconf-service
+pid : 1685 ppid : 1473 User name : acho CPU time : 24 Cmdline : /usr/libexec/dconf-service
+evolution-addre
+pid : 1690 ppid : 1473 User name : acho CPU time : 114 Cmdline : /usr/libexec/evolution-addressbook-factory
+gvfsd-trash
+pid : 1694 ppid : 1492 User name : acho CPU time : 76 Cmdline : /usr/libexec/gvfsd-trash
+gjs
+pid : 1712 ppid : 1473 User name : acho CPU time : 14 Cmdline : /usr/bin/gjs
+at-spi2-registr
+pid : 1714 ppid : 1473 User name : acho CPU time : 17 Cmdline : /usr/libexec/at-spi2-registryd
+sh
+pid : 1721 ppid : 1473 User name : acho CPU time : 0 Cmdline : sh
+gsd-a11y-settin
+pid : 1723 ppid : 1473 User name : acho CPU time : 6 Cmdline : /usr/libexec/gsd-a11y-settings
+gsd-color
+pid : 1724 ppid : 1473 User name : acho CPU time : 4585 Cmdline : /usr/libexec/gsd-color
+gsd-datetime
+pid : 1725 ppid : 1473 User name : acho CPU time : 7 Cmdline : /usr/libexec/gsd-datetime
+gsd-housekeepin
+pid : 1732 ppid : 1473 User name : acho CPU time : 8347 Cmdline : /usr/libexec/gsd-housekeeping
+gsd-keyboard
+pid : 1733 ppid : 1473 User name : acho CPU time : 41 Cmdline : /usr/libexec/gsd-keyboard
+gsd-media-keys
+pid : 1734 ppid : 1473 User name : acho CPU time : 636 Cmdline : /usr/libexec/gsd-media-keys
+gsd-power
+pid : 1736 ppid : 1473 User name : acho CPU time : 733 Cmdline : /usr/libexec/gsd-power
+gsd-print-notif
+pid : 1737 ppid : 1473 User name : acho CPU time : 390 Cmdline : /usr/libexec/gsd-print-notifications
+gsd-rfkill
+pid : 1738 ppid : 1473 User name : acho CPU time : 104 Cmdline : /usr/libexec/gsd-rfkill
+gsd-screensaver
+pid : 1743 ppid : 1473 User name : acho CPU time : 5 Cmdline : /usr/libexec/gsd-screensaver-proxy
+gsd-sharing
+pid : 1744 ppid : 1473 User name : acho CPU time : 133 Cmdline : /usr/libexec/gsd-sharing
+gsd-smartcard
+pid : 1745 ppid : 1473 User name : acho CPU time : 5 Cmdline : /usr/libexec/gsd-smartcard
+gsd-sound
+pid : 1746 ppid : 1473 User name : acho CPU time : 7 Cmdline : /usr/libexec/gsd-sound
+gsd-wacom
+pid : 1748 ppid : 1473 User name : acho CPU time : 40 Cmdline : /usr/libexec/gsd-wacom
+ibus-daemon
+pid : 1749 ppid : 1721 User name : acho CPU time : 173 Cmdline : /usr/bin/ibus-daemon
+spice-vdagent
+pid : 1790 ppid : 1473 User name : acho CPU time : 1263 Cmdline : /usr/bin/spice-vdagent
+ibus-dconf
+pid : 1809 ppid : 1749 User name : acho CPU time : 3 Cmdline : /usr/libexec/ibus-dconf
+ibus-extension-
+pid : 1810 ppid : 1749 User name : acho CPU time : 151 Cmdline : /usr/libexec/ibus-extension-gtk3
+ibus-portal
+pid : 1826 ppid : 1473 User name : acho CPU time : 124 Cmdline : /usr/libexec/ibus-portal
+Xwayland
+pid : 1833 ppid : 1591 User name : acho CPU time : 90484 Cmdline : /usr/bin/Xwayland
+gsd-printer
+pid : 1845 ppid : 1473 User name : acho CPU time : 253 Cmdline : /usr/libexec/gsd-printer
+ibus-engine-han
+pid : 1850 ppid : 1749 User name : acho CPU time : 56 Cmdline : /usr/libexec/ibus-engine-hangul
+gsd-xsettings
+pid : 1856 ppid : 1473 User name : acho CPU time : 361 Cmdline : /usr/libexec/gsd-xsettings
+xdg-desktop-por
+pid : 1871 ppid : 1473 User name : acho CPU time : 6287 Cmdline : /usr/libexec/xdg-desktop-portal
+xdg-document-po
+pid : 1877 ppid : 1473 User name : acho CPU time : 173 Cmdline : /usr/libexec/xdg-document-portal
+fusermount3
+pid : 1884 ppid : 1877 User name : root CPU time : 0 Cmdline : fusermount3
+xdg-desktop-por
+pid : 1890 ppid : 1473 User name : acho CPU time : 1540 Cmdline : /usr/libexec/xdg-desktop-portal-gnome
+ibus-x11
+pid : 1915 ppid : 1473 User name : acho CPU time : 48 Cmdline : /usr/libexec/ibus-x11
+gjs
+pid : 1930 ppid : 1473 User name : acho CPU time : 206 Cmdline : /usr/bin/gjs
+evolution-alarm
+pid : 1949 ppid : 1574 User name : acho CPU time : 2218 Cmdline : /usr/libexec/evolution-data-server/evolution-alarm 
+gsd-disk-utilit
+pid : 1952 ppid : 1574 User name : acho CPU time : 29 Cmdline : /usr/libexec/gsd-disk-utility-notify
+xdg-desktop-por
+pid : 2015 ppid : 1473 User name : acho CPU time : 1448 Cmdline : /usr/libexec/xdg-desktop-portal-gtk
+gvfsd-metadata
+pid : 2046 ppid : 1473 User name : acho CPU time : 24 Cmdline : /usr/libexec/gvfsd-metadata
+update-notifier
+pid : 2085 ppid : 1574 User name : acho CPU time : 9850 Cmdline : update-notifier
+gnome-terminal-
+pid : 2350 ppid : 1473 User name : acho CPU time : 491 Cmdline : /usr/libexec/gnome-terminal-server
+bash
+pid : 2380 ppid : 2350 User name : acho CPU time : 2 Cmdline : bash
+bash
+pid : 2400 ppid : 2350 User name : acho CPU time : 1 Cmdline : bash
+packagekitd
+pid : 48279 ppid : 1 User name : root CPU time : 11189 Cmdline : /usr/libexec/packagekitd
+mysqld
+pid : 50066 ppid : 1 User name : mysql CPU time : 546948 Cmdline : /usr/sbin/mysqld
+snap
+pid : 50745 ppid : 1473 User name : acho CPU time : 15092 Cmdline : /usr/bin/snap
+firefox
+pid : 53210 ppid : 1591 User name : acho CPU time : 356209 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Socket
+pid : 53348 ppid : 0 User name : acho CPU time : 13 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Privileged
+pid : 53395 ppid : 0 User name : acho CPU time : 15783 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+WebExtensions
+pid : 53925 ppid : 53210 User name : acho CPU time : 1330 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Isolated
+pid : 54233 ppid : 0 User name : acho CPU time : 24 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Isolated
+pid : 54284 ppid : 0 User name : acho CPU time : 0 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Web
+pid : 54310 ppid : 0 User name : acho CPU time : 1035 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Web
+pid : 54344 ppid : 0 User name : acho CPU time : 1179 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Web
+pid : 54348 ppid : 0 User name : acho CPU time : 1071 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+nautilus
+pid : 54396 ppid : 1473 User name : acho CPU time : 4970 Cmdline : /usr/bin/nautilus
+gedit
+pid : 75153 ppid : 1473 User name : acho CPU time : 4260 Cmdline : /usr/bin/gedit
+update-manager
+pid : 95458 ppid : 1473 User name : acho CPU time : 300 Cmdline : /usr/bin/python3
+sshd
+pid : 97640 ppid : 975 User name : root CPU time : 59 Cmdline : sshd: acho [priv]
+sshd
+pid : 97658 ppid : 975 User name : root CPU time : 41 Cmdline : sshd: acho [priv]
+sshd
+pid : 97787 ppid : 97640 User name : acho CPU time : 912 Cmdline : sshd: acho@pts/0
+sshd
+pid : 97798 ppid : 97658 User name : acho CPU time : 700 Cmdline : sshd: acho@pts/1
+sshd
+pid : 97799 ppid : 975 User name : root CPU time : 14 Cmdline : sshd: acho [priv]
+bash
+pid : 97800 ppid : 97787 User name : acho CPU time : 254 Cmdline : -bash
+bash
+pid : 97801 ppid : 97798 User name : acho CPU time : 295 Cmdline : -bash
+sshd
+pid : 97866 ppid : 97799 User name : acho CPU time : 162 Cmdline : sshd: acho@pts/4
+bash
+pid : 97867 ppid : 97866 User name : acho CPU time : 364 Cmdline : -bash
+kworker/3:3-evenroot
+pid : 99387 ppid : 2 User name : root CPU time : 2711 Cmdline : 
+kworker/1:0-evenroot
+pid : 99424 ppid : 2 User name : root CPU time : 469 Cmdline : 
+apache2
+pid : 99506 ppid : 1012 User name : www-data CPU time : 2 Cmdline : /usr/sbin/apache2
+apache2
+pid : 99516 ppid : 1012 User name : www-data CPU time : 1 Cmdline : /usr/sbin/apache2
+kworker/2:3-evenroot
+pid : 99574 ppid : 2 User name : root CPU time : 714 Cmdline : 
+cupsd
+pid : 99575 ppid : 1 User name : root CPU time : 67 Cmdline : /usr/sbin/cupsd
+cups-browsed
+pid : 99578 ppid : 1 User name : root CPU time : 20 Cmdline : /usr/sbin/cups-browsed
+kworker/3:0-cgroroot
+pid : 100182 ppid : 2 User name : root CPU time : 2 Cmdline : 
+kworker/2:0-evenroot
+pid : 100988 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/1:2-evenroot
+pid : 102733 ppid : 2 User name : root CPU time : 144 Cmdline : 
+kworker/0:1
+pid : 103229 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/u8:1-everoot
+pid : 103672 ppid : 2 User name : root CPU time : 78 Cmdline : 
+kworker/0:2-evenroot
+pid : 103756 ppid : 2 User name : root CPU time : 8 Cmdline : 
+kworker/u8:3-fluroot
+pid : 103757 ppid : 2 User name : root CPU time : 12 Cmdline : 
+kworker/u8:0-everoot
+pid : 103762 ppid : 2 User name : root CPU time : 18 Cmdline : 
+kworker/u8:2-everoot
+pid : 103944 ppid : 2 User name : root CPU time : 16 Cmdline : 
+server
+pid : 104014 ppid : 97867 User name : acho CPU time : 4 Cmdline : ./server
+agent
+pid : 104019 ppid : 97801 User name : acho CPU time : 28 Cmdline : ./agent
+agent
+pid : 104022 ppid : 97800 User name : acho CPU time : 9 Cmdline : ./agent
+----------------------------------------------------------------------------------------------------
+MEMORY
+MemTotal : 4002172 MemFree : 368916 Used : 3633256 SwapUsed : 22356
+
+NETWORK
+enp0s6 Received bytes : 364903320 Received cnt : 1339234 Transmit bytes : 884145 Transmit cnts : 323222612
+
+CPU
+cpu0 User : 2302 System : 2302 iowait : 2302 idle : 2302
+
+cpu1 User : 2818 System : 2818 iowait : 2818 idle : 2818
+
+cpu2 User : 2317 System : 2317 iowait : 2317 idle : 2317
+
+cpu3 User : 2192 System : 2192 iowait : 2192 idle : 2192
+
+PROCESS
+systemd
+pid : 1 ppid : 0 User name : root CPU time : 15373 Cmdline : /sbin/init
+kthreadd
+pid : 2 ppid : 0 User name : root CPU time : 490 Cmdline : 
+rcu_gp
+pid : 3 ppid : 2 User name : root CPU time : 0 Cmdline : 
+rcu_par_gp
+pid : 4 ppid : 2 User name : root CPU time : 0 Cmdline : 
+netns
+pid : 5 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/0:0H-everoot
+pid : 7 ppid : 2 User name : root CPU time : 0 Cmdline : 
+mm_percpu_wq
+pid : 9 ppid : 2 User name : root CPU time : 0 Cmdline : 
+rcu_tasks_rude_
+pid : 10 ppid : 2 User name : root CPU time : 0 Cmdline : 
+rcu_tasks_trace
+pid : 11 ppid : 2 User name : root CPU time : 0 Cmdline : 
+ksoftirqd/0
+pid : 12 ppid : 2 User name : root CPU time : 10378 Cmdline : 
+rcu_sched
+pid : 13 ppid : 2 User name : root CPU time : 35802 Cmdline : 
+migration/0
+pid : 14 ppid : 2 User name : root CPU time : 979 Cmdline : 
+idle_inject/0
+pid : 15 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cpuhp/0
+pid : 17 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cpuhp/1
+pid : 18 ppid : 2 User name : root CPU time : 0 Cmdline : 
+idle_inject/1
+pid : 19 ppid : 2 User name : root CPU time : 0 Cmdline : 
+migration/1
+pid : 20 ppid : 2 User name : root CPU time : 1329 Cmdline : 
+ksoftirqd/1
+pid : 21 ppid : 2 User name : root CPU time : 8319 Cmdline : 
+kworker/1:0H-everoot
+pid : 23 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cpuhp/2
+pid : 24 ppid : 2 User name : root CPU time : 0 Cmdline : 
+idle_inject/2
+pid : 25 ppid : 2 User name : root CPU time : 0 Cmdline : 
+migration/2
+pid : 26 ppid : 2 User name : root CPU time : 1582 Cmdline : 
+ksoftirqd/2
+pid : 27 ppid : 2 User name : root CPU time : 8270 Cmdline : 
+kworker/2:0H-everoot
+pid : 29 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cpuhp/3
+pid : 30 ppid : 2 User name : root CPU time : 0 Cmdline : 
+idle_inject/3
+pid : 31 ppid : 2 User name : root CPU time : 0 Cmdline : 
+migration/3
+pid : 32 ppid : 2 User name : root CPU time : 1714 Cmdline : 
+ksoftirqd/3
+pid : 33 ppid : 2 User name : root CPU time : 4610 Cmdline : 
+kworker/3:0H-everoot
+pid : 35 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kdevtmpfs
+pid : 36 ppid : 2 User name : root CPU time : 1 Cmdline : 
+inet_frag_wq
+pid : 37 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kauditd
+pid : 41 ppid : 2 User name : root CPU time : 12 Cmdline : 
+khungtaskd
+pid : 42 ppid : 2 User name : root CPU time : 2472 Cmdline : 
+oom_reaper
+pid : 43 ppid : 2 User name : root CPU time : 0 Cmdline : 
+writeback
+pid : 44 ppid : 2 User name : root CPU time : 54 Cmdline : 
+kcompactd0
+pid : 45 ppid : 2 User name : root CPU time : 13357 Cmdline : 
+ksmd
+pid : 46 ppid : 2 User name : root CPU time : 0 Cmdline : 
+khugepaged
+pid : 47 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kintegrityd
+pid : 93 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kblockd
+pid : 94 ppid : 2 User name : root CPU time : 0 Cmdline : 
+blkcg_punt_bio
+pid : 95 ppid : 2 User name : root CPU time : 0 Cmdline : 
+tpm_dev_wq
+pid : 96 ppid : 2 User name : root CPU time : 0 Cmdline : 
+ata_sff
+pid : 97 ppid : 2 User name : root CPU time : 0 Cmdline : 
+md
+pid : 98 ppid : 2 User name : root CPU time : 0 Cmdline : 
+edac-poller
+pid : 99 ppid : 2 User name : root CPU time : 0 Cmdline : 
+devfreq_wq
+pid : 100 ppid : 2 User name : root CPU time : 0 Cmdline : 
+watchdogd
+pid : 101 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/1:1H-kblroot
+pid : 103 ppid : 2 User name : root CPU time : 359 Cmdline : 
+kswapd0
+pid : 104 ppid : 2 User name : root CPU time : 4936 Cmdline : 
+ecryptfs-kthrea
+pid : 105 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kthrotld
+pid : 107 ppid : 2 User name : root CPU time : 0 Cmdline : 
+irq/49-ACPI:Ged
+pid : 108 ppid : 2 User name : root CPU time : 0 Cmdline : 
+acpi_thermal_pm
+pid : 109 ppid : 2 User name : root CPU time : 0 Cmdline : 
+mld
+pid : 111 ppid : 2 User name : root CPU time : 0 Cmdline : 
+ipv6_addrconf
+pid : 112 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kstrp
+pid : 121 ppid : 2 User name : root CPU time : 0 Cmdline : 
+zswap-shrink
+pid : 124 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/u9:0
+pid : 125 ppid : 2 User name : root CPU time : 0 Cmdline : 
+cryptd
+pid : 129 ppid : 2 User name : root CPU time : 0 Cmdline : 
+charger_manager
+pid : 167 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/0:1H-kblroot
+pid : 210 ppid : 2 User name : root CPU time : 243 Cmdline : 
+kworker/3:1H-kblroot
+pid : 217 ppid : 2 User name : root CPU time : 240 Cmdline : 
+kworker/2:1H-kblroot
+pid : 226 ppid : 2 User name : root CPU time : 318 Cmdline : 
+kdmflush
+pid : 264 ppid : 2 User name : root CPU time : 0 Cmdline : 
+raid5wq
+pid : 290 ppid : 2 User name : root CPU time : 0 Cmdline : 
+jbd2/dm-0-8
+pid : 348 ppid : 2 User name : root CPU time : 5345 Cmdline : 
+ext4-rsv-conver
+pid : 349 ppid : 2 User name : root CPU time : 0 Cmdline : 
+hwrng
+pid : 385 ppid : 2 User name : root CPU time : 317 Cmdline : 
+systemd-journal
+pid : 427 ppid : 1 User name : root CPU time : 8478 Cmdline : /lib/systemd/systemd-journald
+ipmi-msghandler
+pid : 454 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kaluad
+pid : 477 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kmpath_rdacd
+pid : 480 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kmpathd
+pid : 482 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kmpath_handlerd
+pid : 483 ppid : 2 User name : root CPU time : 0 Cmdline : 
+multipathd
+pid : 484 ppid : 1 User name : root CPU time : 29921 Cmdline : /sbin/multipathd
+systemd-udevd
+pid : 488 ppid : 1 User name : root CPU time : 2137 Cmdline : /lib/systemd/systemd-udevd
+scsi_eh_0
+pid : 571 ppid : 2 User name : root CPU time : 0 Cmdline : 
+scsi_tmf_0
+pid : 572 ppid : 2 User name : root CPU time : 0 Cmdline : 
+usb-storage
+pid : 573 ppid : 2 User name : root CPU time : 21854 Cmdline : 
+uas
+pid : 574 ppid : 2 User name : root CPU time : 0 Cmdline : 
+jbd2/vda2-8
+pid : 677 ppid : 2 User name : root CPU time : 0 Cmdline : 
+ext4-rsv-conver
+pid : 678 ppid : 2 User name : root CPU time : 0 Cmdline : 
+systemd-oomd
+pid : 728 ppid : 1 User name : systemd-oom CPU time : 134044 Cmdline : /lib/systemd/systemd-oomd
+systemd-timesyn
+pid : 732 ppid : 1 User name : systemd-timesync CPU time : 2608 Cmdline : /lib/systemd/systemd-timesyncd
+systemd-network
+pid : 778 ppid : 1 User name : systemd-network CPU time : 5709 Cmdline : /lib/systemd/systemd-networkd
+systemd-resolve
+pid : 780 ppid : 1 User name : systemd-resolve CPU time : 4664 Cmdline : /lib/systemd/systemd-resolved
+avahi-daemon
+pid : 802 ppid : 1 User name : avahi CPU time : 8451 Cmdline : avahi-daemon: running [acho.local]
+dbus-daemon
+pid : 803 ppid : 1 User name : messagebus CPU time : 3014 Cmdline : @dbus-daemon
+NetworkManager
+pid : 804 ppid : 1 User name : root CPU time : 8596 Cmdline : /usr/sbin/NetworkManager
+irqbalance
+pid : 809 ppid : 1 User name : root CPU time : 11617 Cmdline : /usr/sbin/irqbalance
+networkd-dispat
+pid : 810 ppid : 1 User name : root CPU time : 111 Cmdline : /usr/bin/python3
+polkitd
+pid : 811 ppid : 1 User name : root CPU time : 1829 Cmdline : /usr/libexec/polkitd
+power-profiles-
+pid : 812 ppid : 1 User name : root CPU time : 57 Cmdline : /usr/libexec/power-profiles-daemon
+rsyslogd
+pid : 813 ppid : 1 User name : syslog CPU time : 1325 Cmdline : /usr/sbin/rsyslogd
+snapd
+pid : 814 ppid : 1 User name : root CPU time : 32256 Cmdline : /usr/lib/snapd/snapd
+accounts-daemon
+pid : 816 ppid : 1 User name : root CPU time : 4266 Cmdline : /usr/libexec/accounts-daemon
+switcheroo-cont
+pid : 817 ppid : 1 User name : root CPU time : 4 Cmdline : /usr/libexec/switcheroo-control
+systemd-logind
+pid : 818 ppid : 1 User name : root CPU time : 1955 Cmdline : /lib/systemd/systemd-logind
+udisksd
+pid : 819 ppid : 1 User name : root CPU time : 1808 Cmdline : /usr/libexec/udisks2/udisksd
+wpa_supplicant
+pid : 820 ppid : 1 User name : root CPU time : 1933 Cmdline : /sbin/wpa_supplicant
+avahi-daemon
+pid : 822 ppid : 802 User name : avahi CPU time : 0 Cmdline : avahi-daemon: chroot helper
+spice-webdavd
+pid : 852 ppid : 1 User name : root CPU time : 195 Cmdline : /usr/sbin/spice-webdavd
+unattended-upgr
+pid : 863 ppid : 1 User name : root CPU time : 5 Cmdline : /usr/bin/python3
+ModemManager
+pid : 874 ppid : 1 User name : root CPU time : 161 Cmdline : /usr/sbin/ModemManager
+cron
+pid : 930 ppid : 1 User name : root CPU time : 2979 Cmdline : /usr/sbin/cron
+kerneloops
+pid : 945 ppid : 1 User name : kernoops CPU time : 1082 Cmdline : /usr/sbin/kerneloops
+agetty
+pid : 954 ppid : 1 User name : root CPU time : 0 Cmdline : /sbin/agetty
+kerneloops
+pid : 968 ppid : 1 User name : kernoops CPU time : 1129 Cmdline : /usr/sbin/kerneloops
+sshd
+pid : 975 ppid : 1 User name : root CPU time : 201 Cmdline : sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 sta×
+gdm3
+pid : 983 ppid : 1 User name : root CPU time : 391 Cmdline : /usr/sbin/gdm3
+apache2
+pid : 1012 ppid : 1 User name : root CPU time : 9891 Cmdline : /usr/sbin/apache2
+upowerd
+pid : 1233 ppid : 1 User name : root CPU time : 206 Cmdline : /usr/libexec/upowerd
+colord
+pid : 1413 ppid : 1 User name : colord CPU time : 12 Cmdline : /usr/libexec/colord
+spice-vdagentd
+pid : 1449 ppid : 1 User name : root CPU time : 834 Cmdline : /usr/sbin/spice-vdagentd
+gdm-session-wor
+pid : 1465 ppid : 983 User name : root CPU time : 157 Cmdline : gdm-session-worker [pam/gdm-password]
+systemd
+pid : 1473 ppid : 1 User name : acho CPU time : 1035 Cmdline : /lib/systemd/systemd
+(sd-pam
+pid : 1474 ppid : 1473 User name : acho CPU time : 0 Cmdline : (sd-pam)
+pipewire
+pid : 1480 ppid : 1473 User name : acho CPU time : 89 Cmdline : /usr/bin/pipewire
+pipewire-media-
+pid : 1481 ppid : 1473 User name : acho CPU time : 240 Cmdline : /usr/bin/pipewire-media-session
+pulseaudio
+pid : 1482 ppid : 1473 User name : acho CPU time : 246 Cmdline : /usr/bin/pulseaudio
+dbus-daemon
+pid : 1486 ppid : 1473 User name : acho CPU time : 1428 Cmdline : /usr/bin/dbus-daemon
+gnome-keyring-d
+pid : 1488 ppid : 1 User name : acho CPU time : 391 Cmdline : /usr/bin/gnome-keyring-daemon
+gvfsd
+pid : 1492 ppid : 1473 User name : acho CPU time : 50 Cmdline : /usr/libexec/gvfsd
+gvfsd-fuse
+pid : 1497 ppid : 1473 User name : acho CPU time : 6 Cmdline : /usr/libexec/gvfsd-fuse
+gdm-wayland-ses
+pid : 1507 ppid : 1465 User name : acho CPU time : 4 Cmdline : /usr/libexec/gdm-wayland-session
+gnome-session-b
+pid : 1512 ppid : 1507 User name : acho CPU time : 1 Cmdline : /usr/libexec/gnome-session-binary
+tracker-miner-f
+pid : 1533 ppid : 1473 User name : acho CPU time : 3169 Cmdline : /usr/libexec/tracker-miner-fs-3
+gnome-session-c
+pid : 1561 ppid : 1473 User name : acho CPU time : 0 Cmdline : /usr/libexec/gnome-session-ctl
+gnome-session-b
+pid : 1574 ppid : 1473 User name : acho CPU time : 587 Cmdline : /usr/libexec/gnome-session-binary
+gnome-shell
+pid : 1591 ppid : 1473 User name : acho CPU time : 374132 Cmdline : /usr/bin/gnome-shell
+at-spi-bus-laun
+pid : 1593 ppid : 1574 User name : acho CPU time : 29 Cmdline : /usr/libexec/at-spi-bus-launcher
+dbus-daemon
+pid : 1600 ppid : 1593 User name : acho CPU time : 35 Cmdline : /usr/bin/dbus-daemon
+gvfs-udisks2-vo
+pid : 1603 ppid : 1473 User name : acho CPU time : 105 Cmdline : /usr/libexec/gvfs-udisks2-volume-monitor
+gvfs-afc-volume
+pid : 1611 ppid : 1473 User name : acho CPU time : 7320 Cmdline : /usr/libexec/gvfs-afc-volume-monitor
+gvfs-gphoto2-vo
+pid : 1616 ppid : 1473 User name : acho CPU time : 17 Cmdline : /usr/libexec/gvfs-gphoto2-volume-monitor
+gvfs-mtp-volume
+pid : 1629 ppid : 1473 User name : acho CPU time : 20 Cmdline : /usr/libexec/gvfs-mtp-volume-monitor
+gvfs-goa-volume
+pid : 1634 ppid : 1473 User name : acho CPU time : 22 Cmdline : /usr/libexec/gvfs-goa-volume-monitor
+goa-daemon
+pid : 1638 ppid : 1473 User name : acho CPU time : 102 Cmdline : /usr/libexec/goa-daemon
+goa-identity-se
+pid : 1645 ppid : 1473 User name : acho CPU time : 509 Cmdline : /usr/libexec/goa-identity-service
+xdg-permission-
+pid : 1658 ppid : 1473 User name : acho CPU time : 8 Cmdline : /usr/libexec/xdg-permission-store
+gnome-shell-cal
+pid : 1660 ppid : 1473 User name : acho CPU time : 21 Cmdline : /usr/libexec/gnome-shell-calendar-server
+evolution-sourc
+pid : 1670 ppid : 1473 User name : acho CPU time : 157 Cmdline : /usr/libexec/evolution-source-registry
+evolution-calen
+pid : 1677 ppid : 1473 User name : acho CPU time : 226 Cmdline : /usr/libexec/evolution-calendar-factory
+dconf-service
+pid : 1685 ppid : 1473 User name : acho CPU time : 24 Cmdline : /usr/libexec/dconf-service
+evolution-addre
+pid : 1690 ppid : 1473 User name : acho CPU time : 114 Cmdline : /usr/libexec/evolution-addressbook-factory
+gvfsd-trash
+pid : 1694 ppid : 1492 User name : acho CPU time : 76 Cmdline : /usr/libexec/gvfsd-trash
+gjs
+pid : 1712 ppid : 1473 User name : acho CPU time : 14 Cmdline : /usr/bin/gjs
+at-spi2-registr
+pid : 1714 ppid : 1473 User name : acho CPU time : 17 Cmdline : /usr/libexec/at-spi2-registryd
+sh
+pid : 1721 ppid : 1473 User name : acho CPU time : 0 Cmdline : sh
+gsd-a11y-settin
+pid : 1723 ppid : 1473 User name : acho CPU time : 6 Cmdline : /usr/libexec/gsd-a11y-settings
+gsd-color
+pid : 1724 ppid : 1473 User name : acho CPU time : 4585 Cmdline : /usr/libexec/gsd-color
+gsd-datetime
+pid : 1725 ppid : 1473 User name : acho CPU time : 7 Cmdline : /usr/libexec/gsd-datetime
+gsd-housekeepin
+pid : 1732 ppid : 1473 User name : acho CPU time : 8347 Cmdline : /usr/libexec/gsd-housekeeping
+gsd-keyboard
+pid : 1733 ppid : 1473 User name : acho CPU time : 41 Cmdline : /usr/libexec/gsd-keyboard
+gsd-media-keys
+pid : 1734 ppid : 1473 User name : acho CPU time : 636 Cmdline : /usr/libexec/gsd-media-keys
+gsd-power
+pid : 1736 ppid : 1473 User name : acho CPU time : 733 Cmdline : /usr/libexec/gsd-power
+gsd-print-notif
+pid : 1737 ppid : 1473 User name : acho CPU time : 390 Cmdline : /usr/libexec/gsd-print-notifications
+gsd-rfkill
+pid : 1738 ppid : 1473 User name : acho CPU time : 104 Cmdline : /usr/libexec/gsd-rfkill
+gsd-screensaver
+pid : 1743 ppid : 1473 User name : acho CPU time : 5 Cmdline : /usr/libexec/gsd-screensaver-proxy
+gsd-sharing
+pid : 1744 ppid : 1473 User name : acho CPU time : 133 Cmdline : /usr/libexec/gsd-sharing
+gsd-smartcard
+pid : 1745 ppid : 1473 User name : acho CPU time : 5 Cmdline : /usr/libexec/gsd-smartcard
+gsd-sound
+pid : 1746 ppid : 1473 User name : acho CPU time : 7 Cmdline : /usr/libexec/gsd-sound
+gsd-wacom
+pid : 1748 ppid : 1473 User name : acho CPU time : 40 Cmdline : /usr/libexec/gsd-wacom
+ibus-daemon
+pid : 1749 ppid : 1721 User name : acho CPU time : 173 Cmdline : /usr/bin/ibus-daemon
+spice-vdagent
+pid : 1790 ppid : 1473 User name : acho CPU time : 1263 Cmdline : /usr/bin/spice-vdagent
+ibus-dconf
+pid : 1809 ppid : 1749 User name : acho CPU time : 3 Cmdline : /usr/libexec/ibus-dconf
+ibus-extension-
+pid : 1810 ppid : 1749 User name : acho CPU time : 151 Cmdline : /usr/libexec/ibus-extension-gtk3
+ibus-portal
+pid : 1826 ppid : 1473 User name : acho CPU time : 124 Cmdline : /usr/libexec/ibus-portal
+Xwayland
+pid : 1833 ppid : 1591 User name : acho CPU time : 90486 Cmdline : /usr/bin/Xwayland
+gsd-printer
+pid : 1845 ppid : 1473 User name : acho CPU time : 253 Cmdline : /usr/libexec/gsd-printer
+ibus-engine-han
+pid : 1850 ppid : 1749 User name : acho CPU time : 56 Cmdline : /usr/libexec/ibus-engine-hangul
+gsd-xsettings
+pid : 1856 ppid : 1473 User name : acho CPU time : 361 Cmdline : /usr/libexec/gsd-xsettings
+xdg-desktop-por
+pid : 1871 ppid : 1473 User name : acho CPU time : 6287 Cmdline : /usr/libexec/xdg-desktop-portal
+xdg-document-po
+pid : 1877 ppid : 1473 User name : acho CPU time : 173 Cmdline : /usr/libexec/xdg-document-portal
+fusermount3
+pid : 1884 ppid : 1877 User name : root CPU time : 0 Cmdline : fusermount3
+xdg-desktop-por
+pid : 1890 ppid : 1473 User name : acho CPU time : 1540 Cmdline : /usr/libexec/xdg-desktop-portal-gnome
+ibus-x11
+pid : 1915 ppid : 1473 User name : acho CPU time : 48 Cmdline : /usr/libexec/ibus-x11
+gjs
+pid : 1930 ppid : 1473 User name : acho CPU time : 206 Cmdline : /usr/bin/gjs
+evolution-alarm
+pid : 1949 ppid : 1574 User name : acho CPU time : 2218 Cmdline : /usr/libexec/evolution-data-server/evolution-alarm 
+gsd-disk-utilit
+pid : 1952 ppid : 1574 User name : acho CPU time : 29 Cmdline : /usr/libexec/gsd-disk-utility-notify
+xdg-desktop-por
+pid : 2015 ppid : 1473 User name : acho CPU time : 1448 Cmdline : /usr/libexec/xdg-desktop-portal-gtk
+gvfsd-metadata
+pid : 2046 ppid : 1473 User name : acho CPU time : 24 Cmdline : /usr/libexec/gvfsd-metadata
+update-notifier
+pid : 2085 ppid : 1574 User name : acho CPU time : 9850 Cmdline : update-notifier
+gnome-terminal-
+pid : 2350 ppid : 1473 User name : acho CPU time : 491 Cmdline : /usr/libexec/gnome-terminal-server
+bash
+pid : 2380 ppid : 2350 User name : acho CPU time : 2 Cmdline : bash
+bash
+pid : 2400 ppid : 2350 User name : acho CPU time : 1 Cmdline : bash
+packagekitd
+pid : 48279 ppid : 1 User name : root CPU time : 11189 Cmdline : /usr/libexec/packagekitd
+mysqld
+pid : 50066 ppid : 1 User name : mysql CPU time : 546949 Cmdline : /usr/sbin/mysqld
+snap
+pid : 50745 ppid : 1473 User name : acho CPU time : 15092 Cmdline : /usr/bin/snap
+firefox
+pid : 53210 ppid : 1591 User name : acho CPU time : 356217 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Socket
+pid : 53348 ppid : 0 User name : acho CPU time : 13 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Privileged
+pid : 53395 ppid : 0 User name : acho CPU time : 15783 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+WebExtensions
+pid : 53925 ppid : 53210 User name : acho CPU time : 1330 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Isolated
+pid : 54233 ppid : 0 User name : acho CPU time : 24 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Isolated
+pid : 54284 ppid : 0 User name : acho CPU time : 0 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Web
+pid : 54310 ppid : 0 User name : acho CPU time : 1035 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Web
+pid : 54344 ppid : 0 User name : acho CPU time : 1179 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+Web
+pid : 54348 ppid : 0 User name : acho CPU time : 1071 Cmdline : /snap/firefox/1795/usr/lib/firefox/firefox
+nautilus
+pid : 54396 ppid : 1473 User name : acho CPU time : 4970 Cmdline : /usr/bin/nautilus
+gedit
+pid : 75153 ppid : 1473 User name : acho CPU time : 4260 Cmdline : /usr/bin/gedit
+update-manager
+pid : 95458 ppid : 1473 User name : acho CPU time : 300 Cmdline : /usr/bin/python3
+sshd
+pid : 97640 ppid : 975 User name : root CPU time : 59 Cmdline : sshd: acho [priv]
+sshd
+pid : 97658 ppid : 975 User name : root CPU time : 41 Cmdline : sshd: acho [priv]
+sshd
+pid : 97787 ppid : 97640 User name : acho CPU time : 912 Cmdline : sshd: acho@pts/0
+sshd
+pid : 97798 ppid : 97658 User name : acho CPU time : 700 Cmdline : sshd: acho@pts/1
+sshd
+pid : 97799 ppid : 975 User name : root CPU time : 14 Cmdline : sshd: acho [priv]
+bash
+pid : 97800 ppid : 97787 User name : acho CPU time : 254 Cmdline : -bash
+bash
+pid : 97801 ppid : 97798 User name : acho CPU time : 295 Cmdline : -bash
+sshd
+pid : 97866 ppid : 97799 User name : acho CPU time : 162 Cmdline : sshd: acho@pts/4
+bash
+pid : 97867 ppid : 97866 User name : acho CPU time : 364 Cmdline : -bash
+kworker/3:3-evenroot
+pid : 99387 ppid : 2 User name : root CPU time : 2711 Cmdline : 
+kworker/1:0-evenroot
+pid : 99424 ppid : 2 User name : root CPU time : 469 Cmdline : 
+apache2
+pid : 99506 ppid : 1012 User name : www-data CPU time : 2 Cmdline : /usr/sbin/apache2
+apache2
+pid : 99516 ppid : 1012 User name : www-data CPU time : 1 Cmdline : /usr/sbin/apache2
+kworker/2:3-evenroot
+pid : 99574 ppid : 2 User name : root CPU time : 715 Cmdline : 
+cupsd
+pid : 99575 ppid : 1 User name : root CPU time : 67 Cmdline : /usr/sbin/cupsd
+cups-browsed
+pid : 99578 ppid : 1 User name : root CPU time : 20 Cmdline : /usr/sbin/cups-browsed
+kworker/3:0-cgroroot
+pid : 100182 ppid : 2 User name : root CPU time : 2 Cmdline : 
+kworker/2:0-evenroot
+pid : 100988 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/1:2-evenroot
+pid : 102733 ppid : 2 User name : root CPU time : 144 Cmdline : 
+kworker/0:1
+pid : 103229 ppid : 2 User name : root CPU time : 0 Cmdline : 
+kworker/u8:1-everoot
+pid : 103672 ppid : 2 User name : root CPU time : 78 Cmdline : 
+kworker/0:2-evenroot
+pid : 103756 ppid : 2 User name : root CPU time : 8 Cmdline : 
+kworker/u8:3-fluroot
+pid : 103757 ppid : 2 User name : root CPU time : 12 Cmdline : 
+kworker/u8:0-everoot
+pid : 103762 ppid : 2 User name : root CPU time : 18 Cmdline : 
+kworker/u8:2-everoot
+pid : 103944 ppid : 2 User name : root CPU time : 16 Cmdline : 
+server
+pid : 104014 ppid : 97867 User name : acho CPU time : 4 Cmdline : ./server
+agent
+pid : 104019 ppid : 97801 User name : acho CPU time : 30 Cmdline : ./agent
+agent
+pid : 104022 ppid : 97800 User name : acho CPU time : 11 Cmdline : ./agent
+----------------------------------------------------------------------------------------------------
+MEMORY
+MemTotal : 4002172 MemFree : 372444 Used : 3629728 SwapUsed : 22356
+
+NETWORK
+enp0s6 Received bytes : 364904574 Received cnt : 1339253 Transmit bytes : 884167 Transmit cnts : 323226336
+

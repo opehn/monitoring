@@ -152,6 +152,7 @@ void	save_file(void)
 	int		fd;
 
 	file_name = make_filename(g_dq->head->header->agent_id);
+	printf("file_name : %s\n", file_name);
 	if (0 > (fd = open(file_name, O_RDWR | O_APPEND | O_CREAT, S_IRWXU)))
 	{
 		err_log("file open error");

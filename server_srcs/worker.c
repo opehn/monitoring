@@ -33,7 +33,7 @@ void	*worker_routine(void *args)
 	{
 		pthread_mutex_lock(&g_sshare->dq_lock);
 		cur = peek(g_dq);
-		pthread_mutex_lock(&g_sshare->dq_lock);
+		pthread_mutex_unlock(&g_sshare->dq_lock);
 		if (cur)
 		{
 			if (check_signature(cur->header->signature))

@@ -1,0 +1,58 @@
+[08-15-45] : worker thread created, waiting. . .
+[08-15-45] : worker thread created, waiting. . .
+[08-15-45] : worker thread created, waiting. . .
+[08-15-45] : worker thread created, waiting. . .
+[08-15-45] : accept error : Bad file descriptor
+[08-48-49] : worker thread created, waiting. . .
+[08-48-49] : worker thread created, waiting. . .
+[08-48-49] : worker thread created, waiting. . .
+[08-48-49] : worker thread created, waiting. . .
+[08-48-49] : accept error : Bad file descriptor
+[08-53-45] : worker thread created, waiting. . .
+[08-53-45] : worker thread created, waiting. . .
+[08-53-45] : worker thread created, waiting. . .
+[08-53-45] : worker thread created, waiting. . .
+[08-53-49] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 38552
+
+[08-53-49] : worker thread start working
+[08-53-49] : worker thread start working
+[08-53-49] : worker thread start working
+[08-53-49] : worker thread start working
+[08-53-52] : save memory data
+[08-53-52] : save network data
+[08-53-53] : save cpu data
+[08-53-53] : save process data
+[08-53-53] : save memory data
+[08-53-53] : save network data
+[08-53-54] : save cpu data
+[08-53-54] : save process data
+[08-53-54] : save memory data
+[08-53-54] : save network data
+[08-53-56] : save cpu data
+[08-53-56] : save process data
+[08-53-56] : save memory data
+[08-53-56] : save network data
+[15-54-22] : worker thread created, waiting. . .
+[15-54-22] : worker thread created, waiting. . .
+[15-54-22] : worker thread created, waiting. . .
+[15-54-22] : worker thread created, waiting. . .
+[15-54-30] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 39064
+
+[15-54-30] : worker thread start working
+[15-54-30] : worker thread start working
+[15-54-30] : worker thread start working
+[15-54-30] : worker thread start working
+[15-54-33] : save memory data
+[15-54-33] : save network data
+[15-54-33] : save cpu data
+[15-54-33] : save process data
+[15-54-34] : save memory data
+[15-54-34] : save network data
+[15-54-34] : save cpu data
+[15-54-34] : save process data
+[15-54-35] : save memory data
+[15-54-35] : save network data
+[15-54-35] : save cpu data
+[15-54-35] : save process data

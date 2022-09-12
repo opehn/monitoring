@@ -13,8 +13,10 @@ static int	recv_wrap(int connfd, char *buf, int size, int flag)
 		return (-1);
 	}
 	else if (res == 0)
+	{
 		server_logging("end receive");
 		return (-2);
+	}
 	return (0);
 }
 
@@ -33,9 +35,8 @@ void	*receive_routine(int connfd)
 			err_log("malloc error");
 			return (NULL);
 		}
-		if (0 > recv_wrap(connfd, header_buf, sizeof(packet_header), MSG_WAITALL))
+		if (0 > (res = recv_wrap(connfd, header_buf, sizeof(packet_header), MSG_WAITALL)))
 		{
-			err_log("recv error");
 			free(header_buf);
 			return (NULL);
 		}
@@ -48,13 +49,13 @@ void	*receive_routine(int connfd)
 		}
 		if (0 > recv_wrap(connfd, payload_buf, body_length, MSG_WAITALL))
 		{
-			err_log("recv error");
 			free(header_buf);
 			free(payload_buf);
 			return (NULL);
 		}
 		pthread_mutex_lock(&g_sshare->dq_lock);
 		enqueue(g_dq, (packet_header *)header_buf, payload_buf);
+		printf("enqueue, size : %d\n", g_dq->size);
 		pthread_mutex_unlock(&g_sshare->dq_lock);
 	}
 	return (NULL);
