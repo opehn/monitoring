@@ -15,7 +15,7 @@ void	send_packet(int connfd)
 	if (q->size > 0)
 	{
 		pthread_mutex_lock(&g_ashare->aqueue_lock);
-		data = peek(q);
+		data = dequeue(q);
 		pthread_mutex_unlock(&g_ashare->aqueue_lock);
 	}
 	if (data)
@@ -30,7 +30,7 @@ void	send_packet(int connfd)
 			sendinfo_log(buf);
 	}
 	pthread_mutex_lock(&g_ashare->aqueue_lock);
-	free_head(q);
+	free_node(data);
 	pthread_mutex_unlock(&g_ashare->aqueue_lock);
 }
 

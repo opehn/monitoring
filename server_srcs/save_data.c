@@ -27,28 +27,28 @@ char	*make_filename(int aid)
 	return (file_name);
 }
 
-void	write_memory(int fd)
+void	write_memory(int fd, data_queue_node *cur)
 {
 	mem_info	*m;
 	char		*payload;
 	char		buf[90];
 
-	payload = g_dq->head->payload;
+	payload = cur->payload;
 	m = (mem_info *)payload;
 	sprintf(buf, "MemTotal : %d MemFree : %d Used : %d SwapUsed : %d\n\n",
 			m->total, m->free, m->used, m->swap_used);
 	write(fd, buf, strlen(buf));
-	free_shead(g_dq);
+	free_data(cur);
 }
 
-void	write_network(int fd)
+void	write_network(int fd, data_queue_node *cur)
 {
 	net_info	*n;
 	char		*payload;
 	int			length;
 
-	payload = g_dq->head->payload;
-	length = g_dq->head->header->length - sizeof(packet_header);
+	payload = cur->payload;
+	length = cur->header->length - sizeof(packet_header);
 	n = (net_info *)payload;
 	while(length)
 	{
@@ -59,10 +59,10 @@ void	write_network(int fd)
 		length -= sizeof(net_info);
 		n++;
 	}
-	free_shead(g_dq);
+	free_data(cur);
 }
 
-void	write_cpu(int fd)
+void	write_cpu(int fd, data_queue_node *cur)
 {
 	cpu_info	*c;
 	char		*payload;
@@ -71,9 +71,9 @@ void	write_cpu(int fd)
 	char		core[15];
 	int			i = 0;
 
-	payload = g_dq->head->payload;
-	payload = g_dq->head->payload;
-	length = g_dq->head->header->length - sizeof(packet_header);
+	payload = cur->payload;
+	payload = cur->payload;
+	length = cur->header->length - sizeof(packet_header);
 	c = (cpu_info *)payload;
 	while(length)
 	{
@@ -86,10 +86,10 @@ void	write_cpu(int fd)
 		c++;
 		i++;
 	}
-	free_shead(g_dq);
+	free_data(cur);
 }
 
-void	write_process(int fd)
+void	write_process(int fd, data_queue_node *cur)
 {
 	proc_info	*p;
 	char		*payload;
@@ -98,9 +98,9 @@ void	write_process(int fd)
 	char		core[15];
 	int			i = 0;
 
-	payload = g_dq->head->payload;
-	payload = g_dq->head->payload;
-	length = g_dq->head->header->length - sizeof(packet_header);
+	payload = cur->payload;
+	payload = cur->payload;
+	length = cur->header->length - sizeof(packet_header);
 	p = (proc_info *)payload;
 	while(length)
 	{
@@ -112,46 +112,46 @@ void	write_process(int fd)
 		p++;
 		i++;
 	}
-	free_shead(g_dq);
+	free_data(cur);
 }
 
-static void	write_data(int fd)
+static void	write_data(int fd, data_queue_node *cur)
 {
 	char	type[10];
 
-	switch (g_dq->head->header->signature)
+	switch (cur->header->signature)
 	{
 		case 11 :
 			server_logging("save memory data");
 			write(fd, "MEMORY\n", 7);
-			write_memory(fd);
+			write_memory(fd, cur);
 			break;
 		case 22 :
 			server_logging("save network data");
 			write(fd, "NETWORK\n", 8);
-			write_network(fd);
+			write_network(fd, cur);
 			break;
 		case 33 :
 			server_logging("save cpu data");
 			write(fd, "CPU\n", 4);
-			write_cpu(fd);
+			write_cpu(fd, cur);
 			break;
 		case 44 :
 			server_logging("save process data");
 			write(fd, "PROCESS\n", 8);
-			write_process(fd);
+			write_process(fd, cur);
 			write(fd, "----------------------------------------------------------------------------------------------------\n", 101);
 			break;
 	}
 }
 
-void	save_file(void)
+void	save_file(data_queue_node *cur)
 {
 	printf("save_file\n");
 	char	*file_name;
 	int		fd;
 
-	file_name = make_filename(g_dq->head->header->agent_id);
+	file_name = make_filename(cur->header->agent_id);
 	printf("file_name : %s\n", file_name);
 	if (0 > (fd = open(file_name, O_RDWR | O_APPEND | O_CREAT, S_IRWXU)))
 	{
@@ -159,5 +159,5 @@ void	save_file(void)
 		return ;
 	}
 	free(file_name);
-	write_data(fd);
+	write_data(fd, cur);
 }

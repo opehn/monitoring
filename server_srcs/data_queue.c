@@ -53,32 +53,37 @@ void	enqueue(data_queue *dq, packet_header *header, char *payload)
 	dq->tail = new;
 }
 
-void  free_shead(data_queue *dq)
+data_queue_node	*dequeue(data_queue *dq)
 {
 	data_queue_node	*temp;
+	data_queue_node	*data;
 
 	if (dq->size == 0)
-		return ;
+	{
+		return (NULL);
+	}
 	else
 	{
+		data = peek(dq);
 		if (dq->head == dq->tail)
 		{
 			//When data_queue contains only one node
-			free(dq->head->header);
-			free(dq->head->payload);
-			free(dq->head);
-			dq->tail = NULL;
 			dq->head = NULL;
+			dq->tail = NULL;
 		}
 		else
 		{
-			temp = dq->head;
 			dq->head = dq->head->next;
 			dq->head->prev = NULL;
-			free(temp->header);
-			free(temp->payload);
-			free(temp);
 		}
 		dq->size--;
 	}
+	return (data);
+}
+
+void		free_data(data_queue_node *data)
+{
+	free(data->header);
+	free(data->payload);
+	free(data);
 }

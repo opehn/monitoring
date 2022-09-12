@@ -54,31 +54,33 @@ void	enqueue (aqueue *q, packet *data)
 	printf("enqueue, size : %d\n", q->size);
 }
 
-void	free_head(aqueue *q)
+aqueue_node	*dequeue(aqueue *q)
 {
 	aqueue_node	*temp;
+	aqueue_node	*data;
 
 	if (!q->size)
-		return ;
+		return (NULL);
 	else
 	{
+		data = peek(q);
 		if (q->head == q->tail)
 		{
-			free(q->head->data->payload);
-			free(q->head->data);
-			free(q->head);
 			q->tail = NULL;
 			q->head = NULL;
 		}
 		else
 		{
-			temp = q->head;
 			q->head = q->head->next;
 			q->head->prev = NULL;
-			free(temp->data->payload);
-			free(temp->data);
-			free(temp);
 		}
 		q->size--;
 	}
+	return (data);
+}
+
+void	free_node(aqueue_node *cur)
+{
+	free(cur->data);
+	free(cur);
 }

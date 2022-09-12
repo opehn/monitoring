@@ -9,7 +9,6 @@ static int	  check_signature(int signature)
 	int	i;
 
 	printf("signature : %d\n", signature);
-
 	while (i < 4)
 	{
 		if (signature == signature_arr[i])
@@ -32,12 +31,12 @@ void	*worker_routine(void *args)
 	while (1)
 	{
 		pthread_mutex_lock(&g_sshare->dq_lock);
-		cur = peek(g_dq);
+		cur = dequeue(g_dq);
 		pthread_mutex_unlock(&g_sshare->dq_lock);
 		if (cur)
 		{
 			if (check_signature(cur->header->signature))
-				save_file();
+				save_file(cur);
 		}
 		server_logging("finish service");
 		sleep(1);

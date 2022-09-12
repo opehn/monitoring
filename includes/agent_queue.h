@@ -19,6 +19,7 @@ aqueue		*init_aqueue(void);
 aqueue_node	*init_node(packet *data, aqueue_node *prev);
 packet		*peek(aqueue *q);
 void		enqueue (aqueue *q, packet *data);
-void		free_head(aqueue *q);
+aqueue_node	*dequeue (aqueue *q);
+void		free_node(aqueue_node *cur);
 
 #endif

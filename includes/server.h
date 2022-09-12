@@ -39,7 +39,7 @@ typedef struct sshare
 
 void	*accept_perthread(void *args);
 void	*worker_routine(void *args);
-void	save_file(void);
+void	save_file(data_queue_node *cur);
 
 void	server_logging(char *msg);
 void	err_log(char *err_type);

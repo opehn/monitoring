@@ -23,6 +23,7 @@ data_queue			*init_data_queue(void);
 data_queue_node		*init_node(packet_header *header, char *payload, data_queue_node *prev);
 data_queue_node		*peek(data_queue *q);
 void				enqueue (data_queue *q, packet_header *header, char *payload);
-void				free_shead(data_queue *q);
+data_queue_node		*dequeue(data_queue *dq);
+void				free_data(data_queue_node *data);
 
 #endif

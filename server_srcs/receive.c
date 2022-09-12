@@ -98,4 +98,5 @@ void	*accept_perthread(void *args)
 	}
 	/* end logging */
 	server_logging("receive thread end");
+	return (NULL);
 }
