@@ -64,6 +64,7 @@ int				nullguard_strlen(char *str);
 void			*collect_routine(void *param);
 
 //send
+void			connect_wrap(void);
 void			*send_routine(void *param);
 
 //log
