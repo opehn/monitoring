@@ -71,17 +71,7 @@ static int daemonize(void)
     fopen("/dev/null", "r");
     fopen("/dev/null", "w+");
 
-    char str[256];
-    pid_fd = open("./server_log/daemon_pid", O_RDWR | O_CREAT | O_NOCTTY, 0640);
-    if (pid_fd < 0) {
-		perror("log error");
-        exit(EXIT_FAILURE);
-    }
-    sprintf(str, "%d\n", getpid());
-    write(pid_fd, str, strlen(str));
-
     filename = make_filename();
-	printf("filename : %s\n", filename);
     if (!(logfd = open(filename, O_RDWR | O_APPEND | O_CREAT | O_NOCTTY, S_IRWXU)))
     {
 		perror("log file open error");

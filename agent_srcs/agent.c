@@ -2,6 +2,7 @@
 #include "agent.h"
 
 ashare	*g_ashare;
+int		g_connfd;
 
 static void	free_queue(aqueue *q)
 {
@@ -102,27 +103,28 @@ static int daemonize(int aid)
 	return (logfd);
 }
 
-static void signal_hadler(int signal)
+static void signal_handler(int signal)
 {
 	if (signal == SIGPIPE)
 	{
-		agent_logging("received SIG_PIPE");
-		return;
+		agent_logging("received SIG_PIPE, reconnect . . .");
+		connect_wrap();
 	}
 	if (signal == SIGINT)
 	{
 		agent_logging("received SIG_INT");
-		exit(EXIT_SUCCESS);
 	}
+	
 }
 
-static void	set_signal(void)
+static void set_signal(void)
 {
 	struct sigaction act;
 
-	act.sa_handler = SIG_IGN;
+	act.sa_handler = signal_handler;
 	act.sa_flags = 0;
-
+	sigaction(SIGPIPE, &act, NULL);
+	sigaction(SIGINT, &act, NULL);
 }
 
 static void init_share(int logfd, int aid)
@@ -130,15 +132,15 @@ static void init_share(int logfd, int aid)
 	g_ashare = malloc(sizeof(ashare));
 	g_ashare->q = init_aqueue();
 	if (pthread_mutex_init(&g_ashare->aqueue_lock, NULL))
-    {
-        err_log("mutex init error");
-        exit (EXIT_FAILURE);
-    }
+	{
+		err_log("mutex init error");
+		exit (EXIT_FAILURE);
+	}
 	if (pthread_mutex_init(&g_ashare->log_lock, NULL))
-    {
-        err_log("mutex init error");
-        exit (EXIT_FAILURE);
-    }
+	{
+		err_log("mutex init error");
+		exit (EXIT_FAILURE);
+	}
 	g_ashare->logfd = logfd;
 	g_ashare->aid = aid;
 }

@@ -2,8 +2,9 @@
 #include "agent_queue.h"
 
 extern ashare	*g_ashare;
+extern int		g_connfd;
 
-void	send_packet(int connfd)
+void	send_packet(void)
 {
 	packet	*data;
 	char	*buf;
@@ -21,7 +22,7 @@ void	send_packet(int connfd)
 	if (data)
 	{
 		buf = data->payload;
-		if (0 > send(connfd, data->payload, data->length, 0))
+		if (0 > send(g_connfd, data->payload, data->length, 0))
 		{
 			err_log("send err");
 			pause();
@@ -34,12 +35,11 @@ void	send_packet(int connfd)
 	pthread_mutex_unlock(&g_ashare->aqueue_lock);
 }
 
-int	connect_wrap(void)
+void	connect_wrap(void)
 {
-	int				connfd;
 	SA_IN			serveraddr;
 
-	if (0 > (connfd = socket(AF_INET, SOCK_STREAM, 0)))
+	if (0 > (g_connfd = socket(AF_INET, SOCK_STREAM, 0)))
 	{
 		err_log("socket open error");
 	}
@@ -47,26 +47,23 @@ int	connect_wrap(void)
 	serveraddr.sin_family = AF_INET;
 	serveraddr.sin_addr.s_addr = inet_addr(SERVERIP);
 	serveraddr.sin_port = SERVERPORT;
-	if (0 > (connect(connfd, (SA *)&serveraddr, sizeof(serveraddr))))
+	if (0 > (connect(g_connfd, (SA *)&serveraddr, sizeof(serveraddr))))
 	{
 		err_log("connect err");
-		close(connfd);
-		//connect();
+		connect_wrap();
 	}
-	return (connfd);
 }
 
 void	*send_routine(void *arg)
 {
 	int		res;
-	int		connfd;
 
-	connfd = connect_wrap();
+	connect_wrap();
 	sleep(3);
 	while(1)
 	{
-		send_packet(connfd);
+		send_packet();
 		usleep(10000);
 	}
-	close(connfd);
+	close(g_connfd);
 }
