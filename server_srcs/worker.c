@@ -38,8 +38,6 @@ void	*worker_routine(void *args)
 			if (check_signature(cur->header->signature))
 				save_file(cur);
 		}
-		server_logging("finish service");
-		sleep(1);
 	}
 	server_logging("worker thread destroied");
 }

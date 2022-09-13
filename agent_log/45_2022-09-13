@@ -1,0 +1,748 @@
+[05-59-45] : collect thread created
+[05-59-45] : push memory info
+[05-59-45] : send thread created
+[05-59-45] : push network info
+[05-59-45] : push cpu info
+[05-59-45] : push proces info
+[05-59-46] : push memory info
+[05-59-46] : push network info
+[05-59-46] : push cpu info
+[05-59-46] : push proces info
+[05-59-47] : push memory info
+[05-59-47] : push network info
+[05-59-47] : push cpu info
+[05-59-47] : push proces info
+[05-59-48] : send memory info, byte size : 24
+[05-59-48] : send network info, byte size : 56
+[05-59-48] : send cpu info, byte size : 136
+[05-59-48] : send process info, byte size : 26114
+[05-59-48] : send memory info, byte size : 24
+[05-59-48] : send network info, byte size : 56
+[05-59-48] : send cpu info, byte size : 136
+[05-59-48] : push memory info
+[05-59-48] : push network info
+[05-59-48] : push cpu info
+[05-59-48] : push proces info
+[05-59-48] : send process info, byte size : 26114
+[05-59-48] : send memory info, byte size : 24
+[05-59-48] : send network info, byte size : 56
+[05-59-48] : send cpu info, byte size : 136
+[05-59-48] : send process info, byte size : 26114
+[05-59-48] : send memory info, byte size : 24
+[05-59-48] : send network info, byte size : 56
+[05-59-48] : send cpu info, byte size : 136
+[05-59-48] : send process info, byte size : 26114
+[05-59-49] : push memory info
+[05-59-49] : push network info
+[05-59-49] : push cpu info
+[05-59-49] : push proces info
+[05-59-49] : send memory info, byte size : 24
+[05-59-49] : send network info, byte size : 56
+[05-59-49] : send cpu info, byte size : 136
+[05-59-49] : send process info, byte size : 26114
+[05-59-50] : push memory info
+[05-59-50] : push network info
+[05-59-50] : send memory info, byte size : 24
+[05-59-50] : push cpu info
+[05-59-50] : push proces info
+[05-59-50] : send network info, byte size : 56
+[05-59-50] : send cpu info, byte size : 136
+[05-59-50] : send process info, byte size : 26114
+[05-59-51] : push memory info
+[05-59-51] : push network info
+[05-59-51] : push cpu info
+[05-59-51] : push proces info
+[05-59-51] : send memory info, byte size : 24
+[05-59-51] : send network info, byte size : 56
+[05-59-51] : send cpu info, byte size : 136
+[05-59-51] : send process info, byte size : 26228
+[05-59-52] : push memory info
+[05-59-52] : push network info
+[05-59-52] : push cpu info
+[05-59-52] : push proces info
+[05-59-52] : send memory info, byte size : 24
+[05-59-52] : send network info, byte size : 56
+[05-59-52] : send cpu info, byte size : 136
+[05-59-52] : send process info, byte size : 26228
+[05-59-53] : push memory info
+[05-59-53] : push network info
+[05-59-53] : push cpu info
+[05-59-53] : push proces info
+[05-59-53] : send memory info, byte size : 24
+[05-59-53] : received SIG_PIPE, reconnect . . .
+[05-59-53] : connect err : Connection refused
+[05-59-53] : connect err : Connection refused
+[05-59-53] : connect err : Connection refused
+[05-59-53] : connect err : Connection refused
+[05-59-53] : connect err : Connection refused
+[05-59-53] : connect err : Connection refused
+[05-59-53] : connect err : Connection refused
+[05-59-53] : connect err : Connection refused
+[05-59-53] : connect err : Connection refused
+[05-59-53] : connect err : Connection refused
+[05-59-53] : connect err : Connection refused
+[05-59-53] : connect err : Connection refused
+[05-59-53] : connect err : Connection refused
+[05-59-53] : connect err : Connection refused
+[05-59-53] : connect err : Connection refused
+[05-59-53] : connect err : Connection refused
+[05-59-53] : connect err : Connection refused
+[05-59-53] : connect err : Connection refused
+[05-59-53] : connect err : Connection refused
+[05-59-53] : connect err : Connection refused
+[05-59-53] : connect err : Connection refused
+[05-59-53] : connect err : Connection refused
+[05-59-53] : connect err : Connection refused
+[05-59-53] : connect err : Connection refused
+[05-59-53] : connect err : Connection refused
+[05-59-53] : connect err : Connection refused
+[05-59-53] : connect err : Connection refused
+[05-59-53] : connect err : Connection refused
+[05-59-53] : connect err : Connection refused
+[05-59-53] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : push memory info
+[05-59-54] : push network info
+[05-59-54] : push cpu info
+[05-59-54] : push proces info
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-54] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : push memory info
+[05-59-55] : push network info
+[05-59-55] : push cpu info
+[05-59-55] : push proces info
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-55] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : push memory info
+[05-59-56] : push network info
+[05-59-56] : push cpu info
+[05-59-56] : push proces info
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-56] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : push memory info
+[05-59-57] : push network info
+[05-59-57] : push cpu info
+[05-59-57] : push proces info
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-57] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : push memory info
+[05-59-58] : push network info
+[05-59-58] : push cpu info
+[05-59-58] : push proces info
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-58] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : push memory info
+[05-59-59] : push network info
+[05-59-59] : push cpu info
+[05-59-59] : push proces info
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : connect err : Connection refused
+[05-59-59] : send cpu info, byte size : 136
+[05-59-59] : send process info, byte size : 26114
+[05-59-59] : send memory info, byte size : 24
+[05-59-59] : send network info, byte size : 56
+[05-59-59] : send cpu info, byte size : 136
+[05-59-59] : send process info, byte size : 26114
+[05-59-59] : send memory info, byte size : 24
+[05-59-59] : send network info, byte size : 56
+[05-59-59] : send cpu info, byte size : 136
+[05-59-59] : send process info, byte size : 26114
+[05-59-59] : send memory info, byte size : 24
+[05-59-59] : send network info, byte size : 56
+[05-59-59] : send cpu info, byte size : 136
+[05-59-59] : send process info, byte size : 26114
+[05-59-59] : send memory info, byte size : 24
+[05-59-59] : send network info, byte size : 56
+[05-59-59] : send cpu info, byte size : 136
+[05-59-59] : send process info, byte size : 26114
+[05-59-59] : send memory info, byte size : 24
+[06-00-00] : send network info, byte size : 56
+[06-00-00] : send cpu info, byte size : 136
+[06-00-00] : send process info, byte size : 26114
+[06-00-00] : send memory info, byte size : 24
+[06-00-00] : send network info, byte size : 56
+[06-00-00] : send cpu info, byte size : 136
+[06-00-00] : send process info, byte size : 26114
+[06-00-00] : push memory info
+[06-00-00] : push network info
+[06-00-00] : push cpu info
+[06-00-00] : push proces info
+[06-00-00] : send memory info, byte size : 24
+[06-00-00] : send network info, byte size : 56
+[06-00-00] : send cpu info, byte size : 136
+[06-00-00] : send process info, byte size : 26228
+[06-00-01] : push memory info
+[06-00-01] : push network info
+[06-00-01] : push cpu info
+[06-00-01] : push proces info
+[06-00-01] : send memory info, byte size : 24
+[06-00-01] : send network info, byte size : 56
+[06-00-01] : send cpu info, byte size : 136
+[06-00-01] : send process info, byte size : 26228
+[06-00-02] : push memory info
+[06-00-02] : push network info
+[06-00-02] : push cpu info
+[06-00-02] : push proces info
+[06-00-02] : send memory info, byte size : 24
+[06-00-02] : send network info, byte size : 56
+[06-00-02] : send cpu info, byte size : 136
+[06-00-02] : send process info, byte size : 26228
+[06-00-03] : push memory info
+[06-00-03] : push network info
+[06-00-03] : push cpu info
+[06-00-03] : push proces info
+[06-00-03] : send memory info, byte size : 24
+[06-00-03] : send network info, byte size : 56
+[06-00-03] : send cpu info, byte size : 136
+[06-00-03] : send process info, byte size : 26228
+[06-00-04] : push memory info
+[06-00-04] : push network info
+[06-00-04] : push cpu info
+[06-00-04] : push proces info
+[06-00-04] : send memory info, byte size : 24
+[06-00-04] : send network info, byte size : 56
+[06-00-04] : send cpu info, byte size : 136
+[06-00-04] : send process info, byte size : 26228
+[06-00-05] : push memory info
+[06-00-05] : push network info
+[06-00-05] : push cpu info
+[06-00-05] : push proces info
+[06-00-05] : send memory info, byte size : 24
+[06-00-05] : send network info, byte size : 56
+[06-00-05] : send cpu info, byte size : 136
+[06-00-05] : send process info, byte size : 26228
+[06-00-06] : push memory info
+[06-00-06] : push network info
+[06-00-06] : push cpu info
+[06-00-06] : push proces info
+[06-00-06] : send memory info, byte size : 24
+[06-00-06] : send network info, byte size : 56
+[06-00-06] : send cpu info, byte size : 136
+[06-00-06] : send process info, byte size : 26228
+[06-00-07] : push memory info
+[06-00-07] : push network info
+[06-00-07] : push cpu info
+[06-00-07] : push proces info
+[06-00-07] : send memory info, byte size : 24
+[06-00-07] : send network info, byte size : 56
+[06-00-07] : send cpu info, byte size : 136
+[06-00-07] : send process info, byte size : 26228
+[06-00-08] : push memory info
+[06-00-08] : push network info
+[06-00-08] : push cpu info
+[06-00-08] : push proces info
+[06-00-08] : send memory info, byte size : 24
+[06-00-08] : send network info, byte size : 56
+[06-00-08] : send cpu info, byte size : 136
+[06-00-08] : send process info, byte size : 26228
+[06-00-09] : push memory info
+[06-00-09] : push network info
+[06-00-09] : push cpu info
+[06-00-09] : push proces info
+[06-00-09] : send memory info, byte size : 24
+[06-00-09] : send network info, byte size : 56
+[06-00-09] : send cpu info, byte size : 136
+[06-00-09] : send process info, byte size : 26228
+[06-00-10] : push memory info
+[06-00-10] : push network info
+[06-00-10] : push cpu info
+[06-00-10] : push proces info
+[06-00-10] : send memory info, byte size : 24
+[06-00-10] : send network info, byte size : 56
+[06-00-10] : send cpu info, byte size : 136
+[06-00-10] : send process info, byte size : 26228
+[06-00-11] : push memory info
+[06-00-11] : push network info
+[06-00-11] : push cpu info
+[06-00-11] : push proces info
+[06-00-11] : send memory info, byte size : 24
+[06-00-11] : send network info, byte size : 56
+[06-00-11] : send cpu info, byte size : 136
+[06-00-11] : send process info, byte size : 26228
+[06-00-12] : push memory info
+[06-00-12] : push network info
+[06-00-12] : push cpu info
+[06-00-12] : push proces info
+[06-00-12] : send memory info, byte size : 24
+[06-00-12] : send network info, byte size : 56
+[06-00-12] : send cpu info, byte size : 136
+[06-00-12] : send process info, byte size : 26228
+[06-00-13] : received SIG_INT

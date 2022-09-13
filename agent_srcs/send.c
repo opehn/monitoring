@@ -19,11 +19,12 @@ void	send_packet(void)
 		cur = dequeue(q);
 		pthread_mutex_unlock(&g_ashare->aqueue_lock);
 	}
-		if (cur)
+	if (cur)
 	{
+		buf = cur->data->payload;
+		if (0 > send(g_connfd, cur->data->payload, cur->data->length, 0))
 		{
-			err_log("send err");
-			pause();
+			return ;
 		}
 		else
 			sendinfo_log(buf);
@@ -35,18 +36,19 @@ void	connect_wrap(void)
 {
 	SA_IN			serveraddr;
 
-	if (0 > (g_connfd = socket(AF_INET, SOCK_STREAM, 0)))
+	if(0 > (g_connfd = socket(AF_INET, SOCK_STREAM, 0)))
 	{
 		err_log("socket open error");
+		exit(EXIT_FAILURE);
 	}
 	memset(&serveraddr, 0, sizeof(SA_IN));
 	serveraddr.sin_family = AF_INET;
 	serveraddr.sin_addr.s_addr = inet_addr(SERVERIP);
 	serveraddr.sin_port = SERVERPORT;
-	if (0 > (connect(g_connfd, (SA *)&serveraddr, sizeof(serveraddr))))
+	while(0 > (connect(g_connfd, (SA *)&serveraddr, sizeof(serveraddr))))
 	{
 		err_log("connect err");
-		connect_wrap();
+		usleep(10000);
 	}
 }
 

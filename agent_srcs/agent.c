@@ -107,12 +107,14 @@ static void signal_handler(int signal)
 {
 	if (signal == SIGPIPE)
 	{
+		close(g_connfd);
 		agent_logging("received SIG_PIPE, reconnect . . .");
 		connect_wrap();
 	}
 	if (signal == SIGINT)
 	{
 		agent_logging("received SIG_INT");
+		exit(EXIT_FAILURE);
 	}
 	
 }
