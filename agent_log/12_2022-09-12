@@ -698,3 +698,71 @@
 [10-51-02] : send network info, byte size : 56
 [10-51-02] : send cpu info, byte size : 136
 [10-51-02] : send process info, byte size : 26000
+[15-22-33] : push memory info
+[15-22-33] : collect thread created
+[15-22-33] : push network info
+[15-22-33] : send thread created
+[15-22-33] : push cpu info
+[15-22-33] : push proces info
+[15-22-34] : push memory info
+[15-22-34] : push network info
+[15-22-34] : push cpu info
+[15-22-34] : push proces info
+[15-22-35] : push memory info
+[15-22-35] : push network info
+[15-22-35] : push cpu info
+[15-22-35] : push proces info
+[15-22-36] : send memory info, byte size : 24
+[15-22-36] : send network info, byte size : 56
+[15-22-36] : send cpu info, byte size : 136
+[15-22-36] : send process info, byte size : 26228
+[15-22-36] : send memory info, byte size : 24
+[15-22-36] : push memory info
+[15-22-36] : push network info
+[15-22-36] : push cpu info
+[15-22-36] : push proces info
+[15-22-36] : send network info, byte size : 56
+[15-22-36] : send cpu info, byte size : 136
+[15-22-36] : send process info, byte size : 26228
+[15-22-36] : send memory info, byte size : 24
+[15-22-36] : send network info, byte size : 56
+[15-22-36] : send cpu info, byte size : 136
+[15-22-36] : send process info, byte size : 26228
+[15-22-36] : send memory info, byte size : 24
+[15-22-36] : send network info, byte size : 56
+[15-22-36] : send cpu info, byte size : 136
+[15-22-36] : send process info, byte size : 26228
+[15-26-06] : collect thread created
+[15-26-06] : push memory info
+[15-26-06] : send thread created
+[15-26-06] : push network info
+[15-26-06] : push cpu info
+[15-26-06] : push proces info
+[15-26-07] : push memory info
+[15-26-07] : push network info
+[15-26-07] : push cpu info
+[15-26-07] : push proces info
+[15-26-08] : push memory info
+[15-26-08] : push network info
+[15-26-08] : push cpu info
+[15-26-08] : push proces info
+[15-26-09] : send memory info, byte size : 24
+[15-26-09] : send network info, byte size : 56
+[15-26-09] : send cpu info, byte size : 136
+[15-26-09] : send process info, byte size : 26228
+[15-26-09] : send memory info, byte size : 24
+[15-26-09] : push memory info
+[15-26-09] : push network info
+[15-26-09] : push cpu info
+[15-26-09] : push proces info
+[15-26-09] : send network info, byte size : 56
+[15-26-09] : send cpu info, byte size : 136
+[15-26-09] : send process info, byte size : 26228
+[15-26-09] : send memory info, byte size : 24
+[15-26-09] : send network info, byte size : 56
+[15-26-09] : send cpu info, byte size : 136
+[15-26-09] : send process info, byte size : 26228
+[15-26-09] : send memory info, byte size : 24
+[15-26-09] : send network info, byte size : 56
+[15-26-09] : send cpu info, byte size : 136
+[15-26-09] : send process info, byte size : 26228

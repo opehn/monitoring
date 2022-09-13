@@ -5,33 +5,31 @@ extern ashare	*g_ashare;
 
 void	send_packet(int connfd)
 {
-	packet	*data;
-	char	*buf;
-	int		signature;
-	aqueue	*q;
+	aqueue_node	*cur;
+	char		*buf;
+	int			signature;
+	aqueue		*q;
 
 	q = g_ashare->q;
-	data = NULL;
+	cur = NULL;
 	if (q->size > 0)
 	{
 		pthread_mutex_lock(&g_ashare->aqueue_lock);
-		data = dequeue(q);
+		cur = dequeue(q);
 		pthread_mutex_unlock(&g_ashare->aqueue_lock);
 	}
-	if (data)
+	if (cur)
 	{
-		buf = data->payload;
-		if (0 > send(connfd, data->payload, data->length, 0))
+		buf = cur->data->payload;
+		if (0 > send(connfd, cur->data->payload, cur->data->length, 0))
 		{
 			err_log("send err");
 			pause();
 		}
 		else
 			sendinfo_log(buf);
+		free_node(cur);
 	}
-	pthread_mutex_lock(&g_ashare->aqueue_lock);
-	free_node(data);
-	pthread_mutex_unlock(&g_ashare->aqueue_lock);
 }
 
 int	connect_wrap(void)

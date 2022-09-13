@@ -493,3 +493,255 @@
 [10-56-12] : end receive
 [10-56-13] : save network data
 [10-56-13] : finish service
+[15-21-45] : receive thread created, waiting. . .
+[15-21-45] : receive thread created, waiting. . .
+[15-21-45] : worker thread created, waiting. . .
+[15-21-45] : worker thread created, waiting. . .
+[15-21-51] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 51352
+
+[15-21-51] : worker thread start working
+[15-21-51] : finish service
+[15-21-52] : finish service
+[15-21-53] : finish service
+[15-21-54] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 51864
+
+[15-21-54] : save memory data
+[15-21-54] : finish service
+[15-21-55] : end receive
+[15-21-55] : save network data
+[15-21-55] : finish service
+[15-21-56] : save cpu data
+[15-21-56] : finish service
+[15-21-57] : save process data
+[15-21-57] : finish service
+[15-21-57] : end receive
+[15-21-58] : save memory data
+[15-21-58] : finish service
+[15-21-59] : save network data
+[15-21-59] : finish service
+[15-22-00] : save cpu data
+[15-22-00] : finish service
+[15-22-01] : save process data
+[15-22-01] : finish service
+[15-22-02] : save memory data
+[15-22-02] : finish service
+[15-22-03] : save network data
+[15-22-03] : finish service
+[15-22-04] : save cpu data
+[15-22-04] : finish service
+[15-22-05] : save process data
+[15-22-05] : finish service
+[15-22-06] : save memory data
+[15-22-06] : finish service
+[15-22-07] : save network data
+[15-22-07] : finish service
+[15-22-08] : save cpu data
+[15-22-08] : finish service
+[15-22-09] : save process data
+[15-22-09] : finish service
+[15-22-10] : save memory data
+[15-22-10] : finish service
+[15-22-11] : save network data
+[15-22-11] : finish service
+[15-22-12] : save cpu data
+[15-22-12] : finish service
+[15-22-13] : save process data
+[15-22-13] : finish service
+[15-22-14] : save memory data
+[15-22-14] : finish service
+[15-22-15] : save network data
+[15-22-15] : finish service
+[15-22-16] : save cpu data
+[15-22-16] : finish service
+[15-22-21] : receive thread created, waiting. . .
+[15-22-21] : receive thread created, waiting. . .
+[15-22-21] : worker thread created, waiting. . .
+[15-22-21] : worker thread created, waiting. . .
+[15-22-33] : worker thread start working
+[15-22-33] : finish service
+[15-22-33] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 52376
+
+[15-22-34] : finish service
+[15-22-35] : finish service
+[15-22-36] : save memory data
+[15-22-36] : finish service
+[15-22-37] : save network data
+[15-22-37] : finish service
+[15-22-38] : save cpu data
+[15-22-38] : finish service
+[15-22-39] : save process data
+[15-22-39] : finish service
+[15-22-40] : save memory data
+[15-22-40] : finish service
+[15-22-41] : save network data
+[15-22-41] : finish service
+[15-22-42] : save cpu data
+[15-22-42] : finish service
+[15-22-43] : save process data
+[15-22-43] : finish service
+[15-22-44] : save memory data
+[15-22-44] : finish service
+[15-22-45] : save network data
+[15-22-45] : finish service
+[15-22-46] : save cpu data
+[15-22-46] : finish service
+[15-22-47] : save process data
+[15-22-47] : finish service
+[15-22-48] : save memory data
+[15-22-48] : finish service
+[15-22-49] : save network data
+[15-22-49] : finish service
+[15-22-50] : save cpu data
+[15-22-50] : finish service
+[15-22-51] : save process data
+[15-22-51] : finish service
+[15-22-52] : finish service
+[15-22-53] : finish service
+[15-22-54] : finish service
+[15-22-55] : finish service
+[15-25-45] : receive thread created, waiting. . .
+[15-25-45] : receive thread created, waiting. . .
+[15-25-45] : worker thread created, waiting. . .
+[15-25-45] : worker thread created, waiting. . .
+[15-25-47] : worker thread start working
+[15-25-47] : finish service
+[15-25-47] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 52888
+
+[15-25-48] : finish service
+[15-25-49] : finish service
+[15-25-50] : save memory data
+[15-25-50] : finish service
+[15-25-51] : end receive
+[15-25-51] : save network data
+[15-25-51] : finish service
+[15-25-52] : save cpu data
+[15-25-52] : finish service
+[15-25-53] : save process data
+[15-25-53] : finish service
+[15-25-54] : save memory data
+[15-25-54] : finish service
+[15-26-04] : receive thread created, waiting. . .
+[15-26-04] : receive thread created, waiting. . .
+[15-26-04] : worker thread created, waiting. . .
+[15-26-04] : worker thread created, waiting. . .
+[15-26-06] : worker thread start working
+[15-26-06] : finish service
+[15-26-06] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 53400
+
+[15-26-07] : finish service
+[15-26-08] : finish service
+[15-26-09] : save memory data
+[15-26-09] : finish service
+[15-26-10] : save network data
+[15-26-10] : finish service
+[15-26-11] : save cpu data
+[15-26-11] : finish service
+[15-26-12] : save process data
+[15-26-12] : finish service
+[15-26-13] : save memory data
+[15-26-13] : finish service
+[15-26-14] : save network data
+[15-26-14] : finish service
+[15-26-15] : save cpu data
+[15-26-15] : finish service
+[15-26-16] : save process data
+[15-26-16] : finish service
+[15-26-17] : save memory data
+[15-26-17] : finish service
+[15-26-18] : save network data
+[15-26-18] : finish service
+[15-26-19] : save cpu data
+[15-26-19] : finish service
+[15-26-20] : save process data
+[15-26-20] : finish service
+[15-26-21] : save memory data
+[15-26-21] : finish service
+[15-26-22] : save network data
+[15-26-22] : finish service
+[15-26-23] : save cpu data
+[15-26-23] : finish service
+[15-26-24] : save process data
+[15-26-24] : finish service
+[15-26-25] : finish service
+[15-26-26] : finish service
+[15-26-27] : finish service
+[15-26-28] : finish service
+[15-26-29] : finish service
+[15-26-30] : finish service
+[15-26-31] : finish service
+[15-26-32] : finish service
+[15-26-33] : finish service
+[15-26-34] : finish service
+[15-26-35] : finish service
+[15-26-36] : finish service
+[15-26-37] : finish service
+[15-26-38] : finish service
+[15-26-39] : finish service
+[15-26-40] : finish service
+[15-26-41] : finish service
+[15-26-42] : finish service
+[15-26-42] : end receive
+[15-26-43] : finish service
+[15-26-44] : finish service
+[15-26-47] : receive thread created, waiting. . .
+[15-26-47] : receive thread created, waiting. . .
+[15-26-47] : worker thread created, waiting. . .
+[15-26-47] : worker thread created, waiting. . .
+[15-26-49] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 53912
+
+[15-26-49] : worker thread start working
+[15-26-49] : finish service
+[15-26-50] : finish service
+[15-26-51] : finish service
+[15-26-52] : save memory data
+[15-26-52] : finish service
+[15-26-53] : save network data
+[15-26-53] : finish service
+[15-26-54] : save cpu data
+[15-26-54] : finish service
+[15-26-55] : save process data
+[15-26-55] : finish service
+[15-26-56] : save memory data
+[15-26-56] : finish service
+[15-26-57] : save network data
+[15-26-57] : finish service
+[15-26-58] : save cpu data
+[15-26-58] : finish service
+[15-26-59] : save process data
+[15-26-59] : finish service
+[15-27-00] : save memory data
+[15-27-00] : finish service
+[15-27-01] : save network data
+[15-27-01] : finish service
+[15-27-02] : save cpu data
+[15-27-02] : finish service
+[15-27-03] : save process data
+[15-27-03] : finish service
+[15-27-04] : save memory data
+[15-27-04] : finish service
+[15-27-05] : save network data
+[15-27-05] : finish service
+[15-27-06] : save cpu data
+[15-27-06] : finish service
+[15-27-07] : save process data
+[15-27-07] : finish service
+[15-27-08] : save memory data
+[15-27-08] : finish service
+[15-27-09] : save network data
+[15-27-09] : finish service
+[15-27-10] : save cpu data
+[15-27-10] : finish service
+[15-27-11] : save process data
+[15-27-11] : finish service
+[15-27-12] : save memory data
+[15-27-12] : finish service
+[15-27-13] : save network data
+[15-27-13] : finish service
+[15-27-14] : save cpu data
+[15-27-14] : finish service

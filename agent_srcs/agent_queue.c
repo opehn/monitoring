@@ -24,17 +24,6 @@ aqueue_node  *init_node(packet *data, aqueue_node *tail)
 	return (new);
 }
 
-packet	 *peek(aqueue *q)
-{
-	int		i;
-
-	printf("peek, size : %d\n", q->size);
-	if (q->size == 0)
-		return (NULL);
-	else
-		return (q->head->data);
-}
-
 void	enqueue (aqueue *q, packet *data)
 {
 	aqueue_node	*new;
@@ -57,13 +46,12 @@ void	enqueue (aqueue *q, packet *data)
 aqueue_node	*dequeue(aqueue *q)
 {
 	aqueue_node	*temp;
-	aqueue_node	*data;
 
 	if (!q->size)
 		return (NULL);
 	else
 	{
-		data = peek(q);
+		temp = q->head;
 		if (q->head == q->tail)
 		{
 			q->tail = NULL;
@@ -76,11 +64,12 @@ aqueue_node	*dequeue(aqueue *q)
 		}
 		q->size--;
 	}
-	return (data);
+	return (temp);
 }
 
 void	free_node(aqueue_node *cur)
 {
+	free(cur->data->payload);
 	free(cur->data);
 	free(cur);
 }
