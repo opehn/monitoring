@@ -3,7 +3,6 @@
 
 ashare	*g_ashare;
 int		g_connfd;
-
 static void	free_queue(aqueue *q)
 {
 	aqueue_node *temp;
@@ -86,7 +85,9 @@ static int daemonize(int aid)
 
 	close(0);
 	close(1);
+	close(2);
 	fopen("/dev/null", "r");
+	fopen("/dev/null", "w+");
 	fopen("/dev/null", "w+");
 
 	filename = make_filename(aid);
@@ -96,7 +97,6 @@ static int daemonize(int aid)
 		free(filename);
 		exit(EXIT_FAILURE);
 	}
-	dup2(logfd, STDERR_FILENO);
 	free(filename);
 
 
@@ -159,9 +159,9 @@ int main(int argc, char **argv)
 		return (0);
 	aid = atoi(argv[1]);
 	
-//	logfd = daemonize(aid);
+	logfd = daemonize(aid);
 
-	char *filename;
+	/*char *filename;
 	filename = make_filename(aid);
 	if (!(logfd = open(filename, O_RDWR | O_APPEND | O_CREAT | O_NOCTTY, S_IRWXU)))
 	{
@@ -169,7 +169,9 @@ int main(int argc, char **argv)
 		free(filename);
 		exit(EXIT_FAILURE);
 	}
-	free(filename);
+	free(filename);*/
+
+	write(logfd, "----------------------------------------------------------------------\n", 71);
 	init_share(logfd, aid);
 	set_signal();
 	pthread_create(&collect_tid, NULL, collect_routine, NULL);

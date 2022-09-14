@@ -68,7 +68,9 @@ static int daemonize(void)
 
     close(0);
     close(1);
+    close(2);
     fopen("/dev/null", "r");
+    fopen("/dev/null", "w+");
     fopen("/dev/null", "w+");
 
     filename = make_filename();
@@ -209,15 +211,19 @@ int		main(int argc, char **argv)
 	if (argc != 2)
 		return (0);
 	max_cli = atoi(argv[1]);
-//	logfd = daemonize();
-    filename = make_filename();
+
+	logfd = daemonize();
+
+    /*filename = make_filename();
     if (!(logfd = open(filename, O_RDWR | O_APPEND | O_CREAT | O_NOCTTY, S_IRWXU)))
     {
 		perror("log file open error");
         free(filename);
         exit(EXIT_FAILURE);
     }
-    free(filename);
+    free(filename);*/
+
+	write(logfd, "----------------------------------------------------------------------\n", 71);
 	
 	init_sshare(logfd);
 
