@@ -3,8 +3,8 @@
 char *skip_bracket(char *src)
 {
 	char	*dest;
-	int	 len;
-	int	 i = 0;
+	int		len;
+	int		i = 0;
 
 	if (!src)
 		return (NULL);
@@ -137,10 +137,29 @@ char	*my_strndup(char *origin, int len)
 
 void   serialize_header(int signature, int length, int agent_id, char *payload)
 {
-	packet_header *pheader;
+	packet_header	*pheader;
+	char			*cur = cur_time();
+	int				i = 0;
 	
 	pheader = (packet_header *)payload;
+	while (i < 11)
+	{
+		pheader->time[i] = cur[i];
+		i++;
+	}
 	pheader->signature = (uint16_t)signature;
 	pheader->length = (uint32_t) length;
 	pheader->agent_id = (uint16_t) agent_id;
+}
+
+char	*cur_time(void)
+{
+	time_t		cur = time(NULL);
+	struct	tm	*t = localtime(&cur);
+	char		*time_log;
+	int			msg_len;
+
+	time_log = malloc(11);
+	sprintf(time_log, "[%02d-%02d-%02d]", t->tm_hour, t->tm_min, t->tm_sec);
+	return (time_log);
 }

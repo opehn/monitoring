@@ -3,15 +3,13 @@
 #include <stdio.h>
 #include <string.h> 
 
-char *(*origin_strcpy)(char *dest, const char *src);
+ssize_t (*origin_send)(int, const void *, size_t, int);
 
-char *strcpy(char *dest, const char *src);
-
-char *strcpy(char *dest, const char *src)
+ssize_t send(int sockfd, const void *buf, size_t len, int flags)
 {
-	printf("strcpy hooked by hook_test.so!!\n");
-	printf("Hooked src contents : %s\n", src);
+	printf("send hooked by hook_test.so!!\n");
+	printf("Hooked len: %ld\n", len);
 
-	origin_strcpy = (char *(*)(char *, const char *))dlsym(RTLD_NEXT, "strcpy");
-	return (*origin_strcpy)(dest, src);
+	origin_send = (ssize_t(*)(int, const void *, size_t, int))dlsym(RTLD_NEXT, "send");
+	return (*origin_send)(sockfd, buf, len, flags);
 }

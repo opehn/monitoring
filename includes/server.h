@@ -42,6 +42,7 @@ void	*worker_routine(void *args);
 void	save_file(data_queue_node *cur);
 
 void	server_logging(char *msg);
+void	receive_logging(char *msg, int aid);
 void	err_log(char *err_type);
 void	send_packet(int coonfd);
 

@@ -27,6 +27,18 @@ char	*make_filename(int aid)
 	return (file_name);
 }
 
+void	write_time(int fd, char *ag_time)
+{
+	time_t      cur = time(NULL);
+    struct tm   *t = localtime(&cur);
+    char        time_msg[150];
+    int         msg_len;
+
+	sprintf(time_msg, "Collect time : %s  Received tiem : [%02d-%02d-%02d]\n", ag_time, t->tm_hour, t->tm_min, t->tm_sec);
+    msg_len = strlen(time_msg);
+    write(fd, time_msg, msg_len);
+}
+
 void	write_memory(int fd, data_queue_node *cur)
 {
 	mem_info	*m;
@@ -117,27 +129,29 @@ void	write_process(int fd, data_queue_node *cur)
 
 static void	write_data(int fd, data_queue_node *cur)
 {
-	char	type[10];
-
 	switch (cur->header->signature)
 	{
 		case 11 :
-			server_logging("save memory data");
+			receive_logging("Save memory data", cur->header->agent_id);
+			write_time(fd, cur->header->time);
 			write(fd, "MEMORY\n", 7);
 			write_memory(fd, cur);
 			break;
 		case 22 :
-			server_logging("save network data");
+			receive_logging("Save network data", cur->header->agent_id);
+			write_time(fd, cur->header->time);
 			write(fd, "NETWORK\n", 8);
 			write_network(fd, cur);
 			break;
 		case 33 :
-			server_logging("save cpu data");
+			receive_logging("Save cpu data", cur->header->agent_id);
+			write_time(fd, cur->header->time);
 			write(fd, "CPU\n", 4);
 			write_cpu(fd, cur);
 			break;
 		case 44 :
-			server_logging("save process data");
+			receive_logging("Save process data", cur->header->agent_id);
+			write_time(fd, cur->header->time);
 			write(fd, "PROCESS\n", 8);
 			write_process(fd, cur);
 			write(fd, "----------------------------------------------------------------------------------------------------\n", 101);

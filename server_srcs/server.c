@@ -214,7 +214,7 @@ int		main(int argc, char **argv)
 
 	logfd = daemonize();
 
-    /*filename = make_filename();
+   /* filename = make_filename();
     if (!(logfd = open(filename, O_RDWR | O_APPEND | O_CREAT | O_NOCTTY, S_IRWXU)))
     {
 		perror("log file open error");
@@ -224,7 +224,6 @@ int		main(int argc, char **argv)
     free(filename);*/
 
 	write(logfd, "----------------------------------------------------------------------\n", 71);
-	
 	init_sshare(logfd);
 
 	/* open listen socket */

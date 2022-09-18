@@ -21,13 +21,12 @@
 #include <pthread.h>
 
 #define BUFFER_SIZE 1000
-
-typedef struct sockaddr SA; 
-typedef struct sockaddr_in SA_IN; 
 #define SERVERIP	"127.0.0.1"
 #define SERVERPORT	8000
 #define BUFSIZE		512
 
+typedef struct sockaddr SA; 
+typedef struct sockaddr_in SA_IN; 
 typedef struct aqueue aqueue;
 
 typedef struct ashare
@@ -52,6 +51,7 @@ int				isnum(char *str);
 char			*skip_bracket(char *src);
 void			read_stat(char *path);
 void			serialize_header(int signature, int length, int agent_id, char *payload);
+char			*cur_time(void);
 
 //file_util
 char			*get_next_line(int fd, int flag);

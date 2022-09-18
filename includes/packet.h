@@ -13,14 +13,15 @@
 #pragma pack(1)
 
 typedef struct packet_header {
-	uint16_t	signature;
-	uint32_t	length;
-	uint16_t	agent_id;
+	uint16_t			signature;
+	uint32_t			length;
+	uint16_t			agent_id;
+	char				time[11];
 } packet_header;
 
 typedef	struct	packet {
-	int				length;
-	char			*payload;
+	int					length;
+	char				*payload;
 } packet;
 
 typedef struct  proc_info {

@@ -14,7 +14,7 @@ static int	recv_wrap(int connfd, char *buf, int size, int flag)
 	}
 	else if (res == 0)
 	{
-		server_logging("end receive");
+		server_logging("Zero byte left to receive");
 		return (-2);
 	}
 	return (0);
@@ -75,10 +75,14 @@ void	*accept_perthread(void *args)
 		if(0 > (connfd = accept(g_sshare->listenfd, (SA *)&clientaddr, &addrlen)))
 		{
 			err_log("accept error");
+			pthread_mutex_unlock(&g_sshare->accept_lock);
 			break;
 		}
 		if (!g_sshare->flag)
+		{
+			printf("flag : %d\n", g_sshare->flag);
 			pthread_cond_signal(&g_sshare->cond);
+		}
 		g_sshare->flag++;
 		pthread_mutex_unlock(&g_sshare->accept_lock);
 

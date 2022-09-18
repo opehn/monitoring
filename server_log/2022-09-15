@@ -1,0 +1,3458 @@
+----------------------------------------------------------------------
+[04-24-22] : bind error : Address already in use
+----------------------------------------------------------------------
+[04-25-14] : receive thread created, waiting. . .
+[04-25-14] : receive thread created, waiting. . .
+[04-25-14] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 37005
+
+[04-25-14] : receive thread created, waiting. . .
+[04-25-14] : worker thread created, waiting. . .
+[04-25-14] : worker thread created, waiting. . .
+[04-25-14] : worker thread created, waiting. . .
+[04-25-51] : end receive
+[04-25-55] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 37517
+
+[04-25-57] : end receive
+----------------------------------------------------------------------
+[04-34-54] : receive thread created, waiting. . .
+[04-34-54] : receive thread created, waiting. . .
+[04-34-54] : receive thread created, waiting. . .
+[04-34-54] : worker thread created, waiting. . .
+[04-34-54] : worker thread created, waiting. . .
+[04-34-54] : worker thread created, waiting. . .
+[04-34-58] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 38029
+
+[04-34-58] : worker thread start working
+Collect time : [04-34-58]  Received tiem : [04-35-01][04-35-01] : Save memory data
+Collect time : [04-34-58]  Received tiem : [04-35-01][04-35-01] : Save network data
+Collect time : [04-34-58]  Received tiem : [04-35-01][04-35-01] : Save cpu data
+Collect time : [04-34-58]  Received tiem : [04-35-01][04-35-01] : Save process data
+Collect time : [04-34-59]  Received tiem : [04-35-01][04-35-01] : Save memory data
+Collect time : [04-34-59]  Received tiem : [04-35-01][04-35-01] : Save network data
+Collect time : [04-34-59]  Received tiem : [04-35-01][04-35-01] : Save cpu data
+Collect time : [04-34-59]  Received tiem : [04-35-01][04-35-01] : Save process data
+Collect time : [04-35-00]  Received tiem : [04-35-01][04-35-01] : Save memory data
+Collect time : [04-35-00]  Received tiem : [04-35-01][04-35-01] : Save network data
+Collect time : [04-35-00]  Received tiem : [04-35-01][04-35-01] : Save cpu data
+Collect time : [04-35-00]  Received tiem : [04-35-01][04-35-01] : Save process data
+Collect time : [04-35-01]  Received tiem : [04-35-01][04-35-01] : Save memory data
+Collect time : [04-35-01]  Received tiem : [04-35-01][04-35-01] : Save network data
+Collect time : [04-35-01]  Received tiem : [04-35-01][04-35-01] : Save cpu data
+Collect time : [04-35-01]  Received tiem : [04-35-01][04-35-01] : Save process data
+Collect time : [04-35-02]  Received tiem : [04-35-02][04-35-02] : Save memory data
+Collect time : [04-35-02]  Received tiem : [04-35-02][04-35-02] : Save network data
+Collect time : [04-35-02]  Received tiem : [04-35-02][04-35-02] : Save cpu data
+Collect time : [04-35-02]  Received tiem : [04-35-02][04-35-02] : Save process data
+Collect time : [04-35-03]  Received tiem : [04-35-03][04-35-03] : Save memory data
+Collect time : [04-35-03]  Received tiem : [04-35-03][04-35-03] : Save network data
+Collect time : [04-35-03]  Received tiem : [04-35-03][04-35-03] : Save cpu data
+Collect time : [04-35-03]  Received tiem : [04-35-03][04-35-03] : Save process data
+Collect time : [04-35-04]  Received tiem : [04-35-04][04-35-04] : Save memory data
+Collect time : [04-35-04]  Received tiem : [04-35-04][04-35-04] : Save network data
+Collect time : [04-35-04]  Received tiem : [04-35-04][04-35-04] : Save cpu data
+Collect time : [04-35-04]  Received tiem : [04-35-04][04-35-04] : Save process data
+Collect time : [04-35-05]  Received tiem : [04-35-05][04-35-05] : Save memory data
+Collect time : [04-35-05]  Received tiem : [04-35-05][04-35-05] : Save network data
+Collect time : [04-35-05]  Received tiem : [04-35-05][04-35-05] : Save cpu data
+Collect time : [04-35-05]  Received tiem : [04-35-05][04-35-05] : Save process data
+Collect time : [04-35-06]  Received tiem : [04-35-06][04-35-06] : Save memory data
+Collect time : [04-35-06]  Received tiem : [04-35-06][04-35-06] : Save network data
+Collect time : [04-35-06]  Received tiem : [04-35-06][04-35-06] : Save cpu data
+Collect time : [04-35-06]  Received tiem : [04-35-06][04-35-06] : Save process data
+Collect time : [04-35-07]  Received tiem : [04-35-07][04-35-07] : Save memory data
+Collect time : [04-35-07]  Received tiem : [04-35-07][04-35-07] : Save network data
+Collect time : [04-35-07]  Received tiem : [04-35-07][04-35-07] : Save cpu data
+Collect time : [04-35-07]  Received tiem : [04-35-07][04-35-07] : Save process data
+Collect time : [04-35-08]  Received tiem : [04-35-08][04-35-08] : Save memory data
+Collect time : [04-35-08]  Received tiem : [04-35-08][04-35-08] : Save network data
+Collect time : [04-35-08]  Received tiem : [04-35-08][04-35-08] : Save cpu data
+Collect time : [04-35-08]  Received tiem : [04-35-08][04-35-08] : Save process data
+Collect time : [04-35-09]  Received tiem : [04-35-09][04-35-09] : Save memory data
+Collect time : [04-35-09]  Received tiem : [04-35-09][04-35-09] : Save network data
+Collect time : [04-35-09]  Received tiem : [04-35-09][04-35-09] : Save cpu data
+Collect time : [04-35-09]  Received tiem : [04-35-09][04-35-09] : Save process data
+Collect time : [04-35-10]  Received tiem : [04-35-10][04-35-10] : Save memory data
+Collect time : [04-35-10]  Received tiem : [04-35-10][04-35-10] : Save network data
+Collect time : [04-35-10]  Received tiem : [04-35-10][04-35-10] : Save cpu data
+Collect time : [04-35-10]  Received tiem : [04-35-10][04-35-10] : Save process data
+Collect time : [04-35-11]  Received tiem : [04-35-11][04-35-11] : Save memory data
+Collect time : [04-35-11]  Received tiem : [04-35-11][04-35-11] : Save network data
+Collect time : [04-35-11]  Received tiem : [04-35-11][04-35-11] : Save cpu data
+Collect time : [04-35-11]  Received tiem : [04-35-11][04-35-11] : Save process data
+Collect time : [04-35-12]  Received tiem : [04-35-12][04-35-12] : Save memory data
+Collect time : [04-35-12]  Received tiem : [04-35-12][04-35-12] : Save network data
+Collect time : [04-35-12]  Received tiem : [04-35-12][04-35-12] : Save cpu data
+Collect time : [04-35-12]  Received tiem : [04-35-12][04-35-12] : Save process data
+Collect time : [04-35-13]  Received tiem : [04-35-13][04-35-13] : Save memory data
+Collect time : [04-35-13]  Received tiem : [04-35-13][04-35-13] : Save network data
+Collect time : [04-35-13]  Received tiem : [04-35-13][04-35-13] : Save cpu data
+Collect time : [04-35-13]  Received tiem : [04-35-13][04-35-13] : Save process data
+Collect time : [04-35-14]  Received tiem : [04-35-14][04-35-14] : Save memory data
+Collect time : [04-35-14]  Received tiem : [04-35-14][04-35-14] : Save network data
+Collect time : [04-35-14]  Received tiem : [04-35-14][04-35-14] : Save cpu data
+Collect time : [04-35-14]  Received tiem : [04-35-14][04-35-14] : Save process data
+Collect time : [04-35-15]  Received tiem : [04-35-15][04-35-15] : Save memory data
+Collect time : [04-35-15]  Received tiem : [04-35-15][04-35-15] : Save network data
+Collect time : [04-35-15]  Received tiem : [04-35-15][04-35-15] : Save cpu data
+Collect time : [04-35-15]  Received tiem : [04-35-15][04-35-15] : Save process data
+Collect time : [04-35-16]  Received tiem : [04-35-16][04-35-16] : Save memory data
+Collect time : [04-35-16]  Received tiem : [04-35-16][04-35-16] : Save network data
+Collect time : [04-35-16]  Received tiem : [04-35-16][04-35-16] : Save cpu data
+Collect time : [04-35-16]  Received tiem : [04-35-16][04-35-16] : Save process data
+Collect time : [04-35-17]  Received tiem : [04-35-17][04-35-17] : Save memory data
+Collect time : [04-35-17]  Received tiem : [04-35-17][04-35-17] : Save network data
+Collect time : [04-35-17]  Received tiem : [04-35-17][04-35-17] : Save cpu data
+Collect time : [04-35-17]  Received tiem : [04-35-17][04-35-17] : Save process data
+Collect time : [04-35-18]  Received tiem : [04-35-18][04-35-18] : Save memory data
+Collect time : [04-35-18]  Received tiem : [04-35-18][04-35-18] : Save network data
+Collect time : [04-35-18]  Received tiem : [04-35-18][04-35-18] : Save cpu data
+Collect time : [04-35-18]  Received tiem : [04-35-18][04-35-18] : Save process data
+Collect time : [04-35-19]  Received tiem : [04-35-19][04-35-19] : Save memory data
+Collect time : [04-35-19]  Received tiem : [04-35-19][04-35-19] : Save network data
+Collect time : [04-35-19]  Received tiem : [04-35-19][04-35-19] : Save cpu data
+Collect time : [04-35-19]  Received tiem : [04-35-19][04-35-19] : Save process data
+Collect time : [04-35-20]  Received tiem : [04-35-20][04-35-20] : Save memory data
+Collect time : [04-35-20]  Received tiem : [04-35-20][04-35-20] : Save network data
+Collect time : [04-35-20]  Received tiem : [04-35-20][04-35-20] : Save cpu data
+Collect time : [04-35-20]  Received tiem : [04-35-20][04-35-20] : Save process data
+Collect time : [04-35-21]  Received tiem : [04-35-21][04-35-21] : Save memory data
+Collect time : [04-35-21]  Received tiem : [04-35-21][04-35-21] : Save network data
+Collect time : [04-35-21]  Received tiem : [04-35-21][04-35-21] : Save cpu data
+Collect time : [04-35-21]  Received tiem : [04-35-21][04-35-21] : Save process data
+Collect time : [04-35-22]  Received tiem : [04-35-22][04-35-22] : Save memory data
+Collect time : [04-35-22]  Received tiem : [04-35-22][04-35-22] : Save network data
+Collect time : [04-35-22]  Received tiem : [04-35-22][04-35-22] : Save cpu data
+Collect time : [04-35-22]  Received tiem : [04-35-22][04-35-22] : Save process data
+Collect time : [04-35-23]  Received tiem : [04-35-23][04-35-23] : Save memory data
+Collect time : [04-35-23]  Received tiem : [04-35-23][04-35-23] : Save network data
+Collect time : [04-35-23]  Received tiem : [04-35-23][04-35-23] : Save cpu data
+Collect time : [04-35-23]  Received tiem : [04-35-23][04-35-23] : Save process data
+Collect time : [04-35-24]  Received tiem : [04-35-24][04-35-24] : Save memory data
+Collect time : [04-35-24]  Received tiem : [04-35-24][04-35-24] : Save network data
+Collect time : [04-35-24]  Received tiem : [04-35-24][04-35-24] : Save cpu data
+Collect time : [04-35-24]  Received tiem : [04-35-24][04-35-24] : Save process data
+Collect time : [04-35-25]  Received tiem : [04-35-25][04-35-25] : Save memory data
+Collect time : [04-35-25]  Received tiem : [04-35-25][04-35-25] : Save network data
+Collect time : [04-35-25]  Received tiem : [04-35-25][04-35-25] : Save cpu data
+Collect time : [04-35-25]  Received tiem : [04-35-25][04-35-25] : Save process data
+Collect time : [04-35-26]  Received tiem : [04-35-26][04-35-26] : Save memory data
+Collect time : [04-35-26]  Received tiem : [04-35-26][04-35-26] : Save network data
+Collect time : [04-35-26]  Received tiem : [04-35-26][04-35-26] : Save cpu data
+Collect time : [04-35-26]  Received tiem : [04-35-26][04-35-26] : Save process data
+Collect time : [04-35-27]  Received tiem : [04-35-27][04-35-27] : Save memory data
+Collect time : [04-35-27]  Received tiem : [04-35-27][04-35-27] : Save network data
+Collect time : [04-35-27]  Received tiem : [04-35-27][04-35-27] : Save cpu data
+Collect time : [04-35-27]  Received tiem : [04-35-27][04-35-27] : Save process data
+Collect time : [04-35-28]  Received tiem : [04-35-28][04-35-28] : Save memory data
+Collect time : [04-35-28]  Received tiem : [04-35-28][04-35-28] : Save network data
+Collect time : [04-35-28]  Received tiem : [04-35-28][04-35-28] : Save cpu data
+Collect time : [04-35-28]  Received tiem : [04-35-28][04-35-28] : Save process data
+Collect time : [04-35-29]  Received tiem : [04-35-29][04-35-29] : Save memory data
+Collect time : [04-35-29]  Received tiem : [04-35-29][04-35-29] : Save network data
+Collect time : [04-35-29]  Received tiem : [04-35-29][04-35-29] : Save cpu data
+Collect time : [04-35-29]  Received tiem : [04-35-29][04-35-29] : Save process data
+Collect time : [04-35-30]  Received tiem : [04-35-30][04-35-30] : Save memory data
+Collect time : [04-35-30]  Received tiem : [04-35-30][04-35-30] : Save network data
+Collect time : [04-35-30]  Received tiem : [04-35-30][04-35-30] : Save cpu data
+Collect time : [04-35-30]  Received tiem : [04-35-30][04-35-30] : Save process data
+Collect time : [04-35-31]  Received tiem : [04-35-31][04-35-31] : Save memory data
+Collect time : [04-35-31]  Received tiem : [04-35-31][04-35-31] : Save network data
+Collect time : [04-35-31]  Received tiem : [04-35-31][04-35-31] : Save cpu data
+Collect time : [04-35-31]  Received tiem : [04-35-31][04-35-31] : Save process data
+Collect time : [04-35-32]  Received tiem : [04-35-32][04-35-32] : Save memory data
+Collect time : [04-35-32]  Received tiem : [04-35-32][04-35-32] : Save network data
+Collect time : [04-35-32]  Received tiem : [04-35-32][04-35-32] : Save cpu data
+Collect time : [04-35-32]  Received tiem : [04-35-32][04-35-32] : Save process data
+Collect time : [04-35-33]  Received tiem : [04-35-33][04-35-33] : Save memory data
+Collect time : [04-35-33]  Received tiem : [04-35-33][04-35-33] : Save network data
+Collect time : [04-35-33]  Received tiem : [04-35-33][04-35-33] : Save cpu data
+Collect time : [04-35-33]  Received tiem : [04-35-33][04-35-33] : Save process data
+Collect time : [04-35-34]  Received tiem : [04-35-34][04-35-34] : Save memory data
+Collect time : [04-35-34]  Received tiem : [04-35-34][04-35-34] : Save network data
+Collect time : [04-35-34]  Received tiem : [04-35-34][04-35-34] : Save cpu data
+Collect time : [04-35-34]  Received tiem : [04-35-34][04-35-34] : Save process data
+Collect time : [04-35-35]  Received tiem : [04-35-35][04-35-35] : Save memory data
+Collect time : [04-35-35]  Received tiem : [04-35-35][04-35-35] : Save network data
+Collect time : [04-35-35]  Received tiem : [04-35-35][04-35-35] : Save cpu data
+Collect time : [04-35-35]  Received tiem : [04-35-35][04-35-35] : Save process data
+Collect time : [04-35-36]  Received tiem : [04-35-36][04-35-36] : Save memory data
+Collect time : [04-35-36]  Received tiem : [04-35-36][04-35-36] : Save network data
+Collect time : [04-35-36]  Received tiem : [04-35-36][04-35-36] : Save cpu data
+Collect time : [04-35-36]  Received tiem : [04-35-36][04-35-36] : Save process data
+Collect time : [04-35-37]  Received tiem : [04-35-37][04-35-37] : Save memory data
+Collect time : [04-35-37]  Received tiem : [04-35-37][04-35-37] : Save network data
+Collect time : [04-35-37]  Received tiem : [04-35-37][04-35-37] : Save cpu data
+Collect time : [04-35-37]  Received tiem : [04-35-37][04-35-37] : Save process data
+Collect time : [04-35-38]  Received tiem : [04-35-38][04-35-38] : Save memory data
+Collect time : [04-35-38]  Received tiem : [04-35-38][04-35-38] : Save network data
+Collect time : [04-35-38]  Received tiem : [04-35-38][04-35-38] : Save cpu data
+Collect time : [04-35-38]  Received tiem : [04-35-38][04-35-38] : Save process data
+Collect time : [04-35-39]  Received tiem : [04-35-39][04-35-39] : Save memory data
+Collect time : [04-35-39]  Received tiem : [04-35-39][04-35-39] : Save network data
+Collect time : [04-35-39]  Received tiem : [04-35-39][04-35-39] : Save cpu data
+Collect time : [04-35-39]  Received tiem : [04-35-39][04-35-39] : Save process data
+Collect time : [04-35-40]  Received tiem : [04-35-40][04-35-40] : Save memory data
+Collect time : [04-35-40]  Received tiem : [04-35-40][04-35-40] : Save network data
+Collect time : [04-35-40]  Received tiem : [04-35-40][04-35-40] : Save cpu data
+Collect time : [04-35-40]  Received tiem : [04-35-40][04-35-40] : Save process data
+Collect time : [04-35-41]  Received tiem : [04-35-41][04-35-41] : Save memory data
+Collect time : [04-35-41]  Received tiem : [04-35-41][04-35-41] : Save network data
+Collect time : [04-35-41]  Received tiem : [04-35-41][04-35-41] : Save cpu data
+Collect time : [04-35-41]  Received tiem : [04-35-41][04-35-41] : Save process data
+Collect time : [04-35-42]  Received tiem : [04-35-42][04-35-42] : Save memory data
+Collect time : [04-35-42]  Received tiem : [04-35-42][04-35-42] : Save network data
+Collect time : [04-35-42]  Received tiem : [04-35-42][04-35-42] : Save cpu data
+Collect time : [04-35-42]  Received tiem : [04-35-42][04-35-42] : Save process data
+Collect time : [04-35-43]  Received tiem : [04-35-43][04-35-43] : Save memory data
+Collect time : [04-35-43]  Received tiem : [04-35-43][04-35-43] : Save network data
+Collect time : [04-35-43]  Received tiem : [04-35-43][04-35-43] : Save cpu data
+Collect time : [04-35-43]  Received tiem : [04-35-43][04-35-43] : Save process data
+Collect time : [04-35-44]  Received tiem : [04-35-44][04-35-44] : Save memory data
+Collect time : [04-35-44]  Received tiem : [04-35-44][04-35-44] : Save network data
+Collect time : [04-35-44]  Received tiem : [04-35-44][04-35-44] : Save cpu data
+Collect time : [04-35-44]  Received tiem : [04-35-44][04-35-44] : Save process data
+Collect time : [04-35-45]  Received tiem : [04-35-45][04-35-45] : Save memory data
+Collect time : [04-35-45]  Received tiem : [04-35-45][04-35-45] : Save network data
+Collect time : [04-35-45]  Received tiem : [04-35-45][04-35-45] : Save cpu data
+Collect time : [04-35-45]  Received tiem : [04-35-45][04-35-45] : Save process data
+Collect time : [04-35-46]  Received tiem : [04-35-46][04-35-46] : Save memory data
+Collect time : [04-35-46]  Received tiem : [04-35-46][04-35-46] : Save network data
+Collect time : [04-35-46]  Received tiem : [04-35-46][04-35-46] : Save cpu data
+Collect time : [04-35-46]  Received tiem : [04-35-46][04-35-46] : Save process data
+Collect time : [04-35-47]  Received tiem : [04-35-47][04-35-47] : Save memory data
+Collect time : [04-35-47]  Received tiem : [04-35-47][04-35-47] : Save network data
+Collect time : [04-35-47]  Received tiem : [04-35-47][04-35-47] : Save cpu data
+Collect time : [04-35-47]  Received tiem : [04-35-47][04-35-47] : Save process data
+Collect time : [04-35-48]  Received tiem : [04-35-48][04-35-48] : Save memory data
+Collect time : [04-35-48]  Received tiem : [04-35-48][04-35-48] : Save network data
+Collect time : [04-35-48]  Received tiem : [04-35-48][04-35-48] : Save cpu data
+Collect time : [04-35-48]  Received tiem : [04-35-48][04-35-48] : Save process data
+Collect time : [04-35-49]  Received tiem : [04-35-49][04-35-49] : Save memory data
+Collect time : [04-35-49]  Received tiem : [04-35-49][04-35-49] : Save network data
+Collect time : [04-35-49]  Received tiem : [04-35-49][04-35-49] : Save cpu data
+Collect time : [04-35-49]  Received tiem : [04-35-49][04-35-49] : Save process data
+Collect time : [04-35-50]  Received tiem : [04-35-50][04-35-50] : Save memory data
+Collect time : [04-35-50]  Received tiem : [04-35-50][04-35-50] : Save network data
+Collect time : [04-35-50]  Received tiem : [04-35-50][04-35-50] : Save cpu data
+Collect time : [04-35-50]  Received tiem : [04-35-50][04-35-50] : Save process data
+Collect time : [04-35-51]  Received tiem : [04-35-51][04-35-51] : Save memory data
+Collect time : [04-35-51]  Received tiem : [04-35-51][04-35-51] : Save network data
+Collect time : [04-35-51]  Received tiem : [04-35-51][04-35-51] : Save cpu data
+Collect time : [04-35-51]  Received tiem : [04-35-51][04-35-51] : Save process data
+Collect time : [04-35-52]  Received tiem : [04-35-52][04-35-52] : Save memory data
+Collect time : [04-35-52]  Received tiem : [04-35-52][04-35-52] : Save network data
+Collect time : [04-35-52]  Received tiem : [04-35-52][04-35-52] : Save cpu data
+Collect time : [04-35-52]  Received tiem : [04-35-52][04-35-52] : Save process data
+Collect time : [04-35-53]  Received tiem : [04-35-53][04-35-53] : Save memory data
+Collect time : [04-35-53]  Received tiem : [04-35-53][04-35-53] : Save network data
+Collect time : [04-35-53]  Received tiem : [04-35-53][04-35-53] : Save cpu data
+Collect time : [04-35-53]  Received tiem : [04-35-53][04-35-53] : Save process data
+Collect time : [04-35-54]  Received tiem : [04-35-54][04-35-54] : Save memory data
+Collect time : [04-35-54]  Received tiem : [04-35-54][04-35-54] : Save network data
+Collect time : [04-35-54]  Received tiem : [04-35-54][04-35-54] : Save cpu data
+Collect time : [04-35-54]  Received tiem : [04-35-54][04-35-54] : Save process data
+Collect time : [04-35-55]  Received tiem : [04-35-55][04-35-55] : Save memory data
+Collect time : [04-35-55]  Received tiem : [04-35-55][04-35-55] : Save network data
+Collect time : [04-35-55]  Received tiem : [04-35-55][04-35-55] : Save cpu data
+Collect time : [04-35-55]  Received tiem : [04-35-55][04-35-55] : Save process data
+Collect time : [04-35-56]  Received tiem : [04-35-56][04-35-56] : Save memory data
+Collect time : [04-35-56]  Received tiem : [04-35-56][04-35-56] : Save network data
+Collect time : [04-35-56]  Received tiem : [04-35-56][04-35-56] : Save cpu data
+Collect time : [04-35-56]  Received tiem : [04-35-56][04-35-56] : Save process data
+Collect time : [04-35-57]  Received tiem : [04-35-57][04-35-57] : Save memory data
+Collect time : [04-35-57]  Received tiem : [04-35-57][04-35-57] : Save network data
+Collect time : [04-35-57]  Received tiem : [04-35-57][04-35-57] : Save cpu data
+Collect time : [04-35-57]  Received tiem : [04-35-57][04-35-57] : Save process data
+Collect time : [04-35-58]  Received tiem : [04-35-58][04-35-58] : Save memory data
+Collect time : [04-35-58]  Received tiem : [04-35-58][04-35-58] : Save network data
+Collect time : [04-35-58]  Received tiem : [04-35-58][04-35-58] : Save cpu data
+Collect time : [04-35-58]  Received tiem : [04-35-58][04-35-58] : Save process data
+Collect time : [04-35-59]  Received tiem : [04-35-59][04-35-59] : Save memory data
+Collect time : [04-35-59]  Received tiem : [04-35-59][04-35-59] : Save network data
+Collect time : [04-35-59]  Received tiem : [04-35-59][04-35-59] : Save cpu data
+Collect time : [04-35-59]  Received tiem : [04-35-59][04-35-59] : Save process data
+Collect time : [04-36-00]  Received tiem : [04-36-00][04-36-00] : Save memory data
+Collect time : [04-36-00]  Received tiem : [04-36-00][04-36-00] : Save network data
+Collect time : [04-36-00]  Received tiem : [04-36-00][04-36-00] : Save cpu data
+Collect time : [04-36-00]  Received tiem : [04-36-00][04-36-00] : Save process data
+Collect time : [04-36-01]  Received tiem : [04-36-01][04-36-01] : Save memory data
+Collect time : [04-36-01]  Received tiem : [04-36-01][04-36-01] : Save network data
+Collect time : [04-36-01]  Received tiem : [04-36-01][04-36-01] : Save cpu data
+Collect time : [04-36-01]  Received tiem : [04-36-01][04-36-01] : Save process data
+Collect time : [04-36-02]  Received tiem : [04-36-02][04-36-02] : Save memory data
+Collect time : [04-36-02]  Received tiem : [04-36-02][04-36-02] : Save network data
+Collect time : [04-36-02]  Received tiem : [04-36-02][04-36-02] : Save cpu data
+Collect time : [04-36-02]  Received tiem : [04-36-02][04-36-02] : Save process data
+Collect time : [04-36-03]  Received tiem : [04-36-03][04-36-03] : Save memory data
+Collect time : [04-36-03]  Received tiem : [04-36-03][04-36-03] : Save network data
+Collect time : [04-36-03]  Received tiem : [04-36-03][04-36-03] : Save cpu data
+Collect time : [04-36-03]  Received tiem : [04-36-03][04-36-03] : Save process data
+Collect time : [04-36-04]  Received tiem : [04-36-04][04-36-04] : Save memory data
+Collect time : [04-36-04]  Received tiem : [04-36-04][04-36-04] : Save network data
+Collect time : [04-36-04]  Received tiem : [04-36-04][04-36-04] : Save cpu data
+Collect time : [04-36-04]  Received tiem : [04-36-04][04-36-04] : Save process data
+Collect time : [04-36-05]  Received tiem : [04-36-05][04-36-05] : Save memory data
+Collect time : [04-36-05]  Received tiem : [04-36-05][04-36-05] : Save network data
+Collect time : [04-36-05]  Received tiem : [04-36-05][04-36-05] : Save cpu data
+Collect time : [04-36-05]  Received tiem : [04-36-05][04-36-05] : Save process data
+Collect time : [04-36-06]  Received tiem : [04-36-06][04-36-06] : Save memory data
+Collect time : [04-36-06]  Received tiem : [04-36-06][04-36-06] : Save network data
+Collect time : [04-36-06]  Received tiem : [04-36-06][04-36-06] : Save cpu data
+Collect time : [04-36-06]  Received tiem : [04-36-06][04-36-06] : Save process data
+Collect time : [04-36-07]  Received tiem : [04-36-07][04-36-07] : Save memory data
+Collect time : [04-36-07]  Received tiem : [04-36-07][04-36-07] : Save network data
+Collect time : [04-36-07]  Received tiem : [04-36-07][04-36-07] : Save cpu data
+Collect time : [04-36-07]  Received tiem : [04-36-07][04-36-07] : Save process data
+Collect time : [04-36-08]  Received tiem : [04-36-08][04-36-08] : Save memory data
+Collect time : [04-36-08]  Received tiem : [04-36-08][04-36-08] : Save network data
+Collect time : [04-36-08]  Received tiem : [04-36-08][04-36-08] : Save cpu data
+Collect time : [04-36-08]  Received tiem : [04-36-08][04-36-08] : Save process data
+Collect time : [04-36-09]  Received tiem : [04-36-09][04-36-09] : Save memory data
+Collect time : [04-36-09]  Received tiem : [04-36-09][04-36-09] : Save network data
+Collect time : [04-36-09]  Received tiem : [04-36-09][04-36-09] : Save cpu data
+Collect time : [04-36-09]  Received tiem : [04-36-09][04-36-09] : Save process data
+Collect time : [04-36-10]  Received tiem : [04-36-10][04-36-10] : Save memory data
+Collect time : [04-36-10]  Received tiem : [04-36-10][04-36-10] : Save network data
+Collect time : [04-36-10]  Received tiem : [04-36-10][04-36-10] : Save cpu data
+Collect time : [04-36-10]  Received tiem : [04-36-10][04-36-10] : Save process data
+Collect time : [04-36-11]  Received tiem : [04-36-11][04-36-11] : Save memory data
+Collect time : [04-36-11]  Received tiem : [04-36-11][04-36-11] : Save network data
+Collect time : [04-36-11]  Received tiem : [04-36-11][04-36-11] : Save cpu data
+Collect time : [04-36-11]  Received tiem : [04-36-11][04-36-11] : Save process data
+Collect time : [04-36-12]  Received tiem : [04-36-12][04-36-12] : Save memory data
+Collect time : [04-36-12]  Received tiem : [04-36-12][04-36-12] : Save network data
+Collect time : [04-36-12]  Received tiem : [04-36-12][04-36-12] : Save cpu data
+Collect time : [04-36-12]  Received tiem : [04-36-12][04-36-12] : Save process data
+Collect time : [04-36-13]  Received tiem : [04-36-13][04-36-13] : Save memory data
+Collect time : [04-36-13]  Received tiem : [04-36-13][04-36-13] : Save network data
+Collect time : [04-36-13]  Received tiem : [04-36-13][04-36-13] : Save cpu data
+Collect time : [04-36-13]  Received tiem : [04-36-13][04-36-13] : Save process data
+Collect time : [04-36-14]  Received tiem : [04-36-14][04-36-14] : Save memory data
+Collect time : [04-36-14]  Received tiem : [04-36-14][04-36-14] : Save network data
+Collect time : [04-36-14]  Received tiem : [04-36-14][04-36-14] : Save cpu data
+Collect time : [04-36-14]  Received tiem : [04-36-14][04-36-14] : Save process data
+Collect time : [04-36-15]  Received tiem : [04-36-15][04-36-15] : Save memory data
+Collect time : [04-36-15]  Received tiem : [04-36-15][04-36-15] : Save network data
+Collect time : [04-36-15]  Received tiem : [04-36-15][04-36-15] : Save cpu data
+Collect time : [04-36-15]  Received tiem : [04-36-15][04-36-15] : Save process data
+Collect time : [04-36-16]  Received tiem : [04-36-16][04-36-16] : Save memory data
+Collect time : [04-36-16]  Received tiem : [04-36-16][04-36-16] : Save network data
+Collect time : [04-36-16]  Received tiem : [04-36-16][04-36-16] : Save cpu data
+Collect time : [04-36-16]  Received tiem : [04-36-16][04-36-16] : Save process data
+Collect time : [04-36-17]  Received tiem : [04-36-17][04-36-17] : Save memory data
+Collect time : [04-36-17]  Received tiem : [04-36-17][04-36-17] : Save network data
+Collect time : [04-36-17]  Received tiem : [04-36-17][04-36-17] : Save cpu data
+Collect time : [04-36-17]  Received tiem : [04-36-17][04-36-17] : Save process data
+Collect time : [04-36-18]  Received tiem : [04-36-18][04-36-18] : Save memory data
+Collect time : [04-36-18]  Received tiem : [04-36-18][04-36-18] : Save network data
+Collect time : [04-36-18]  Received tiem : [04-36-18][04-36-18] : Save cpu data
+Collect time : [04-36-18]  Received tiem : [04-36-19][04-36-19] : Save process data
+Collect time : [04-36-19]  Received tiem : [04-36-19][04-36-19] : Save memory data
+Collect time : [04-36-19]  Received tiem : [04-36-19][04-36-19] : Save network data
+Collect time : [04-36-19]  Received tiem : [04-36-19][04-36-19] : Save cpu data
+Collect time : [04-36-19]  Received tiem : [04-36-20][04-36-20] : Save process data
+Collect time : [04-36-20]  Received tiem : [04-36-20][04-36-20] : Save memory data
+Collect time : [04-36-20]  Received tiem : [04-36-20][04-36-20] : Save network data
+Collect time : [04-36-20]  Received tiem : [04-36-20][04-36-20] : Save cpu data
+Collect time : [04-36-20]  Received tiem : [04-36-21][04-36-21] : Save process data
+Collect time : [04-36-21]  Received tiem : [04-36-21][04-36-21] : Save memory data
+Collect time : [04-36-21]  Received tiem : [04-36-22][04-36-22] : Save network data
+Collect time : [04-36-21]  Received tiem : [04-36-22][04-36-22] : Save cpu data
+Collect time : [04-36-21]  Received tiem : [04-36-22][04-36-22] : Save process data
+Collect time : [04-36-22]  Received tiem : [04-36-22][04-36-22] : Save memory data
+Collect time : [04-36-22]  Received tiem : [04-36-23][04-36-23] : Save network data
+Collect time : [04-36-22]  Received tiem : [04-36-23][04-36-23] : Save cpu data
+Collect time : [04-36-22]  Received tiem : [04-36-23][04-36-23] : Save process data
+Collect time : [04-36-23]  Received tiem : [04-36-23][04-36-23] : Save memory data
+Collect time : [04-36-23]  Received tiem : [04-36-24][04-36-24] : Save network data
+Collect time : [04-36-23]  Received tiem : [04-36-24][04-36-24] : Save cpu data
+Collect time : [04-36-23]  Received tiem : [04-36-24][04-36-24] : Save process data
+Collect time : [04-36-24]  Received tiem : [04-36-25][04-36-25] : Save memory data
+Collect time : [04-36-25]  Received tiem : [04-36-25][04-36-25] : Save network data
+Collect time : [04-36-25]  Received tiem : [04-36-25][04-36-25] : Save cpu data
+Collect time : [04-36-25]  Received tiem : [04-36-25][04-36-25] : Save process data
+Collect time : [04-36-26]  Received tiem : [04-36-26][04-36-26] : Save memory data
+Collect time : [04-36-26]  Received tiem : [04-36-26][04-36-26] : Save network data
+Collect time : [04-36-26]  Received tiem : [04-36-26][04-36-26] : Save cpu data
+Collect time : [04-36-26]  Received tiem : [04-36-26][04-36-26] : Save process data
+Collect time : [04-36-27]  Received tiem : [04-36-27][04-36-27] : Save memory data
+Collect time : [04-36-27]  Received tiem : [04-36-27][04-36-27] : Save network data
+Collect time : [04-36-27]  Received tiem : [04-36-27][04-36-27] : Save cpu data
+Collect time : [04-36-27]  Received tiem : [04-36-27][04-36-27] : Save process data
+Collect time : [04-36-28]  Received tiem : [04-36-28][04-36-28] : Save memory data
+Collect time : [04-36-28]  Received tiem : [04-36-28][04-36-28] : Save network data
+Collect time : [04-36-28]  Received tiem : [04-36-28][04-36-28] : Save cpu data
+Collect time : [04-36-28]  Received tiem : [04-36-28][04-36-28] : Save process data
+Collect time : [04-36-29]  Received tiem : [04-36-29][04-36-29] : Save memory data
+Collect time : [04-36-29]  Received tiem : [04-36-29][04-36-29] : Save network data
+Collect time : [04-36-29]  Received tiem : [04-36-29][04-36-29] : Save cpu data
+Collect time : [04-36-29]  Received tiem : [04-36-29][04-36-29] : Save process data
+Collect time : [04-36-30]  Received tiem : [04-36-30][04-36-30] : Save memory data
+Collect time : [04-36-30]  Received tiem : [04-36-30][04-36-30] : Save network data
+Collect time : [04-36-30]  Received tiem : [04-36-30][04-36-30] : Save cpu data
+Collect time : [04-36-30]  Received tiem : [04-36-30][04-36-30] : Save process data
+Collect time : [04-36-31]  Received tiem : [04-36-31][04-36-31] : Save memory data
+Collect time : [04-36-31]  Received tiem : [04-36-31][04-36-31] : Save network data
+Collect time : [04-36-31]  Received tiem : [04-36-31][04-36-31] : Save cpu data
+Collect time : [04-36-31]  Received tiem : [04-36-31][04-36-31] : Save process data
+Collect time : [04-36-32]  Received tiem : [04-36-32][04-36-32] : Save memory data
+Collect time : [04-36-32]  Received tiem : [04-36-32][04-36-32] : Save network data
+Collect time : [04-36-32]  Received tiem : [04-36-32][04-36-32] : Save cpu data
+Collect time : [04-36-32]  Received tiem : [04-36-32][04-36-32] : Save process data
+Collect time : [04-36-33]  Received tiem : [04-36-33][04-36-33] : Save memory data
+Collect time : [04-36-33]  Received tiem : [04-36-33][04-36-33] : Save network data
+Collect time : [04-36-33]  Received tiem : [04-36-33][04-36-33] : Save cpu data
+Collect time : [04-36-33]  Received tiem : [04-36-33][04-36-33] : Save process data
+Collect time : [04-36-34]  Received tiem : [04-36-34][04-36-34] : Save memory data
+Collect time : [04-36-34]  Received tiem : [04-36-34][04-36-34] : Save network data
+Collect time : [04-36-34]  Received tiem : [04-36-34][04-36-34] : Save cpu data
+Collect time : [04-36-34]  Received tiem : [04-36-34][04-36-34] : Save process data
+Collect time : [04-36-35]  Received tiem : [04-36-35][04-36-35] : Save memory data
+Collect time : [04-36-35]  Received tiem : [04-36-35][04-36-35] : Save network data
+Collect time : [04-36-35]  Received tiem : [04-36-35][04-36-35] : Save cpu data
+Collect time : [04-36-35]  Received tiem : [04-36-35][04-36-35] : Save process data
+Collect time : [04-36-36]  Received tiem : [04-36-36][04-36-36] : Save memory data
+Collect time : [04-36-36]  Received tiem : [04-36-36][04-36-36] : Save network data
+Collect time : [04-36-36]  Received tiem : [04-36-36][04-36-36] : Save cpu data
+Collect time : [04-36-36]  Received tiem : [04-36-36][04-36-36] : Save process data
+Collect time : [04-36-37]  Received tiem : [04-36-37][04-36-37] : Save memory data
+Collect time : [04-36-37]  Received tiem : [04-36-37][04-36-37] : Save network data
+Collect time : [04-36-37]  Received tiem : [04-36-37][04-36-37] : Save cpu data
+Collect time : [04-36-37]  Received tiem : [04-36-37][04-36-37] : Save process data
+Collect time : [04-36-38]  Received tiem : [04-36-38][04-36-38] : Save memory data
+Collect time : [04-36-38]  Received tiem : [04-36-38][04-36-38] : Save network data
+Collect time : [04-36-38]  Received tiem : [04-36-38][04-36-38] : Save cpu data
+Collect time : [04-36-38]  Received tiem : [04-36-38][04-36-38] : Save process data
+Collect time : [04-36-39]  Received tiem : [04-36-39][04-36-39] : Save memory data
+Collect time : [04-36-39]  Received tiem : [04-36-39][04-36-39] : Save network data
+Collect time : [04-36-39]  Received tiem : [04-36-39][04-36-39] : Save cpu data
+Collect time : [04-36-39]  Received tiem : [04-36-39][04-36-39] : Save process data
+----------------------------------------------------------------------
+[04-43-45] : receive thread created, waiting. . .
+[04-43-45] : receive thread created, waiting. . .
+[04-43-45] : receive thread created, waiting. . .
+[04-43-45] : worker thread created, waiting. . .
+[04-43-45] : worker thread created, waiting. . .
+[04-43-45] : worker thread created, waiting. . .
+[04-43-49] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 51343
+
+[04-43-49] : worker thread start working
+[04-43-52] : Save memory data
+[04-43-52] : Save network data
+[04-43-52] : Save cpu data
+[04-43-53] : Save process data
+[04-43-53] : Save memory data
+[04-43-53] : Save network data
+[04-43-53] : Save cpu data
+[04-43-53] : Save process data
+[04-43-53] : Save memory data
+[04-43-53] : Save network data
+[04-43-53] : Save cpu data
+[04-43-53] : Save process data
+[04-43-53] : Save memory data
+[04-43-53] : Save network data
+[04-43-53] : Save cpu data
+[04-43-53] : Save process data
+[04-43-54] : Save memory data
+[04-43-54] : Save network data
+[04-43-54] : Save cpu data
+[04-43-54] : Save process data
+[04-43-55] : Save memory data
+[04-43-55] : Save network data
+[04-43-55] : Save cpu data
+[04-43-55] : Save process data
+[04-43-56] : Save memory data
+[04-43-56] : Save network data
+[04-43-56] : Save cpu data
+[04-43-56] : Save process data
+[04-43-57] : Save memory data
+[04-43-57] : Save network data
+[04-43-57] : Save cpu data
+[04-43-57] : Save process data
+[04-43-58] : Save memory data
+[04-43-58] : Save network data
+[04-43-58] : Save cpu data
+[04-43-58] : Save process data
+[04-43-59] : Save memory data
+[04-43-59] : Save network data
+[04-43-59] : Save cpu data
+[04-43-59] : Save process data
+[04-44-00] : Save memory data
+[04-44-00] : Save network data
+[04-44-00] : Save cpu data
+[04-44-00] : Save process data
+[04-44-01] : Save memory data
+[04-44-01] : Save network data
+[04-44-01] : Save cpu data
+[04-44-01] : Save process data
+[04-44-02] : Save memory data
+[04-44-02] : Save network data
+[04-44-02] : Save cpu data
+[04-44-02] : Save process data
+[04-44-03] : Save memory data
+[04-44-03] : Save network data
+[04-44-03] : Save cpu data
+[04-44-03] : Save process data
+[04-44-04] : Save memory data
+[04-44-04] : Save network data
+[04-44-04] : Save cpu data
+[04-44-04] : Save process data
+[04-44-05] : Save memory data
+[04-44-05] : Save network data
+[04-44-05] : Save cpu data
+[04-44-05] : Save process data
+[04-44-06] : Save memory data
+[04-44-06] : Save network data
+[04-44-06] : Save cpu data
+[04-44-06] : Save process data
+[04-44-07] : Save memory data
+[04-44-07] : Save network data
+[04-44-07] : Save cpu data
+[04-44-07] : Save process data
+[04-44-08] : Save memory data
+[04-44-08] : Save network data
+[04-44-08] : Save cpu data
+[04-44-08] : Save process data
+[04-44-09] : Save memory data
+[04-44-09] : Save network data
+[04-44-09] : Save cpu data
+[04-44-09] : Save process data
+[04-44-10] : Save memory data
+[04-44-10] : Save network data
+[04-44-10] : Save cpu data
+[04-44-10] : Save process data
+[04-44-11] : Save memory data
+[04-44-11] : Save network data
+[04-44-11] : Save cpu data
+[04-44-11] : Save process data
+[04-44-12] : Save memory data
+[04-44-12] : Save network data
+[04-44-12] : Save cpu data
+[04-44-12] : Save process data
+[04-44-13] : Save memory data
+[04-44-13] : Save network data
+[04-44-13] : Save cpu data
+[04-44-13] : Save process data
+[04-44-14] : Save memory data
+[04-44-14] : Save network data
+[04-44-14] : Save cpu data
+[04-44-14] : Save process data
+[04-44-15] : Save memory data
+[04-44-15] : Save network data
+[04-44-15] : Save cpu data
+[04-44-15] : Save process data
+[04-44-16] : Save memory data
+[04-44-16] : Save network data
+[04-44-16] : Save cpu data
+[04-44-16] : Save process data
+[04-44-17] : Save memory data
+[04-44-17] : Save network data
+[04-44-17] : Save cpu data
+[04-44-17] : Save process data
+[04-44-18] : Save memory data
+[04-44-18] : Save network data
+[04-44-18] : Save cpu data
+[04-44-18] : Save process data
+----------------------------------------------------------------------
+[04-56-07] : receive thread created, waiting. . .
+[04-56-07] : receive thread created, waiting. . .
+[04-56-07] : receive thread created, waiting. . .
+[04-56-07] : worker thread created, waiting. . .
+[04-56-07] : worker thread created, waiting. . .
+[04-56-07] : worker thread created, waiting. . .
+[04-56-11] : worker thread start working
+[04-56-11] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 55953
+
+[04-56-14] : Save memory data from 66
+
+[04-56-14] : Save network data from 66
+
+[04-56-14] : Save cpu data from 66
+
+[04-56-14] : Save process data from 66
+
+[04-56-14] : Save memory data from 66
+
+[04-56-14] : Save network data from 66
+
+[04-56-14] : Save cpu data from 66
+
+[04-56-14] : Save process data from 66
+
+[04-56-14] : Save memory data from 66
+
+[04-56-14] : Save network data from 66
+
+[04-56-14] : Save cpu data from 66
+
+[04-56-14] : Save process data from 66
+
+[04-56-14] : Save memory data from 66
+
+[04-56-14] : Save network data from 66
+
+[04-56-14] : Save cpu data from 66
+
+[04-56-14] : Save process data from 66
+
+[04-56-15] : Save memory data from 66
+
+[04-56-15] : Save network data from 66
+
+[04-56-15] : Save cpu data from 66
+
+[04-56-15] : Save process data from 66
+
+[04-56-16] : Save memory data from 66
+
+[04-56-16] : Save network data from 66
+
+[04-56-16] : Save cpu data from 66
+
+[04-56-16] : Save process data from 66
+
+[04-56-17] : Save memory data from 66
+
+[04-56-17] : Save network data from 66
+
+[04-56-17] : Save cpu data from 66
+
+[04-56-17] : Save process data from 66
+
+[04-56-18] : Save memory data from 66
+
+[04-56-18] : Save network data from 66
+
+[04-56-18] : Save cpu data from 66
+
+[04-56-18] : Save process data from 66
+
+[04-56-19] : Save memory data from 66
+
+[04-56-19] : Save network data from 66
+
+[04-56-19] : Save cpu data from 66
+
+[04-56-19] : Save process data from 66
+
+[04-56-20] : Save memory data from 66
+
+[04-56-20] : Save network data from 66
+
+[04-56-20] : Save cpu data from 66
+
+[04-56-20] : Save process data from 66
+
+[04-56-21] : Save memory data from 66
+
+[04-56-21] : Save network data from 66
+
+[04-56-21] : Save cpu data from 66
+
+[04-56-21] : Save process data from 66
+
+[04-56-22] : Save memory data from 66
+
+[04-56-22] : Save network data from 66
+
+[04-56-22] : Save cpu data from 66
+
+[04-56-22] : Save process data from 66
+
+[04-56-23] : Save memory data from 66
+
+[04-56-23] : Save network data from 66
+
+[04-56-23] : Save cpu data from 66
+
+[04-56-23] : Save process data from 66
+
+[04-56-24] : Save memory data from 66
+
+[04-56-24] : Save network data from 66
+
+[04-56-24] : Save cpu data from 66
+
+[04-56-24] : Save process data from 66
+
+[04-56-25] : Save memory data from 66
+
+[04-56-25] : Save network data from 66
+
+[04-56-25] : Save cpu data from 66
+
+[04-56-25] : Save process data from 66
+
+[04-56-26] : Save memory data from 66
+
+[04-56-26] : Save network data from 66
+
+[04-56-26] : Save cpu data from 66
+
+[04-56-26] : Save process data from 66
+
+[04-56-27] : Save memory data from 66
+
+[04-56-27] : Save network data from 66
+
+[04-56-27] : Save cpu data from 66
+
+[04-56-27] : Save process data from 66
+
+[04-56-28] : Save memory data from 66
+
+[04-56-28] : Save network data from 66
+
+[04-56-28] : Save cpu data from 66
+
+[04-56-28] : Save process data from 66
+
+[04-56-29] : Save memory data from 66
+
+[04-56-29] : Save network data from 66
+
+[04-56-29] : Save cpu data from 66
+
+[04-56-29] : Save process data from 66
+
+[04-56-30] : Save memory data from 66
+
+[04-56-30] : Save network data from 66
+
+[04-56-30] : Save cpu data from 66
+
+[04-56-31] : Save process data from 66
+
+[04-56-31] : Save memory data from 66
+
+[04-56-31] : Save network data from 66
+
+[04-56-32] : Save cpu data from 66
+
+[04-56-32] : Save process data from 66
+
+[04-56-32] : Save memory data from 66
+
+[04-56-33] : Save network data from 66
+
+[04-56-33] : Save cpu data from 66
+
+[04-56-33] : Save process data from 66
+
+[04-56-33] : Save memory data from 66
+
+[04-56-34] : Save network data from 66
+
+[04-56-34] : Save cpu data from 66
+
+[04-56-34] : Save process data from 66
+
+[04-56-35] : Save memory data from 66
+
+[04-56-35] : Save network data from 66
+
+[04-56-35] : Save cpu data from 66
+
+[04-56-35] : Save process data from 66
+
+[04-56-36] : Save memory data from 66
+
+[04-56-36] : Save network data from 66
+
+[04-56-36] : Save cpu data from 66
+
+[04-56-36] : Save process data from 66
+
+[04-56-37] : Save memory data from 66
+
+[04-56-37] : Save network data from 66
+
+[04-56-37] : Save cpu data from 66
+
+[04-56-37] : Save process data from 66
+
+[04-56-38] : Save memory data from 66
+
+[04-56-38] : Save network data from 66
+
+[04-56-38] : Save cpu data from 66
+
+[04-56-38] : Save process data from 66
+
+[04-56-39] : Save memory data from 66
+
+[04-56-39] : Save network data from 66
+
+[04-56-39] : Save cpu data from 66
+
+[04-56-39] : Save process data from 66
+
+[04-56-40] : Save memory data from 66
+
+[04-56-40] : Save network data from 66
+
+[04-56-40] : Save cpu data from 66
+
+[04-56-40] : Save process data from 66
+
+[04-56-41] : Save memory data from 66
+
+[04-56-41] : Save network data from 66
+
+[04-56-41] : Save cpu data from 66
+
+[04-56-41] : Save process data from 66
+
+[04-56-42] : Save memory data from 66
+
+[04-56-42] : Save network data from 66
+
+[04-56-42] : Save cpu data from 66
+
+[04-56-42] : Save process data from 66
+
+[04-56-43] : Save memory data from 66
+
+[04-56-43] : Save network data from 66
+
+[04-56-43] : Save cpu data from 66
+
+[04-56-43] : Save process data from 66
+
+[04-56-44] : Save memory data from 66
+
+[04-56-44] : Save network data from 66
+
+[04-56-44] : Save cpu data from 66
+
+[04-56-44] : Save process data from 66
+
+[04-56-45] : Save memory data from 66
+
+[04-56-45] : Save network data from 66
+
+[04-56-45] : Save cpu data from 66
+
+[04-56-45] : Save process data from 66
+
+[04-56-46] : Save memory data from 66
+
+[04-56-46] : Save network data from 66
+
+[04-56-46] : Save cpu data from 66
+
+[04-56-46] : Save process data from 66
+
+[04-56-47] : Save memory data from 66
+
+[04-56-47] : Save network data from 66
+
+[04-56-47] : Save cpu data from 66
+
+[04-56-47] : Save process data from 66
+
+[04-56-48] : Save memory data from 66
+
+[04-56-48] : Save network data from 66
+
+[04-56-48] : Save cpu data from 66
+
+[04-56-48] : Save process data from 66
+
+[04-56-49] : Save memory data from 66
+
+[04-56-49] : Save network data from 66
+
+[04-56-49] : Save cpu data from 66
+
+[04-56-49] : Save process data from 66
+
+[04-56-50] : Zero byte left to receive
+[09-58-26] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 56465
+
+[09-58-29] : Save memory data from 11
+
+[09-58-29] : Save network data from 11
+
+[09-58-29] : Save cpu data from 11
+
+[09-58-29] : Save process data from 11
+
+[09-58-29] : Save memory data from 11
+
+[09-58-29] : Save network data from 11
+
+[09-58-29] : Save cpu data from 11
+
+[09-58-29] : Save process data from 11
+
+[09-58-29] : Save memory data from 11
+
+[09-58-29] : Save network data from 11
+
+[09-58-29] : Save cpu data from 11
+
+[09-58-29] : Save process data from 11
+
+[09-58-29] : Save memory data from 11
+
+[09-58-29] : Save network data from 11
+
+[09-58-29] : Save cpu data from 11
+
+[09-58-29] : Save process data from 11
+
+[09-58-30] : Save memory data from 11
+
+[09-58-30] : Save network data from 11
+
+[09-58-30] : Save cpu data from 11
+
+[09-58-30] : Save process data from 11
+
+[09-58-31] : Save memory data from 11
+
+[09-58-31] : Save network data from 11
+
+[09-58-31] : Save cpu data from 11
+
+[09-58-31] : Save process data from 11
+
+[09-58-32] : Save memory data from 11
+
+[09-58-32] : Save network data from 11
+
+[09-58-32] : Save cpu data from 11
+
+[09-58-32] : Save process data from 11
+
+[09-58-33] : Save memory data from 11
+
+[09-58-33] : Save network data from 11
+
+[09-58-33] : Save cpu data from 11
+
+[09-58-33] : Save process data from 11
+
+[09-58-34] : Save memory data from 11
+
+[09-58-34] : Save network data from 11
+
+[09-58-34] : Save cpu data from 11
+
+[09-58-34] : Save process data from 11
+
+[09-58-35] : Save memory data from 11
+
+[09-58-35] : Save network data from 11
+
+[09-58-35] : Save cpu data from 11
+
+[09-58-35] : Save process data from 11
+
+[09-58-36] : Save memory data from 11
+
+[09-58-36] : Save network data from 11
+
+[09-58-36] : Save cpu data from 11
+
+[09-58-36] : Save process data from 11
+
+[09-58-37] : Save memory data from 11
+
+[09-58-37] : Save network data from 11
+
+[09-58-37] : Save cpu data from 11
+
+[09-58-37] : Save process data from 11
+
+[09-58-38] : Save memory data from 11
+
+[09-58-38] : Save network data from 11
+
+[09-58-38] : Save cpu data from 11
+
+[09-58-38] : Save process data from 11
+
+[09-58-39] : Save memory data from 11
+
+[09-58-39] : Save network data from 11
+
+[09-58-39] : Save cpu data from 11
+
+[09-58-39] : Save process data from 11
+
+[09-58-40] : Save memory data from 11
+
+[09-58-40] : Save network data from 11
+
+[09-58-40] : Save cpu data from 11
+
+[09-58-40] : Save process data from 11
+
+[09-58-41] : Save memory data from 11
+
+[09-58-41] : Save network data from 11
+
+[09-58-41] : Save cpu data from 11
+
+[09-58-41] : Save process data from 11
+
+[09-58-42] : Save memory data from 11
+
+[09-58-42] : Save network data from 11
+
+[09-58-42] : Save cpu data from 11
+
+[09-58-42] : Save process data from 11
+
+[09-58-43] : Save memory data from 11
+
+[09-58-43] : Save network data from 11
+
+[09-58-43] : Save cpu data from 11
+
+[09-58-43] : Save process data from 11
+
+[09-58-44] : Save memory data from 11
+
+[09-58-44] : Save network data from 11
+
+[09-58-44] : Save cpu data from 11
+
+[09-58-44] : Save process data from 11
+
+[09-58-45] : Save memory data from 11
+
+[09-58-45] : Save network data from 11
+
+[09-58-45] : Save cpu data from 11
+
+[09-58-45] : Save process data from 11
+
+[09-58-46] : Save memory data from 11
+
+[09-58-46] : Save network data from 11
+
+[09-58-46] : Save cpu data from 11
+
+[09-58-46] : Save process data from 11
+
+[09-58-47] : Save memory data from 11
+
+[09-58-47] : Save network data from 11
+
+[09-58-47] : Save cpu data from 11
+
+[09-58-47] : Save process data from 11
+
+[09-58-48] : Save memory data from 11
+
+[09-58-48] : Save network data from 11
+
+[09-58-48] : Save cpu data from 11
+
+[09-58-48] : Save process data from 11
+
+[09-58-49] : Save memory data from 11
+
+[09-58-49] : Save network data from 11
+
+[09-58-49] : Save cpu data from 11
+
+[09-58-49] : Save process data from 11
+
+[09-58-50] : Save memory data from 11
+
+[09-58-50] : Save network data from 11
+
+[09-58-50] : Save cpu data from 11
+
+[09-58-50] : Save process data from 11
+
+[09-58-51] : Save memory data from 11
+
+[09-58-51] : Save network data from 11
+
+[09-58-51] : Save cpu data from 11
+
+[09-58-51] : Save process data from 11
+
+[09-58-52] : Save memory data from 11
+
+[09-58-52] : Save network data from 11
+
+[09-58-52] : Save cpu data from 11
+
+[09-58-52] : Save process data from 11
+
+[09-58-53] : Save memory data from 11
+
+[09-58-53] : Save network data from 11
+
+[09-58-53] : Save cpu data from 11
+
+[09-58-53] : Save process data from 11
+
+[09-58-54] : Save memory data from 11
+
+[09-58-54] : Save network data from 11
+
+[09-58-54] : Save cpu data from 11
+
+[09-58-54] : Save process data from 11
+
+[09-58-55] : Save memory data from 11
+
+[09-58-55] : Save network data from 11
+
+[09-58-55] : Save cpu data from 11
+
+[09-58-55] : Save process data from 11
+
+[09-58-56] : Save memory data from 11
+
+[09-58-56] : Save network data from 11
+
+[09-58-56] : Save cpu data from 11
+
+[09-58-56] : Save process data from 11
+
+[09-58-57] : Save memory data from 11
+
+[09-58-57] : Save network data from 11
+
+[09-58-57] : Save cpu data from 11
+
+[09-58-57] : Save process data from 11
+
+[09-58-58] : Save memory data from 11
+
+[09-58-58] : Save network data from 11
+
+[09-58-58] : Save cpu data from 11
+
+[09-58-58] : Save process data from 11
+
+[09-58-59] : Save memory data from 11
+
+[09-58-59] : Save network data from 11
+
+[09-58-59] : Save cpu data from 11
+
+[09-58-59] : Save process data from 11
+
+[09-59-00] : Save memory data from 11
+
+[09-59-00] : Save network data from 11
+
+[09-59-00] : Save cpu data from 11
+
+[09-59-00] : Save process data from 11
+
+[09-59-01] : Save memory data from 11
+
+[09-59-01] : Save network data from 11
+
+[09-59-01] : Save cpu data from 11
+
+[09-59-01] : Save process data from 11
+
+[09-59-02] : Save memory data from 11
+
+[09-59-02] : Save network data from 11
+
+[09-59-02] : Save cpu data from 11
+
+[09-59-02] : Save process data from 11
+
+[09-59-03] : Save memory data from 11
+
+[09-59-03] : Save network data from 11
+
+[09-59-03] : Save cpu data from 11
+
+[09-59-03] : Save process data from 11
+
+[09-59-04] : Save memory data from 11
+
+[09-59-04] : Save network data from 11
+
+[09-59-04] : Save cpu data from 11
+
+[09-59-04] : Save process data from 11
+
+[09-59-05] : Save memory data from 11
+
+[09-59-05] : Save network data from 11
+
+[09-59-05] : Save cpu data from 11
+
+[09-59-05] : Save process data from 11
+
+[09-59-06] : Save memory data from 11
+
+[09-59-06] : Save network data from 11
+
+[09-59-06] : Save cpu data from 11
+
+[09-59-06] : Save process data from 11
+
+[09-59-07] : Save memory data from 11
+
+[09-59-07] : Save network data from 11
+
+[09-59-07] : Save cpu data from 11
+
+[09-59-07] : Save process data from 11
+
+[09-59-08] : Save memory data from 11
+
+[09-59-08] : Save network data from 11
+
+[09-59-08] : Save cpu data from 11
+
+[09-59-08] : Save process data from 11
+
+[09-59-09] : Save memory data from 11
+
+[09-59-09] : Save network data from 11
+
+[09-59-09] : Save cpu data from 11
+
+[09-59-09] : Save process data from 11
+
+[09-59-10] : Save memory data from 11
+
+[09-59-10] : Save network data from 11
+
+[09-59-10] : Save cpu data from 11
+
+[09-59-10] : Save process data from 11
+
+[09-59-11] : Save memory data from 11
+
+[09-59-11] : Save network data from 11
+
+[09-59-11] : Save cpu data from 11
+
+[09-59-11] : Save process data from 11
+
+[09-59-12] : Save memory data from 11
+
+[09-59-12] : Save network data from 11
+
+[09-59-12] : Save cpu data from 11
+
+[09-59-12] : Save process data from 11
+
+[09-59-13] : Save memory data from 11
+
+[09-59-13] : Save network data from 11
+
+[09-59-13] : Save cpu data from 11
+
+[09-59-13] : Save process data from 11
+
+[09-59-14] : Save memory data from 11
+
+[09-59-14] : Save network data from 11
+
+[09-59-14] : Save cpu data from 11
+
+[09-59-14] : Save process data from 11
+
+[09-59-15] : Save memory data from 11
+
+[09-59-15] : Save network data from 11
+
+[09-59-15] : Save cpu data from 11
+
+[09-59-15] : Save process data from 11
+
+[09-59-16] : Save memory data from 11
+
+[09-59-16] : Save network data from 11
+
+[09-59-16] : Save cpu data from 11
+
+[09-59-16] : Save process data from 11
+
+[09-59-17] : Save memory data from 11
+
+[09-59-17] : Save network data from 11
+
+[09-59-17] : Save cpu data from 11
+
+[09-59-17] : Save process data from 11
+
+[09-59-18] : Save memory data from 11
+
+[09-59-18] : Save network data from 11
+
+[09-59-18] : Save cpu data from 11
+
+[09-59-18] : Save process data from 11
+
+[09-59-19] : Save memory data from 11
+
+[09-59-19] : Save network data from 11
+
+[09-59-19] : Save cpu data from 11
+
+[09-59-19] : Save process data from 11
+
+[09-59-20] : Save memory data from 11
+
+[09-59-20] : Save network data from 11
+
+[09-59-20] : Save cpu data from 11
+
+[09-59-20] : Save process data from 11
+
+[09-59-21] : Save memory data from 11
+
+[09-59-21] : Save network data from 11
+
+[09-59-21] : Save cpu data from 11
+
+[09-59-21] : Save process data from 11
+
+[09-59-22] : Save memory data from 11
+
+[09-59-22] : Save network data from 11
+
+[09-59-22] : Save cpu data from 11
+
+[09-59-22] : Save process data from 11
+
+[09-59-23] : Save memory data from 11
+
+[09-59-23] : Save network data from 11
+
+[09-59-23] : Save cpu data from 11
+
+[09-59-23] : Save process data from 11
+
+[09-59-24] : Save memory data from 11
+
+[09-59-24] : Save network data from 11
+
+[09-59-24] : Save cpu data from 11
+
+[09-59-24] : Save process data from 11
+
+[09-59-25] : Save memory data from 11
+
+[09-59-25] : Save network data from 11
+
+[09-59-25] : Save cpu data from 11
+
+[09-59-25] : Save process data from 11
+
+[09-59-26] : Save memory data from 11
+
+[09-59-26] : Save network data from 11
+
+[09-59-27] : Save cpu data from 11
+
+[09-59-27] : Save process data from 11
+
+[09-59-27] : Save memory data from 11
+
+[09-59-28] : Save network data from 11
+
+[09-59-28] : Save cpu data from 11
+
+[09-59-28] : Save process data from 11
+
+[09-59-28] : Save memory data from 11
+
+[09-59-29] : Save network data from 11
+
+[09-59-29] : Save cpu data from 11
+
+[09-59-29] : Save process data from 11
+
+[09-59-30] : Save memory data from 11
+
+[09-59-30] : Save network data from 11
+
+[09-59-30] : Save cpu data from 11
+
+[09-59-30] : Save process data from 11
+
+[09-59-31] : Save memory data from 11
+
+[09-59-31] : Save network data from 11
+
+[09-59-31] : Save cpu data from 11
+
+[09-59-31] : Save process data from 11
+
+[09-59-32] : Save memory data from 11
+
+[09-59-32] : Save network data from 11
+
+[09-59-32] : Save cpu data from 11
+
+[09-59-32] : Save process data from 11
+
+[09-59-33] : Save memory data from 11
+
+[09-59-33] : Save network data from 11
+
+[09-59-33] : Save cpu data from 11
+
+[09-59-33] : Save process data from 11
+
+[09-59-34] : Save memory data from 11
+
+[09-59-34] : Save network data from 11
+
+[09-59-34] : Save cpu data from 11
+
+[09-59-34] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 56977
+
+[09-59-34] : Save process data from 11
+
+[09-59-34] : Zero byte left to receive
+[09-59-35] : Save memory data from 11
+
+[09-59-35] : Save network data from 11
+
+[09-59-35] : Save cpu data from 11
+
+[09-59-35] : Save process data from 11
+
+[09-59-36] : Save memory data from 11
+
+[09-59-36] : Save network data from 11
+
+[09-59-36] : Save cpu data from 11
+
+[09-59-36] : Save process data from 11
+
+[09-59-37] : Save memory data from 11
+
+[09-59-37] : Save network data from 11
+
+[09-59-37] : Save cpu data from 11
+
+[09-59-37] : Save process data from 11
+
+[09-59-38] : Save memory data from 11
+
+[09-59-38] : Save network data from 11
+
+[09-59-38] : Save cpu data from 11
+
+[09-59-38] : Save process data from 11
+
+[09-59-39] : Save memory data from 11
+
+[09-59-39] : Save network data from 11
+
+[09-59-39] : Save cpu data from 11
+
+[09-59-39] : Save process data from 11
+
+[09-59-40] : Save memory data from 11
+
+[09-59-40] : Save network data from 11
+
+[09-59-40] : Save cpu data from 11
+
+[09-59-40] : Save process data from 11
+
+[09-59-41] : Save memory data from 11
+
+[09-59-41] : Save network data from 11
+
+[09-59-41] : Save cpu data from 11
+
+[09-59-41] : Save process data from 11
+
+[09-59-42] : Save memory data from 11
+
+[09-59-42] : Save network data from 11
+
+[09-59-42] : Save cpu data from 11
+
+[09-59-42] : Save process data from 11
+
+[09-59-43] : Save memory data from 11
+
+[09-59-43] : Save network data from 11
+
+[09-59-43] : Save cpu data from 11
+
+[09-59-43] : Save process data from 11
+
+[09-59-44] : Save memory data from 11
+
+[09-59-44] : Save network data from 11
+
+[09-59-44] : Save cpu data from 11
+
+[09-59-44] : Save process data from 11
+
+[09-59-45] : Save memory data from 11
+
+[09-59-45] : Save network data from 11
+
+[09-59-45] : Save cpu data from 11
+
+[09-59-45] : Save process data from 11
+
+[09-59-46] : Save memory data from 11
+
+[09-59-46] : Save network data from 11
+
+[09-59-46] : Save cpu data from 11
+
+[09-59-46] : Save process data from 11
+
+[09-59-47] : Save memory data from 11
+
+[09-59-47] : Save network data from 11
+
+[09-59-47] : Save cpu data from 11
+
+[09-59-47] : Save process data from 11
+
+[09-59-48] : Save memory data from 11
+
+[09-59-48] : Save network data from 11
+
+[09-59-48] : Save cpu data from 11
+
+[09-59-48] : Save process data from 11
+
+[09-59-49] : Save memory data from 11
+
+[09-59-49] : Save network data from 11
+
+[09-59-49] : Save cpu data from 11
+
+[09-59-49] : Save process data from 11
+
+[09-59-50] : Save memory data from 11
+
+[09-59-50] : Save network data from 11
+
+[09-59-50] : Save cpu data from 11
+
+[09-59-50] : Save process data from 11
+
+[09-59-51] : Save memory data from 11
+
+[09-59-51] : Save network data from 11
+
+[09-59-51] : Save cpu data from 11
+
+[09-59-51] : Save process data from 11
+
+[09-59-52] : Save memory data from 11
+
+[09-59-52] : Save network data from 11
+
+[09-59-52] : Save cpu data from 11
+
+[09-59-52] : Save process data from 11
+
+[09-59-53] : Save memory data from 11
+
+[09-59-53] : Save network data from 11
+
+[09-59-53] : Save cpu data from 11
+
+[09-59-53] : Save process data from 11
+
+[09-59-54] : Save memory data from 11
+
+[09-59-54] : Save network data from 11
+
+[09-59-54] : Save cpu data from 11
+
+[09-59-54] : Save process data from 11
+
+[09-59-55] : Save memory data from 11
+
+[09-59-55] : Save network data from 11
+
+[09-59-55] : Save cpu data from 11
+
+[09-59-55] : Save process data from 11
+
+[09-59-56] : Save memory data from 11
+
+[09-59-56] : Save network data from 11
+
+[09-59-56] : Save cpu data from 11
+
+[09-59-56] : Save process data from 11
+
+[09-59-57] : Save memory data from 11
+
+[09-59-57] : Save network data from 11
+
+[09-59-57] : Save cpu data from 11
+
+[09-59-57] : Save process data from 11
+
+[09-59-58] : Save memory data from 11
+
+[09-59-58] : Save network data from 11
+
+[09-59-58] : Save cpu data from 11
+
+[09-59-58] : Save process data from 11
+
+[09-59-59] : Save memory data from 11
+
+[09-59-59] : Save network data from 11
+
+[09-59-59] : Save cpu data from 11
+
+[09-59-59] : Save process data from 11
+
+[10-00-00] : Save memory data from 11
+
+[10-00-00] : Save network data from 11
+
+[10-00-00] : Save cpu data from 11
+
+[10-00-00] : Save process data from 11
+
+[10-00-01] : Save memory data from 11
+
+[10-00-01] : Save network data from 11
+
+[10-00-01] : Save cpu data from 11
+
+[10-00-01] : Save process data from 11
+
+[10-00-02] : Save memory data from 11
+
+[10-00-02] : Save network data from 11
+
+[10-00-02] : Save cpu data from 11
+
+[10-00-02] : Save process data from 11
+
+[10-00-03] : Save memory data from 11
+
+[10-00-03] : Save network data from 11
+
+[10-00-03] : Save cpu data from 11
+
+[10-00-03] : Save process data from 11
+
+[10-00-11] : Save memory data from 11
+
+[10-00-11] : Save network data from 11
+
+[10-00-11] : Save cpu data from 11
+
+[10-00-11] : Save process data from 11
+
+[10-00-11] : Save memory data from 11
+
+[10-00-11] : Save network data from 11
+
+[10-00-11] : Save cpu data from 11
+
+[10-00-11] : Save process data from 11
+
+[10-00-13] : Save memory data from 11
+
+[10-00-13] : Save network data from 11
+
+[10-00-13] : Save cpu data from 11
+
+[10-00-13] : Save process data from 11
+
+[10-00-14] : Save memory data from 11
+
+[10-00-14] : Save network data from 11
+
+[10-00-14] : Save cpu data from 11
+
+[10-00-14] : Save process data from 11
+
+[10-00-15] : Save memory data from 11
+
+[10-00-15] : Save network data from 11
+
+[10-00-15] : Save cpu data from 11
+
+[10-00-15] : Save process data from 11
+
+[10-00-16] : Save memory data from 11
+
+[10-00-16] : Save network data from 11
+
+[10-00-16] : Save cpu data from 11
+
+[10-00-16] : Save process data from 11
+
+[10-00-17] : Save memory data from 11
+
+[10-00-17] : Save network data from 11
+
+[10-00-17] : Save cpu data from 11
+
+[10-00-17] : Save process data from 11
+
+[10-00-18] : Save memory data from 11
+
+[10-00-18] : Save network data from 11
+
+[10-00-18] : Save cpu data from 11
+
+[10-00-18] : Save process data from 11
+
+[10-00-19] : Save memory data from 11
+
+[10-00-19] : Save network data from 11
+
+[10-00-19] : Save cpu data from 11
+
+[10-00-19] : Save process data from 11
+
+[10-00-20] : Save memory data from 11
+
+[10-00-20] : Save network data from 11
+
+[10-00-20] : Save cpu data from 11
+
+[10-00-20] : Save process data from 11
+
+[10-00-21] : Save memory data from 11
+
+[10-00-21] : Save network data from 11
+
+[10-00-21] : Save cpu data from 11
+
+[10-00-21] : Save process data from 11
+
+[10-00-22] : Save memory data from 11
+
+[10-00-22] : Save network data from 11
+
+[10-00-22] : Save cpu data from 11
+
+[10-00-22] : Save process data from 11
+
+[10-00-23] : Save memory data from 11
+
+[10-00-23] : Save network data from 11
+
+[10-00-23] : Save cpu data from 11
+
+[10-00-23] : Save process data from 11
+
+[10-00-24] : Save memory data from 11
+
+[10-00-24] : Save network data from 11
+
+[10-00-24] : Save cpu data from 11
+
+[10-00-24] : Save process data from 11
+
+[10-00-25] : Save memory data from 11
+
+[10-00-25] : Save network data from 11
+
+[10-00-25] : Save cpu data from 11
+
+[10-00-25] : Save process data from 11
+
+[10-00-26] : Save memory data from 11
+
+[10-00-26] : Save network data from 11
+
+[10-00-26] : Save cpu data from 11
+
+[10-00-26] : Save process data from 11
+
+[10-00-27] : Save memory data from 11
+
+[10-00-27] : Save network data from 11
+
+[10-00-27] : Save cpu data from 11
+
+[10-00-27] : Save process data from 11
+
+[10-00-28] : Save memory data from 11
+
+[10-00-28] : Save network data from 11
+
+[10-00-28] : Save cpu data from 11
+
+[10-00-28] : Save process data from 11
+
+[10-00-29] : Save memory data from 11
+
+[10-00-29] : Save network data from 11
+
+[10-00-29] : Save cpu data from 11
+
+[10-00-29] : Save process data from 11
+
+[10-00-30] : Save memory data from 11
+
+[10-00-30] : Save network data from 11
+
+[10-00-30] : Save cpu data from 11
+
+[10-00-30] : Save process data from 11
+
+[10-00-31] : Save memory data from 11
+
+[10-00-31] : Save network data from 11
+
+[10-00-31] : Save cpu data from 11
+
+[10-00-31] : Save process data from 11
+
+[10-00-32] : Save memory data from 11
+
+[10-00-32] : Save network data from 11
+
+[10-00-32] : Save cpu data from 11
+
+[10-00-32] : Save process data from 11
+
+[10-00-33] : Save memory data from 11
+
+[10-00-33] : Save network data from 11
+
+[10-00-33] : Save cpu data from 11
+
+[10-00-33] : Save process data from 11
+
+[10-00-34] : Save memory data from 11
+
+[10-00-34] : Save network data from 11
+
+[10-00-34] : Save cpu data from 11
+
+[10-00-34] : Save process data from 11
+
+[10-00-35] : Save memory data from 11
+
+[10-00-35] : Save network data from 11
+
+[10-00-35] : Save cpu data from 11
+
+[10-00-35] : Save process data from 11
+
+[10-00-36] : Save memory data from 11
+
+[10-00-36] : Save network data from 11
+
+[10-00-36] : Save cpu data from 11
+
+[10-00-36] : Save process data from 11
+
+[10-00-37] : Save memory data from 11
+
+[10-00-37] : Save network data from 11
+
+[10-00-37] : Save cpu data from 11
+
+[10-00-37] : Save process data from 11
+
+[10-00-38] : Save memory data from 11
+
+[10-00-38] : Save network data from 11
+
+[10-00-38] : Save cpu data from 11
+
+[10-00-38] : Save process data from 11
+
+[10-00-39] : Save memory data from 11
+
+[10-00-39] : Save network data from 11
+
+[10-00-39] : Save cpu data from 11
+
+[10-00-39] : Save process data from 11
+
+[10-00-40] : Save memory data from 11
+
+[10-00-40] : Save network data from 11
+
+[10-00-40] : Save cpu data from 11
+
+[10-00-40] : Save process data from 11
+
+[10-00-41] : Save memory data from 11
+
+[10-00-41] : Save network data from 11
+
+[10-00-41] : Save cpu data from 11
+
+[10-00-41] : Save process data from 11
+
+[10-00-42] : Save memory data from 11
+
+[10-00-42] : Save network data from 11
+
+[10-00-42] : Save cpu data from 11
+
+[10-00-42] : Save process data from 11
+
+[10-00-43] : Save memory data from 11
+
+[10-00-43] : Save network data from 11
+
+[10-00-43] : Save cpu data from 11
+
+[10-00-43] : Save process data from 11
+
+[10-00-44] : Save memory data from 11
+
+[10-00-44] : Save network data from 11
+
+[10-00-44] : Save cpu data from 11
+
+[10-00-44] : Save process data from 11
+
+[10-00-45] : Save memory data from 11
+
+[10-00-45] : Save network data from 11
+
+[10-00-45] : Save cpu data from 11
+
+[10-00-45] : Save process data from 11
+
+[10-00-46] : Save memory data from 11
+
+[10-00-46] : Save network data from 11
+
+[10-00-46] : Save cpu data from 11
+
+[10-00-46] : Save process data from 11
+
+[10-00-47] : Save memory data from 11
+
+[10-00-47] : Save network data from 11
+
+[10-00-47] : Save cpu data from 11
+
+[10-00-47] : Save process data from 11
+
+[10-00-48] : Save memory data from 11
+
+[10-00-48] : Save network data from 11
+
+[10-00-48] : Save cpu data from 11
+
+[10-00-48] : Save process data from 11
+
+[10-00-49] : Save memory data from 11
+
+[10-00-49] : Save network data from 11
+
+[10-00-49] : Save cpu data from 11
+
+[10-00-49] : Save process data from 11
+
+[10-00-50] : Save memory data from 11
+
+[10-00-50] : Save network data from 11
+
+[10-00-50] : Save cpu data from 11
+
+[10-00-50] : Save process data from 11
+
+[10-00-51] : Save memory data from 11
+
+[10-00-51] : Save network data from 11
+
+[10-00-51] : Save cpu data from 11
+
+[10-00-51] : Save process data from 11
+
+[10-00-52] : Save memory data from 11
+
+[10-00-52] : Save network data from 11
+
+[10-00-52] : Save cpu data from 11
+
+[10-00-52] : Save process data from 11
+
+[10-00-53] : Save memory data from 11
+
+[10-00-53] : Save network data from 11
+
+[10-00-53] : Save cpu data from 11
+
+[10-00-53] : Save process data from 11
+
+[10-00-54] : Save memory data from 11
+
+[10-00-54] : Save network data from 11
+
+[10-00-54] : Save cpu data from 11
+
+[10-00-54] : Save process data from 11
+
+[10-00-55] : Save memory data from 11
+
+[10-00-55] : Save network data from 11
+
+[10-00-55] : Save cpu data from 11
+
+[10-00-55] : Save process data from 11
+
+[10-00-56] : Save memory data from 11
+
+[10-00-56] : Save network data from 11
+
+[10-00-56] : Save cpu data from 11
+
+[10-00-56] : Save process data from 11
+
+[10-00-57] : Save memory data from 11
+
+[10-00-57] : Save network data from 11
+
+[10-00-57] : Save cpu data from 11
+
+[10-00-57] : Save process data from 11
+
+[10-00-58] : Save memory data from 11
+
+[10-00-58] : Save network data from 11
+
+[10-00-58] : Save cpu data from 11
+
+[10-00-58] : Save process data from 11
+
+[10-00-59] : Save memory data from 11
+
+[10-00-59] : Save network data from 11
+
+[10-00-59] : Save cpu data from 11
+
+[10-00-59] : Save process data from 11
+
+[10-01-00] : Save memory data from 11
+
+[10-01-00] : Save network data from 11
+
+[10-01-00] : Save cpu data from 11
+
+[10-01-00] : Save process data from 11
+
+[10-01-01] : Save memory data from 11
+
+[10-01-01] : Save network data from 11
+
+[10-01-01] : Save cpu data from 11
+
+[10-01-01] : Save process data from 11
+
+[10-01-02] : Save memory data from 11
+
+[10-01-02] : Save network data from 11
+
+[10-01-02] : Save cpu data from 11
+
+[10-01-02] : Save process data from 11
+
+[10-01-03] : Save memory data from 11
+
+[10-01-03] : Save network data from 11
+
+[10-01-03] : Save cpu data from 11
+
+[10-01-03] : Save process data from 11
+
+[10-01-04] : Save memory data from 11
+
+[10-01-04] : Save network data from 11
+
+[10-01-04] : Save cpu data from 11
+
+[10-01-04] : Save process data from 11
+
+[10-01-05] : Save memory data from 11
+
+[10-01-05] : Save network data from 11
+
+[10-01-05] : Save cpu data from 11
+
+[10-01-05] : Save process data from 11
+
+[10-01-06] : Save memory data from 11
+
+[10-01-06] : Save network data from 11
+
+[10-01-06] : Save cpu data from 11
+
+[10-01-06] : Save process data from 11
+
+[10-01-07] : Save memory data from 11
+
+[10-01-07] : Save network data from 11
+
+[10-01-07] : Save cpu data from 11
+
+[10-01-07] : Save process data from 11
+
+[10-01-08] : Save memory data from 11
+
+[10-01-08] : Save network data from 11
+
+[10-01-08] : Save cpu data from 11
+
+[10-01-08] : Save process data from 11
+
+[10-01-09] : Save memory data from 11
+
+[10-01-09] : Save network data from 11
+
+[10-01-09] : Save cpu data from 11
+
+[10-01-09] : Save process data from 11
+
+[10-01-10] : Save memory data from 11
+
+[10-01-10] : Save network data from 11
+
+[10-01-10] : Save cpu data from 11
+
+[10-01-10] : Save process data from 11
+
+[10-01-11] : Save memory data from 11
+
+[10-01-11] : Save network data from 11
+
+[10-01-11] : Save cpu data from 11
+
+[10-01-11] : Save process data from 11
+
+[10-01-12] : Save memory data from 11
+
+[10-01-12] : Save network data from 11
+
+[10-01-12] : Save cpu data from 11
+
+[10-01-12] : Save process data from 11
+
+[10-01-13] : Save memory data from 11
+
+[10-01-13] : Save network data from 11
+
+[10-01-13] : Save cpu data from 11
+
+[10-01-13] : Save process data from 11
+
+[10-01-14] : Save memory data from 11
+
+[10-01-14] : Save network data from 11
+
+[10-01-14] : Save cpu data from 11
+
+[10-01-14] : Save process data from 11
+
+[10-01-15] : Save memory data from 11
+
+[10-01-15] : Save network data from 11
+
+[10-01-15] : Save cpu data from 11
+
+[10-01-15] : Save process data from 11
+
+[10-01-16] : Save memory data from 11
+
+[10-01-16] : Save network data from 11
+
+[10-01-16] : Save cpu data from 11
+
+[10-01-16] : Save process data from 11
+
+[10-01-17] : Save memory data from 11
+
+[10-01-17] : Save network data from 11
+
+[10-01-17] : Save cpu data from 11
+
+[10-01-17] : Save process data from 11
+
+[10-01-18] : Save memory data from 11
+
+[10-01-18] : Save network data from 11
+
+[10-01-18] : Save cpu data from 11
+
+[10-01-18] : Save process data from 11
+
+[10-01-19] : Save memory data from 11
+
+[10-01-19] : Save network data from 11
+
+[10-01-19] : Save cpu data from 11
+
+[10-01-19] : Save process data from 11
+
+[10-01-20] : Save memory data from 11
+
+[10-01-20] : Save network data from 11
+
+[10-01-20] : Save cpu data from 11
+
+[10-01-20] : Save process data from 11
+
+[10-01-21] : Save memory data from 11
+
+[10-01-21] : Save network data from 11
+
+[10-01-21] : Save cpu data from 11
+
+[10-01-21] : Save process data from 11
+
+[10-01-22] : Save memory data from 11
+
+[10-01-22] : Save network data from 11
+
+[10-01-22] : Save cpu data from 11
+
+[10-01-22] : Save process data from 11
+
+[10-01-23] : Save memory data from 11
+
+[10-01-23] : Save network data from 11
+
+[10-01-23] : Save cpu data from 11
+
+[10-01-23] : Save process data from 11
+
+[10-01-24] : Save memory data from 11
+
+[10-01-24] : Save network data from 11
+
+[10-01-24] : Save cpu data from 11
+
+[10-01-24] : Save process data from 11
+
+[10-01-25] : Save memory data from 11
+
+[10-01-25] : Save network data from 11
+
+[10-01-25] : Save cpu data from 11
+
+[10-01-25] : Save process data from 11
+
+[10-01-26] : Save memory data from 11
+
+[10-01-26] : Save network data from 11
+
+[10-01-26] : Save cpu data from 11
+
+[10-01-26] : Save process data from 11
+
+[10-01-27] : Save memory data from 11
+
+[10-01-27] : Save network data from 11
+
+[10-01-27] : Save cpu data from 11
+
+[10-01-27] : Save process data from 11
+
+[10-01-28] : Save memory data from 11
+
+[10-01-28] : Save network data from 11
+
+[10-01-28] : Save cpu data from 11
+
+[10-01-28] : Save process data from 11
+
+[10-01-29] : Save memory data from 11
+
+[10-01-29] : Save network data from 11
+
+[10-01-29] : Save cpu data from 11
+
+[10-01-29] : Save process data from 11
+
+[10-01-30] : Save memory data from 11
+
+[10-01-30] : Save network data from 11
+
+[10-01-30] : Save cpu data from 11
+
+[10-01-30] : Save process data from 11
+
+[10-01-31] : Save memory data from 11
+
+[10-01-31] : Save network data from 11
+
+[10-01-31] : Save cpu data from 11
+
+[10-01-31] : Save process data from 11
+
+[10-01-32] : Save memory data from 11
+
+[10-01-32] : Save network data from 11
+
+[10-01-32] : Save cpu data from 11
+
+[10-01-32] : Save process data from 11
+
+[10-01-33] : Save memory data from 11
+
+[10-01-33] : Save network data from 11
+
+[10-01-33] : Save cpu data from 11
+
+[10-01-33] : Save process data from 11
+
+[10-01-34] : Save memory data from 11
+
+[10-01-34] : Save network data from 11
+
+[10-01-34] : Save cpu data from 11
+
+[10-01-34] : Save process data from 11
+
+[10-01-35] : Save memory data from 11
+
+[10-01-35] : Save network data from 11
+
+[10-01-35] : Save cpu data from 11
+
+[10-01-35] : Save process data from 11
+
+[10-01-36] : Save memory data from 11
+
+[10-01-36] : Save network data from 11
+
+[10-01-36] : Save cpu data from 11
+
+[10-01-36] : Save process data from 11
+
+[10-01-37] : Save memory data from 11
+
+[10-01-37] : Save network data from 11
+
+[10-01-37] : Save cpu data from 11
+
+[10-01-37] : Save process data from 11
+
+[10-01-38] : Save memory data from 11
+
+[10-01-38] : Save network data from 11
+
+[10-01-38] : Save cpu data from 11
+
+[10-01-38] : Save process data from 11
+
+[10-01-39] : Save memory data from 11
+
+[10-01-39] : Save network data from 11
+
+[10-01-39] : Save cpu data from 11
+
+[10-01-39] : Save process data from 11
+
+[10-01-40] : Save memory data from 11
+
+[10-01-40] : Save network data from 11
+
+[10-01-40] : Save cpu data from 11
+
+[10-01-40] : Save process data from 11
+
+[10-01-41] : Save memory data from 11
+
+[10-01-41] : Save network data from 11
+
+[10-01-41] : Save cpu data from 11
+
+[10-01-41] : Save process data from 11
+
+[10-01-42] : Save memory data from 11
+
+[10-01-42] : Save network data from 11
+
+[10-01-42] : Save cpu data from 11
+
+[10-01-43] : Save process data from 11
+
+[10-01-43] : Save memory data from 11
+
+[10-01-43] : Save network data from 11
+
+[10-01-43] : Save cpu data from 11
+
+[10-01-44] : Save process data from 11
+
+[10-01-44] : Save memory data from 11
+
+[10-01-44] : Save network data from 11
+
+[10-01-45] : Save cpu data from 11
+
+[10-01-45] : Save process data from 11
+
+[10-01-45] : Save memory data from 11
+
+[10-01-45] : Save network data from 11
+
+[10-01-46] : Save cpu data from 11
+
+[10-01-46] : Save process data from 11
+
+[10-01-46] : Save memory data from 11
+
+[10-01-47] : Save network data from 11
+
+[10-01-47] : Save cpu data from 11
+
+[10-01-47] : Save process data from 11
+
+[10-01-48] : Save memory data from 11
+
+[10-01-48] : Save network data from 11
+
+[10-01-48] : Save cpu data from 11
+
+[10-01-48] : Save process data from 11
+
+[10-01-49] : Save memory data from 11
+
+[10-01-49] : Save network data from 11
+
+[10-01-49] : Save cpu data from 11
+
+[10-01-49] : Save process data from 11
+
+[10-01-50] : Save memory data from 11
+
+[10-01-50] : Save network data from 11
+
+[10-01-50] : Save cpu data from 11
+
+[10-01-50] : Save process data from 11
+
+[10-01-51] : Save memory data from 11
+
+[10-01-51] : Save network data from 11
+
+[10-01-51] : Save cpu data from 11
+
+[10-01-51] : Save process data from 11
+
+[10-01-52] : Save memory data from 11
+
+[10-01-52] : Save network data from 11
+
+[10-01-52] : Save cpu data from 11
+
+[10-01-52] : Save process data from 11
+
+[10-01-53] : Save memory data from 11
+
+[10-01-53] : Save network data from 11
+
+[10-01-53] : Save cpu data from 11
+
+[10-01-53] : Save process data from 11
+
+[10-01-54] : Save memory data from 11
+
+[10-01-54] : Save network data from 11
+
+[10-01-54] : Save cpu data from 11
+
+[10-01-54] : Save process data from 11
+
+[10-01-55] : Save memory data from 11
+
+[10-01-55] : Save network data from 11
+
+[10-01-55] : Save cpu data from 11
+
+[10-01-55] : Save process data from 11
+
+[10-01-56] : Save memory data from 11
+
+[10-01-56] : Save network data from 11
+
+[10-01-56] : Save cpu data from 11
+
+[10-01-56] : Save process data from 11
+
+[10-01-57] : Save memory data from 11
+
+[10-01-57] : Save network data from 11
+
+[10-01-57] : Save cpu data from 11
+
+[10-01-57] : Save process data from 11
+
+[10-01-58] : Save memory data from 11
+
+[10-01-58] : Save network data from 11
+
+[10-01-58] : Save cpu data from 11
+
+[10-01-58] : Save process data from 11
+
+[10-01-59] : Save memory data from 11
+
+[10-01-59] : Save network data from 11
+
+[10-01-59] : Save cpu data from 11
+
+[10-01-59] : Save process data from 11
+
+[10-02-00] : Save memory data from 11
+
+[10-02-00] : Save network data from 11
+
+[10-02-00] : Save cpu data from 11
+
+[10-02-00] : Save process data from 11
+
+[10-02-01] : Save memory data from 11
+
+[10-02-01] : Save network data from 11
+
+[10-02-01] : Save cpu data from 11
+
+[10-02-01] : Save process data from 11
+
+[10-02-02] : Save memory data from 11
+
+[10-02-02] : Save network data from 11
+
+[10-02-02] : Save cpu data from 11
+
+[10-02-02] : Save process data from 11
+
+[10-02-03] : Save memory data from 11
+
+[10-02-03] : Save network data from 11
+
+[10-02-03] : Save cpu data from 11
+
+[10-02-03] : Save process data from 11
+
+[10-02-04] : Save memory data from 11
+
+[10-02-04] : Save network data from 11
+
+[10-02-04] : Save cpu data from 11
+
+[10-02-04] : Save process data from 11
+
+[10-02-05] : Save memory data from 11
+
+[10-02-05] : Save network data from 11
+
+[10-02-05] : Save cpu data from 11
+
+[10-02-05] : Save process data from 11
+
+[10-02-06] : Save memory data from 11
+
+[10-02-06] : Save network data from 11
+
+[10-02-06] : Save cpu data from 11
+
+[10-02-06] : Save process data from 11
+
+[10-02-07] : Save memory data from 11
+
+[10-02-07] : Save network data from 11
+
+[10-02-07] : Save cpu data from 11
+
+[10-02-07] : Save process data from 11
+
+[10-02-08] : Save memory data from 11
+
+[10-02-08] : Save network data from 11
+
+[10-02-08] : Save cpu data from 11
+
+[10-02-08] : Save process data from 11
+
+[10-02-09] : Save memory data from 11
+
+[10-02-09] : Save network data from 11
+
+[10-02-09] : Save cpu data from 11
+
+[10-02-09] : Save process data from 11
+
+[10-02-10] : Save memory data from 11
+
+[10-02-10] : Save network data from 11
+
+[10-02-10] : Save cpu data from 11
+
+[10-02-10] : Save process data from 11
+
+[10-02-11] : Save memory data from 11
+
+[10-02-11] : file open error : Too many open files
+[10-02-11] : file open error : Too many open files
+[10-02-11] : file open error : Too many open files
+[10-02-12] : file open error : Too many open files
+[10-02-12] : file open error : Too many open files
+[10-02-12] : file open error : Too many open files
+[10-02-12] : file open error : Too many open files
+[10-02-13] : file open error : Too many open files
+[10-02-13] : file open error : Too many open files
+[10-02-13] : file open error : Too many open files
+[10-02-13] : file open error : Too many open files
+[10-02-14] : file open error : Too many open files
+[10-02-14] : file open error : Too many open files
+[10-02-14] : file open error : Too many open files
+[10-02-14] : file open error : Too many open files
+[10-02-15] : file open error : Too many open files
+[10-02-15] : file open error : Too many open files
+[10-02-15] : file open error : Too many open files
+[10-02-15] : file open error : Too many open files
+[10-02-16] : file open error : Too many open files
+[10-02-16] : file open error : Too many open files
+[10-02-16] : file open error : Too many open files
+[10-02-16] : file open error : Too many open files
+[10-02-17] : file open error : Too many open files
+[10-02-17] : file open error : Too many open files
+[10-02-17] : file open error : Too many open files
+[10-02-17] : file open error : Too many open files
+[10-02-18] : file open error : Too many open files
+[10-02-18] : file open error : Too many open files
+[10-02-18] : file open error : Too many open files
+[10-02-18] : file open error : Too many open files
+[10-02-19] : file open error : Too many open files
+[10-02-19] : file open error : Too many open files
+[10-02-19] : file open error : Too many open files
+[10-02-19] : file open error : Too many open files
+[10-02-20] : file open error : Too many open files
+[10-02-20] : file open error : Too many open files
+[10-02-20] : file open error : Too many open files
+[10-02-20] : file open error : Too many open files
+[10-02-21] : file open error : Too many open files
+[10-02-21] : file open error : Too many open files
+[10-02-21] : file open error : Too many open files
+[10-02-21] : file open error : Too many open files
+[10-02-22] : file open error : Too many open files
+[10-02-22] : file open error : Too many open files
+[10-02-22] : file open error : Too many open files
+[10-02-22] : file open error : Too many open files
+[10-02-23] : file open error : Too many open files
+[10-02-23] : file open error : Too many open files
+[10-02-23] : file open error : Too many open files
+[10-02-23] : file open error : Too many open files
+[10-02-24] : file open error : Too many open files
+[10-02-24] : file open error : Too many open files
+[10-02-24] : file open error : Too many open files
+[10-02-24] : file open error : Too many open files
+[10-02-25] : file open error : Too many open files
+[10-02-25] : file open error : Too many open files
+[10-02-25] : file open error : Too many open files
+[10-02-25] : file open error : Too many open files
+[10-02-26] : file open error : Too many open files
+[10-02-26] : file open error : Too many open files
+[10-02-26] : file open error : Too many open files
+[10-02-26] : file open error : Too many open files
+[10-02-27] : file open error : Too many open files
+[10-02-27] : file open error : Too many open files
+[10-02-27] : file open error : Too many open files
+[10-02-27] : file open error : Too many open files
+[10-02-28] : file open error : Too many open files
+[10-02-28] : file open error : Too many open files
+[10-02-28] : file open error : Too many open files
+[10-02-28] : file open error : Too many open files
+[10-02-29] : file open error : Too many open files
+[10-02-29] : file open error : Too many open files
+[10-02-29] : file open error : Too many open files
+[10-02-29] : file open error : Too many open files
+[10-02-30] : file open error : Too many open files
+[10-02-30] : file open error : Too many open files
+[10-02-30] : file open error : Too many open files
+[10-02-30] : file open error : Too many open files
+[10-02-31] : file open error : Too many open files
+[10-02-31] : file open error : Too many open files
+[10-02-31] : file open error : Too many open files
+[10-02-31] : file open error : Too many open files
+[10-02-32] : file open error : Too many open files
+[10-02-32] : file open error : Too many open files
+[10-02-32] : file open error : Too many open files
+[10-02-32] : file open error : Too many open files
+[10-02-33] : file open error : Too many open files
+[10-02-33] : file open error : Too many open files
+[10-02-33] : file open error : Too many open files
+[10-02-33] : file open error : Too many open files
+[10-02-34] : file open error : Too many open files
+[10-02-34] : file open error : Too many open files
+[10-02-34] : file open error : Too many open files
+[10-02-34] : file open error : Too many open files
+[10-02-35] : file open error : Too many open files
+[10-02-35] : file open error : Too many open files
+[10-02-35] : file open error : Too many open files
+[10-02-35] : file open error : Too many open files
+[10-02-36] : file open error : Too many open files
+[10-02-36] : file open error : Too many open files
+[10-02-36] : file open error : Too many open files
+[10-02-36] : file open error : Too many open files
+[10-02-37] : file open error : Too many open files
+[10-02-37] : file open error : Too many open files
+[10-02-37] : file open error : Too many open files
+[10-02-37] : file open error : Too many open files
+[10-02-38] : file open error : Too many open files
+[10-02-38] : file open error : Too many open files
+[10-02-38] : file open error : Too many open files
+[10-02-38] : file open error : Too many open files
+[10-02-39] : file open error : Too many open files
+[10-02-39] : file open error : Too many open files
+[10-02-39] : file open error : Too many open files
+[10-02-39] : file open error : Too many open files
+[10-02-40] : file open error : Too many open files
+[10-02-40] : file open error : Too many open files
+[10-02-40] : file open error : Too many open files
+[10-02-40] : file open error : Too many open files
+[10-02-41] : file open error : Too many open files
+[10-02-41] : file open error : Too many open files
+[10-02-41] : file open error : Too many open files
+[10-02-41] : file open error : Too many open files
+[10-02-42] : file open error : Too many open files
+[10-02-42] : file open error : Too many open files
+[10-02-42] : file open error : Too many open files
+[10-02-42] : file open error : Too many open files
+[10-02-43] : file open error : Too many open files
+[10-02-43] : file open error : Too many open files
+[10-02-43] : file open error : Too many open files
+[10-02-43] : file open error : Too many open files
+[10-02-44] : file open error : Too many open files
+[10-02-44] : file open error : Too many open files
+[10-02-44] : file open error : Too many open files
+[10-02-44] : file open error : Too many open files
+[10-02-45] : file open error : Too many open files
+[10-02-45] : file open error : Too many open files
+[10-02-45] : file open error : Too many open files
+[10-02-45] : file open error : Too many open files
+[10-02-46] : file open error : Too many open files
+[10-02-46] : file open error : Too many open files
+[10-02-46] : file open error : Too many open files
+[10-02-46] : file open error : Too many open files
+[10-02-47] : file open error : Too many open files
+[10-02-47] : file open error : Too many open files
+[10-02-47] : file open error : Too many open files
+[10-02-47] : file open error : Too many open files
+[10-02-48] : file open error : Too many open files
+[10-02-48] : file open error : Too many open files
+[10-02-48] : file open error : Too many open files
+[10-02-48] : file open error : Too many open files
+[10-02-49] : file open error : Too many open files
+[10-02-49] : file open error : Too many open files
+[10-02-49] : file open error : Too many open files
+[10-02-49] : file open error : Too many open files
+[10-02-50] : file open error : Too many open files
+[10-02-50] : file open error : Too many open files
+[10-02-50] : file open error : Too many open files
+[10-02-50] : file open error : Too many open files
+[10-02-51] : file open error : Too many open files
+[10-02-51] : file open error : Too many open files
+[10-02-51] : file open error : Too many open files
+[10-02-51] : file open error : Too many open files
+[10-02-52] : file open error : Too many open files
+[10-02-52] : file open error : Too many open files
+[10-02-52] : file open error : Too many open files
+[10-02-52] : file open error : Too many open files
+[10-02-53] : file open error : Too many open files
+[10-02-53] : file open error : Too many open files
+[10-02-53] : file open error : Too many open files
+[10-02-53] : file open error : Too many open files
+[10-02-54] : file open error : Too many open files
+[10-02-54] : file open error : Too many open files
+[10-02-54] : file open error : Too many open files
+[10-02-54] : file open error : Too many open files
+[10-02-55] : file open error : Too many open files
+[10-02-55] : file open error : Too many open files
+[10-02-55] : file open error : Too many open files
+[10-02-55] : file open error : Too many open files
+[10-02-56] : file open error : Too many open files
+[10-02-56] : file open error : Too many open files
+[10-02-56] : file open error : Too many open files
+[10-02-56] : file open error : Too many open files
+[10-02-57] : file open error : Too many open files
+[10-02-57] : file open error : Too many open files
+[10-02-57] : file open error : Too many open files
+[10-02-57] : file open error : Too many open files
+[10-02-58] : file open error : Too many open files
+[10-02-58] : file open error : Too many open files
+[10-02-58] : file open error : Too many open files
+[10-02-58] : file open error : Too many open files
+[10-02-59] : file open error : Too many open files
+[10-02-59] : file open error : Too many open files
+[10-02-59] : file open error : Too many open files
+[10-02-59] : file open error : Too many open files
+[10-03-00] : file open error : Too many open files
+[10-03-00] : file open error : Too many open files
+[10-03-00] : file open error : Too many open files
+[10-03-00] : file open error : Too many open files
+[10-03-01] : file open error : Too many open files
+[10-03-01] : file open error : Too many open files
+[10-03-01] : file open error : Too many open files
+[10-03-01] : file open error : Too many open files
+[10-03-02] : file open error : Too many open files
+[10-03-02] : file open error : Too many open files
+[10-03-02] : file open error : Too many open files
+[10-03-02] : file open error : Too many open files
+[10-03-03] : file open error : Too many open files
+[10-03-03] : file open error : Too many open files
+[10-03-03] : file open error : Too many open files
+[10-03-03] : file open error : Too many open files
+[10-03-04] : file open error : Too many open files
+[10-03-04] : file open error : Too many open files
+[10-03-04] : file open error : Too many open files
+[10-03-04] : file open error : Too many open files
+[10-03-05] : file open error : Too many open files
+[10-03-05] : file open error : Too many open files
+[10-03-05] : file open error : Too many open files
+[10-03-05] : file open error : Too many open files
+[10-03-06] : file open error : Too many open files
+[10-03-06] : file open error : Too many open files
+[10-03-06] : file open error : Too many open files
+[10-03-06] : file open error : Too many open files
+[10-03-07] : file open error : Too many open files
+[10-03-07] : file open error : Too many open files
+[10-03-07] : file open error : Too many open files
+[10-03-07] : file open error : Too many open files
+[10-03-08] : file open error : Too many open files
+[10-03-08] : file open error : Too many open files
+[10-03-08] : file open error : Too many open files
+[10-03-08] : file open error : Too many open files
+[10-03-09] : file open error : Too many open files
+[10-03-09] : file open error : Too many open files
+[10-03-09] : file open error : Too many open files
+[10-03-09] : file open error : Too many open files
+[10-03-10] : file open error : Too many open files
+[10-03-10] : file open error : Too many open files
+[10-03-10] : file open error : Too many open files
+[10-03-10] : file open error : Too many open files
+[10-03-11] : file open error : Too many open files
+[10-03-11] : file open error : Too many open files
+[10-03-11] : file open error : Too many open files
+[10-03-11] : file open error : Too many open files
+[10-03-12] : file open error : Too many open files
+[10-03-12] : file open error : Too many open files
+[10-03-12] : file open error : Too many open files
+[10-03-12] : file open error : Too many open files
+[10-03-13] : file open error : Too many open files
+[10-03-13] : file open error : Too many open files
+[10-03-13] : file open error : Too many open files
+[10-03-13] : file open error : Too many open files
+[10-03-14] : file open error : Too many open files
+[10-03-14] : file open error : Too many open files
+[10-03-14] : file open error : Too many open files
+[10-03-14] : file open error : Too many open files
+[10-03-15] : file open error : Too many open files
+[10-03-15] : file open error : Too many open files
+[10-03-15] : file open error : Too many open files
+[10-03-15] : file open error : Too many open files
+[10-03-16] : file open error : Too many open files
+[10-03-16] : file open error : Too many open files
+[10-03-16] : file open error : Too many open files
+[10-03-16] : file open error : Too many open files
+[10-03-17] : file open error : Too many open files
+[10-03-17] : file open error : Too many open files
+[10-03-17] : file open error : Too many open files
+[10-03-17] : file open error : Too many open files
+[10-03-18] : file open error : Too many open files
+[10-03-18] : file open error : Too many open files
+[10-03-18] : file open error : Too many open files
+[10-03-18] : file open error : Too many open files
+[10-03-19] : file open error : Too many open files
+[10-03-19] : file open error : Too many open files
+[10-03-19] : file open error : Too many open files
+[10-03-19] : file open error : Too many open files
+[10-03-20] : file open error : Too many open files
+[10-03-20] : file open error : Too many open files
+[10-03-20] : file open error : Too many open files
+[10-03-20] : file open error : Too many open files
+[10-03-21] : file open error : Too many open files
+[10-03-21] : file open error : Too many open files
+[10-03-21] : file open error : Too many open files
+[10-03-21] : file open error : Too many open files
+[10-03-22] : file open error : Too many open files
+[10-03-22] : file open error : Too many open files
+[10-03-22] : file open error : Too many open files
+[10-03-22] : file open error : Too many open files
+[10-03-23] : file open error : Too many open files
+[10-03-23] : file open error : Too many open files
+[10-03-23] : file open error : Too many open files
+[10-03-23] : file open error : Too many open files
+[10-03-24] : file open error : Too many open files
+[10-03-24] : file open error : Too many open files
+[10-03-24] : file open error : Too many open files
+[10-03-24] : file open error : Too many open files
+[10-03-25] : file open error : Too many open files
+[10-03-25] : file open error : Too many open files
+[10-03-25] : file open error : Too many open files
+[10-03-25] : file open error : Too many open files
+[10-03-26] : file open error : Too many open files
+[10-03-26] : file open error : Too many open files
+[10-03-26] : file open error : Too many open files
+[10-03-26] : file open error : Too many open files
+[10-03-27] : file open error : Too many open files
+[10-03-27] : file open error : Too many open files
+[10-03-27] : file open error : Too many open files
+[10-03-27] : file open error : Too many open files
+[10-03-28] : file open error : Too many open files
+[10-03-28] : file open error : Too many open files
+[10-03-28] : file open error : Too many open files
+[10-03-28] : file open error : Too many open files
+[10-03-29] : file open error : Too many open files
+[10-03-29] : file open error : Too many open files
+[10-03-29] : file open error : Too many open files
+[10-03-29] : file open error : Too many open files
+[10-03-30] : file open error : Too many open files
+[10-03-30] : file open error : Too many open files
+[10-03-30] : file open error : Too many open files
+[10-03-30] : file open error : Too many open files
+[10-03-31] : file open error : Too many open files
+[10-03-31] : file open error : Too many open files
+[10-03-31] : file open error : Too many open files
+[10-03-31] : file open error : Too many open files
+[10-03-32] : file open error : Too many open files
+[10-03-32] : file open error : Too many open files
+[10-03-32] : file open error : Too many open files
+[10-03-32] : file open error : Too many open files
+[10-03-33] : file open error : Too many open files
+[10-03-33] : file open error : Too many open files
+[10-03-33] : file open error : Too many open files
+[10-03-33] : file open error : Too many open files
+[10-03-34] : file open error : Too many open files
+[10-03-34] : file open error : Too many open files
+[10-03-34] : file open error : Too many open files
+[10-03-34] : file open error : Too many open files
+[10-03-35] : file open error : Too many open files
+[10-03-35] : file open error : Too many open files
+[10-03-35] : file open error : Too many open files
+[10-03-35] : file open error : Too many open files
+[10-03-36] : file open error : Too many open files
+[10-03-36] : file open error : Too many open files
+[10-03-36] : file open error : Too many open files
+[10-03-36] : file open error : Too many open files
+[10-03-37] : file open error : Too many open files
+[10-03-37] : file open error : Too many open files
+[10-03-37] : file open error : Too many open files
+[10-03-37] : file open error : Too many open files
+[10-03-38] : file open error : Too many open files
+[10-03-38] : file open error : Too many open files
+[10-03-38] : file open error : Too many open files
+[10-03-38] : file open error : Too many open files
+[10-03-39] : file open error : Too many open files
+[10-03-39] : file open error : Too many open files
+[10-03-39] : file open error : Too many open files
+[10-03-39] : file open error : Too many open files
+[10-03-40] : file open error : Too many open files
+[10-03-40] : file open error : Too many open files
+[10-03-40] : file open error : Too many open files
+[10-03-40] : file open error : Too many open files
+[10-03-41] : file open error : Too many open files
+[10-03-41] : file open error : Too many open files
+[10-03-41] : file open error : Too many open files
+[10-03-41] : file open error : Too many open files
+[10-03-42] : file open error : Too many open files
+[10-03-42] : file open error : Too many open files
+[10-03-42] : file open error : Too many open files
+[10-03-42] : file open error : Too many open files
+[10-03-43] : file open error : Too many open files
+[10-03-43] : file open error : Too many open files
+[10-03-43] : file open error : Too many open files
+[10-03-43] : file open error : Too many open files
+[10-03-44] : file open error : Too many open files
+[10-03-44] : file open error : Too many open files
+[10-03-44] : file open error : Too many open files
+[10-03-44] : file open error : Too many open files
+[10-03-45] : file open error : Too many open files
+[10-03-45] : file open error : Too many open files
+[10-03-45] : file open error : Too many open files
+[10-03-45] : file open error : Too many open files
+[10-03-46] : file open error : Too many open files
+[10-03-46] : file open error : Too many open files
+[10-03-46] : file open error : Too many open files
+[10-03-46] : file open error : Too many open files
+[10-03-47] : file open error : Too many open files
+[10-03-47] : file open error : Too many open files
+[10-03-47] : file open error : Too many open files
+[10-03-47] : file open error : Too many open files
+[10-03-48] : file open error : Too many open files
+[10-03-48] : file open error : Too many open files
+[10-03-48] : file open error : Too many open files
+[10-03-48] : file open error : Too many open files
+[10-03-49] : file open error : Too many open files
+[10-03-49] : file open error : Too many open files
+[10-03-49] : file open error : Too many open files
+[10-03-49] : file open error : Too many open files
+[10-03-50] : file open error : Too many open files
+[10-03-50] : file open error : Too many open files
+[10-03-50] : file open error : Too many open files
+[10-03-50] : file open error : Too many open files
+[10-03-51] : file open error : Too many open files
+[10-03-51] : file open error : Too many open files
+[10-03-51] : file open error : Too many open files
+[10-03-51] : file open error : Too many open files
+[10-03-52] : file open error : Too many open files
+[10-03-52] : file open error : Too many open files
+[10-03-52] : file open error : Too many open files
+[10-03-52] : file open error : Too many open files
+[10-03-53] : file open error : Too many open files
+[10-03-53] : file open error : Too many open files
+[10-03-53] : file open error : Too many open files
+[10-03-53] : file open error : Too many open files
+[10-03-54] : file open error : Too many open files
+[10-03-54] : file open error : Too many open files
+[10-03-54] : file open error : Too many open files
+[10-03-54] : file open error : Too many open files
+[10-03-55] : file open error : Too many open files
+[10-03-55] : file open error : Too many open files
+[10-03-55] : file open error : Too many open files
+[10-03-55] : file open error : Too many open files
+[10-03-56] : file open error : Too many open files
+[10-03-56] : file open error : Too many open files
+[10-03-56] : file open error : Too many open files
+[10-03-56] : file open error : Too many open files
+[10-03-57] : file open error : Too many open files
+[10-03-57] : file open error : Too many open files
+[10-03-57] : file open error : Too many open files
+[10-03-57] : file open error : Too many open files
+[10-03-58] : file open error : Too many open files
+[10-03-58] : file open error : Too many open files
+[10-03-58] : file open error : Too many open files
+[10-03-58] : file open error : Too many open files
+[10-03-59] : file open error : Too many open files
+[10-03-59] : file open error : Too many open files
+[10-03-59] : file open error : Too many open files
+[10-03-59] : file open error : Too many open files
+[10-04-00] : file open error : Too many open files
+[10-04-00] : file open error : Too many open files
+[10-04-00] : file open error : Too many open files
+[10-04-00] : file open error : Too many open files
+[10-04-01] : file open error : Too many open files
+[10-04-01] : file open error : Too many open files
+[10-04-01] : file open error : Too many open files
+[10-04-01] : file open error : Too many open files
+[10-04-02] : file open error : Too many open files
+[10-04-02] : file open error : Too many open files
+[10-04-02] : file open error : Too many open files
+[10-04-02] : file open error : Too many open files
+[10-04-03] : file open error : Too many open files
+[10-04-03] : file open error : Too many open files
+[10-04-03] : file open error : Too many open files
+[10-04-03] : file open error : Too many open files
+[10-04-04] : file open error : Too many open files
+[10-04-04] : file open error : Too many open files
+[10-04-04] : file open error : Too many open files
+[10-04-04] : file open error : Too many open files
+[10-04-05] : file open error : Too many open files
+[10-04-05] : file open error : Too many open files
+[10-04-05] : file open error : Too many open files
+[10-04-05] : file open error : Too many open files
+[10-04-06] : file open error : Too many open files
+[10-04-06] : file open error : Too many open files
+[10-04-06] : file open error : Too many open files
+[10-04-06] : file open error : Too many open files
+[10-04-07] : file open error : Too many open files
+[10-04-07] : file open error : Too many open files
+[10-04-07] : file open error : Too many open files
+[10-04-07] : file open error : Too many open files
+[10-04-08] : file open error : Too many open files
+[10-04-08] : file open error : Too many open files
+[10-04-08] : file open error : Too many open files
+[10-04-08] : file open error : Too many open files
+[10-04-09] : file open error : Too many open files
+[10-04-09] : file open error : Too many open files
+[10-04-09] : file open error : Too many open files
+[10-04-09] : file open error : Too many open files
+[10-04-10] : file open error : Too many open files
+[10-04-10] : file open error : Too many open files
+[10-04-10] : file open error : Too many open files
+[10-04-10] : file open error : Too many open files
+[10-04-11] : file open error : Too many open files
+[10-04-11] : file open error : Too many open files
+[10-04-11] : file open error : Too many open files
+[10-04-12] : file open error : Too many open files
+[10-04-12] : file open error : Too many open files
+[10-04-12] : file open error : Too many open files
+[10-04-12] : file open error : Too many open files
+[10-04-13] : file open error : Too many open files
+[10-04-13] : file open error : Too many open files
+[10-04-13] : file open error : Too many open files
+[10-04-13] : file open error : Too many open files
+[10-04-14] : file open error : Too many open files
+[10-04-14] : file open error : Too many open files
+[10-04-14] : file open error : Too many open files
+[10-04-15] : file open error : Too many open files
+[10-04-15] : file open error : Too many open files
+[10-04-15] : file open error : Too many open files
+[10-04-16] : file open error : Too many open files
+[10-04-16] : file open error : Too many open files
+[10-04-16] : file open error : Too many open files
+[10-04-17] : file open error : Too many open files
+[10-04-17] : file open error : Too many open files
+[10-04-17] : file open error : Too many open files
+[10-04-17] : file open error : Too many open files
+[10-04-18] : file open error : Too many open files
+[10-04-18] : file open error : Too many open files
+[10-04-18] : file open error : Too many open files
+[10-04-18] : file open error : Too many open files
+[10-04-19] : file open error : Too many open files
+[10-04-19] : file open error : Too many open files
+[10-04-19] : file open error : Too many open files
+[10-04-19] : file open error : Too many open files
+[10-04-20] : file open error : Too many open files
+[10-04-20] : file open error : Too many open files
+[10-04-20] : file open error : Too many open files
+[10-04-20] : file open error : Too many open files
+[10-04-21] : file open error : Too many open files
+[10-04-21] : file open error : Too many open files
+[10-04-21] : file open error : Too many open files
+[10-04-21] : file open error : Too many open files
+[10-04-22] : file open error : Too many open files
+[10-04-22] : file open error : Too many open files
+[10-04-22] : file open error : Too many open files
+[10-04-22] : file open error : Too many open files
+[10-04-23] : file open error : Too many open files
+[10-04-23] : file open error : Too many open files
+[10-04-23] : file open error : Too many open files
+[10-04-23] : file open error : Too many open files
+[10-04-24] : file open error : Too many open files
+[10-04-24] : file open error : Too many open files
+[10-04-24] : file open error : Too many open files
+[10-04-24] : file open error : Too many open files
+[10-04-25] : file open error : Too many open files
+[10-04-25] : file open error : Too many open files
+[10-04-25] : file open error : Too many open files
+[10-04-25] : file open error : Too many open files
+[10-04-26] : file open error : Too many open files
+[10-04-26] : file open error : Too many open files
+[10-04-26] : file open error : Too many open files
+[10-04-26] : file open error : Too many open files
+[10-04-27] : file open error : Too many open files
+[10-04-27] : file open error : Too many open files
+[10-04-27] : file open error : Too many open files
+[10-04-27] : file open error : Too many open files
+[10-04-28] : file open error : Too many open files
+[10-04-28] : file open error : Too many open files
+[10-04-28] : file open error : Too many open files
+[10-04-28] : file open error : Too many open files
+[10-04-29] : file open error : Too many open files
+[10-04-29] : file open error : Too many open files
+[10-04-29] : file open error : Too many open files
+[10-04-29] : file open error : Too many open files
+[10-04-30] : file open error : Too many open files
+[10-04-30] : file open error : Too many open files
+[10-04-30] : file open error : Too many open files
+[10-04-30] : file open error : Too many open files
+[10-04-31] : file open error : Too many open files
+[10-04-31] : file open error : Too many open files
+[10-04-31] : file open error : Too many open files
+[10-04-31] : file open error : Too many open files
+[10-04-32] : file open error : Too many open files
+[10-04-32] : file open error : Too many open files
+[10-04-32] : file open error : Too many open files
+[10-04-32] : file open error : Too many open files
+[10-04-33] : file open error : Too many open files
+[10-04-33] : file open error : Too many open files
+[10-04-33] : file open error : Too many open files
+[10-04-33] : file open error : Too many open files
+[10-04-34] : file open error : Too many open files
+[10-04-34] : file open error : Too many open files
+[10-04-34] : file open error : Too many open files
+[10-04-34] : file open error : Too many open files
+[10-04-35] : file open error : Too many open files
+[10-04-35] : file open error : Too many open files
+[10-04-35] : file open error : Too many open files
+[10-04-35] : file open error : Too many open files
+[10-04-36] : file open error : Too many open files
+[10-04-36] : file open error : Too many open files
+[10-04-36] : file open error : Too many open files
+[10-04-36] : file open error : Too many open files
+[10-04-37] : file open error : Too many open files
+[10-04-37] : file open error : Too many open files
+[10-04-37] : file open error : Too many open files
+[10-04-37] : file open error : Too many open files
+[10-04-38] : file open error : Too many open files
+[10-04-38] : file open error : Too many open files
+[10-04-38] : file open error : Too many open files
+[10-04-38] : file open error : Too many open files
+[10-04-39] : file open error : Too many open files
+[10-04-39] : file open error : Too many open files
+[10-04-39] : file open error : Too many open files
+[10-04-39] : file open error : Too many open files
+[10-04-40] : file open error : Too many open files
+[10-04-40] : file open error : Too many open files
+[10-04-40] : file open error : Too many open files
+[10-04-40] : file open error : Too many open files
+[10-04-41] : file open error : Too many open files
+[10-04-41] : file open error : Too many open files
+[10-04-41] : file open error : Too many open files
+[10-04-41] : file open error : Too many open files
+[10-04-42] : file open error : Too many open files
+[10-04-42] : file open error : Too many open files
+[10-04-42] : file open error : Too many open files
+[10-04-42] : file open error : Too many open files
+[10-04-43] : file open error : Too many open files
+[10-04-43] : file open error : Too many open files
+[10-04-43] : file open error : Too many open files
+[10-04-43] : file open error : Too many open files
+[10-04-44] : file open error : Too many open files
+[10-04-44] : file open error : Too many open files
+[10-04-44] : file open error : Too many open files
+[10-04-44] : file open error : Too many open files
+[10-04-45] : file open error : Too many open files
+[10-04-45] : file open error : Too many open files
+[10-04-45] : file open error : Too many open files
+[10-04-45] : file open error : Too many open files
+[10-04-46] : file open error : Too many open files
+[10-04-46] : file open error : Too many open files
+[10-04-46] : file open error : Too many open files
+[10-04-46] : file open error : Too many open files
+[10-04-47] : file open error : Too many open files
+[10-04-47] : file open error : Too many open files
+[10-04-47] : file open error : Too many open files
+[10-04-47] : file open error : Too many open files
+[10-04-48] : file open error : Too many open files
+[10-04-48] : file open error : Too many open files
+[10-04-48] : file open error : Too many open files
+[10-04-48] : file open error : Too many open files
+[10-04-49] : file open error : Too many open files
+[10-04-49] : file open error : Too many open files
+[10-04-49] : file open error : Too many open files
+[10-04-49] : file open error : Too many open files
+[10-04-49] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 57489
+
+[10-04-49] : accept error : Too many open files
+[10-04-49] : receive thread end
+[10-04-50] : file open error : Too many open files
+[10-04-50] : file open error : Too many open files
+[10-04-50] : file open error : Too many open files
+[10-04-50] : file open error : Too many open files
+[10-04-50] : Zero byte left to receive
+[10-04-51] : file open error : Too many open files
+[10-04-51] : file open error : Too many open files
+[10-04-51] : file open error : Too many open files
+[10-04-51] : file open error : Too many open files
+[10-04-52] : file open error : Too many open files
+[10-04-52] : file open error : Too many open files
+[10-04-52] : file open error : Too many open files
+[10-04-52] : file open error : Too many open files
+[10-04-53] : file open error : Too many open files
+[10-04-53] : file open error : Too many open files
+[10-04-53] : file open error : Too many open files
+[10-04-53] : file open error : Too many open files
+[10-04-54] : file open error : Too many open files
+[10-04-54] : file open error : Too many open files
+[10-04-54] : file open error : Too many open files
+[10-04-54] : file open error : Too many open files
+[10-04-55] : file open error : Too many open files
+[10-04-55] : file open error : Too many open files
+[10-04-55] : file open error : Too many open files
+[10-04-55] : file open error : Too many open files
+[10-04-56] : file open error : Too many open files
+[10-04-56] : file open error : Too many open files
+[10-04-56] : file open error : Too many open files
+[10-04-56] : file open error : Too many open files
+[10-04-57] : file open error : Too many open files
+[10-04-57] : file open error : Too many open files
+[10-04-57] : file open error : Too many open files
+[10-04-57] : file open error : Too many open files
+[10-04-58] : file open error : Too many open files
+[10-04-58] : file open error : Too many open files
+[10-04-58] : file open error : Too many open files
+[10-04-58] : file open error : Too many open files
+[10-04-59] : file open error : Too many open files
+[10-04-59] : file open error : Too many open files
+[10-04-59] : file open error : Too many open files
+[10-04-59] : file open error : Too many open files
+[10-05-00] : file open error : Too many open files
+[10-05-00] : file open error : Too many open files
+[10-05-00] : file open error : Too many open files
+[10-05-00] : file open error : Too many open files
+[10-05-01] : file open error : Too many open files
+[10-05-01] : file open error : Too many open files
+[10-05-01] : file open error : Too many open files
+[10-05-01] : file open error : Too many open files
+[10-05-02] : file open error : Too many open files
+[10-05-02] : file open error : Too many open files
+[10-05-02] : file open error : Too many open files
+[10-05-02] : file open error : Too many open files
+[10-05-03] : file open error : Too many open files
+[10-05-03] : file open error : Too many open files
+[10-05-03] : file open error : Too many open files
+[10-05-03] : file open error : Too many open files
+[10-05-04] : file open error : Too many open files
+[10-05-04] : file open error : Too many open files
+[10-05-04] : file open error : Too many open files
+[10-05-04] : file open error : Too many open files
+[10-05-05] : file open error : Too many open files
+[10-05-05] : file open error : Too many open files
+[10-05-05] : file open error : Too many open files
+[10-05-05] : file open error : Too many open files
+[10-05-06] : file open error : Too many open files
+[10-05-06] : file open error : Too many open files
+[10-05-06] : file open error : Too many open files
+[10-05-06] : file open error : Too many open files
+[10-05-07] : file open error : Too many open files
+[10-05-07] : file open error : Too many open files
+[10-05-07] : file open error : Too many open files
+[10-05-07] : file open error : Too many open files
+[10-05-08] : file open error : Too many open files
+[10-05-08] : file open error : Too many open files
+[10-05-08] : file open error : Too many open files
+[10-05-08] : file open error : Too many open files
+[10-05-09] : file open error : Too many open files
+[10-05-09] : file open error : Too many open files
+[10-05-09] : file open error : Too many open files
+[10-05-09] : file open error : Too many open files
+[10-05-10] : file open error : Too many open files
+[10-05-10] : file open error : Too many open files
+[10-05-10] : file open error : Too many open files
+[10-05-10] : file open error : Too many open files
+[10-05-11] : file open error : Too many open files
+[10-05-11] : file open error : Too many open files
+[10-05-11] : file open error : Too many open files
+[10-05-11] : file open error : Too many open files
+[10-05-12] : file open error : Too many open files
+[10-05-12] : file open error : Too many open files
+[10-05-12] : file open error : Too many open files
+[10-05-12] : file open error : Too many open files
+[10-05-13] : file open error : Too many open files
+[10-05-13] : file open error : Too many open files
+[10-05-13] : file open error : Too many open files
+[10-05-13] : file open error : Too many open files
+[10-05-14] : file open error : Too many open files
+[10-05-14] : file open error : Too many open files
+[10-05-14] : file open error : Too many open files
+[10-05-14] : file open error : Too many open files
+[10-05-15] : file open error : Too many open files
+[10-05-15] : file open error : Too many open files
+[10-05-15] : file open error : Too many open files
+[10-05-15] : file open error : Too many open files
+[10-05-16] : file open error : Too many open files
+[10-05-16] : file open error : Too many open files
+[10-05-16] : file open error : Too many open files
+[10-05-16] : file open error : Too many open files
+[10-05-17] : file open error : Too many open files
+[10-05-17] : file open error : Too many open files
+[10-05-17] : file open error : Too many open files
+[10-05-17] : file open error : Too many open files
+[10-05-18] : file open error : Too many open files
+[10-05-18] : file open error : Too many open files
+[10-05-18] : file open error : Too many open files
+[10-05-18] : file open error : Too many open files
+[10-05-19] : file open error : Too many open files
+[10-05-19] : file open error : Too many open files
+[10-05-19] : file open error : Too many open files
+[10-05-19] : file open error : Too many open files
+[10-05-20] : file open error : Too many open files
+[10-05-20] : file open error : Too many open files
+[10-05-20] : file open error : Too many open files
+[10-05-20] : file open error : Too many open files
+[10-05-21] : Zero byte left to receive
+[10-24-11] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 58513
+
+[10-24-14] : file open error : Too many open files
+[10-24-14] : file open error : Too many open files
+[10-24-14] : file open error : Too many open files
+[10-24-14] : file open error : Too many open files
+[10-24-14] : file open error : Too many open files
+[10-24-14] : file open error : Too many open files
+[10-24-14] : file open error : Too many open files
+[10-24-14] : file open error : Too many open files
+[10-24-14] : file open error : Too many open files
+[10-24-14] : file open error : Too many open files
+[10-24-14] : file open error : Too many open files
+[10-24-14] : file open error : Too many open files
+[10-24-15] : file open error : Too many open files
+[10-24-15] : file open error : Too many open files
+[10-24-15] : file open error : Too many open files
+[10-24-15] : file open error : Too many open files
+[10-24-16] : file open error : Too many open files
+[10-24-16] : file open error : Too many open files
+[10-24-16] : file open error : Too many open files
+[10-24-16] : file open error : Too many open files
+[10-24-17] : file open error : Too many open files
+[10-24-17] : file open error : Too many open files
+[10-24-17] : file open error : Too many open files
+[10-24-17] : file open error : Too many open files
+[10-24-18] : file open error : Too many open files
+[10-24-18] : file open error : Too many open files
+[10-24-18] : file open error : Too many open files
+[10-24-18] : file open error : Too many open files
+[10-24-19] : file open error : Too many open files
+[10-24-19] : file open error : Too many open files
+[10-24-19] : file open error : Too many open files
+[10-24-19] : file open error : Too many open files
+[10-24-20] : file open error : Too many open files
+[10-24-20] : file open error : Too many open files
+[10-24-20] : file open error : Too many open files
+[10-24-20] : file open error : Too many open files
+[10-24-21] : file open error : Too many open files
+[10-24-21] : file open error : Too many open files
+[10-24-21] : file open error : Too many open files
+[10-24-21] : file open error : Too many open files
+[10-24-22] : file open error : Too many open files
+[10-24-22] : file open error : Too many open files
+[10-24-22] : file open error : Too many open files
+[10-24-22] : file open error : Too many open files
+[10-24-23] : file open error : Too many open files
+[10-24-23] : file open error : Too many open files
+[10-24-23] : file open error : Too many open files
+[10-24-23] : file open error : Too many open files
+[10-24-24] : file open error : Too many open files
+[10-24-24] : file open error : Too many open files
+[10-24-24] : file open error : Too many open files
+[10-24-24] : file open error : Too many open files
+[10-24-24] : Zero byte left to receive
+[10-24-38] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 59025
+
+[10-24-41] : file open error : Too many open files
+[10-24-41] : file open error : Too many open files
+[10-24-41] : file open error : Too many open files
+[10-24-41] : file open error : Too many open files
+[10-24-41] : file open error : Too many open files
+[10-24-41] : file open error : Too many open files
+[10-24-41] : file open error : Too many open files
+[10-24-41] : file open error : Too many open files
+[10-24-41] : file open error : Too many open files
+[10-24-41] : file open error : Too many open files
+[10-24-41] : file open error : Too many open files
+[10-24-41] : file open error : Too many open files
+[10-24-41] : file open error : Too many open files
+[10-24-41] : file open error : Too many open files
+[10-24-41] : file open error : Too many open files
+[10-24-41] : file open error : Too many open files
+[10-24-42] : file open error : Too many open files
+[10-24-42] : file open error : Too many open files
+[10-24-42] : file open error : Too many open files
+[10-24-42] : file open error : Too many open files
+[10-24-43] : file open error : Too many open files
+[10-24-43] : file open error : Too many open files
+[10-24-43] : file open error : Too many open files
+[10-24-43] : file open error : Too many open files
+[10-24-43] : Zero byte left to receive

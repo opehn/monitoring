@@ -15,6 +15,7 @@ static int	  check_signature(int signature)
 			return (1);
 		i++;
 	}
+	server_logging("Invalid signature\n");
 	return (0);
 }
 
