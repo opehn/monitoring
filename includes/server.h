@@ -39,11 +39,16 @@ typedef struct sshare
 
 void	*accept_perthread(void *args);
 void	*worker_routine(void *args);
+void	*udp_receive_routine(void *arg);
 void	save_file(data_queue_node *cur);
 
 void	server_logging(char *msg);
 void	receive_logging(char *msg, int aid);
 void	err_log(char *err_type);
 void	send_packet(int coonfd);
+
+
+char    *cur_time(void);
+char *make_filename(char *dir_name);
 
 #endif

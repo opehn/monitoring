@@ -33,6 +33,7 @@ typedef struct ashare
 {
 	int				aid;
 	int				logfd;
+	int				udp_cnt;
 	aqueue			*q;
 	pthread_mutex_t aqueue_lock;
 	pthread_mutex_t log_lock;

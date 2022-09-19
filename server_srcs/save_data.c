@@ -3,7 +3,7 @@
 extern sshare		*g_sshare;
 extern data_queue	*g_dq;
 
-char	*make_filename(int aid)
+char	*make_data_filename(int aid)
 {
 	time_t		cur_time; 
 	struct tm*	time_struct;

@@ -36,7 +36,11 @@ S_SRC_LIST := server.c \
 		 receive.c \
 		 save_data.c \
 		 worker.c \
-		 log.c
+		 log.c \
+		 udp_receive_routine.c \
+		 udp_log.c \
+		 util.c
+
 S_SRC := $(addprefix $(S_SRC_DIR), $(S_SRC_LIST))
 S_OBJS = $(S_SRC:.c=.o)
 

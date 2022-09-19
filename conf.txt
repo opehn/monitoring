@@ -1,0 +1,2 @@
+AGENT_ID = {11, 22}
+CLIENT_NUM = 2

@@ -3456,3 +3456,10 @@ Collect time : [04-36-39]  Received tiem : [04-36-39][04-36-39] : Save process d
 [10-24-43] : file open error : Too many open files
 [10-24-43] : file open error : Too many open files
 [10-24-43] : Zero byte left to receive
+[14-22-53] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 60049
+
+[14-24-35] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 60561
+
+[14-24-43] : Zero byte left to receive
