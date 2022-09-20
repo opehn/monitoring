@@ -35,7 +35,7 @@ typedef struct end_p {
 	char			process_name[16];
 	uint32_t		pid;
 	uint64_t		send_byte;
-	uint64_t		elapse_time;
+	clock_t		elapse_time;
 } end_p;
 #pragma pack()
 

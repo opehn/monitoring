@@ -191,16 +191,16 @@ int		main(int argc, char **argv)
 		return (0);
 	max_cli = atoi(argv[1]);
 
-//	logfd = daemonize();
+	logfd = daemonize();
 
-    filename = make_filename("server_log");
+   /* filename = make_filename("server_log");
     if (!(logfd = open(filename, O_RDWR | O_APPEND | O_CREAT | O_NOCTTY, S_IRWXU)))
     {
 		perror("log file open error");
         free(filename);
         exit(EXIT_FAILURE);
     }
-    free(filename);
+    free(filename); */
 
 	write(logfd, "----------------------------------------------------------------------\n", 71);
 	init_sshare(logfd);

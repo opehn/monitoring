@@ -17,8 +17,6 @@ static int	udp_recv_wrap(int udpsockfd, char *buf, int buf_len, int flag, SA *cl
 		udp_logging(msg);
 		return (-1);
 	}
-	printf("client")
-	//check_cli(cliaddr);
 	return (n);
 
 }
