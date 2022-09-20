@@ -82,7 +82,7 @@ void	*udp_receive_routine(void *arg)
 	char	*filename;
 
 	arg = (int *)arg;
-	filename = make_filename("udp_hook_log");
+	filename = make_filename("./log/udp_hook_log");
     if (!(g_udp_logfd = open(filename, O_RDWR | O_APPEND | O_CREAT | O_NOCTTY, S_IRWXU)))
     {
         perror("udp log file open error");
@@ -91,8 +91,7 @@ void	*udp_receive_routine(void *arg)
     }
     free(filename);
 
-	filename = make_filename("../../data/udp_data");
-	printf("fliename : %s\n", filename);
+	filename = make_filename("./data/udp_data");
 	if (!(data_fd = open(filename, O_RDWR | O_APPEND | O_CREAT | O_NOCTTY, S_IRWXU)))
 	{
 		udp_err_logging("udp data file open error");

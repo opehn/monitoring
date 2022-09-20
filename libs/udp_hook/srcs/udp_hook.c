@@ -39,7 +39,7 @@ static void	initialize(void)
 	char			*filename;
 
 	/* open log file */
-	filename = make_filename("../../log/udp_hook_log");
+	filename = make_filename("./log/udp_hook_log");
     if (!(udp_logfd = open(filename, O_RDWR | O_APPEND | O_CREAT | O_NOCTTY, S_IRWXU)))
     {
         perror("file open error");

@@ -23,7 +23,7 @@ char	*make_data_filename(int aid)
 	year = time_struct->tm_year + 1900;
 	month = time_struct->tm_mon + 1;
 	day = time_struct->tm_mday;
-	sprintf(file_name, "../data/%d_%d-%02d-%02d", aid, year, month, day);
+	sprintf(file_name, "./data/%d_%d-%02d-%02d", aid, year, month, day);
 	return (file_name);
 }
 

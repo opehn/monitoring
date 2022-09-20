@@ -47,7 +47,7 @@ static int daemonize(void)
     fopen("/dev/null", "w+");
     fopen("/dev/null", "w+");
 
-    filename = make_filename("server_log");
+    filename = make_filename("./log/server_log");
     if (!(logfd = open(filename, O_RDWR | O_APPEND | O_CREAT | O_NOCTTY, S_IRWXU)))
     {
 		perror("log file open error");
@@ -190,7 +190,7 @@ int		main(int argc, char **argv)
 
 	logfd = daemonize();
 
-   /* filename = make_filename("server_log");
+   /* filename = make_filename("./log/server_log");
     if (!(logfd = open(filename, O_RDWR | O_APPEND | O_CREAT | O_NOCTTY, S_IRWXU)))
     {
 		perror("log file open error");
