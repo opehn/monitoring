@@ -11,8 +11,8 @@
 #include <unistd.h>
 
 #define SERVERIP "127.0.0.1"
-#define SERVERPORT 8000
-#define LOCALPORT 9000
+#define TCPSERVERPORT 8000
+#define UDPSERVERPORT 9000
 
 typedef struct sockaddr_in SA_IN;
 typedef struct sockaddr SA;
@@ -37,7 +37,7 @@ typedef struct end_p {
 	uint64_t		send_byte;
 	uint64_t		elapse_time;
 } end_p;
+#pragma pack()
 
 void    udp_logging(char *msg);
 void    udp_err_logging(char *err_type);
-#pragma pack()

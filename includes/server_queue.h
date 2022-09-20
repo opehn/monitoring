@@ -9,7 +9,7 @@ typedef struct data_queue_node
 	packet_header				*header;
 	char						*payload;
 	struct data_queue_node		*prev;
-	struct data_queue_node	*next;
+	struct data_queue_node		*next;
 } data_queue_node;
 
 typedef struct data_queue 

@@ -19,7 +19,8 @@
 #include <time.h>
 #include "server_queue.h"
 
-#define SERVERPORT 8000
+#define TCPSERVERPORT 8000
+#define UDPSERVERPORT 9000
 #define WORKER_NUM 4
 
 typedef struct	sockaddr SA;

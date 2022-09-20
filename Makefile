@@ -2,7 +2,7 @@ AGENT = agent
 SERVER = server
 
 CC = gcc 
-FLAGS = -g -Wall -Werror -Wextra
+FLAGS = -g -Wall -Werror -Wextra -Wl,--dynamic-list-data
 
 INC = -I$(HEADER_DIR)
 

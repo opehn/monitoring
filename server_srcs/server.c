@@ -3,9 +3,8 @@
 sshare			*g_sshare;
 data_queue		*g_dq;
 pthread_cond_t	g_cond;
-int				g_udp_logfd;
 
-static void daemonize(void)
+static int daemonize(void)
 {
     pid_t   pid = 0;
     int     fd;
@@ -51,23 +50,16 @@ static void daemonize(void)
     fopen("/dev/null", "w+");
 
     filename = make_filename("server_log");
-    if (!(g_sshare->logfd = open(filename, O_RDWR | O_APPEND | O_CREAT | O_NOCTTY, S_IRWXU)))
+    if (!(logfd = open(filename, O_RDWR | O_APPEND | O_CREAT | O_NOCTTY, S_IRWXU)))
     {
 		perror("log file open error");
         free(filename);
         exit(EXIT_FAILURE);
     }
-	dup2(g_sshare->logfd, STDERR_FILENO);
+	dup2(logfd, STDERR_FILENO);
     free(filename);
 
-    filename = make_filename("udp_hook_log");
-    if (!(g_udp_logfd = open(filename, O_RDWR | O_APPEND | O_CREAT | O_NOCTTY, S_IRWXU)))
-    {
-		perror("log file open error");
-        free(filename);
-        exit(EXIT_FAILURE);
-    }
-    free(filename);
+	return (logfd);
 }
 
 static int init_socket(int logfd, pthread_mutex_t *log_lock)
@@ -86,7 +78,7 @@ static int init_socket(int logfd, pthread_mutex_t *log_lock)
 	memset(&serveraddr, 0, sizeof(serveraddr));
 	serveraddr.sin_family = AF_INET;
 	serveraddr.sin_addr.s_addr = INADDR_ANY;
-	serveraddr.sin_port = SERVERPORT;
+	serveraddr.sin_port = TCPSERVERPORT;
 	if (0 > (res = bind(listenfd, (SA *)&serveraddr,\
 			sizeof(serveraddr))))
 	{
@@ -184,26 +176,11 @@ void	set_signal(void)
 	sigaction(SIGPIPE, &act, NULL);
 }
 
-int	init_udpsocket(void)
-{
-	SA_IN	servaddr;
-	int		udpsockfd;
-
-	udpsockfd = socket(AF_INET, SOCK_DGRAM, 0);
-
-	memset(&servaddr, 0, sizeof(servaddr));
-	servaddr.sin_family = AF_INET;
-	servaddr.sin_addr.s_addr = htonl(INADDR_ANY);
-	servaddr.sin_port = htons(SERVERPORT);
-
-	bind(udpsockfd, (SA *) &servaddr, sizeof(servaddr));
-	return (udpsockfd);
-}
-
 int		main(int argc, char **argv)
 {
 	SA_IN				clientaddr;
 	int					max_cli;
+	int					logfd;
 	char				*filename;
 	pthread_t			*worker_tid;
 	pthread_t			*recv_tid;
@@ -214,10 +191,10 @@ int		main(int argc, char **argv)
 		return (0);
 	max_cli = atoi(argv[1]);
 
-//	daemonize();
+//	logfd = daemonize();
 
     filename = make_filename("server_log");
-    if (!(g_sshare->logfd = open(filename, O_RDWR | O_APPEND | O_CREAT | O_NOCTTY, S_IRWXU)))
+    if (!(logfd = open(filename, O_RDWR | O_APPEND | O_CREAT | O_NOCTTY, S_IRWXU)))
     {
 		perror("log file open error");
         free(filename);
@@ -225,14 +202,11 @@ int		main(int argc, char **argv)
     }
     free(filename);
 
-	write(g_sshare->logfd, "----------------------------------------------------------------------\n", 71);
-	init_sshare(g_sshare->logfd);
+	write(logfd, "----------------------------------------------------------------------\n", 71);
+	init_sshare(logfd);
 
 	/* open listen socket */
-	g_sshare->listenfd = init_socket(g_sshare->logfd, &g_sshare->log_lock);
-
-	/* open udp(hook) socket*/
-	udpsockfd = init_udpsocket();
+	g_sshare->listenfd = init_socket(logfd, &g_sshare->log_lock);
 
 	/* create tcp receive thread / worker thread */
 	recv_tid = create_recv_thread(max_cli);

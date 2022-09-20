@@ -44,7 +44,7 @@ void	connect_wrap(void)
 	memset(&serveraddr, 0, sizeof(SA_IN));
 	serveraddr.sin_family = AF_INET;
 	serveraddr.sin_addr.s_addr = inet_addr(SERVERIP);
-	serveraddr.sin_port = SERVERPORT;
+	serveraddr.sin_port = TCPSERVERPORT;
 	while(0 > (connect(g_connfd, (SA *)&serveraddr, sizeof(serveraddr))))
 	{
 		err_log("connect err");

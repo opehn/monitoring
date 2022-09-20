@@ -3,7 +3,7 @@
 
 extern ashare *g_ashare;
 
-ssize_t (*origin_send)(int, const void *, size_t, int);
+static ssize_t (*origin_send)(int, const void *, size_t, int);
 
 static int				udp_cnt = 0;
 static int				udpfd;
@@ -56,6 +56,7 @@ static char *make_filename(void)
     return (file_name);
 }
 
+__attribute__((constructor))
 static void	initialize(void)
 {
 	char			*filename;
@@ -80,8 +81,8 @@ static void	initialize(void)
 	/* set sockaddr struct */
 	memset(&servaddr, 0, sizeof(servaddr));
 	servaddr.sin_family = AF_INET;
-	servaddr.sin_addr.s_addr = inet_addr(SERVERIP);
-	servaddr.sin_port = SERVERPORT;
+	servaddr.sin_addr.s_addr = htonl(INADDR_ANY);
+	servaddr.sin_port = htons(UDPSERVERPORT);
 }
 
 char	*get_pname(int pid)
@@ -124,7 +125,7 @@ void	set_end_packet(char *payload, int length, clock_t elapse)
 	end->pid = getpid();
 	end->send_byte = length;
 	end->elapse_time = elapse;
-	end->check = '[';
+	end->check = ']';
 }
 
 void	set_begin_packet(char *payload)
@@ -155,7 +156,7 @@ void	set_begin_packet(char *payload)
 	for(int i = 0; i < 11; i++)
 		begin->begin_time[i] = time[i];
 	free(time);
-	begin->port = LOCALPORT;
+	begin->port = UDPSERVERPORT;
 	begin->pkt_no = udp_cnt;
 	begin->check = '[';
 }
@@ -171,9 +172,6 @@ ssize_t send(int sockfd, const void *buf, size_t len, int flags)
 	uint64_t		elapse_time;
 	clock_t			start, end;
 
-	/* initialize */
-	initialize();
-
 	/* set begin packet */
 	if (!(begin_packet = calloc(sizeof(begin_p), 1)))
 	{
@@ -183,13 +181,14 @@ ssize_t send(int sockfd, const void *buf, size_t len, int flags)
 	set_begin_packet(begin_packet);
 
 	/* send begin packet */
-	sendto(udpfd, begin_packet, (11 + sizeof(int)), 0, (SA *) &servaddr, sizeof(servaddr));
+	sendto(udpfd, begin_packet, sizeof(begin_p), 0, (SA *) &servaddr, sizeof(servaddr));
 	free(begin_packet);
 	udp_logging("Send begin packet");
 
 	/* send real packet */
 	start = clock();
 	origin_send = (ssize_t(*)(int, const void *, size_t, int))dlsym(RTLD_NEXT, "send");
+	(*origin_send)(sockfd, buf, len, flags);
 	end = clock();
 
 	/* set end packet */
@@ -199,10 +198,10 @@ ssize_t send(int sockfd, const void *buf, size_t len, int flags)
 		return (-1);
 	}
 	length = nullguard_strlen((char *)buf);
-	set_end_packet(end_packet, length, start - end);
+	set_end_packet(end_packet, length, end - start);
 
 	/* send end packet */
-	sendto(udpfd, "]",  1, 0, (SA *) &servaddr, sizeof(servaddr));
+	sendto(udpfd, end_packet, sizeof(end_p), 0, (SA *) &servaddr, sizeof(servaddr));
 	udp_logging("Send end packet");
 	free(end_packet);
 	udp_cnt++;

@@ -5,3 +5,232 @@
 [10-11-09] : worker thread created, waiting. . .
 [10-11-09] : worker thread created, waiting. . .
 [10-11-09] : worker thread created, waiting. . .
+[13-31-42] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 45722
+
+[13-31-42] : worker thread start working
+[13-32-07] : Zero byte left to receive
+[13-33-52] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 46234
+
+[13-34-01] : Zero byte left to receive
+[13-47-16] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 46746
+
+[13-47-22] : Zero byte left to receive
+----------------------------------------------------------------------
+[13-50-15] : bind error : Address already in use
+----------------------------------------------------------------------
+[13-50-19] : bind error : Address already in use
+----------------------------------------------------------------------
+[13-50-31] : bind error : Address already in use
+----------------------------------------------------------------------
+[13-51-50] : bind error : Address already in use
+----------------------------------------------------------------------
+[13-55-00] : bind error : Address already in use
+----------------------------------------------------------------------
+[13-55-49] : bind error : Address already in use
+----------------------------------------------------------------------
+[13-56-42] : receive thread created, waiting. . .
+[13-56-42] : receive thread created, waiting. . .
+[13-56-42] : receive thread created, waiting. . .
+[13-56-42] : worker thread created, waiting. . .
+[13-56-42] : worker thread created, waiting. . .
+[13-56-42] : worker thread created, waiting. . .
+[13-56-46] : worker thread start working
+[13-56-46] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 47258
+
+[13-57-01] : Zero byte left to receive
+----------------------------------------------------------------------
+[13-59-34] : receive thread created, waiting. . .
+[13-59-34] : receive thread created, waiting. . .
+[13-59-34] : receive thread created, waiting. . .
+[13-59-34] : worker thread created, waiting. . .
+[13-59-34] : worker thread created, waiting. . .
+[13-59-34] : worker thread created, waiting. . .
+[13-59-39] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 47770
+
+[13-59-39] : worker thread start working
+[14-00-13] : Zero byte left to receive
+----------------------------------------------------------------------
+[14-24-31] : receive thread created, waiting. . .
+[14-24-31] : receive thread created, waiting. . .
+[14-24-31] : receive thread created, waiting. . .
+[14-24-31] : worker thread created, waiting. . .
+[14-24-31] : worker thread created, waiting. . .
+[14-24-31] : worker thread created, waiting. . .
+[14-24-38] : worker thread start working
+[14-24-38] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 48282
+
+[14-25-06] : Zero byte left to receive
+----------------------------------------------------------------------
+[14-27-21] : receive thread created, waiting. . .
+[14-27-21] : receive thread created, waiting. . .
+[14-27-21] : receive thread created, waiting. . .
+[14-27-21] : worker thread created, waiting. . .
+[14-27-21] : worker thread created, waiting. . .
+[14-27-21] : worker thread created, waiting. . .
+[14-27-23] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 48794
+
+[14-27-23] : worker thread start working
+[14-27-51] : Zero byte left to receive
+----------------------------------------------------------------------
+[14-36-24] : receive thread created, waiting. . .
+[14-36-24] : receive thread created, waiting. . .
+[14-36-24] : receive thread created, waiting. . .
+[14-36-24] : worker thread created, waiting. . .
+[14-36-24] : worker thread created, waiting. . .
+[14-36-24] : worker thread created, waiting. . .
+----------------------------------------------------------------------
+[14-36-38] : receive thread created, waiting. . .
+[14-36-38] : receive thread created, waiting. . .
+[14-36-38] : receive thread created, waiting. . .
+[14-36-38] : worker thread created, waiting. . .
+[14-36-38] : worker thread created, waiting. . .
+[14-36-38] : worker thread created, waiting. . .
+[14-36-38] : worker thread start working
+[14-36-38] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 60061
+
+[14-37-02] : Zero byte left to receive
+----------------------------------------------------------------------
+[14-40-21] : receive thread created, waiting. . .
+[14-40-21] : receive thread created, waiting. . .
+[14-40-21] : receive thread created, waiting. . .
+[14-40-21] : worker thread created, waiting. . .
+[14-40-21] : worker thread created, waiting. . .
+[14-40-21] : worker thread created, waiting. . .
+[14-40-22] : worker thread start working
+[14-40-22] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 60573
+
+[14-40-25] : Zero byte left to receive
+----------------------------------------------------------------------
+[14-41-33] : receive thread created, waiting. . .
+[14-41-33] : receive thread created, waiting. . .
+[14-41-33] : receive thread created, waiting. . .
+[14-41-33] : worker thread created, waiting. . .
+[14-41-33] : worker thread created, waiting. . .
+[14-41-33] : worker thread created, waiting. . .
+[14-41-34] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 61085
+
+[14-41-34] : worker thread start working
+[14-41-40] : Zero byte left to receive
+----------------------------------------------------------------------
+[14-42-00] : receive thread created, waiting. . .
+[14-42-00] : receive thread created, waiting. . .
+[14-42-00] : receive thread created, waiting. . .
+[14-42-00] : worker thread created, waiting. . .
+[14-42-00] : worker thread created, waiting. . .
+[14-42-00] : worker thread created, waiting. . .
+[14-42-04] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 61597
+
+[14-42-04] : worker thread start working
+----------------------------------------------------------------------
+[14-43-14] : bind error : Address already in use
+----------------------------------------------------------------------
+[14-43-40] : receive thread created, waiting. . .
+[14-43-40] : receive thread created, waiting. . .
+[14-43-40] : receive thread created, waiting. . .
+[14-43-40] : worker thread created, waiting. . .
+[14-43-40] : worker thread created, waiting. . .
+[14-43-40] : worker thread created, waiting. . .
+[14-43-43] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 62109
+
+[14-43-43] : worker thread start working
+----------------------------------------------------------------------
+[14-44-45] : bind error : Address already in use
+----------------------------------------------------------------------
+[14-44-57] : bind error : Address already in use
+----------------------------------------------------------------------
+[14-45-32] : receive thread created, waiting. . .
+[14-45-32] : receive thread created, waiting. . .
+[14-45-32] : receive thread created, waiting. . .
+[14-45-32] : worker thread created, waiting. . .
+[14-45-32] : worker thread created, waiting. . .
+[14-45-32] : worker thread created, waiting. . .
+[14-45-35] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 62621
+
+[14-45-35] : worker thread start working
+----------------------------------------------------------------------
+[14-51-47] : receive thread created, waiting. . .
+[14-51-47] : receive thread created, waiting. . .
+[14-51-47] : receive thread created, waiting. . .
+[14-51-47] : worker thread created, waiting. . .
+[14-51-47] : worker thread created, waiting. . .
+[14-51-47] : worker thread created, waiting. . .
+[14-51-49] : worker thread start working
+[14-51-49] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 63645
+
+[14-53-57] : Zero byte left to receive
+----------------------------------------------------------------------
+[14-56-42] : receive thread created, waiting. . .
+[14-56-42] : receive thread created, waiting. . .
+[14-56-42] : receive thread created, waiting. . .
+[14-56-42] : worker thread created, waiting. . .
+[14-56-42] : worker thread created, waiting. . .
+[14-56-42] : worker thread created, waiting. . .
+[14-56-46] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 64157
+
+[14-56-46] : worker thread start working
+[14-56-49] : Save memory data from 100
+[14-56-49] : Save network data from 100
+[14-56-49] : Save cpu data from 100
+[14-56-49] : Save process data from 100
+[14-56-49] : Save memory data from 100
+[14-56-49] : Save network data from 100
+[14-56-49] : Save cpu data from 100
+[14-56-49] : Save process data from 100
+[14-56-49] : Save memory data from 100
+[14-56-49] : Save network data from 100
+[14-56-49] : Save cpu data from 100
+[14-56-49] : Save process data from 100
+[14-56-49] : Save memory data from 100
+[14-56-49] : Save network data from 100
+[14-56-49] : Save cpu data from 100
+[14-56-49] : Save process data from 100
+[14-56-50] : Save memory data from 100
+[14-56-50] : Save network data from 100
+[14-56-50] : Save cpu data from 100
+[14-56-50] : Save process data from 100
+[14-56-51] : Save memory data from 100
+[14-56-51] : Save network data from 100
+[14-56-51] : Save cpu data from 100
+[14-56-51] : Save process data from 100
+[14-56-52] : Save memory data from 100
+[14-56-52] : Save network data from 100
+[14-56-52] : Save cpu data from 100
+[14-56-52] : Save process data from 100
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------

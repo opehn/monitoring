@@ -1,0 +1,862 @@
+----------------------------------------------------------------------
+[03-00-13] : receive thread created, waiting. . .
+[03-00-13] : receive thread created, waiting. . .
+[03-00-13] : receive thread created, waiting. . .
+[03-00-13] : worker thread created, waiting. . .
+[03-00-13] : worker thread created, waiting. . .
+[03-00-13] : worker thread created, waiting. . .
+[03-00-16] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 52907
+
+[03-00-16] : worker thread start working
+[03-00-19] : Save memory data from 100
+[03-00-19] : Save network data from 100
+[03-00-19] : Save cpu data from 100
+[03-00-19] : Save process data from 100
+[03-00-19] : Save memory data from 100
+[03-00-19] : Save network data from 100
+[03-00-19] : Save cpu data from 100
+[03-00-19] : Save process data from 100
+[03-00-19] : Save memory data from 100
+[03-00-19] : Save network data from 100
+[03-00-19] : Save cpu data from 100
+[03-00-19] : Save process data from 100
+[03-00-19] : Save memory data from 100
+[03-00-19] : Save network data from 100
+[03-00-19] : Save cpu data from 100
+[03-00-19] : Save process data from 100
+[03-00-20] : Save memory data from 100
+[03-00-20] : Save network data from 100
+[03-00-20] : Save cpu data from 100
+[03-00-20] : Save process data from 100
+[03-00-21] : Save memory data from 100
+[03-00-21] : Save network data from 100
+[03-00-21] : Save cpu data from 100
+[03-00-21] : Save process data from 100
+[03-00-22] : Save memory data from 100
+[03-00-22] : Save network data from 100
+[03-00-22] : Save cpu data from 100
+[03-00-22] : Save process data from 100
+[03-00-23] : Save memory data from 100
+[03-00-23] : Save network data from 100
+[03-00-23] : Save cpu data from 100
+[03-00-23] : Save process data from 100
+[03-00-24] : Save memory data from 100
+[03-00-24] : Save network data from 100
+[03-00-24] : Save cpu data from 100
+[03-00-24] : Save process data from 100
+[03-00-25] : Save memory data from 100
+[03-00-25] : Save network data from 100
+[03-00-25] : Save cpu data from 100
+[03-00-25] : Save process data from 100
+[03-00-26] : Save memory data from 100
+[03-00-26] : Save network data from 100
+[03-00-26] : Save cpu data from 100
+[03-00-26] : Save process data from 100
+[03-00-27] : Save memory data from 100
+[03-00-27] : Save network data from 100
+[03-00-27] : Save cpu data from 100
+[03-00-27] : Save process data from 100
+[03-00-28] : Save memory data from 100
+[03-00-28] : Save network data from 100
+[03-00-28] : Save cpu data from 100
+[03-00-28] : Save process data from 100
+[03-00-29] : Save memory data from 100
+[03-00-29] : Save network data from 100
+[03-00-29] : Save cpu data from 100
+[03-00-29] : Save process data from 100
+[03-00-30] : Zero byte left to receive
+----------------------------------------------------------------------
+[03-02-58] : receive thread created, waiting. . .
+[03-02-58] : receive thread created, waiting. . .
+[03-02-58] : receive thread created, waiting. . .
+[03-02-58] : worker thread created, waiting. . .
+[03-02-58] : worker thread created, waiting. . .
+[03-02-58] : worker thread created, waiting. . .
+[03-03-01] : worker thread start working
+[03-03-01] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 53419
+
+[03-03-04] : Save memory data from 100
+[03-03-04] : Save network data from 100
+[03-03-04] : Save cpu data from 100
+[03-03-04] : Save process data from 100
+[03-03-04] : Save memory data from 100
+[03-03-04] : Save network data from 100
+[03-03-04] : Save cpu data from 100
+[03-03-04] : Save process data from 100
+[03-03-04] : Save memory data from 100
+[03-03-04] : Save network data from 100
+[03-03-04] : Save cpu data from 100
+[03-03-04] : Save process data from 100
+[03-03-04] : Save memory data from 100
+[03-03-04] : Save network data from 100
+[03-03-04] : Save cpu data from 100
+[03-03-04] : Save process data from 100
+[03-03-05] : Save memory data from 100
+[03-03-05] : Save network data from 100
+[03-03-05] : Save cpu data from 100
+[03-03-05] : Save process data from 100
+[03-03-06] : Save memory data from 100
+[03-03-06] : Save network data from 100
+[03-03-06] : Save cpu data from 100
+[03-03-06] : Save process data from 100
+[03-03-07] : Save memory data from 100
+[03-03-07] : Save network data from 100
+[03-03-07] : Save cpu data from 100
+[03-03-07] : Save process data from 100
+[03-03-08] : Save memory data from 100
+[03-03-08] : Save network data from 100
+[03-03-08] : Save cpu data from 100
+[03-03-08] : Save process data from 100
+[03-03-09] : Save memory data from 100
+[03-03-09] : Save network data from 100
+[03-03-09] : Save cpu data from 100
+[03-03-09] : Save process data from 100
+[03-03-10] : Save memory data from 100
+[03-03-10] : Save network data from 100
+[03-03-10] : Save cpu data from 100
+[03-03-10] : Save process data from 100
+[03-03-11] : Save memory data from 100
+[03-03-11] : Save network data from 100
+[03-03-11] : Save cpu data from 100
+[03-03-11] : Save process data from 100
+[03-03-12] : Save memory data from 100
+[03-03-12] : Save network data from 100
+[03-03-12] : Save cpu data from 100
+[03-03-12] : Save process data from 100
+[03-03-13] : Save memory data from 100
+[03-03-13] : Save network data from 100
+[03-03-13] : Save cpu data from 100
+[03-03-13] : Save process data from 100
+[03-03-14] : Save memory data from 100
+[03-03-14] : Save network data from 100
+[03-03-14] : Save cpu data from 100
+[03-03-14] : Save process data from 100
+[03-03-15] : Save memory data from 100
+[03-03-15] : Save network data from 100
+[03-03-15] : Save cpu data from 100
+[03-03-15] : Save process data from 100
+[03-03-16] : Save memory data from 100
+[03-03-16] : Save network data from 100
+[03-03-16] : Save cpu data from 100
+[03-03-16] : Save process data from 100
+[03-03-17] : Save memory data from 100
+[03-03-17] : Save network data from 100
+[03-03-17] : Save cpu data from 100
+[03-03-17] : Save process data from 100
+[03-03-18] : Save memory data from 100
+[03-03-18] : Save network data from 100
+[03-03-18] : Save cpu data from 100
+[03-03-18] : Save process data from 100
+[03-03-19] : Save memory data from 100
+[03-03-19] : Save network data from 100
+[03-03-19] : Save cpu data from 100
+[03-03-19] : Save process data from 100
+[03-03-20] : Save memory data from 100
+[03-03-20] : Save network data from 100
+[03-03-20] : Save cpu data from 100
+[03-03-20] : Save process data from 100
+[03-03-21] : Save memory data from 100
+[03-03-21] : Save network data from 100
+[03-03-21] : Save cpu data from 100
+[03-03-21] : Save process data from 100
+[03-03-22] : Save memory data from 100
+[03-03-22] : Save network data from 100
+[03-03-22] : Save cpu data from 100
+[03-03-22] : Save process data from 100
+[03-03-23] : Save memory data from 100
+[03-03-23] : Save network data from 100
+[03-03-23] : Save cpu data from 100
+[03-03-23] : Save process data from 100
+[03-03-24] : Save memory data from 100
+[03-03-24] : Save network data from 100
+[03-03-24] : Save cpu data from 100
+[03-03-24] : Save process data from 100
+[03-03-25] : Save memory data from 100
+[03-03-25] : Save network data from 100
+[03-03-25] : Save cpu data from 100
+[03-03-25] : Save process data from 100
+[03-03-26] : Save memory data from 100
+[03-03-26] : Save network data from 100
+[03-03-26] : Save cpu data from 100
+[03-03-26] : Save process data from 100
+[03-03-27] : Save memory data from 100
+[03-03-27] : Save network data from 100
+[03-03-27] : Save cpu data from 100
+[03-03-27] : Save process data from 100
+[03-03-28] : Save memory data from 100
+[03-03-28] : Save network data from 100
+[03-03-28] : Save cpu data from 100
+[03-03-28] : Save process data from 100
+[03-03-29] : Save memory data from 100
+[03-03-29] : Save network data from 100
+[03-03-29] : Save cpu data from 100
+[03-03-29] : Save process data from 100
+[03-03-30] : Zero byte left to receive
+----------------------------------------------------------------------
+[03-04-58] : receive thread created, waiting. . .
+[03-04-58] : receive thread created, waiting. . .
+[03-04-58] : receive thread created, waiting. . .
+[03-04-58] : worker thread created, waiting. . .
+[03-04-58] : worker thread created, waiting. . .
+[03-04-58] : worker thread created, waiting. . .
+[03-05-00] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 53931
+
+[03-05-00] : worker thread start working
+[03-05-03] : Save memory data from 100
+[03-05-03] : Save network data from 100
+[03-05-03] : Save cpu data from 100
+[03-05-03] : Save process data from 100
+[03-05-03] : Save memory data from 100
+[03-05-03] : Save network data from 100
+[03-05-03] : Save cpu data from 100
+[03-05-03] : Save process data from 100
+[03-05-03] : Save memory data from 100
+[03-05-03] : Save network data from 100
+[03-05-03] : Save cpu data from 100
+[03-05-03] : Save process data from 100
+[03-05-03] : Save memory data from 100
+[03-05-03] : Save network data from 100
+[03-05-03] : Save cpu data from 100
+[03-05-03] : Save process data from 100
+[03-05-04] : Save memory data from 100
+[03-05-04] : Save network data from 100
+[03-05-04] : Save cpu data from 100
+[03-05-04] : Save process data from 100
+[03-05-05] : Save memory data from 100
+[03-05-05] : Save network data from 100
+[03-05-05] : Save cpu data from 100
+[03-05-05] : Save process data from 100
+[03-05-06] : Save memory data from 100
+[03-05-06] : Save network data from 100
+[03-05-06] : Save cpu data from 100
+[03-05-06] : Save process data from 100
+[03-05-07] : Save memory data from 100
+[03-05-07] : Save network data from 100
+[03-05-07] : Save cpu data from 100
+[03-05-07] : Save process data from 100
+[03-05-08] : Save memory data from 100
+[03-05-08] : Save network data from 100
+[03-05-08] : Save cpu data from 100
+[03-05-08] : Save process data from 100
+[03-05-09] : Save memory data from 100
+[03-05-09] : Save network data from 100
+[03-05-09] : Save cpu data from 100
+[03-05-09] : Save process data from 100
+[03-05-10] : Save memory data from 100
+[03-05-10] : Save network data from 100
+[03-05-10] : Save cpu data from 100
+[03-05-10] : Save process data from 100
+[03-05-11] : Save memory data from 100
+[03-05-11] : Save network data from 100
+[03-05-11] : Save cpu data from 100
+[03-05-11] : Save process data from 100
+[03-05-12] : Save memory data from 100
+[03-05-12] : Save network data from 100
+[03-05-12] : Save cpu data from 100
+[03-05-12] : Save process data from 100
+[03-05-13] : Save memory data from 100
+[03-05-13] : Save network data from 100
+[03-05-13] : Save cpu data from 100
+[03-05-13] : Save process data from 100
+[03-05-14] : Save memory data from 100
+[03-05-14] : Save network data from 100
+[03-05-14] : Save cpu data from 100
+[03-05-14] : Save process data from 100
+[03-05-15] : Save memory data from 100
+[03-05-15] : Save network data from 100
+[03-05-15] : Save cpu data from 100
+[03-05-15] : Save process data from 100
+[03-05-16] : Save memory data from 100
+[03-05-16] : Save network data from 100
+[03-05-16] : Save cpu data from 100
+[03-05-16] : Save process data from 100
+[03-05-17] : Save memory data from 100
+[03-05-17] : Save network data from 100
+[03-05-17] : Save cpu data from 100
+[03-05-17] : Save process data from 100
+[03-05-18] : Save memory data from 100
+[03-05-18] : Save network data from 100
+[03-05-18] : Save cpu data from 100
+[03-05-18] : Save process data from 100
+[03-05-19] : Save memory data from 100
+[03-05-19] : Save network data from 100
+[03-05-19] : Save cpu data from 100
+[03-05-19] : Save process data from 100
+[03-05-20] : Save memory data from 100
+[03-05-20] : Save network data from 100
+[03-05-20] : Save cpu data from 100
+[03-05-20] : Save process data from 100
+[03-05-21] : Save memory data from 100
+[03-05-21] : Save network data from 100
+[03-05-21] : Save cpu data from 100
+[03-05-21] : Save process data from 100
+[03-05-22] : Save memory data from 100
+[03-05-22] : Save network data from 100
+[03-05-22] : Save cpu data from 100
+[03-05-22] : Save process data from 100
+[03-05-23] : Save memory data from 100
+[03-05-23] : Save network data from 100
+[03-05-23] : Save cpu data from 100
+[03-05-23] : Save process data from 100
+[03-05-24] : Save memory data from 100
+[03-05-24] : Save network data from 100
+[03-05-24] : Save cpu data from 100
+[03-05-24] : Save process data from 100
+[03-05-25] : Save memory data from 100
+[03-05-25] : Save network data from 100
+[03-05-25] : Save cpu data from 100
+[03-05-25] : Save process data from 100
+[03-05-26] : Save memory data from 100
+[03-05-26] : Save network data from 100
+[03-05-26] : Save cpu data from 100
+[03-05-26] : Save process data from 100
+----------------------------------------------------------------------
+[03-05-46] : receive thread created, waiting. . .
+[03-05-46] : receive thread created, waiting. . .
+[03-05-46] : receive thread created, waiting. . .
+[03-05-46] : worker thread created, waiting. . .
+[03-05-46] : worker thread created, waiting. . .
+[03-05-46] : worker thread created, waiting. . .
+----------------------------------------------------------------------
+[03-06-37] : receive thread created, waiting. . .
+[03-06-37] : receive thread created, waiting. . .
+[03-06-37] : receive thread created, waiting. . .
+[03-06-37] : worker thread created, waiting. . .
+[03-06-37] : worker thread created, waiting. . .
+[03-06-37] : worker thread created, waiting. . .
+[03-06-40] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 13996
+
+[03-06-40] : worker thread start working
+[03-06-43] : Save memory data from 100
+[03-06-43] : Save network data from 100
+[03-06-43] : Save cpu data from 100
+[03-06-43] : Save process data from 100
+[03-06-43] : Save memory data from 100
+[03-06-43] : Save network data from 100
+[03-06-43] : Save cpu data from 100
+[03-06-43] : Save process data from 100
+[03-06-43] : Save memory data from 100
+[03-06-43] : Save network data from 100
+[03-06-43] : Save cpu data from 100
+[03-06-43] : Save process data from 100
+[03-06-43] : Save memory data from 100
+[03-06-43] : Save network data from 100
+[03-06-43] : Save cpu data from 100
+[03-06-43] : Save process data from 100
+[03-06-44] : Save memory data from 100
+[03-06-44] : Save network data from 100
+[03-06-44] : Save cpu data from 100
+[03-06-44] : Save process data from 100
+[03-06-45] : Save memory data from 100
+[03-06-45] : Save network data from 100
+[03-06-45] : Save cpu data from 100
+[03-06-45] : Save process data from 100
+[03-06-46] : Save memory data from 100
+[03-06-46] : Save network data from 100
+[03-06-46] : Save cpu data from 100
+[03-06-46] : Save process data from 100
+[03-06-47] : Save memory data from 100
+[03-06-47] : Save network data from 100
+[03-06-47] : Save cpu data from 100
+[03-06-47] : Save process data from 100
+[03-06-48] : Save memory data from 100
+[03-06-48] : Save network data from 100
+[03-06-48] : Save cpu data from 100
+[03-06-48] : Save process data from 100
+[03-06-49] : Save memory data from 100
+[03-06-49] : Save network data from 100
+[03-06-49] : Save cpu data from 100
+[03-06-49] : Save process data from 100
+[03-06-50] : Save memory data from 100
+[03-06-50] : Save network data from 100
+[03-06-50] : Save cpu data from 100
+[03-06-50] : Save process data from 100
+[03-06-51] : Save memory data from 100
+[03-06-51] : Save network data from 100
+[03-06-51] : Save cpu data from 100
+[03-06-51] : Save process data from 100
+[03-06-52] : Save memory data from 100
+[03-06-52] : Save network data from 100
+[03-06-52] : Save cpu data from 100
+[03-06-52] : Save process data from 100
+[03-06-53] : Save memory data from 100
+[03-06-53] : Save network data from 100
+[03-06-53] : Save cpu data from 100
+[03-06-53] : Save process data from 100
+----------------------------------------------------------------------
+[03-09-19] : receive thread created, waiting. . .
+[03-09-19] : receive thread created, waiting. . .
+[03-09-19] : receive thread created, waiting. . .
+[03-09-19] : worker thread created, waiting. . .
+[03-09-19] : worker thread created, waiting. . .
+[03-09-19] : worker thread created, waiting. . .
+[03-09-22] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 52908
+
+[03-09-22] : worker thread start working
+[03-09-25] : Save memory data from 100
+[03-09-25] : Save network data from 100
+[03-09-25] : Save cpu data from 100
+[03-09-25] : Save process data from 100
+[03-09-25] : Save memory data from 100
+[03-09-25] : Save network data from 100
+[03-09-25] : Save cpu data from 100
+[03-09-25] : Save process data from 100
+[03-09-25] : Save memory data from 100
+[03-09-25] : Save network data from 100
+[03-09-25] : Save cpu data from 100
+[03-09-25] : Save process data from 100
+[03-09-25] : Save memory data from 100
+[03-09-25] : Save network data from 100
+[03-09-25] : Save cpu data from 100
+[03-09-25] : Save process data from 100
+[03-09-26] : Save memory data from 100
+[03-09-26] : Save network data from 100
+[03-09-26] : Save cpu data from 100
+[03-09-26] : Save process data from 100
+[03-09-27] : Save memory data from 100
+[03-09-27] : Save network data from 100
+[03-09-27] : Save cpu data from 100
+[03-09-27] : Save process data from 100
+[03-09-28] : Save memory data from 100
+[03-09-28] : Save network data from 100
+[03-09-28] : Save cpu data from 100
+[03-09-28] : Save process data from 100
+----------------------------------------------------------------------
+[03-09-33] : receive thread created, waiting. . .
+[03-09-33] : receive thread created, waiting. . .
+[03-09-33] : receive thread created, waiting. . .
+[03-09-33] : worker thread created, waiting. . .
+[03-09-33] : worker thread created, waiting. . .
+[03-09-33] : worker thread created, waiting. . .
+[03-09-35] : worker thread start working
+[03-09-35] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 15021
+
+[03-09-38] : Save memory data from 100
+[03-09-38] : Save network data from 100
+[03-09-38] : Save cpu data from 100
+[03-09-38] : Save process data from 100
+[03-09-38] : Save memory data from 100
+[03-09-38] : Save network data from 100
+[03-09-38] : Save cpu data from 100
+[03-09-38] : Save process data from 100
+[03-09-38] : Save memory data from 100
+[03-09-38] : Save network data from 100
+[03-09-38] : Save cpu data from 100
+[03-09-38] : Save process data from 100
+[03-09-38] : Save memory data from 100
+[03-09-38] : Save network data from 100
+[03-09-38] : Save cpu data from 100
+[03-09-38] : Save process data from 100
+[03-09-39] : Save memory data from 100
+[03-09-39] : Save network data from 100
+[03-09-39] : Save cpu data from 100
+[03-09-39] : Save process data from 100
+[03-09-40] : Save memory data from 100
+[03-09-40] : Save network data from 100
+[03-09-40] : Save cpu data from 100
+[03-09-40] : Save process data from 100
+[03-09-41] : Save memory data from 100
+[03-09-41] : Save network data from 100
+[03-09-41] : Save cpu data from 100
+[03-09-41] : Save process data from 100
+[03-09-42] : Save memory data from 100
+[03-09-42] : Save network data from 100
+[03-09-42] : Save cpu data from 100
+[03-09-42] : Save process data from 100
+[03-09-43] : Save memory data from 100
+[03-09-43] : Save network data from 100
+[03-09-43] : Save cpu data from 100
+[03-09-43] : Save process data from 100
+[03-09-44] : Save memory data from 100
+[03-09-44] : Save network data from 100
+[03-09-44] : Save cpu data from 100
+[03-09-44] : Save process data from 100
+[03-09-45] : Save memory data from 100
+[03-09-45] : Save network data from 100
+[03-09-45] : Save cpu data from 100
+[03-09-45] : Save process data from 100
+[03-09-46] : Save memory data from 100
+[03-09-46] : Save network data from 100
+[03-09-46] : Save cpu data from 100
+[03-09-46] : Save process data from 100
+[03-09-47] : Save memory data from 100
+[03-09-47] : Save network data from 100
+[03-09-47] : Save cpu data from 100
+[03-09-47] : Save process data from 100
+[03-09-48] : Save memory data from 100
+[03-09-48] : Save network data from 100
+[03-09-48] : Save cpu data from 100
+[03-09-48] : Save process data from 100
+[03-09-49] : Save memory data from 100
+[03-09-49] : Save network data from 100
+[03-09-49] : Save cpu data from 100
+[03-09-49] : Save process data from 100
+[03-09-50] : Save memory data from 100
+[03-09-50] : Save network data from 100
+[03-09-50] : Save cpu data from 100
+[03-09-50] : Save process data from 100
+[03-09-51] : Save memory data from 100
+[03-09-51] : Save network data from 100
+[03-09-51] : Save cpu data from 100
+[03-09-51] : Save process data from 100
+[03-09-52] : Save memory data from 100
+[03-09-52] : Save network data from 100
+[03-09-52] : Save cpu data from 100
+[03-09-52] : Save process data from 100
+----------------------------------------------------------------------
+[03-11-28] : receive thread created, waiting. . .
+[03-11-28] : receive thread created, waiting. . .
+[03-11-28] : receive thread created, waiting. . .
+[03-11-28] : worker thread created, waiting. . .
+[03-11-28] : worker thread created, waiting. . .
+[03-11-28] : worker thread created, waiting. . .
+[03-11-30] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 15533
+
+[03-11-30] : worker thread start working
+[03-11-33] : Save memory data from 100
+[03-11-33] : Save network data from 100
+[03-11-33] : Save cpu data from 100
+[03-11-33] : Save process data from 100
+[03-11-33] : Save memory data from 100
+[03-11-33] : Save network data from 100
+[03-11-33] : Save cpu data from 100
+[03-11-33] : Save process data from 100
+[03-11-33] : Save memory data from 100
+[03-11-33] : Save network data from 100
+[03-11-33] : Save cpu data from 100
+[03-11-33] : Save process data from 100
+[03-11-33] : Save memory data from 100
+[03-11-33] : Save network data from 100
+[03-11-33] : Save cpu data from 100
+[03-11-33] : Save process data from 100
+----------------------------------------------------------------------
+[03-11-43] : receive thread created, waiting. . .
+[03-11-43] : receive thread created, waiting. . .
+[03-11-43] : receive thread created, waiting. . .
+[03-11-43] : worker thread created, waiting. . .
+[03-11-43] : worker thread created, waiting. . .
+[03-11-43] : worker thread created, waiting. . .
+[03-11-45] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 19629
+
+[03-11-45] : worker thread start working
+[03-11-48] : Save memory data from 100
+[03-11-48] : Save network data from 100
+[03-11-48] : Save cpu data from 100
+[03-11-48] : Save process data from 100
+[03-11-48] : Save memory data from 100
+[03-11-48] : Save network data from 100
+[03-11-48] : Save cpu data from 100
+[03-11-48] : Save process data from 100
+[03-11-48] : Save memory data from 100
+[03-11-48] : Save network data from 100
+[03-11-48] : Save cpu data from 100
+[03-11-48] : Save process data from 100
+[03-11-48] : Save memory data from 100
+[03-11-48] : Save network data from 100
+[03-11-48] : Save cpu data from 100
+[03-11-48] : Save process data from 100
+[03-11-49] : Save memory data from 100
+[03-11-49] : Save network data from 100
+[03-11-49] : Save cpu data from 100
+[03-11-49] : Save process data from 100
+[03-11-50] : Save memory data from 100
+[03-11-50] : Save network data from 100
+[03-11-50] : Save cpu data from 100
+[03-11-50] : Save process data from 100
+[03-11-51] : Save memory data from 100
+[03-11-51] : Save network data from 100
+[03-11-51] : Save cpu data from 100
+[03-11-51] : Save process data from 100
+[03-11-52] : Save memory data from 100
+[03-11-52] : Save network data from 100
+[03-11-52] : Save cpu data from 100
+[03-11-52] : Save process data from 100
+----------------------------------------------------------------------
+[03-12-38] : receive thread created, waiting. . .
+[03-12-38] : receive thread created, waiting. . .
+[03-12-38] : receive thread created, waiting. . .
+[03-12-38] : worker thread created, waiting. . .
+[03-12-38] : worker thread created, waiting. . .
+[03-12-38] : worker thread created, waiting. . .
+[03-12-40] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 34989
+
+[03-12-40] : worker thread start working
+[03-12-43] : Save memory data from 100
+[03-12-43] : Save network data from 100
+[03-12-43] : Save cpu data from 100
+[03-12-43] : Save process data from 100
+[03-12-43] : Save memory data from 100
+[03-12-43] : Save network data from 100
+[03-12-43] : Save cpu data from 100
+[03-12-43] : Save process data from 100
+[03-12-43] : Save memory data from 100
+[03-12-43] : Save network data from 100
+[03-12-43] : Save cpu data from 100
+[03-12-43] : Save process data from 100
+[03-12-43] : Save memory data from 100
+[03-12-43] : Save network data from 100
+[03-12-43] : Save cpu data from 100
+[03-12-43] : Save process data from 100
+[03-12-44] : Save memory data from 100
+[03-12-44] : Save network data from 100
+[03-12-44] : Save cpu data from 100
+[03-12-44] : Save process data from 100
+[03-12-45] : Save memory data from 100
+[03-12-45] : Save network data from 100
+[03-12-45] : Save cpu data from 100
+[03-12-45] : Save process data from 100
+[03-12-46] : Save memory data from 100
+[03-12-46] : Save network data from 100
+[03-12-46] : Save cpu data from 100
+[03-12-46] : Save process data from 100
+[03-12-47] : Save memory data from 100
+[03-12-47] : Save network data from 100
+[03-12-47] : Save cpu data from 100
+[03-12-47] : Save process data from 100
+[03-12-48] : Save memory data from 100
+[03-12-48] : Save network data from 100
+[03-12-48] : Save cpu data from 100
+[03-12-48] : Save process data from 100
+[03-12-49] : Save memory data from 100
+[03-12-49] : Save network data from 100
+[03-12-49] : Save cpu data from 100
+[03-12-49] : Save process data from 100
+[03-12-50] : Save memory data from 100
+[03-12-50] : Save network data from 100
+[03-12-50] : Save cpu data from 100
+[03-12-50] : Save process data from 100
+[03-12-51] : Save memory data from 100
+[03-12-51] : Save network data from 100
+[03-12-51] : Save cpu data from 100
+[03-12-51] : Save process data from 100
+[03-12-52] : Save memory data from 100
+[03-12-52] : Save network data from 100
+[03-12-52] : Save cpu data from 100
+[03-12-52] : Save process data from 100
+[03-12-53] : Save memory data from 100
+[03-12-53] : Save network data from 100
+[03-12-53] : Save cpu data from 100
+[03-12-53] : Save process data from 100
+[03-12-54] : Save memory data from 100
+[03-12-54] : Save network data from 100
+[03-12-54] : Save cpu data from 100
+[03-12-54] : Save process data from 100
+[03-12-55] : Save memory data from 100
+[03-12-55] : Save network data from 100
+[03-12-55] : Save cpu data from 100
+[03-12-55] : Save process data from 100
+[03-12-56] : Save memory data from 100
+[03-12-56] : Save network data from 100
+[03-12-56] : Save cpu data from 100
+[03-12-56] : Save process data from 100
+[03-12-57] : Save memory data from 100
+[03-12-57] : Save network data from 100
+[03-12-57] : Save cpu data from 100
+[03-12-57] : Save process data from 100
+[03-12-58] : Save memory data from 100
+[03-12-58] : Save network data from 100
+[03-12-58] : Save cpu data from 100
+[03-12-58] : Save process data from 100
+[03-12-59] : Save memory data from 100
+[03-12-59] : Save network data from 100
+[03-12-59] : Save cpu data from 100
+[03-12-59] : Save process data from 100
+[03-13-00] : Save memory data from 100
+[03-13-00] : Save network data from 100
+[03-13-00] : Save cpu data from 100
+[03-13-00] : Save process data from 100
+[03-13-01] : Save memory data from 100
+[03-13-01] : Save network data from 100
+[03-13-01] : Save cpu data from 100
+[03-13-01] : Save process data from 100
+[03-13-02] : Save memory data from 100
+[03-13-02] : Save network data from 100
+[03-13-02] : Save cpu data from 100
+[03-13-02] : Save process data from 100
+[03-13-03] : Save memory data from 100
+[03-13-03] : Save network data from 100
+[03-13-03] : Save cpu data from 100
+[03-13-03] : Save process data from 100
+[03-13-04] : Save memory data from 100
+[03-13-04] : Save network data from 100
+[03-13-04] : Save cpu data from 100
+[03-13-04] : Save process data from 100
+[03-13-05] : Save memory data from 100
+[03-13-05] : Save network data from 100
+[03-13-05] : Save cpu data from 100
+[03-13-05] : Save process data from 100
+[03-13-06] : Save memory data from 100
+[03-13-06] : Save network data from 100
+[03-13-06] : Save cpu data from 100
+[03-13-06] : Save process data from 100
+[03-13-07] : Save memory data from 100
+[03-13-07] : Save network data from 100
+[03-13-07] : Save cpu data from 100
+[03-13-07] : Save process data from 100
+[03-13-08] : Save memory data from 100
+[03-13-08] : Save network data from 100
+[03-13-08] : Save cpu data from 100
+[03-13-08] : Save process data from 100
+[03-13-09] : Save memory data from 100
+[03-13-09] : Save network data from 100
+[03-13-09] : Save cpu data from 100
+[03-13-09] : Save process data from 100
+[03-13-10] : Save memory data from 100
+[03-13-10] : Save network data from 100
+[03-13-10] : Save cpu data from 100
+[03-13-10] : Save process data from 100
+[03-13-11] : Save memory data from 100
+[03-13-11] : Save network data from 100
+[03-13-11] : Save cpu data from 100
+[03-13-11] : Save process data from 100
+[03-13-12] : Save memory data from 100
+[03-13-12] : Save network data from 100
+[03-13-12] : Save cpu data from 100
+[03-13-12] : Save process data from 100
+[03-13-13] : Save memory data from 100
+[03-13-13] : Save network data from 100
+[03-13-13] : Save cpu data from 100
+[03-13-13] : Save process data from 100
+[03-13-14] : Save memory data from 100
+[03-13-14] : Save network data from 100
+[03-13-14] : Save cpu data from 100
+[03-13-14] : Save process data from 100
+[03-13-15] : Save memory data from 100
+[03-13-15] : Save network data from 100
+[03-13-15] : Save cpu data from 100
+[03-13-15] : Save process data from 100
+[03-13-16] : Save memory data from 100
+[03-13-16] : Save network data from 100
+[03-13-16] : Save cpu data from 100
+[03-13-16] : Save process data from 100
+[03-13-17] : Save memory data from 100
+[03-13-17] : Save network data from 100
+[03-13-17] : Save cpu data from 100
+[03-13-17] : Save process data from 100
+[03-13-18] : Save memory data from 100
+[03-13-18] : Save network data from 100
+[03-13-18] : Save cpu data from 100
+[03-13-18] : Save process data from 100
+[03-13-19] : Save memory data from 100
+[03-13-19] : Save network data from 100
+[03-13-19] : Save cpu data from 100
+[03-13-19] : Save process data from 100
+[03-13-20] : Save memory data from 100
+[03-13-20] : Save network data from 100
+[03-13-20] : Save cpu data from 100
+[03-13-20] : Save process data from 100
+[03-13-21] : Save memory data from 100
+[03-13-21] : Save network data from 100
+[03-13-21] : Save cpu data from 100
+[03-13-21] : Save process data from 100
+[03-13-22] : Save memory data from 100
+[03-13-22] : Save network data from 100
+[03-13-22] : Save cpu data from 100
+[03-13-22] : Save process data from 100
+----------------------------------------------------------------------
+[03-20-43] : receive thread created, waiting. . .
+[03-20-43] : receive thread created, waiting. . .
+[03-20-43] : receive thread created, waiting. . .
+[03-20-43] : worker thread created, waiting. . .
+[03-20-43] : worker thread created, waiting. . .
+[03-20-43] : worker thread created, waiting. . .
+----------------------------------------------------------------------
+[03-21-00] : receive thread created, waiting. . .
+[03-21-00] : receive thread created, waiting. . .
+[03-21-00] : receive thread created, waiting. . .
+[03-21-00] : worker thread created, waiting. . .
+[03-21-00] : worker thread created, waiting. . .
+[03-21-00] : worker thread created, waiting. . .
+[03-21-01] : worker thread start working
+[03-21-01] : 
+[TCP 서버] 클라이언트 접속: IP 주소 = 127.0.0.1, 포트 번호 = 28846
+
+[03-21-04] : Save memory data from 100
+[03-21-04] : Save network data from 100
+[03-21-04] : Save cpu data from 100
+[03-21-04] : Save process data from 100
+[03-21-04] : Save memory data from 100
+[03-21-04] : Save network data from 100
+[03-21-04] : Save cpu data from 100
+[03-21-04] : Save process data from 100
+[03-21-04] : Save memory data from 100
+[03-21-04] : Save network data from 100
+[03-21-04] : Save cpu data from 100
+[03-21-04] : Save process data from 100
+[03-21-04] : Save memory data from 100
+[03-21-04] : Save network data from 100
+[03-21-04] : Save cpu data from 100
+[03-21-04] : Save process data from 100
+[03-21-05] : Save memory data from 100
+[03-21-05] : Save network data from 100
+[03-21-05] : Save cpu data from 100
+[03-21-05] : Save process data from 100
+[03-21-06] : Save memory data from 100
+[03-21-06] : Save network data from 100
+[03-21-06] : Save cpu data from 100
+[03-21-06] : Save process data from 100
+[03-21-07] : Save memory data from 100
+[03-21-07] : Save network data from 100
+[03-21-07] : Save cpu data from 100
+[03-21-07] : Save process data from 100
+[03-21-08] : Save memory data from 100
+[03-21-08] : Save network data from 100
+[03-21-08] : Save cpu data from 100
+[03-21-08] : Save process data from 100
+[03-21-09] : Save memory data from 100
+[03-21-09] : Save network data from 100
+[03-21-09] : Save cpu data from 100
+[03-21-09] : Save process data from 100
+[03-21-10] : Save memory data from 100
+[03-21-10] : Save network data from 100
+[03-21-10] : Save cpu data from 100
+[03-21-10] : Save process data from 100
+[03-21-11] : Save memory data from 100
+[03-21-11] : Save network data from 100
+[03-21-11] : Save cpu data from 100
+[03-21-11] : Save process data from 100
+[03-21-12] : Save memory data from 100
+[03-21-12] : Save network data from 100
+[03-21-12] : Save cpu data from 100
+[03-21-12] : Save process data from 100
+[03-21-13] : Save memory data from 100
+[03-21-13] : Save network data from 100
+[03-21-13] : Save cpu data from 100
+[03-21-13] : Save process data from 100
+[03-21-14] : Save memory data from 100
+[03-21-14] : Save network data from 100
+[03-21-14] : Save cpu data from 100
+[03-21-15] : Save process data from 100
+[03-21-15] : Save memory data from 100
+[03-21-15] : Save network data from 100
+[03-21-16] : Save cpu data from 100
+[03-21-16] : Save process data from 100
+[03-21-16] : Save memory data from 100
+[03-21-16] : Save network data from 100
+[03-21-17] : Save cpu data from 100
+[03-21-17] : Save process data from 100
+[03-21-17] : Save memory data from 100
+[03-21-18] : Save network data from 100
+[03-21-18] : Save cpu data from 100
+[03-21-18] : Save process data from 100
+[03-21-18] : Save memory data from 100
+[03-21-19] : Save network data from 100
+[03-21-19] : Save cpu data from 100
+[03-21-19] : Save process data from 100
+[03-21-20] : Save memory data from 100
+[03-21-20] : Save network data from 100
+[03-21-20] : Save cpu data from 100
+[03-21-20] : Save process data from 100
+[03-21-21] : Save memory data from 100
+[03-21-21] : Save network data from 100
+[03-21-21] : Save cpu data from 100
+[03-21-21] : Save process data from 100

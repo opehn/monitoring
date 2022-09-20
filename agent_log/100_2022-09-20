@@ -1,0 +1,1904 @@
+----------------------------------------------------------------------
+[03-00-16] : collect thread created
+[03-00-16] : push memory info
+[03-00-16] : send thread created
+[03-00-16] : push network info
+[03-00-16] : push cpu info
+[03-00-16] : push proces info
+[03-00-17] : push memory info
+[03-00-17] : push network info
+[03-00-17] : push cpu info
+[03-00-17] : push proces info
+[03-00-18] : push memory info
+[03-00-18] : push network info
+[03-00-18] : push cpu info
+[03-00-18] : push proces info
+[03-00-19] : send memory info, byte size : 35
+[03-00-19] : send network info, byte size : 67
+[03-00-19] : send cpu info, byte size : 147
+[03-00-19] : send process info, byte size : 27607
+[03-00-19] : send memory info, byte size : 35
+[03-00-19] : send network info, byte size : 67
+[03-00-19] : send cpu info, byte size : 147
+[03-00-19] : send process info, byte size : 27607
+[03-00-19] : send memory info, byte size : 35
+[03-00-19] : send network info, byte size : 67
+[03-00-19] : send cpu info, byte size : 147
+[03-00-19] : send process info, byte size : 27607
+[03-00-19] : push memory info
+[03-00-19] : push network info
+[03-00-19] : push cpu info
+[03-00-19] : push proces info
+[03-00-19] : send memory info, byte size : 35
+[03-00-19] : send network info, byte size : 67
+[03-00-19] : send cpu info, byte size : 147
+[03-00-19] : send process info, byte size : 27607
+[03-00-20] : push memory info
+[03-00-20] : push network info
+[03-00-20] : push cpu info
+[03-00-20] : push proces info
+[03-00-20] : send memory info, byte size : 35
+[03-00-20] : send network info, byte size : 67
+[03-00-20] : send cpu info, byte size : 147
+[03-00-20] : send process info, byte size : 27607
+[03-00-21] : push memory info
+[03-00-21] : push network info
+[03-00-21] : push cpu info
+[03-00-21] : push proces info
+[03-00-21] : send memory info, byte size : 35
+[03-00-21] : send network info, byte size : 67
+[03-00-21] : send cpu info, byte size : 147
+[03-00-21] : send process info, byte size : 27607
+[03-00-22] : push memory info
+[03-00-22] : push network info
+[03-00-22] : push cpu info
+[03-00-22] : push proces info
+[03-00-22] : send memory info, byte size : 35
+[03-00-22] : send network info, byte size : 67
+[03-00-22] : send cpu info, byte size : 147
+[03-00-22] : send process info, byte size : 27607
+[03-00-23] : push memory info
+[03-00-23] : push network info
+[03-00-23] : push cpu info
+[03-00-23] : push proces info
+[03-00-23] : send memory info, byte size : 35
+[03-00-23] : send network info, byte size : 67
+[03-00-23] : send cpu info, byte size : 147
+[03-00-23] : send process info, byte size : 27607
+[03-00-24] : push memory info
+[03-00-24] : push network info
+[03-00-24] : push cpu info
+[03-00-24] : push proces info
+[03-00-24] : send memory info, byte size : 35
+[03-00-24] : send network info, byte size : 67
+[03-00-24] : send cpu info, byte size : 147
+[03-00-24] : send process info, byte size : 27607
+[03-00-25] : push memory info
+[03-00-25] : push network info
+[03-00-25] : push cpu info
+[03-00-25] : push proces info
+[03-00-25] : send memory info, byte size : 35
+[03-00-25] : send network info, byte size : 67
+[03-00-25] : send cpu info, byte size : 147
+[03-00-25] : send process info, byte size : 27607
+[03-00-26] : push memory info
+[03-00-26] : push network info
+[03-00-26] : push cpu info
+[03-00-26] : push proces info
+[03-00-26] : send memory info, byte size : 35
+[03-00-26] : send network info, byte size : 67
+[03-00-26] : send cpu info, byte size : 147
+[03-00-26] : send process info, byte size : 27607
+[03-00-27] : push memory info
+[03-00-27] : push network info
+[03-00-27] : push cpu info
+[03-00-27] : push proces info
+[03-00-27] : send memory info, byte size : 35
+[03-00-27] : send network info, byte size : 67
+[03-00-27] : send cpu info, byte size : 147
+[03-00-27] : send process info, byte size : 27607
+[03-00-28] : push memory info
+[03-00-28] : push network info
+[03-00-28] : push cpu info
+[03-00-28] : push proces info
+[03-00-28] : send memory info, byte size : 35
+[03-00-28] : send network info, byte size : 67
+[03-00-28] : send cpu info, byte size : 147
+[03-00-28] : send process info, byte size : 27607
+[03-00-29] : push memory info
+[03-00-29] : push network info
+[03-00-29] : push cpu info
+[03-00-29] : push proces info
+[03-00-29] : send memory info, byte size : 35
+[03-00-29] : send network info, byte size : 67
+[03-00-29] : send cpu info, byte size : 147
+[03-00-29] : send process info, byte size : 27607
+[03-00-30] : received SIG_INT
+----------------------------------------------------------------------
+[03-03-01] : collect thread created
+[03-03-01] : push memory info
+[03-03-01] : send thread created
+[03-03-01] : push network info
+[03-03-01] : push cpu info
+[03-03-01] : push proces info
+[03-03-02] : push memory info
+[03-03-02] : push network info
+[03-03-02] : push cpu info
+[03-03-02] : push proces info
+[03-03-03] : push memory info
+[03-03-03] : push network info
+[03-03-03] : push cpu info
+[03-03-03] : push proces info
+[03-03-04] : send memory info, byte size : 35
+[03-03-04] : send network info, byte size : 67
+[03-03-04] : send cpu info, byte size : 147
+[03-03-04] : send process info, byte size : 27607
+[03-03-04] : send memory info, byte size : 35
+[03-03-04] : send network info, byte size : 67
+[03-03-04] : send cpu info, byte size : 147
+[03-03-04] : push memory info
+[03-03-04] : push network info
+[03-03-04] : push cpu info
+[03-03-04] : push proces info
+[03-03-04] : send process info, byte size : 27607
+[03-03-04] : send memory info, byte size : 35
+[03-03-04] : send network info, byte size : 67
+[03-03-04] : send cpu info, byte size : 147
+[03-03-04] : send process info, byte size : 27607
+[03-03-04] : send memory info, byte size : 35
+[03-03-04] : send network info, byte size : 67
+[03-03-04] : send cpu info, byte size : 147
+[03-03-04] : send process info, byte size : 27607
+[03-03-05] : push memory info
+[03-03-05] : push network info
+[03-03-05] : push cpu info
+[03-03-05] : push proces info
+[03-03-05] : send memory info, byte size : 35
+[03-03-05] : send network info, byte size : 67
+[03-03-05] : send cpu info, byte size : 147
+[03-03-05] : send process info, byte size : 27607
+[03-03-06] : push memory info
+[03-03-06] : push network info
+[03-03-06] : push cpu info
+[03-03-06] : push proces info
+[03-03-06] : send memory info, byte size : 35
+[03-03-06] : send network info, byte size : 67
+[03-03-06] : send cpu info, byte size : 147
+[03-03-06] : send process info, byte size : 27607
+[03-03-07] : push memory info
+[03-03-07] : push network info
+[03-03-07] : push cpu info
+[03-03-07] : push proces info
+[03-03-07] : send memory info, byte size : 35
+[03-03-07] : send network info, byte size : 67
+[03-03-07] : send cpu info, byte size : 147
+[03-03-07] : send process info, byte size : 27607
+[03-03-08] : push memory info
+[03-03-08] : push network info
+[03-03-08] : push cpu info
+[03-03-08] : push proces info
+[03-03-08] : send memory info, byte size : 35
+[03-03-08] : send network info, byte size : 67
+[03-03-08] : send cpu info, byte size : 147
+[03-03-08] : send process info, byte size : 27607
+[03-03-09] : push memory info
+[03-03-09] : push network info
+[03-03-09] : push cpu info
+[03-03-09] : push proces info
+[03-03-09] : send memory info, byte size : 35
+[03-03-09] : send network info, byte size : 67
+[03-03-09] : send cpu info, byte size : 147
+[03-03-09] : send process info, byte size : 27607
+[03-03-10] : push memory info
+[03-03-10] : push network info
+[03-03-10] : push cpu info
+[03-03-10] : push proces info
+[03-03-10] : send memory info, byte size : 35
+[03-03-10] : send network info, byte size : 67
+[03-03-10] : send cpu info, byte size : 147
+[03-03-10] : send process info, byte size : 27607
+[03-03-11] : push memory info
+[03-03-11] : push network info
+[03-03-11] : push cpu info
+[03-03-11] : push proces info
+[03-03-11] : send memory info, byte size : 35
+[03-03-11] : send network info, byte size : 67
+[03-03-11] : send cpu info, byte size : 147
+[03-03-11] : send process info, byte size : 27721
+[03-03-12] : push memory info
+[03-03-12] : push network info
+[03-03-12] : push cpu info
+[03-03-12] : push proces info
+[03-03-12] : send memory info, byte size : 35
+[03-03-12] : send network info, byte size : 67
+[03-03-12] : send cpu info, byte size : 147
+[03-03-12] : send process info, byte size : 27721
+[03-03-13] : push memory info
+[03-03-13] : push network info
+[03-03-13] : push cpu info
+[03-03-13] : push proces info
+[03-03-13] : send memory info, byte size : 35
+[03-03-13] : send network info, byte size : 67
+[03-03-13] : send cpu info, byte size : 147
+[03-03-13] : send process info, byte size : 27721
+[03-03-14] : push memory info
+[03-03-14] : push network info
+[03-03-14] : push cpu info
+[03-03-14] : push proces info
+[03-03-14] : send memory info, byte size : 35
+[03-03-14] : send network info, byte size : 67
+[03-03-14] : send cpu info, byte size : 147
+[03-03-14] : send process info, byte size : 27721
+[03-03-15] : push memory info
+[03-03-15] : push network info
+[03-03-15] : push cpu info
+[03-03-15] : push proces info
+[03-03-15] : send memory info, byte size : 35
+[03-03-15] : send network info, byte size : 67
+[03-03-15] : send cpu info, byte size : 147
+[03-03-15] : send process info, byte size : 27721
+[03-03-16] : push memory info
+[03-03-16] : push network info
+[03-03-16] : push cpu info
+[03-03-16] : push proces info
+[03-03-16] : send memory info, byte size : 35
+[03-03-16] : send network info, byte size : 67
+[03-03-16] : send cpu info, byte size : 147
+[03-03-16] : send process info, byte size : 27721
+[03-03-17] : push memory info
+[03-03-17] : push network info
+[03-03-17] : push cpu info
+[03-03-17] : push proces info
+[03-03-17] : send memory info, byte size : 35
+[03-03-17] : send network info, byte size : 67
+[03-03-17] : send cpu info, byte size : 147
+[03-03-17] : send process info, byte size : 27721
+[03-03-18] : push memory info
+[03-03-18] : push network info
+[03-03-18] : push cpu info
+[03-03-18] : push proces info
+[03-03-18] : send memory info, byte size : 35
+[03-03-18] : send network info, byte size : 67
+[03-03-18] : send cpu info, byte size : 147
+[03-03-18] : send process info, byte size : 27721
+[03-03-19] : push memory info
+[03-03-19] : push network info
+[03-03-19] : push cpu info
+[03-03-19] : push proces info
+[03-03-19] : send memory info, byte size : 35
+[03-03-19] : send network info, byte size : 67
+[03-03-19] : send cpu info, byte size : 147
+[03-03-19] : send process info, byte size : 27721
+[03-03-20] : push memory info
+[03-03-20] : push network info
+[03-03-20] : push cpu info
+[03-03-20] : push proces info
+[03-03-20] : send memory info, byte size : 35
+[03-03-20] : send network info, byte size : 67
+[03-03-20] : send cpu info, byte size : 147
+[03-03-20] : send process info, byte size : 27721
+[03-03-21] : push memory info
+[03-03-21] : push network info
+[03-03-21] : push cpu info
+[03-03-21] : push proces info
+[03-03-21] : send memory info, byte size : 35
+[03-03-21] : send network info, byte size : 67
+[03-03-21] : send cpu info, byte size : 147
+[03-03-21] : send process info, byte size : 27721
+[03-03-22] : push memory info
+[03-03-22] : push network info
+[03-03-22] : push cpu info
+[03-03-22] : push proces info
+[03-03-22] : send memory info, byte size : 35
+[03-03-22] : send network info, byte size : 67
+[03-03-22] : send cpu info, byte size : 147
+[03-03-22] : send process info, byte size : 27721
+[03-03-23] : push memory info
+[03-03-23] : push network info
+[03-03-23] : push cpu info
+[03-03-23] : push proces info
+[03-03-23] : send memory info, byte size : 35
+[03-03-23] : send network info, byte size : 67
+[03-03-23] : send cpu info, byte size : 147
+[03-03-23] : send process info, byte size : 27721
+[03-03-24] : push memory info
+[03-03-24] : push network info
+[03-03-24] : push cpu info
+[03-03-24] : push proces info
+[03-03-24] : send memory info, byte size : 35
+[03-03-24] : send network info, byte size : 67
+[03-03-24] : send cpu info, byte size : 147
+[03-03-24] : send process info, byte size : 27721
+[03-03-25] : push memory info
+[03-03-25] : push network info
+[03-03-25] : push cpu info
+[03-03-25] : push proces info
+[03-03-25] : send memory info, byte size : 35
+[03-03-25] : send network info, byte size : 67
+[03-03-25] : send cpu info, byte size : 147
+[03-03-25] : send process info, byte size : 27721
+[03-03-26] : push memory info
+[03-03-26] : push network info
+[03-03-26] : push cpu info
+[03-03-26] : push proces info
+[03-03-26] : send memory info, byte size : 35
+[03-03-26] : send network info, byte size : 67
+[03-03-26] : send cpu info, byte size : 147
+[03-03-26] : send process info, byte size : 27721
+[03-03-27] : push memory info
+[03-03-27] : push network info
+[03-03-27] : push cpu info
+[03-03-27] : push proces info
+[03-03-27] : send memory info, byte size : 35
+[03-03-27] : send network info, byte size : 67
+[03-03-27] : send cpu info, byte size : 147
+[03-03-27] : send process info, byte size : 27721
+[03-03-28] : push memory info
+[03-03-28] : push network info
+[03-03-28] : push cpu info
+[03-03-28] : push proces info
+[03-03-28] : send memory info, byte size : 35
+[03-03-28] : send network info, byte size : 67
+[03-03-28] : send cpu info, byte size : 147
+[03-03-28] : send process info, byte size : 27721
+[03-03-29] : push memory info
+[03-03-29] : push network info
+[03-03-29] : push cpu info
+[03-03-29] : push proces info
+[03-03-29] : send memory info, byte size : 35
+[03-03-29] : send network info, byte size : 67
+[03-03-29] : send cpu info, byte size : 147
+[03-03-29] : send process info, byte size : 27721
+[03-03-30] : received SIG_INT
+----------------------------------------------------------------------
+[03-05-00] : collect thread created
+[03-05-00] : push memory info
+[03-05-00] : send thread created
+[03-05-00] : push network info
+[03-05-00] : push cpu info
+[03-05-00] : push proces info
+[03-05-01] : push memory info
+[03-05-01] : push network info
+[03-05-01] : push cpu info
+[03-05-01] : push proces info
+[03-05-02] : push memory info
+[03-05-02] : push network info
+[03-05-02] : push cpu info
+[03-05-02] : push proces info
+[03-05-03] : send memory info, byte size : 35
+[03-05-03] : send network info, byte size : 67
+[03-05-03] : send cpu info, byte size : 147
+[03-05-03] : send process info, byte size : 27721
+[03-05-03] : send memory info, byte size : 35
+[03-05-03] : send network info, byte size : 67
+[03-05-03] : send cpu info, byte size : 147
+[03-05-03] : push memory info
+[03-05-03] : push network info
+[03-05-03] : push cpu info
+[03-05-03] : push proces info
+[03-05-03] : send process info, byte size : 27721
+[03-05-03] : send memory info, byte size : 35
+[03-05-03] : send network info, byte size : 67
+[03-05-03] : send cpu info, byte size : 147
+[03-05-03] : send process info, byte size : 27721
+[03-05-03] : send memory info, byte size : 35
+[03-05-03] : send network info, byte size : 67
+[03-05-03] : send cpu info, byte size : 147
+[03-05-03] : send process info, byte size : 27721
+[03-05-04] : push memory info
+[03-05-04] : push network info
+[03-05-04] : push cpu info
+[03-05-04] : push proces info
+[03-05-04] : send memory info, byte size : 35
+[03-05-04] : send network info, byte size : 67
+[03-05-04] : send cpu info, byte size : 147
+[03-05-04] : send process info, byte size : 27721
+[03-05-05] : push memory info
+[03-05-05] : push network info
+[03-05-05] : push cpu info
+[03-05-05] : push proces info
+[03-05-05] : send memory info, byte size : 35
+[03-05-05] : send network info, byte size : 67
+[03-05-05] : send cpu info, byte size : 147
+[03-05-05] : send process info, byte size : 27721
+[03-05-06] : push memory info
+[03-05-06] : push network info
+[03-05-06] : push cpu info
+[03-05-06] : push proces info
+[03-05-06] : send memory info, byte size : 35
+[03-05-06] : send network info, byte size : 67
+[03-05-06] : send cpu info, byte size : 147
+[03-05-06] : send process info, byte size : 27721
+[03-05-07] : push memory info
+[03-05-07] : push network info
+[03-05-07] : push cpu info
+[03-05-07] : push proces info
+[03-05-07] : send memory info, byte size : 35
+[03-05-07] : send network info, byte size : 67
+[03-05-07] : send cpu info, byte size : 147
+[03-05-07] : send process info, byte size : 27721
+[03-05-08] : push memory info
+[03-05-08] : push network info
+[03-05-08] : send memory info, byte size : 35
+[03-05-08] : push cpu info
+[03-05-08] : push proces info
+[03-05-08] : send network info, byte size : 67
+[03-05-08] : send cpu info, byte size : 147
+[03-05-08] : send process info, byte size : 27721
+[03-05-09] : push memory info
+[03-05-09] : push network info
+[03-05-09] : push cpu info
+[03-05-09] : push proces info
+[03-05-09] : send memory info, byte size : 35
+[03-05-09] : send network info, byte size : 67
+[03-05-09] : send cpu info, byte size : 147
+[03-05-09] : send process info, byte size : 27721
+[03-05-10] : push memory info
+[03-05-10] : push network info
+[03-05-10] : push cpu info
+[03-05-10] : push proces info
+[03-05-10] : send memory info, byte size : 35
+[03-05-10] : send network info, byte size : 67
+[03-05-10] : send cpu info, byte size : 147
+[03-05-10] : send process info, byte size : 27607
+[03-05-11] : push memory info
+[03-05-11] : push network info
+[03-05-11] : push cpu info
+[03-05-11] : push proces info
+[03-05-11] : send memory info, byte size : 35
+[03-05-11] : send network info, byte size : 67
+[03-05-11] : send cpu info, byte size : 147
+[03-05-11] : send process info, byte size : 27721
+[03-05-12] : push memory info
+[03-05-12] : push network info
+[03-05-12] : push cpu info
+[03-05-12] : push proces info
+[03-05-12] : send memory info, byte size : 35
+[03-05-12] : send network info, byte size : 67
+[03-05-12] : send cpu info, byte size : 147
+[03-05-12] : send process info, byte size : 27721
+[03-05-13] : push memory info
+[03-05-13] : push network info
+[03-05-13] : push cpu info
+[03-05-13] : push proces info
+[03-05-13] : send memory info, byte size : 35
+[03-05-13] : send network info, byte size : 67
+[03-05-13] : send cpu info, byte size : 147
+[03-05-13] : send process info, byte size : 27721
+[03-05-14] : push memory info
+[03-05-14] : push network info
+[03-05-14] : push cpu info
+[03-05-14] : push proces info
+[03-05-14] : send memory info, byte size : 35
+[03-05-14] : send network info, byte size : 67
+[03-05-14] : send cpu info, byte size : 147
+[03-05-14] : send process info, byte size : 27721
+[03-05-15] : push memory info
+[03-05-15] : push network info
+[03-05-15] : push cpu info
+[03-05-15] : push proces info
+[03-05-15] : send memory info, byte size : 35
+[03-05-15] : send network info, byte size : 67
+[03-05-15] : send cpu info, byte size : 147
+[03-05-15] : send process info, byte size : 27721
+[03-05-16] : push memory info
+[03-05-16] : push network info
+[03-05-16] : push cpu info
+[03-05-16] : push proces info
+[03-05-16] : send memory info, byte size : 35
+[03-05-16] : send network info, byte size : 67
+[03-05-16] : send cpu info, byte size : 147
+[03-05-16] : send process info, byte size : 27721
+[03-05-17] : push memory info
+[03-05-17] : push network info
+[03-05-17] : push cpu info
+[03-05-17] : push proces info
+[03-05-17] : send memory info, byte size : 35
+[03-05-17] : send network info, byte size : 67
+[03-05-17] : send cpu info, byte size : 147
+[03-05-17] : send process info, byte size : 27721
+[03-05-18] : push memory info
+[03-05-18] : push network info
+[03-05-18] : push cpu info
+[03-05-18] : push proces info
+[03-05-18] : send memory info, byte size : 35
+[03-05-18] : send network info, byte size : 67
+[03-05-18] : send cpu info, byte size : 147
+[03-05-18] : send process info, byte size : 27721
+[03-05-19] : push memory info
+[03-05-19] : push network info
+[03-05-19] : push cpu info
+[03-05-19] : push proces info
+[03-05-19] : send memory info, byte size : 35
+[03-05-19] : send network info, byte size : 67
+[03-05-19] : send cpu info, byte size : 147
+[03-05-19] : send process info, byte size : 27721
+[03-05-20] : push memory info
+[03-05-20] : push network info
+[03-05-20] : push cpu info
+[03-05-20] : push proces info
+[03-05-20] : send memory info, byte size : 35
+[03-05-20] : send network info, byte size : 67
+[03-05-20] : send cpu info, byte size : 147
+[03-05-20] : send process info, byte size : 27721
+[03-05-21] : push memory info
+[03-05-21] : push network info
+[03-05-21] : push cpu info
+[03-05-21] : push proces info
+[03-05-21] : send memory info, byte size : 35
+[03-05-21] : send network info, byte size : 67
+[03-05-21] : send cpu info, byte size : 147
+[03-05-21] : send process info, byte size : 27721
+[03-05-22] : push memory info
+[03-05-22] : push network info
+[03-05-22] : push cpu info
+[03-05-22] : push proces info
+[03-05-22] : send memory info, byte size : 35
+[03-05-22] : send network info, byte size : 67
+[03-05-22] : send cpu info, byte size : 147
+[03-05-22] : send process info, byte size : 27721
+[03-05-23] : push memory info
+[03-05-23] : push network info
+[03-05-23] : push cpu info
+[03-05-23] : push proces info
+[03-05-23] : send memory info, byte size : 35
+[03-05-23] : send network info, byte size : 67
+[03-05-23] : send cpu info, byte size : 147
+[03-05-23] : send process info, byte size : 27721
+[03-05-24] : push memory info
+[03-05-24] : push network info
+[03-05-24] : push cpu info
+[03-05-24] : push proces info
+[03-05-24] : send memory info, byte size : 35
+[03-05-24] : send network info, byte size : 67
+[03-05-24] : send cpu info, byte size : 147
+[03-05-24] : send process info, byte size : 27721
+[03-05-25] : push memory info
+[03-05-25] : push network info
+[03-05-25] : push cpu info
+[03-05-25] : push proces info
+[03-05-25] : send memory info, byte size : 35
+[03-05-25] : send network info, byte size : 67
+[03-05-25] : send cpu info, byte size : 147
+[03-05-25] : send process info, byte size : 27721
+[03-05-26] : push memory info
+[03-05-26] : push network info
+[03-05-26] : push cpu info
+[03-05-26] : push proces info
+[03-05-26] : send memory info, byte size : 35
+[03-05-26] : send network info, byte size : 67
+[03-05-26] : send cpu info, byte size : 147
+[03-05-26] : send process info, byte size : 27721
+[03-05-27] : push memory info
+[03-05-27] : push network info
+[03-05-27] : push cpu info
+[03-05-27] : push proces info
+[03-05-27] : send memory info, byte size : 35
+[03-05-27] : received SIG_PIPE, reconnect . . .
+[03-05-27] : connect err : Connection refused
+[03-05-27] : connect err : Connection refused
+[03-05-27] : connect err : Connection refused
+[03-05-27] : connect err : Connection refused
+[03-05-27] : connect err : Connection refused
+[03-05-27] : connect err : Connection refused
+[03-05-27] : connect err : Connection refused
+[03-05-27] : connect err : Connection refused
+[03-05-27] : connect err : Connection refused
+[03-05-27] : connect err : Connection refused
+[03-05-27] : connect err : Connection refused
+[03-05-27] : connect err : Connection refused
+[03-05-27] : connect err : Connection refused
+[03-05-27] : connect err : Connection refused
+[03-05-27] : connect err : Connection refused
+[03-05-27] : connect err : Connection refused
+[03-05-27] : connect err : Connection refused
+[03-05-27] : connect err : Connection refused
+[03-05-27] : connect err : Connection refused
+[03-05-27] : connect err : Connection refused
+[03-05-27] : connect err : Connection refused
+[03-05-27] : connect err : Connection refused
+[03-05-27] : connect err : Connection refused
+[03-05-27] : connect err : Connection refused
+[03-05-27] : connect err : Connection refused
+[03-05-27] : connect err : Connection refused
+[03-05-27] : connect err : Connection refused
+[03-05-27] : connect err : Connection refused
+[03-05-27] : connect err : Connection refused
+[03-05-27] : connect err : Connection refused
+[03-05-27] : connect err : Connection refused
+[03-05-28] : connect err : Connection refused
+[03-05-28] : connect err : Connection refused
+[03-05-28] : connect err : Connection refused
+[03-05-28] : connect err : Connection refused
+[03-05-28] : connect err : Connection refused
+[03-05-28] : connect err : Connection refused
+[03-05-28] : connect err : Connection refused
+[03-05-28] : connect err : Connection refused
+[03-05-28] : connect err : Connection refused
+[03-05-28] : connect err : Connection refused
+[03-05-28] : connect err : Connection refused
+[03-05-28] : connect err : Connection refused
+[03-05-28] : connect err : Connection refused
+[03-05-28] : connect err : Connection refused
+[03-05-28] : received SIG_INT
+----------------------------------------------------------------------
+[03-06-40] : collect thread created
+[03-06-40] : push memory info
+[03-06-40] : send thread created
+[03-06-40] : push network info
+[03-06-40] : push cpu info
+[03-06-40] : push proces info
+[03-06-41] : push memory info
+[03-06-41] : push network info
+[03-06-41] : push cpu info
+[03-06-41] : push proces info
+[03-06-42] : push memory info
+[03-06-42] : push network info
+[03-06-42] : push cpu info
+[03-06-42] : push proces info
+[03-06-43] : send memory info, byte size : 35
+[03-06-43] : send network info, byte size : 67
+[03-06-43] : send cpu info, byte size : 147
+[03-06-43] : send process info, byte size : 27607
+[03-06-43] : send memory info, byte size : 35
+[03-06-43] : send network info, byte size : 67
+[03-06-43] : send cpu info, byte size : 147
+[03-06-43] : send process info, byte size : 27607
+[03-06-43] : push memory info
+[03-06-43] : push network info
+[03-06-43] : push cpu info
+[03-06-43] : push proces info
+[03-06-43] : send memory info, byte size : 35
+[03-06-43] : send network info, byte size : 67
+[03-06-43] : send cpu info, byte size : 147
+[03-06-43] : send process info, byte size : 27607
+[03-06-43] : send memory info, byte size : 35
+[03-06-43] : send network info, byte size : 67
+[03-06-43] : send cpu info, byte size : 147
+[03-06-43] : send process info, byte size : 27607
+[03-06-44] : push memory info
+[03-06-44] : push network info
+[03-06-44] : push cpu info
+[03-06-44] : push proces info
+[03-06-44] : send memory info, byte size : 35
+[03-06-44] : send network info, byte size : 67
+[03-06-44] : send cpu info, byte size : 147
+[03-06-44] : send process info, byte size : 27607
+[03-06-45] : push memory info
+[03-06-45] : push network info
+[03-06-45] : push cpu info
+[03-06-45] : push proces info
+[03-06-45] : send memory info, byte size : 35
+[03-06-45] : send network info, byte size : 67
+[03-06-45] : send cpu info, byte size : 147
+[03-06-45] : send process info, byte size : 27607
+[03-06-46] : push memory info
+[03-06-46] : push network info
+[03-06-46] : push cpu info
+[03-06-46] : push proces info
+[03-06-46] : send memory info, byte size : 35
+[03-06-46] : send network info, byte size : 67
+[03-06-46] : send cpu info, byte size : 147
+[03-06-46] : send process info, byte size : 27607
+[03-06-47] : push memory info
+[03-06-47] : push network info
+[03-06-47] : push cpu info
+[03-06-47] : push proces info
+[03-06-47] : send memory info, byte size : 35
+[03-06-47] : send network info, byte size : 67
+[03-06-47] : send cpu info, byte size : 147
+[03-06-47] : send process info, byte size : 27607
+[03-06-48] : push memory info
+[03-06-48] : push network info
+[03-06-48] : push cpu info
+[03-06-48] : push proces info
+[03-06-48] : send memory info, byte size : 35
+[03-06-48] : send network info, byte size : 67
+[03-06-48] : send cpu info, byte size : 147
+[03-06-48] : send process info, byte size : 27721
+[03-06-49] : push memory info
+[03-06-49] : push network info
+[03-06-49] : push cpu info
+[03-06-49] : push proces info
+[03-06-49] : send memory info, byte size : 35
+[03-06-49] : send network info, byte size : 67
+[03-06-49] : send cpu info, byte size : 147
+[03-06-49] : send process info, byte size : 27721
+[03-06-50] : push memory info
+[03-06-50] : push network info
+[03-06-50] : push cpu info
+[03-06-50] : push proces info
+[03-06-50] : send memory info, byte size : 35
+[03-06-50] : send network info, byte size : 67
+[03-06-50] : send cpu info, byte size : 147
+[03-06-50] : send process info, byte size : 27721
+[03-06-51] : push memory info
+[03-06-51] : push network info
+[03-06-51] : push cpu info
+[03-06-51] : push proces info
+[03-06-51] : send memory info, byte size : 35
+[03-06-51] : send network info, byte size : 67
+[03-06-51] : send cpu info, byte size : 147
+[03-06-51] : send process info, byte size : 27721
+[03-06-52] : push memory info
+[03-06-52] : push network info
+[03-06-52] : push cpu info
+[03-06-52] : push proces info
+[03-06-52] : send memory info, byte size : 35
+[03-06-52] : send network info, byte size : 67
+[03-06-52] : send cpu info, byte size : 147
+[03-06-52] : send process info, byte size : 27721
+[03-06-53] : push memory info
+[03-06-53] : push network info
+[03-06-53] : push cpu info
+[03-06-53] : push proces info
+[03-06-53] : send memory info, byte size : 35
+[03-06-53] : send network info, byte size : 67
+[03-06-53] : send cpu info, byte size : 147
+[03-06-53] : send process info, byte size : 27721
+[03-06-54] : push memory info
+[03-06-54] : push network info
+[03-06-54] : push cpu info
+[03-06-54] : push proces info
+[03-06-54] : send memory info, byte size : 35
+[03-06-54] : received SIG_PIPE, reconnect . . .
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-54] : connect err : Connection refused
+[03-06-55] : connect err : Connection refused
+[03-06-55] : connect err : Connection refused
+[03-06-55] : connect err : Connection refused
+[03-06-55] : connect err : Connection refused
+[03-06-55] : connect err : Connection refused
+[03-06-55] : connect err : Connection refused
+[03-06-55] : connect err : Connection refused
+[03-06-55] : connect err : Connection refused
+[03-06-55] : connect err : Connection refused
+[03-06-55] : connect err : Connection refused
+[03-06-55] : connect err : Connection refused
+[03-06-55] : connect err : Connection refused
+[03-06-55] : connect err : Connection refused
+[03-06-55] : connect err : Connection refused
+[03-06-55] : connect err : Connection refused
+[03-06-55] : connect err : Connection refused
+[03-06-55] : connect err : Connection refused
+[03-06-55] : connect err : Connection refused
+[03-06-55] : connect err : Connection refused
+[03-06-55] : connect err : Connection refused
+[03-06-55] : connect err : Connection refused
+[03-06-55] : connect err : Connection refused
+[03-06-55] : connect err : Connection refused
+[03-06-55] : connect err : Connection refused
+[03-06-55] : connect err : Connection refused
+[03-06-55] : connect err : Connection refused
+[03-06-55] : connect err : Connection refused
+[03-06-55] : connect err : Connection refused
+[03-06-55] : connect err : Connection refused
+[03-06-55] : connect err : Connection refused
+[03-06-55] : connect err : Connection refused
+[03-06-55] : connect err : Connection refused
+[03-06-55] : connect err : Connection refused
+[03-06-55] : received SIG_INT
+----------------------------------------------------------------------
+[03-09-22] : collect thread created
+[03-09-22] : push memory info
+[03-09-22] : send thread created
+[03-09-22] : push network info
+[03-09-22] : push cpu info
+[03-09-22] : push proces info
+[03-09-23] : push memory info
+[03-09-23] : push network info
+[03-09-23] : push cpu info
+[03-09-23] : push proces info
+[03-09-24] : push memory info
+[03-09-24] : push network info
+[03-09-24] : push cpu info
+[03-09-24] : push proces info
+[03-09-25] : send memory info, byte size : 35
+[03-09-25] : send network info, byte size : 67
+[03-09-25] : send cpu info, byte size : 147
+[03-09-25] : send process info, byte size : 27721
+[03-09-25] : send memory info, byte size : 35
+[03-09-25] : send network info, byte size : 67
+[03-09-25] : send cpu info, byte size : 147
+[03-09-25] : send process info, byte size : 27721
+[03-09-25] : send memory info, byte size : 35
+[03-09-25] : send network info, byte size : 67
+[03-09-25] : send cpu info, byte size : 147
+[03-09-25] : push memory info
+[03-09-25] : push network info
+[03-09-25] : push cpu info
+[03-09-25] : push proces info
+[03-09-25] : send process info, byte size : 27721
+[03-09-25] : send memory info, byte size : 35
+[03-09-25] : send network info, byte size : 67
+[03-09-25] : send cpu info, byte size : 147
+[03-09-25] : send process info, byte size : 27721
+[03-09-26] : push memory info
+[03-09-26] : push network info
+[03-09-26] : push cpu info
+[03-09-26] : push proces info
+[03-09-26] : send memory info, byte size : 35
+[03-09-26] : send network info, byte size : 67
+[03-09-26] : send cpu info, byte size : 147
+[03-09-26] : send process info, byte size : 27721
+[03-09-27] : push memory info
+[03-09-27] : push network info
+[03-09-27] : push cpu info
+[03-09-27] : push proces info
+[03-09-27] : send memory info, byte size : 35
+[03-09-27] : send network info, byte size : 67
+[03-09-27] : send cpu info, byte size : 147
+[03-09-27] : send process info, byte size : 27607
+[03-09-28] : push memory info
+[03-09-28] : push network info
+[03-09-28] : push cpu info
+[03-09-28] : push proces info
+[03-09-28] : send memory info, byte size : 35
+[03-09-28] : send network info, byte size : 67
+[03-09-28] : send cpu info, byte size : 147
+[03-09-28] : send process info, byte size : 27607
+[03-09-29] : push memory info
+[03-09-29] : push network info
+[03-09-29] : push cpu info
+[03-09-29] : push proces info
+[03-09-29] : send memory info, byte size : 35
+[03-09-29] : received SIG_PIPE, reconnect . . .
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : connect err : Connection refused
+[03-09-29] : received SIG_INT
+----------------------------------------------------------------------
+[03-09-35] : collect thread created
+[03-09-35] : push memory info
+[03-09-35] : send thread created
+[03-09-35] : push network info
+[03-09-35] : push cpu info
+[03-09-35] : push proces info
+[03-09-36] : push memory info
+[03-09-36] : push network info
+[03-09-36] : push cpu info
+[03-09-36] : push proces info
+[03-09-37] : push memory info
+[03-09-37] : push network info
+[03-09-37] : push cpu info
+[03-09-37] : push proces info
+[03-09-38] : send memory info, byte size : 35
+[03-09-38] : send network info, byte size : 67
+[03-09-38] : send cpu info, byte size : 147
+[03-09-38] : send process info, byte size : 27607
+[03-09-38] : send memory info, byte size : 35
+[03-09-38] : push memory info
+[03-09-38] : push network info
+[03-09-38] : push cpu info
+[03-09-38] : push proces info
+[03-09-38] : send network info, byte size : 67
+[03-09-38] : send cpu info, byte size : 147
+[03-09-38] : send process info, byte size : 27607
+[03-09-38] : send memory info, byte size : 35
+[03-09-38] : send network info, byte size : 67
+[03-09-38] : send cpu info, byte size : 147
+[03-09-38] : send process info, byte size : 27607
+[03-09-38] : send memory info, byte size : 35
+[03-09-38] : send network info, byte size : 67
+[03-09-38] : send cpu info, byte size : 147
+[03-09-38] : send process info, byte size : 27607
+[03-09-39] : push memory info
+[03-09-39] : push network info
+[03-09-39] : push cpu info
+[03-09-39] : push proces info
+[03-09-39] : send memory info, byte size : 35
+[03-09-39] : send network info, byte size : 67
+[03-09-39] : send cpu info, byte size : 147
+[03-09-39] : send process info, byte size : 27721
+[03-09-40] : push memory info
+[03-09-40] : push network info
+[03-09-40] : push cpu info
+[03-09-40] : push proces info
+[03-09-40] : send memory info, byte size : 35
+[03-09-40] : send network info, byte size : 67
+[03-09-40] : send cpu info, byte size : 147
+[03-09-40] : send process info, byte size : 27721
+[03-09-41] : push memory info
+[03-09-41] : push network info
+[03-09-41] : push cpu info
+[03-09-41] : push proces info
+[03-09-41] : send memory info, byte size : 35
+[03-09-41] : send network info, byte size : 67
+[03-09-41] : send cpu info, byte size : 147
+[03-09-41] : send process info, byte size : 27721
+[03-09-42] : push memory info
+[03-09-42] : push network info
+[03-09-42] : push cpu info
+[03-09-42] : push proces info
+[03-09-42] : send memory info, byte size : 35
+[03-09-42] : send network info, byte size : 67
+[03-09-42] : send cpu info, byte size : 147
+[03-09-42] : send process info, byte size : 27721
+[03-09-43] : push memory info
+[03-09-43] : push network info
+[03-09-43] : push cpu info
+[03-09-43] : push proces info
+[03-09-43] : send memory info, byte size : 35
+[03-09-43] : send network info, byte size : 67
+[03-09-43] : send cpu info, byte size : 147
+[03-09-43] : send process info, byte size : 27721
+[03-09-44] : push memory info
+[03-09-44] : push network info
+[03-09-44] : push cpu info
+[03-09-44] : push proces info
+[03-09-44] : send memory info, byte size : 35
+[03-09-44] : send network info, byte size : 67
+[03-09-44] : send cpu info, byte size : 147
+[03-09-44] : send process info, byte size : 27721
+[03-09-45] : push memory info
+[03-09-45] : push network info
+[03-09-45] : push cpu info
+[03-09-45] : push proces info
+[03-09-45] : send memory info, byte size : 35
+[03-09-45] : send network info, byte size : 67
+[03-09-45] : send cpu info, byte size : 147
+[03-09-45] : send process info, byte size : 27721
+[03-09-46] : push memory info
+[03-09-46] : push network info
+[03-09-46] : push cpu info
+[03-09-46] : push proces info
+[03-09-46] : send memory info, byte size : 35
+[03-09-46] : send network info, byte size : 67
+[03-09-46] : send cpu info, byte size : 147
+[03-09-46] : send process info, byte size : 27721
+[03-09-47] : push memory info
+[03-09-47] : push network info
+[03-09-47] : push cpu info
+[03-09-47] : push proces info
+[03-09-47] : send memory info, byte size : 35
+[03-09-47] : send network info, byte size : 67
+[03-09-47] : send cpu info, byte size : 147
+[03-09-47] : send process info, byte size : 27721
+[03-09-48] : push memory info
+[03-09-48] : push network info
+[03-09-48] : push cpu info
+[03-09-48] : push proces info
+[03-09-48] : send memory info, byte size : 35
+[03-09-48] : send network info, byte size : 67
+[03-09-48] : send cpu info, byte size : 147
+[03-09-48] : send process info, byte size : 27721
+[03-09-49] : push memory info
+[03-09-49] : push network info
+[03-09-49] : push cpu info
+[03-09-49] : push proces info
+[03-09-49] : send memory info, byte size : 35
+[03-09-49] : send network info, byte size : 67
+[03-09-49] : send cpu info, byte size : 147
+[03-09-49] : send process info, byte size : 27721
+[03-09-50] : push memory info
+[03-09-50] : push network info
+[03-09-50] : push cpu info
+[03-09-50] : push proces info
+[03-09-50] : send memory info, byte size : 35
+[03-09-50] : send network info, byte size : 67
+[03-09-50] : send cpu info, byte size : 147
+[03-09-50] : send process info, byte size : 27721
+[03-09-51] : push memory info
+[03-09-51] : push network info
+[03-09-51] : push cpu info
+[03-09-51] : push proces info
+[03-09-51] : send memory info, byte size : 35
+[03-09-51] : send network info, byte size : 67
+[03-09-51] : send cpu info, byte size : 147
+[03-09-51] : send process info, byte size : 27721
+[03-09-52] : push memory info
+[03-09-52] : push network info
+[03-09-52] : push cpu info
+[03-09-52] : push proces info
+[03-09-52] : send memory info, byte size : 35
+[03-09-52] : send network info, byte size : 67
+[03-09-52] : send cpu info, byte size : 147
+[03-09-52] : send process info, byte size : 27721
+[03-09-53] : push memory info
+[03-09-53] : push network info
+[03-09-53] : push cpu info
+[03-09-53] : push proces info
+[03-09-53] : send memory info, byte size : 35
+[03-09-53] : received SIG_INT
+----------------------------------------------------------------------
+[03-11-30] : collect thread created
+[03-11-30] : push memory info
+[03-11-30] : send thread created
+[03-11-30] : push network info
+[03-11-30] : push cpu info
+[03-11-30] : push proces info
+[03-11-31] : push memory info
+[03-11-31] : push network info
+[03-11-31] : push cpu info
+[03-11-31] : push proces info
+[03-11-32] : push memory info
+[03-11-32] : push network info
+[03-11-32] : push cpu info
+[03-11-32] : push proces info
+[03-11-33] : send memory info, byte size : 35
+[03-11-33] : send network info, byte size : 67
+[03-11-33] : send cpu info, byte size : 147
+[03-11-33] : send process info, byte size : 27721
+[03-11-33] : send memory info, byte size : 35
+[03-11-33] : send network info, byte size : 67
+[03-11-33] : send cpu info, byte size : 147
+[03-11-33] : send process info, byte size : 27721
+[03-11-33] : send memory info, byte size : 35
+[03-11-33] : send network info, byte size : 67
+[03-11-33] : push memory info
+[03-11-33] : push network info
+[03-11-33] : push cpu info
+[03-11-33] : push proces info
+[03-11-33] : send cpu info, byte size : 147
+[03-11-33] : send process info, byte size : 27721
+[03-11-33] : send memory info, byte size : 35
+[03-11-33] : send network info, byte size : 67
+[03-11-33] : send cpu info, byte size : 147
+[03-11-33] : send process info, byte size : 27721
+[03-11-34] : push memory info
+[03-11-34] : push network info
+[03-11-34] : push cpu info
+[03-11-34] : push proces info
+[03-11-34] : send memory info, byte size : 35
+[03-11-34] : received SIG_PIPE, reconnect . . .
+[03-11-34] : connect err : Connection refused
+[03-11-34] : connect err : Connection refused
+[03-11-34] : connect err : Connection refused
+[03-11-34] : connect err : Connection refused
+[03-11-34] : connect err : Connection refused
+[03-11-34] : connect err : Connection refused
+[03-11-34] : connect err : Connection refused
+[03-11-34] : received SIG_INT
+----------------------------------------------------------------------
+[03-11-45] : collect thread created
+[03-11-45] : push memory info
+[03-11-45] : send thread created
+[03-11-45] : push network info
+[03-11-45] : push cpu info
+[03-11-45] : push proces info
+[03-11-46] : push memory info
+[03-11-46] : push network info
+[03-11-46] : push cpu info
+[03-11-46] : push proces info
+[03-11-47] : push memory info
+[03-11-47] : push network info
+[03-11-47] : push cpu info
+[03-11-47] : push proces info
+[03-11-48] : send memory info, byte size : 35
+[03-11-48] : send network info, byte size : 67
+[03-11-48] : send cpu info, byte size : 147
+[03-11-48] : send process info, byte size : 27607
+[03-11-48] : push memory info
+[03-11-48] : push network info
+[03-11-48] : push cpu info
+[03-11-48] : push proces info
+[03-11-48] : send memory info, byte size : 35
+[03-11-48] : send network info, byte size : 67
+[03-11-48] : send cpu info, byte size : 147
+[03-11-48] : send process info, byte size : 27607
+[03-11-48] : send memory info, byte size : 35
+[03-11-48] : send network info, byte size : 67
+[03-11-48] : send cpu info, byte size : 147
+[03-11-48] : send process info, byte size : 27607
+[03-11-48] : send memory info, byte size : 35
+[03-11-48] : send network info, byte size : 67
+[03-11-48] : send cpu info, byte size : 147
+[03-11-48] : send process info, byte size : 27721
+[03-11-49] : push memory info
+[03-11-49] : push network info
+[03-11-49] : push cpu info
+[03-11-49] : push proces info
+[03-11-49] : send memory info, byte size : 35
+[03-11-49] : send network info, byte size : 67
+[03-11-49] : send cpu info, byte size : 147
+[03-11-49] : send process info, byte size : 27721
+[03-11-50] : push memory info
+[03-11-50] : push network info
+[03-11-50] : push cpu info
+[03-11-50] : push proces info
+[03-11-50] : send memory info, byte size : 35
+[03-11-50] : send network info, byte size : 67
+[03-11-50] : send cpu info, byte size : 147
+[03-11-50] : send process info, byte size : 27721
+[03-11-51] : push memory info
+[03-11-51] : push network info
+[03-11-51] : push cpu info
+[03-11-51] : push proces info
+[03-11-51] : send memory info, byte size : 35
+[03-11-51] : send network info, byte size : 67
+[03-11-51] : send cpu info, byte size : 147
+[03-11-51] : send process info, byte size : 27721
+[03-11-52] : push memory info
+[03-11-52] : push network info
+[03-11-52] : push cpu info
+[03-11-52] : push proces info
+[03-11-52] : send memory info, byte size : 35
+[03-11-52] : send network info, byte size : 67
+[03-11-52] : send cpu info, byte size : 147
+[03-11-52] : send process info, byte size : 27721
+[03-11-53] : push memory info
+[03-11-53] : push network info
+[03-11-53] : push cpu info
+[03-11-53] : push proces info
+[03-11-53] : send memory info, byte size : 35
+[03-11-53] : received SIG_PIPE, reconnect . . .
+[03-11-53] : connect err : Connection refused
+[03-11-53] : connect err : Connection refused
+[03-11-53] : connect err : Connection refused
+[03-11-53] : connect err : Connection refused
+[03-11-53] : connect err : Connection refused
+[03-11-53] : connect err : Connection refused
+[03-11-53] : connect err : Connection refused
+[03-11-53] : connect err : Connection refused
+[03-11-53] : connect err : Connection refused
+[03-11-53] : connect err : Connection refused
+[03-11-53] : connect err : Connection refused
+[03-11-53] : connect err : Connection refused
+[03-11-53] : connect err : Connection refused
+[03-11-53] : connect err : Connection refused
+[03-11-53] : connect err : Connection refused
+[03-11-53] : connect err : Connection refused
+[03-11-53] : connect err : Connection refused
+[03-11-53] : connect err : Connection refused
+[03-11-53] : connect err : Connection refused
+[03-11-53] : connect err : Connection refused
+[03-11-53] : connect err : Connection refused
+[03-11-53] : connect err : Connection refused
+[03-11-53] : connect err : Connection refused
+[03-11-53] : connect err : Connection refused
+[03-11-53] : connect err : Connection refused
+[03-11-53] : connect err : Connection refused
+[03-11-53] : connect err : Connection refused
+[03-11-53] : received SIG_INT
+----------------------------------------------------------------------
+[03-12-40] : collect thread created
+[03-12-40] : push memory info
+[03-12-40] : push network info
+[03-12-40] : send thread created
+[03-12-40] : push cpu info
+[03-12-40] : push proces info
+[03-12-41] : push memory info
+[03-12-41] : push network info
+[03-12-41] : push cpu info
+[03-12-41] : push proces info
+[03-12-42] : push memory info
+[03-12-42] : push network info
+[03-12-42] : push cpu info
+[03-12-42] : push proces info
+[03-12-43] : send memory info, byte size : 35
+[03-12-43] : send network info, byte size : 67
+[03-12-43] : send cpu info, byte size : 147
+[03-12-43] : send process info, byte size : 27607
+[03-12-43] : send memory info, byte size : 35
+[03-12-43] : send network info, byte size : 67
+[03-12-43] : send cpu info, byte size : 147
+[03-12-43] : push memory info
+[03-12-43] : push network info
+[03-12-43] : push cpu info
+[03-12-43] : push proces info
+[03-12-43] : send process info, byte size : 27607
+[03-12-43] : send memory info, byte size : 35
+[03-12-43] : send network info, byte size : 67
+[03-12-43] : send cpu info, byte size : 147
+[03-12-43] : send process info, byte size : 27607
+[03-12-43] : send memory info, byte size : 35
+[03-12-43] : send network info, byte size : 67
+[03-12-43] : send cpu info, byte size : 147
+[03-12-43] : send process info, byte size : 27607
+[03-12-44] : push memory info
+[03-12-44] : push network info
+[03-12-44] : push cpu info
+[03-12-44] : push proces info
+[03-12-44] : send memory info, byte size : 35
+[03-12-44] : send network info, byte size : 67
+[03-12-44] : send cpu info, byte size : 147
+[03-12-44] : send process info, byte size : 27607
+[03-12-45] : push memory info
+[03-12-45] : push network info
+[03-12-45] : push cpu info
+[03-12-45] : push proces info
+[03-12-45] : send memory info, byte size : 35
+[03-12-45] : send network info, byte size : 67
+[03-12-45] : send cpu info, byte size : 147
+[03-12-45] : send process info, byte size : 27607
+[03-12-46] : push memory info
+[03-12-46] : push network info
+[03-12-46] : push cpu info
+[03-12-46] : push proces info
+[03-12-46] : send memory info, byte size : 35
+[03-12-46] : send network info, byte size : 67
+[03-12-46] : send cpu info, byte size : 147
+[03-12-46] : send process info, byte size : 27721
+[03-12-47] : push memory info
+[03-12-47] : push network info
+[03-12-47] : push cpu info
+[03-12-47] : push proces info
+[03-12-47] : send memory info, byte size : 35
+[03-12-47] : send network info, byte size : 67
+[03-12-47] : send cpu info, byte size : 147
+[03-12-47] : send process info, byte size : 27721
+[03-12-48] : push memory info
+[03-12-48] : push network info
+[03-12-48] : push cpu info
+[03-12-48] : push proces info
+[03-12-48] : send memory info, byte size : 35
+[03-12-48] : send network info, byte size : 67
+[03-12-48] : send cpu info, byte size : 147
+[03-12-48] : send process info, byte size : 27721
+[03-12-49] : push memory info
+[03-12-49] : push network info
+[03-12-49] : push cpu info
+[03-12-49] : push proces info
+[03-12-49] : send memory info, byte size : 35
+[03-12-49] : send network info, byte size : 67
+[03-12-49] : send cpu info, byte size : 147
+[03-12-49] : send process info, byte size : 27721
+[03-12-50] : push memory info
+[03-12-50] : push network info
+[03-12-50] : push cpu info
+[03-12-50] : push proces info
+[03-12-50] : send memory info, byte size : 35
+[03-12-50] : send network info, byte size : 67
+[03-12-50] : send cpu info, byte size : 147
+[03-12-50] : send process info, byte size : 27721
+[03-12-51] : push memory info
+[03-12-51] : push network info
+[03-12-51] : push cpu info
+[03-12-51] : push proces info
+[03-12-51] : send memory info, byte size : 35
+[03-12-51] : send network info, byte size : 67
+[03-12-51] : send cpu info, byte size : 147
+[03-12-51] : send process info, byte size : 27721
+[03-12-52] : push memory info
+[03-12-52] : push network info
+[03-12-52] : push cpu info
+[03-12-52] : push proces info
+[03-12-52] : send memory info, byte size : 35
+[03-12-52] : send network info, byte size : 67
+[03-12-52] : send cpu info, byte size : 147
+[03-12-52] : send process info, byte size : 27721
+[03-12-53] : push memory info
+[03-12-53] : push network info
+[03-12-53] : push cpu info
+[03-12-53] : push proces info
+[03-12-53] : send memory info, byte size : 35
+[03-12-53] : send network info, byte size : 67
+[03-12-53] : send cpu info, byte size : 147
+[03-12-53] : send process info, byte size : 27721
+[03-12-54] : push memory info
+[03-12-54] : push network info
+[03-12-54] : push cpu info
+[03-12-54] : push proces info
+[03-12-54] : send memory info, byte size : 35
+[03-12-54] : send network info, byte size : 67
+[03-12-54] : send cpu info, byte size : 147
+[03-12-54] : send process info, byte size : 27721
+[03-12-55] : push memory info
+[03-12-55] : push network info
+[03-12-55] : push cpu info
+[03-12-55] : push proces info
+[03-12-55] : send memory info, byte size : 35
+[03-12-55] : send network info, byte size : 67
+[03-12-55] : send cpu info, byte size : 147
+[03-12-55] : send process info, byte size : 27721
+[03-12-56] : push memory info
+[03-12-56] : push network info
+[03-12-56] : push cpu info
+[03-12-56] : push proces info
+[03-12-56] : send memory info, byte size : 35
+[03-12-56] : send network info, byte size : 67
+[03-12-56] : send cpu info, byte size : 147
+[03-12-56] : send process info, byte size : 27721
+[03-12-57] : push memory info
+[03-12-57] : push network info
+[03-12-57] : push cpu info
+[03-12-57] : push proces info
+[03-12-57] : send memory info, byte size : 35
+[03-12-57] : send network info, byte size : 67
+[03-12-57] : send cpu info, byte size : 147
+[03-12-57] : send process info, byte size : 27721
+[03-12-58] : push memory info
+[03-12-58] : push network info
+[03-12-58] : push cpu info
+[03-12-58] : push proces info
+[03-12-58] : send memory info, byte size : 35
+[03-12-58] : send network info, byte size : 67
+[03-12-58] : send cpu info, byte size : 147
+[03-12-58] : send process info, byte size : 27721
+[03-12-59] : push memory info
+[03-12-59] : push network info
+[03-12-59] : push cpu info
+[03-12-59] : push proces info
+[03-12-59] : send memory info, byte size : 35
+[03-12-59] : send network info, byte size : 67
+[03-12-59] : send cpu info, byte size : 147
+[03-12-59] : send process info, byte size : 27721
+[03-13-00] : push memory info
+[03-13-00] : push network info
+[03-13-00] : push cpu info
+[03-13-00] : push proces info
+[03-13-00] : send memory info, byte size : 35
+[03-13-00] : send network info, byte size : 67
+[03-13-00] : send cpu info, byte size : 147
+[03-13-00] : send process info, byte size : 27721
+[03-13-01] : push memory info
+[03-13-01] : push network info
+[03-13-01] : push cpu info
+[03-13-01] : push proces info
+[03-13-01] : send memory info, byte size : 35
+[03-13-01] : send network info, byte size : 67
+[03-13-01] : send cpu info, byte size : 147
+[03-13-01] : send process info, byte size : 27721
+[03-13-02] : push memory info
+[03-13-02] : push network info
+[03-13-02] : push cpu info
+[03-13-02] : push proces info
+[03-13-02] : send memory info, byte size : 35
+[03-13-02] : send network info, byte size : 67
+[03-13-02] : send cpu info, byte size : 147
+[03-13-02] : send process info, byte size : 27721
+[03-13-03] : push memory info
+[03-13-03] : push network info
+[03-13-03] : push cpu info
+[03-13-03] : push proces info
+[03-13-03] : send memory info, byte size : 35
+[03-13-03] : send network info, byte size : 67
+[03-13-03] : send cpu info, byte size : 147
+[03-13-03] : send process info, byte size : 27721
+[03-13-04] : push memory info
+[03-13-04] : push network info
+[03-13-04] : push cpu info
+[03-13-04] : push proces info
+[03-13-04] : send memory info, byte size : 35
+[03-13-04] : send network info, byte size : 67
+[03-13-04] : send cpu info, byte size : 147
+[03-13-04] : send process info, byte size : 27721
+[03-13-05] : push memory info
+[03-13-05] : push network info
+[03-13-05] : push cpu info
+[03-13-05] : push proces info
+[03-13-05] : send memory info, byte size : 35
+[03-13-05] : send network info, byte size : 67
+[03-13-05] : send cpu info, byte size : 147
+[03-13-05] : send process info, byte size : 27721
+[03-13-06] : push memory info
+[03-13-06] : push network info
+[03-13-06] : push cpu info
+[03-13-06] : push proces info
+[03-13-06] : send memory info, byte size : 35
+[03-13-06] : send network info, byte size : 67
+[03-13-06] : send cpu info, byte size : 147
+[03-13-06] : send process info, byte size : 27721
+[03-13-07] : push memory info
+[03-13-07] : push network info
+[03-13-07] : push cpu info
+[03-13-07] : push proces info
+[03-13-07] : send memory info, byte size : 35
+[03-13-07] : send network info, byte size : 67
+[03-13-07] : send cpu info, byte size : 147
+[03-13-07] : send process info, byte size : 27721
+[03-13-08] : push memory info
+[03-13-08] : push network info
+[03-13-08] : push cpu info
+[03-13-08] : push proces info
+[03-13-08] : send memory info, byte size : 35
+[03-13-08] : send network info, byte size : 67
+[03-13-08] : send cpu info, byte size : 147
+[03-13-08] : send process info, byte size : 27721
+[03-13-09] : push memory info
+[03-13-09] : push network info
+[03-13-09] : push cpu info
+[03-13-09] : push proces info
+[03-13-09] : send memory info, byte size : 35
+[03-13-09] : send network info, byte size : 67
+[03-13-09] : send cpu info, byte size : 147
+[03-13-09] : send process info, byte size : 27721
+[03-13-10] : push memory info
+[03-13-10] : push network info
+[03-13-10] : push cpu info
+[03-13-10] : push proces info
+[03-13-10] : send memory info, byte size : 35
+[03-13-10] : send network info, byte size : 67
+[03-13-10] : send cpu info, byte size : 147
+[03-13-10] : send process info, byte size : 27721
+[03-13-11] : push memory info
+[03-13-11] : push network info
+[03-13-11] : push cpu info
+[03-13-11] : push proces info
+[03-13-11] : send memory info, byte size : 35
+[03-13-11] : send network info, byte size : 67
+[03-13-11] : send cpu info, byte size : 147
+[03-13-11] : send process info, byte size : 27721
+[03-13-12] : push memory info
+[03-13-12] : push network info
+[03-13-12] : push cpu info
+[03-13-12] : push proces info
+[03-13-12] : send memory info, byte size : 35
+[03-13-12] : send network info, byte size : 67
+[03-13-12] : send cpu info, byte size : 147
+[03-13-12] : send process info, byte size : 27721
+[03-13-13] : push memory info
+[03-13-13] : push network info
+[03-13-13] : push cpu info
+[03-13-13] : push proces info
+[03-13-13] : send memory info, byte size : 35
+[03-13-13] : send network info, byte size : 67
+[03-13-13] : send cpu info, byte size : 147
+[03-13-13] : send process info, byte size : 27721
+[03-13-14] : push memory info
+[03-13-14] : push network info
+[03-13-14] : push cpu info
+[03-13-14] : push proces info
+[03-13-14] : send memory info, byte size : 35
+[03-13-14] : send network info, byte size : 67
+[03-13-14] : send cpu info, byte size : 147
+[03-13-14] : send process info, byte size : 27835
+[03-13-15] : push memory info
+[03-13-15] : push network info
+[03-13-15] : push cpu info
+[03-13-15] : push proces info
+[03-13-15] : send memory info, byte size : 35
+[03-13-15] : send network info, byte size : 67
+[03-13-15] : send cpu info, byte size : 147
+[03-13-15] : send process info, byte size : 27835
+[03-13-16] : push memory info
+[03-13-16] : push network info
+[03-13-16] : push cpu info
+[03-13-16] : push proces info
+[03-13-16] : send memory info, byte size : 35
+[03-13-16] : send network info, byte size : 67
+[03-13-16] : send cpu info, byte size : 147
+[03-13-16] : send process info, byte size : 27835
+[03-13-17] : push memory info
+[03-13-17] : push network info
+[03-13-17] : push cpu info
+[03-13-17] : push proces info
+[03-13-17] : send memory info, byte size : 35
+[03-13-17] : send network info, byte size : 67
+[03-13-17] : send cpu info, byte size : 147
+[03-13-17] : send process info, byte size : 27835
+[03-13-18] : push memory info
+[03-13-18] : push network info
+[03-13-18] : push cpu info
+[03-13-18] : push proces info
+[03-13-18] : send memory info, byte size : 35
+[03-13-18] : send network info, byte size : 67
+[03-13-18] : send cpu info, byte size : 147
+[03-13-18] : send process info, byte size : 27835
+[03-13-19] : push memory info
+[03-13-19] : push network info
+[03-13-19] : push cpu info
+[03-13-19] : push proces info
+[03-13-19] : send memory info, byte size : 35
+[03-13-19] : send network info, byte size : 67
+[03-13-19] : send cpu info, byte size : 147
+[03-13-19] : send process info, byte size : 27835
+[03-13-20] : push memory info
+[03-13-20] : push network info
+[03-13-20] : push cpu info
+[03-13-20] : push proces info
+[03-13-20] : send memory info, byte size : 35
+[03-13-20] : send network info, byte size : 67
+[03-13-20] : send cpu info, byte size : 147
+[03-13-20] : send process info, byte size : 27835
+[03-13-21] : push memory info
+[03-13-21] : push network info
+[03-13-21] : push cpu info
+[03-13-21] : push proces info
+[03-13-21] : send memory info, byte size : 35
+[03-13-21] : send network info, byte size : 67
+[03-13-21] : send cpu info, byte size : 147
+[03-13-21] : send process info, byte size : 27835
+[03-13-22] : push memory info
+[03-13-22] : push network info
+[03-13-22] : push cpu info
+[03-13-22] : push proces info
+[03-13-22] : send memory info, byte size : 35
+[03-13-22] : send network info, byte size : 67
+[03-13-22] : send cpu info, byte size : 147
+[03-13-22] : send process info, byte size : 27835
+[03-13-23] : push memory info
+[03-13-23] : push network info
+[03-13-23] : push cpu info
+[03-13-23] : push proces info
+[03-13-23] : send memory info, byte size : 35
+[03-13-23] : received SIG_PIPE, reconnect . . .
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-23] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : push memory info
+[03-13-24] : connect err : Connection refused
+[03-13-24] : push network info
+[03-13-24] : push cpu info
+[03-13-24] : push proces info
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : connect err : Connection refused
+[03-13-24] : received SIG_INT
+----------------------------------------------------------------------
+[03-21-01] : collect thread created
+[03-21-01] : push memory info
+[03-21-01] : push network info
+[03-21-01] : send thread created
+[03-21-01] : push cpu info
+[03-21-01] : push proces info
+[03-21-02] : push memory info
+[03-21-02] : push network info
+[03-21-02] : push cpu info
+[03-21-02] : push proces info
+[03-21-03] : push memory info
+[03-21-03] : push network info
+[03-21-03] : push cpu info
+[03-21-03] : push proces info
+[03-21-04] : send memory info, byte size : 35
+[03-21-04] : send network info, byte size : 67
+[03-21-04] : send cpu info, byte size : 147
+[03-21-04] : send process info, byte size : 27607
+[03-21-04] : send memory info, byte size : 35
+[03-21-04] : send network info, byte size : 67
+[03-21-04] : send cpu info, byte size : 147
+[03-21-04] : send process info, byte size : 27607
+[03-21-04] : send memory info, byte size : 35
+[03-21-04] : send network info, byte size : 67
+[03-21-04] : send cpu info, byte size : 147
+[03-21-04] : send process info, byte size : 27607
+[03-21-04] : push memory info
+[03-21-04] : push network info
+[03-21-04] : push cpu info
+[03-21-04] : push proces info
+[03-21-04] : send memory info, byte size : 35
+[03-21-04] : send network info, byte size : 67
+[03-21-04] : send cpu info, byte size : 147
+[03-21-04] : send process info, byte size : 27607
+[03-21-05] : push memory info
+[03-21-05] : push network info
+[03-21-05] : push cpu info
+[03-21-05] : push proces info
+[03-21-05] : send memory info, byte size : 35
+[03-21-05] : send network info, byte size : 67
+[03-21-05] : send cpu info, byte size : 147
+[03-21-05] : send process info, byte size : 27721
+[03-21-06] : push memory info
+[03-21-06] : push network info
+[03-21-06] : push cpu info
+[03-21-06] : push proces info
+[03-21-06] : send memory info, byte size : 35
+[03-21-06] : send network info, byte size : 67
+[03-21-06] : send cpu info, byte size : 147
+[03-21-06] : send process info, byte size : 27721
+[03-21-07] : push memory info
+[03-21-07] : push network info
+[03-21-07] : push cpu info
+[03-21-07] : push proces info
+[03-21-07] : send memory info, byte size : 35
+[03-21-07] : send network info, byte size : 67
+[03-21-07] : send cpu info, byte size : 147
+[03-21-07] : send process info, byte size : 27721
+[03-21-08] : push memory info
+[03-21-08] : push network info
+[03-21-08] : push cpu info
+[03-21-08] : push proces info
+[03-21-08] : send memory info, byte size : 35
+[03-21-08] : send network info, byte size : 67
+[03-21-08] : send cpu info, byte size : 147
+[03-21-08] : send process info, byte size : 27721
+[03-21-09] : push memory info
+[03-21-09] : push network info
+[03-21-09] : push cpu info
+[03-21-09] : push proces info
+[03-21-09] : send memory info, byte size : 35
+[03-21-09] : send network info, byte size : 67
+[03-21-09] : send cpu info, byte size : 147
+[03-21-09] : send process info, byte size : 27721
+[03-21-10] : push memory info
+[03-21-10] : push network info
+[03-21-10] : push cpu info
+[03-21-10] : push proces info
+[03-21-10] : send memory info, byte size : 35
+[03-21-10] : send network info, byte size : 67
+[03-21-10] : send cpu info, byte size : 147
+[03-21-10] : send process info, byte size : 27721
+[03-21-11] : push memory info
+[03-21-11] : push network info
+[03-21-11] : push cpu info
+[03-21-11] : push proces info
+[03-21-11] : send memory info, byte size : 35
+[03-21-11] : send network info, byte size : 67
+[03-21-11] : send cpu info, byte size : 147
+[03-21-11] : send process info, byte size : 27721
+[03-21-12] : push memory info
+[03-21-12] : push network info
+[03-21-12] : push cpu info
+[03-21-12] : push proces info
+[03-21-12] : send memory info, byte size : 35
+[03-21-12] : send network info, byte size : 67
+[03-21-12] : send cpu info, byte size : 147
+[03-21-12] : send process info, byte size : 27721
+[03-21-13] : push memory info
+[03-21-13] : push network info
+[03-21-13] : push cpu info
+[03-21-13] : push proces info
+[03-21-13] : send memory info, byte size : 35
+[03-21-13] : send network info, byte size : 67
+[03-21-13] : send cpu info, byte size : 147
+[03-21-13] : send process info, byte size : 27721
+[03-21-14] : push memory info
+[03-21-14] : push network info
+[03-21-14] : push cpu info
+[03-21-14] : push proces info
+[03-21-14] : send memory info, byte size : 35
+[03-21-14] : send network info, byte size : 67
+[03-21-14] : send cpu info, byte size : 147
+[03-21-15] : send process info, byte size : 27721
+[03-21-15] : push memory info
+[03-21-15] : push network info
+[03-21-15] : push cpu info
+[03-21-15] : push proces info
+[03-21-15] : send memory info, byte size : 35
+[03-21-15] : send network info, byte size : 67
+[03-21-16] : send cpu info, byte size : 147
+[03-21-16] : send process info, byte size : 27721
+[03-21-16] : push memory info
+[03-21-16] : push network info
+[03-21-16] : push cpu info
+[03-21-16] : push proces info
+[03-21-16] : send memory info, byte size : 35
+[03-21-16] : send network info, byte size : 67
+[03-21-17] : send cpu info, byte size : 147
+[03-21-17] : send process info, byte size : 27721
+[03-21-17] : push memory info
+[03-21-17] : push network info
+[03-21-17] : push cpu info
+[03-21-17] : push proces info
+[03-21-17] : send memory info, byte size : 35
+[03-21-18] : send network info, byte size : 67
+[03-21-18] : send cpu info, byte size : 147
+[03-21-18] : send process info, byte size : 27721
+[03-21-18] : push memory info
+[03-21-18] : push network info
+[03-21-18] : push cpu info
+[03-21-18] : push proces info
+[03-21-18] : send memory info, byte size : 35
+[03-21-19] : send network info, byte size : 67
+[03-21-19] : send cpu info, byte size : 147
+[03-21-19] : send process info, byte size : 27721
+[03-21-19] : push memory info
+[03-21-19] : push network info
+[03-21-19] : push cpu info
+[03-21-19] : push proces info
+[03-21-20] : send memory info, byte size : 35
+[03-21-20] : send network info, byte size : 67
+[03-21-20] : send cpu info, byte size : 147
+[03-21-20] : send process info, byte size : 27721
+[03-21-21] : push memory info
+[03-21-21] : push network info
+[03-21-21] : push cpu info
+[03-21-21] : push proces info
+[03-21-21] : send memory info, byte size : 35
+[03-21-21] : send network info, byte size : 67
+[03-21-21] : send cpu info, byte size : 147
+[03-21-21] : send process info, byte size : 27721
+[03-21-22] : push memory info
+[03-21-22] : push network info
+[03-21-22] : push cpu info
+[03-21-22] : push proces info
+[03-21-22] : send memory info, byte size : 35
+[03-21-22] : received SIG_PIPE, reconnect . . .
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : connect err : Connection refused
+[03-21-22] : received SIG_INT

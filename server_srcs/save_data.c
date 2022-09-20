@@ -34,7 +34,7 @@ void	write_time(int fd, char *ag_time)
     char        time_msg[150];
     int         msg_len;
 
-	sprintf(time_msg, "Collect time : %s  Received tiem : [%02d-%02d-%02d]\n", ag_time, t->tm_hour, t->tm_min, t->tm_sec);
+	sprintf(time_msg, "%s collected [%02d-%02d-%02d] received\n", ag_time, t->tm_hour, t->tm_min, t->tm_sec);
     msg_len = strlen(time_msg);
     write(fd, time_msg, msg_len);
 }
@@ -91,13 +91,14 @@ void	write_cpu(int fd, data_queue_node *cur)
 	{
 		sprintf(core, "cpu%d", i);
 		char	buf[200];
-		sprintf(buf, "%s User : %ld System : %ld iowait : %ld idle : %ld\n\n",
+		sprintf(buf, "%s User : %ld System : %ld iowait : %ld idle : %ld\n",
 				core, c->usr, c->sys, c->iowait, c->idle);
 		write(fd, buf, strlen(buf));
 		length -= sizeof(cpu_info);
 		c++;
 		i++;
 	}
+	write(fd, "\n", 1);
 	free_data(cur);
 }
 
@@ -124,6 +125,7 @@ void	write_process(int fd, data_queue_node *cur)
 		p++;
 		i++;
 	}
+	write(fd, "\n", 1);
 	free_data(cur);
 }
 
@@ -133,26 +135,26 @@ static void	write_data(int fd, data_queue_node *cur)
 	{
 		case 11 :
 			receive_logging("Save memory data", cur->header->agent_id);
+			write(fd, "MEMORY  | ", 10);
 			write_time(fd, cur->header->time);
-			write(fd, "MEMORY\n", 7);
 			write_memory(fd, cur);
 			break;
 		case 22 :
 			receive_logging("Save network data", cur->header->agent_id);
+			write(fd, "NETWORK | ", 10);
 			write_time(fd, cur->header->time);
-			write(fd, "NETWORK\n", 8);
 			write_network(fd, cur);
 			break;
 		case 33 :
 			receive_logging("Save cpu data", cur->header->agent_id);
+			write(fd, "CPU     | ", 10);
 			write_time(fd, cur->header->time);
-			write(fd, "CPU\n", 4);
 			write_cpu(fd, cur);
 			break;
 		case 44 :
 			receive_logging("Save process data", cur->header->agent_id);
+			write(fd, "PROCESS | ", 10);
 			write_time(fd, cur->header->time);
-			write(fd, "PROCESS\n", 8);
 			write_process(fd, cur);
 			write(fd, "----------------------------------------------------------------------------------------------------\n", 101);
 			break;
@@ -165,7 +167,7 @@ void	save_file(data_queue_node *cur)
 	char	*file_name;
 	int		fd;
 
-	file_name = make_filename(cur->header->agent_id);
+	file_name = make_data_filename(cur->header->agent_id);
 	printf("file_name : %s\n", file_name);
 	if (0 > (fd = open(file_name, O_RDWR | O_APPEND | O_CREAT, S_IRWXU)))
 	{

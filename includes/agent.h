@@ -22,7 +22,7 @@
 
 #define BUFFER_SIZE 1000
 #define SERVERIP	"127.0.0.1"
-#define SERVERPORT	8000
+#define TCPSERVERPORT	8000
 #define BUFSIZE		512
 
 typedef struct sockaddr SA; 

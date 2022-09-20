@@ -1,7 +1,7 @@
 HOOK_DYNAMIC_LIB = send_hooking.so
 
 CC = gcc
-FLAGS = -Wl,--dynamic-list-data -fPIC -shared -ldl
+FLAGS = -fPIC -shared -ldl
 
 HOOK_SRC = ./udp_agent.c \
 		   ../agent_srcs/util.c \
