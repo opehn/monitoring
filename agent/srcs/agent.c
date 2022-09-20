@@ -156,9 +156,9 @@ int main(int argc, char **argv)
 		return (0);
 	aid = atoi(argv[1]);
 	
-//	logfd = daemonize(aid);
+	logfd = daemonize(aid);
 
-	char *filename;
+	/*char *filename;
 	filename = make_log_filename(aid);
 	if (0 > (logfd = open(filename, O_RDWR | O_APPEND | O_CREAT | O_NOCTTY, S_IRWXU)))
 	{
@@ -166,7 +166,7 @@ int main(int argc, char **argv)
 		free(filename);
 		exit(EXIT_FAILURE);
 	}
-	free(filename);
+	free(filename);*/
 
 	write(logfd, "----------------------------------------------------------------------\n", 71);
 	init_share(logfd, aid);
