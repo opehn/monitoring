@@ -13,49 +13,6 @@ static char			*second_word(char *line)
 	return (res);
 }
 
-static void			parse_info(char *payload, int fd)
-{
-	char	*line;
-	int		i = 0;
-	int		mtotal;
-	int		mfree;
-	int		stotal;
-	int		sfree;
-	mem_info	*m;
-	
-	m = (mem_info *)payload;
-	while(i <= 15)
-	{
-		line = get_next_line(fd, 0);
-		if (i == 0)
-			mtotal = atoi(second_word(line));
-		if (i == 1)
-			mfree = atoi(second_word(line));
-		if (i == 14)
-			stotal = atoi(second_word(line));
-		if (i == 15)
-			sfree = atoi(second_word(line));
-		free(line);
-		i++;
-	}
-	line = NULL;
-	m->free = mfree;
-	m->total = mtotal;
-	m->used = mtotal - mfree;
-	m->swap_used = stotal - sfree;
-//	printf("collected meminfo free : %d\n", mfree);
-//	printf("collected meminfo total : %d\n", mtotal);
-//	printf("collected meminfo used : %d\n", mtotal - mfree);
-//	printf("collected meminfo swap_used : %d\n", stotal - sfree);
-	
-	printf("collected meminfo free : %d\n", m->free);
-	printf("collected meminfo total : %d\n", m->total);
-	printf("collected meminfo used : %d\n", m->used);
-	printf("collected meminfo swap_used : %d\n", m->swap_used);
-	printf("---------------------------------------------------\n");
-	get_next_line(fd, 1); //free buffer
-}
-
 static void	serialize_mem(char *payload)
 {
 	int			fd;
@@ -66,7 +23,6 @@ static void	serialize_mem(char *payload)
 		err_log("file open error");
 		exit(EXIT_FAILURE);
 	}
-	parse_info(payload, fd);
 	close(fd);
 }
 

@@ -94,7 +94,7 @@ static void	get_username(char *payload, const char *path)
 		}
 		else
 		{
-			fprintf(stderr, "getpwuid : can't find matching entry from userbase\n");
+			err_log("getpwuid : can't find matching entry from userbase\n");
 			exit(EXIT_FAILURE);
 		}
 	}
@@ -161,7 +161,6 @@ static void	serialize_proc(char *payload, char *d_name)
 
 static void	iter_dir(char *payload)
 {
-	printf("iter_dir\n");
 	DIR				*cur_dir; 
 	struct dirent	*cur_dir_info;
 
@@ -186,7 +185,6 @@ static void	iter_dir(char *payload)
 
 static packet	*make_packet(int proc_cnt)
 {
-	printf("make_packet\n");
 	packet			*proc_packet;
 	int				packet_length;
 	char			*payload;
@@ -210,7 +208,6 @@ static packet	*make_packet(int proc_cnt)
 
 static int	count_proc(void)
 {
-	printf("count_proc\n");
 	DIR				*cur_dir; 
 	struct dirent	*cur_dir_info;
 	int				proc_cnt = 0;
@@ -235,7 +232,6 @@ static int	count_proc(void)
 
 packet		*get_proc_info(void)
 {
-	printf("get_proc_info\n");
 	int			proc_cnt;
 
 	proc_cnt = count_proc();

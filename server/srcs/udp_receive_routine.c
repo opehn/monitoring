@@ -71,7 +71,6 @@ int init_udpsock(void)
 
 void	*udp_receive_routine(void *arg)
 {
-	printf("udp_receive_routine\n");
 	int		udpsockfd;
 	int		data_fd;
 	SA_IN	cliaddr;
@@ -101,11 +100,9 @@ void	*udp_receive_routine(void *arg)
 	free(filename);
 
 	udpsockfd = init_udpsock();
-	printf("udpsockfd : %d\n", udpsockfd);
 	while (1)
 	{
 		recvfrom(udpsockfd, check, 1, MSG_PEEK, (SA *)&cliaddr, &cli_len);
-		printf("check: %s\n", check);
 		if (*check == '[')
 		{
 			if (!(begin = malloc(sizeof(begin_p))))

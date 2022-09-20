@@ -8,7 +8,6 @@ static int	  check_signature(int signature)
 	int signature_arr[4] = {11, 22, 33, 44};
 	int	i;
 
-	printf("signature : %d\n", signature);
 	while (i < 4)
 	{
 		if (signature == signature_arr[i])

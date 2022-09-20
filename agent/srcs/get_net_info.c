@@ -36,11 +36,6 @@ static void	parse_net(char *line, char *payload)
 			n->out_cnt = strtoll(res, NULL, 10);
 		i++;
 	}
-	printf("collected netinfo in_cnt : %ld\n", n->in_cnt);
-	printf("collected netinfo out_cnt : %ld\n", n->out_cnt);
-	printf("collected netinfo in_byte : %ld\n", n->in_byte);
-	printf("collected netinfo out_byte : %ld\n", n->out_byte);
-	printf("-----------------------------------------\n");
 }
 
 static void	serialize_net(char *payload)

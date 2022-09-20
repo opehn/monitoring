@@ -5,7 +5,6 @@ extern data_queue		*g_dq;
 
 static int	recv_wrap(int connfd, char *buf, int size, int flag)
 {
-	printf("recv_wrap\n");
 	int res;
 
 	if (0 > (res = recv(connfd, buf, size, flag)))
@@ -23,7 +22,6 @@ static int	recv_wrap(int connfd, char *buf, int size, int flag)
 
 void	*receive_routine(int connfd)
 {
-	printf("receive_routine\n");
 	char			*header_buf;
 	char			*payload_buf;
 	packet_header	*header;
@@ -57,7 +55,6 @@ void	*receive_routine(int connfd)
 		}
 		pthread_mutex_lock(&g_sshare->dq_lock);
 		enqueue(g_dq, (packet_header *)header_buf, payload_buf);
-		printf("enqueue, size : %d\n", g_dq->size);
 		pthread_mutex_unlock(&g_sshare->dq_lock);
 	}
 	return (NULL);
@@ -84,7 +81,6 @@ void	*accept_perthread(void *args)
 		}
 		if (!g_sshare->flag)
 		{
-			printf("flag : %d\n", g_sshare->flag);
 			pthread_cond_signal(&g_sshare->cond);
 		}
 		g_sshare->flag++;

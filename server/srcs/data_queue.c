@@ -36,7 +36,6 @@ data_queue_node	 *peek(data_queue *dq)
 
 void	enqueue(data_queue *dq, packet_header *header, char *payload)
 {
-	printf("enqueue\n");
 	data_queue_node	*new;
 
 	new = init_node(header, payload, dq->tail);

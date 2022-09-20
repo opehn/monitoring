@@ -87,7 +87,6 @@ char	*get_pname(int pid)
 	res = strtok_r(NULL, " ", &temp);
 	buf = skip_bracket(res);
 	close(fd);
-	printf("pname : %s\n", buf);
 	return (buf);
 }
 
@@ -140,9 +139,6 @@ void	set_begin_packet(char *payload)
 
 ssize_t send(int sockfd, const void *buf, size_t len, int flags)
 {
-	printf("send hooked by hook_test.so!!\n");
-	printf("Hooked len: %ld\n", len);
-
 	char			*begin_packet;
 	char			*end_packet;
 	int				length;
