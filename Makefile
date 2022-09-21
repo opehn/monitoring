@@ -1,26 +1,26 @@
 all:
-	make -C ./libs/udp_hook
-	make -C ./agent
-	make -C ./server
+	@$(MAKE) -C ./libs/udp_hook
+	@$(MAKE) -C ./agent
+	@$(MAKE) -C ./server
 fclean:
-	make fclean -C ./libs/udp_hook
-	make fclean -C ./agent
-	make fclean -C ./server
+	@$(MAKE) fclean -C ./libs/udp_hook
+	@$(MAKE) fclean -C ./agent
+	@$(MAKE) fclean -C ./server
 clean:
-	make clean -C ./libs/udp_hook
-	make clean -C ./agent
-	make clean -C ./server
+	@$(MAKE) clean -C ./libs/udp_hook
+	@$(MAKE) clean -C ./agent
+	@$(MAKE) clean -C ./server
 re:
-	make re -C ./libs/udp_hook
-	make re -C ./agent
-	make re -C ./server
+	@$(MAKE) re -C ./libs/udp_hook
+	@$(MAKE) re -C ./agent
+	@$(MAKE) re -C ./server
 hook:
-	make -C ./libs/udp_hook
+	@$(MAKE) -C ./libs/udp_hook
 server:
-	make -C ./libs
-	make -C ./server
+	@$(MAKE) -C ./libs
+	@$(MAKE) -C ./server
 agent:
-	make -C ./libs
-	make -C ./agent
+	@$(MAKE) -C ./libs
+	@$(MAKE) -C ./agent
 
 .PHONY: all fclean clean re server agent SMSutils collector

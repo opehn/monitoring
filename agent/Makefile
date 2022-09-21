@@ -1,7 +1,7 @@
 AGENT = agent 
 
 CC = gcc
-FLAGS = -g -Wall -Wl,--dynamic-list-data #-Werror -Wextra 
+FLAGS = -g -Wall -Wl,--dynamic-list-data -Werror -Wextra 
 
 HEADER_DIR1 = ./includes/
 HEADER_DIR2 = ../libs/util/includes/
