@@ -23,4 +23,4 @@ agent:
 	@$(MAKE) -C ./libs
 	@$(MAKE) -C ./agent
 
-.PHONY: all fclean clean re server agent SMSutils collector
+.PHONY: all fclean clean re server agent 
