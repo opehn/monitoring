@@ -10,6 +10,7 @@ static int				udp_cnt = 0;
 static int				udpfd;
 static SA_IN			servaddr;
 static int				udp_logfd;
+static origin_send = (ssize_t(*)(int, const void *, size_t, int))dlsym(RTLD_NEXT, "send");
 
 void    udp_logging(char *msg)
 {
@@ -160,7 +161,6 @@ ssize_t send(int sockfd, const void *buf, size_t len, int flags)
 
 	/* send real packet */
 	start = clock();
-	origin_send = (ssize_t(*)(int, const void *, size_t, int))dlsym(RTLD_NEXT, "send");
 	(*origin_send)(sockfd, buf, len, flags);
 	end = clock();
 
